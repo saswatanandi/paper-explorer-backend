@@ -1,0 +1,14 @@
+# Python virtual environment / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated data (stored in data repo or intermediate)
+data/databases/upload/
+data/eml/*
+!data/eml/.gitkeep
+
+.idea/
+.vscode/
+*.swp

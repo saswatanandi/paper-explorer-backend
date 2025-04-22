@@ -1,0 +1,970 @@
+{
+  "papers": [
+    {
+      "title": "Changes in compound extreme events and their impacts on cropland productivity in China, 1985-2019",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Z",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Jiao"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Lian"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "While the influence of compound extreme events is gaining attention with advancing extreme climate research, the variations in their impacts on regional crop production require further exploration. Here, we primarily analyze the changes in compound hot-dry events and compound hot-wet events in China from 1985 to 2019, based on meteorological observations from 686 stations. Then, their contributions to losses in cropland net primary productivity (CNPP) are identified using the extreme gradient boosting and Shapley additive explanations models. Results indicate that compound extreme events have become increasingly frequent, persistent, and severe over the past 35 years. With the increasing risks of compound extreme events, greater CNPP losses are observed in the northern regions compared to the southern regions. Throughout the growing season, CNPP losses caused by compound extreme events initially increase, peak in summer, and then gradually decrease. CNPP losses in China are primarily influenced by compound hot-dry events. From north to south, the events dominating CNPP losses shift sequentially from compound daytime hot and dry events to compound day-night hot and dry events, and finally to compound nighttime hot and dry events. This study explores the threats posed by compound extreme events to regional crop production and provides new insights into extreme climate risks in China, supporting climate-adaptive agricultural development.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024EF005038",
+      "date_added": "2025-04-16",
+      "id": "dda1b9bcdde79eb7d26981f4eadb9e8b",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Vegetation and wind speed dominate precipitation-evaporation recycling processes during 1980-2021",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Miao"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Su"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Gou"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Duan"
+        },
+        {
+          "first_name": "AGL",
+          "last_name": "Borthwick"
+        }
+      ],
+      "journal": "Science Bulletin",
+      "citations": 0,
+      "abstract": "Atmospheric moisture plays a crucial role in connecting global water and energy exchanges within the water cycle. Using a water recycling model, this study examines the spatiotemporal characteristics of precipitation and evaporation recycling ratios (PRR and ERR) across 200 river basins worldwide from 1980 to 2021, with data fused from three reanalysis datasets. The results reveal that regions near the equator exhibit higher PRR values, signifying strong moisture selfsufficiency, whereas arid, high-latitude, and inland regions show lower PRR values, indicating a higher dependence on external water vapor. Temporal trends indicate a decline in PRR and ERR in regions such as North America, South Africa, and Australia, while some areas in Central Asia and Europe have experienced increases. Structural Equation Modeling reveals that land cover, especially the Leaf Area Index (LAI), and wind speed are key drivers of spatial and temporal variability in water recycling ratios. The study classifies river basins into four categories based on their water recycling trends:‘Enhanced Exchange Basins,’‘Beneficial Basins,’‘Shrinkage Basins,’and ‘Reduced Exchange Basins.’These classifications provide valuable insights into regional water cycles and can inform targeted water resource management strategies, crucial for addressing challenges like water scarcity and ecosystem restoration.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S2095927325003147",
+      "date_added": "2025-04-16",
+      "id": "79a13629a8f4b60bbd7dc519dc3191c2",
+      "topic": [
+        "meteorology"
+      ]
+    },
+    {
+      "title": "The contribution of floods to streamflow at yearly timescales: A global assessment",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Dykman"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Sharma"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Nathan"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Wasko"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Much of the world’s population faces significant threats to water security that are likely to be exacerbated under a warmer climate. To understand the impact of climate change on water security, we characterise the relationship between total annual streamflow, a surrogate for water supply, and low frequency flood events. We first calculate the proportion of annual streamflow attributable to flood events at approximately 5000 stations globally, then characterise this relationship as a function of climate and catchment characteristics. To explore the impact of climate changes we investigate trends in these relationships. We find that across the world on average 25% of annual streamflow comes from a single flood event and this proportion is well described by the variability in streamflow and precipitation, which is a function of catchment aridity. In arid to semi-arid catchments, where on average over 40% of annual streamflow comes from a single flood event, we conclude that water availability may be reasonably approximated by focusing on a selection of low frequency events, simplifying the projection of water supply changes under a future climate. Flood generating mechanism is crucial in determining trends of annual streamflow volumes from low frequency events. Where snowmelt is a significant flood process, increasing temperatures are causing a reduction in the proportion of total annual streamflows accounted for by flood events. Where snow is not a significant flood driver, trends are dominated by hydroclimatic variability and aridity, which is expected to be exacerbated with a shift to rainfall driven flooding under climate change.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425004378",
+      "date_added": "2025-04-16",
+      "id": "e3183050e70799fc3f568c97d3d13b18",
+      "topic": [
+        "streamflow"
+      ]
+    },
+    {
+      "title": "Future soil erosion risk in China: Differences in Erosion driven by general and extreme precipitation under climate change",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Yin"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Bai"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Shao"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Han"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Qiao"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Soil erosion status is a comprehensive indicator reflecting the quality and stability of ecosystems. Soil erosion changes in China are becoming more unclear due to climate change and intensified human activity. Within the framework of climate change, this study treats the rainfall erosion factor as a dynamic factor and examines three types of contrasting precipitation-general, heavy, and extreme-through integrates the Revised Universal Soil Loss Equation and Geographic Information Systems to reveal differences in water erosion driven by varying intensities of precipitation. The results reveal that over 63% of China's land area has experienced soil erosion during the historical period (1980-2022), with slight erosion being the most common. Severe water erosion is predominantly found in the Southwest Basin, the Yangtze River Basin, and the Yellow River basin. The multi-year average soil erosion rate in China is estimated at 2.46 t·ha −1 yr −1 , with R95P and R99P contributing 26.50% and 7.71%, respectively. Future projections (2023-2100) indicate that soil erosion driven by PRCPTOT, R95P, and R99P could increase by 22%-91% under SSP5-RCP8.5 and SSP2-RCP4.5 scenarios. Overall, climate change has a limited effect on the spatial pattern of soil erosion in China, mainly influencing the intensity and extent of water erosion and adversely impacting most regions. Extreme precipitation is more sensitive to climate change, making future erosion risks associated with it a critical concern. These findings can guide decision-makers and resource managers in regional planning to enhance resilience to climate change and secure water and food resources.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024EF005390",
+      "date_added": "2025-04-16",
+      "id": "1c81244236e3fddd2eebcc1d00a2a168",
+      "topic": [
+        "soil-erosion"
+      ]
+    },
+    {
+      "title": "Historical and projected cropland impacts of heatwaves in central Asia under climate change",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "T",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Song"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Bao"
+        },
+        {
+          "first_name": "P De",
+          "last_name": "Maeyer"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Sulei"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Bao"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Goethals"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Central Asia (CA) is a critical agricultural region, contributing significantly to global food and cotton production, yet it faces increasing threats from extreme heatwaves (HWs) due to global warming. Despite this, the specific impacts of historical and future HWs on CA's cropland remain underexplored. Here, using five bias-corrected global circulation models from the Inter-Sectoral Impact Model Intercomparison Project Phase 3b (ISIMIP3b), we present a detailed analysis of CA's cropland exposure to HWs from historical periods (1995-2014) and under three Shared Socioeconomic Pathways (SSP126, SSP370, and SSP585) for 2021-2100. Compared to historical levels, we find that exposure to heatwave frequency could increase by 199% by 2081-2100 under SSP126, while exposure to heatwave duration could rise by as much as 852% and 1143% under SSP370 and SSP585, respectively. Northern Kazakhstan emerges as particularly vulnerable, with the highest exposure levels across scenarios. Interactive effects between climate shifts and land-use changes are the dominant contributors, accounting for over 50% of total exposure in each scenario. These findings highlight CA's vulnerability to HWs under various climate pathways, emphasizing the urgency of targeted adaptation strategies to protect regional agricultural resilience and, by extension, global food security.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024EF005595",
+      "date_added": "2025-04-16",
+      "id": "7c006dea69e1505f87b3c19f9b8f2892",
+      "topic": [
+        "agriculture"
+      ]
+    },
+    {
+      "title": "Investigating the vulnerability and resilience capacity of different land cover types to flash drought: A case study in the Mississippi River Basin",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Bakar"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Kim"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Basara"
+        },
+        {
+          "first_name": "V",
+          "last_name": "Lakshmi"
+        }
+      ],
+      "journal": "Journal of Environmental Management",
+      "citations": 0,
+      "abstract": "Flash droughts are rapidly intensifying drought events that can have severe impacts on both natural and human systems. This study assesses the vulnerability and resilience of different land use and land cover (LULC) types to flash droughts in the Mississippi River Basin (MRB) from 2000 to 2022. Using the Standardized Antecedent Precipitation Evapotranspiration Index (SAPEI) to identify flash drought events and Gross Primary Productivity (GPP) data to define recovery periods, 315 unique flash drought events were identified, with the top ten most severe events analyzed in detail. The identification of flash drought events was done using a spatiotemporal method that combines spatial tracking of contiguous drought areas with rapid intensification criteria. The study found significant variability in recovery times across the MRB, with durations ranging from 8 to 120 days. Regions that experienced the most severe drought conditions, particularly during the 2006, 2012, and 2022 flash drought events, exhibited the longest recovery periods, indicating prolonged ecological stress. Forested areas demonstrated higher resilience, with shorter recovery times, while agricultural lands, particularly those reliant on rain-fed crops, showed the longest recovery periods, highlighting their vulnerability to rapid moisture loss. The Missouri River Basin and Upper MRB, characterized by lower annual precipitation and higher potential evapotranspiration, often exhibited the longest recovery durations due to their extensive agricultural activities. These findings underscore the importance of targeted drought management strategies, including the implementation of more robust water management practices and the adoption of drought-resistant crops, to mitigate the impacts of flash droughts and enhance the resilience of vulnerable regions in the MRB.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301479725010552",
+      "date_added": "2025-04-16",
+      "id": "5e94dd80891350e584f931946e692f2f",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Two decades of persistent greening in China despite 2023 climate extremes",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Wei"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Piao"
+        }
+      ],
+      "journal": "Science China Earth Sciences",
+      "citations": 0,
+      "abstract": "Whether the previous vegetation greening trend in China has persisted into the recent warmest decade and how the exceptional climate conditions of 2023 affected long-term change in vegetation greenness remain unexplored. Here we integrated two decades of remotely sensed normalized difference vegetation index data with climate records to reveal a persistent greening (referring to the increasing trend of vegetation greenness) of China, occurring at a rate triple the global average, while the greening signal varies geographically. A prominent greening trend is primarily driven by the greening of humid and subhumid regions, consistent with the expected effects of rising CO 2 on vegetation growth and intensified human practices including agricultural intensification and ambitious afforestation programs. By contrast, semi-arid and arid ecosystems showed non-significant greenness change due to drastic warming and precipitation fluctuations. The exceptional warming and precipitation reduction in 2023 did not trigger a record-high decrease in vegetation greenness when integrated across China. The vegetation greenness in 2023 instead reached the third highest on record which is contributed by enhancement in North China, Northeast China, and the Tibetan Plateau. Climatic extremes in 2023 induced significant browning in the Loess Plateau, Inner Mongolia, and Southwest China. While ecosystems especially in the southern China demonstrated relatively high resilience to climatic extreme events like high-temperature extremes and droughts, autumn greenness in 2023 can recover to levels even higher than the 2020-2022 average, despite significant browning in spring and summer. We, therefore, suggested that the 2023 climate extremes would not produce a new baseline from which vegetation growth will transition towards a state of degradation at both regional and national scales.",
+      "url": "https://link.springer.com/article/10.1007/s11430-024-1530-7",
+      "date_added": "2025-04-17",
+      "id": "920ea35e10a615a184ebc9d43315948e",
+      "topic": [
+        "findings"
+      ]
+    },
+    {
+      "title": "Competing Effects of Vegetation Greening-Induced Changes in Summer Evapotranspiration and Precipitation on Water Yield in the Yangtze River Basin Based on WRF Simulations",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "G",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Remarkable vegetation greening has been observed in the Yangtze River Basin (YRB) during the past two decades, triggering noteworthy hydrological consequences. Previous studies have assessed the hydrological effect of vegetation greening but ignored the vegetation-precipitation feedbacks from land-atmosphere interactions. To address this knowledge gap, here we conduct coupled land-atmosphere model simulations prescribed with satellite vegetation observations to investigate how vegetation greening in the YRB affects regional hydrological cycles through vegetation physiological processes and biophysical feedbacks, with potentially competing effects on water yield (WY) by altering evapotranspiration (ET) and precipitation. Over the 2001-2020 period, the leaf area index in summer shows a significant increasing trend at a rate of 0.34 m 2 m −2 decade −1 ( P < 0.01). This vegetation greening causes a substantial rise in ET, primarily due to increased plant transpiration and canopy evaporation, along with reduced soil evaporation attributed to enhanced root water uptake and shading of the soil surface. Moreover, the modeled results indicate that vegetation greening is the key driver for the observed ET enhancement. In addition, vegetation greening induces increases in precipitation by modulating moisture flux convergence, which although statistically insignificant, provides considerable water to compensate for the enhanced ET. For the cumulative effects of vegetation greening from 2001 to 2020 at the basin scale, the increased precipitation (approximately, 101 mm) outpaces the increased water consumption (approximately, 93 mm), resulting in an insignificant effect on WY. Our findings underscore the importance of considering vegetation-precipitation feedbacks in evaluations of the hydrological response to natural or deliberate vegetation changes.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024WR038663",
+      "date_added": "2025-04-17",
+      "id": "8675c84afe5f0b19d7f613e6884d62ee",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Agriculture's impact on water-energy balance varies across climates",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "M",
+          "last_name": "Zaerpour"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Hatami"
+        },
+        {
+          "first_name": "AS",
+          "last_name": "Ballarin"
+        },
+        {
+          "first_name": "SM",
+          "last_name": "Papalexiou"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Pietroniro"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Nazemi"
+        }
+      ],
+      "journal": "Proceedings of the National Academy of Sciences",
+      "citations": 2,
+      "abstract": "Agriculture is a cornerstone of global food production, accounting for a substantial portion of water withdrawals worldwide. As the world’s population grows, so does the demand for water in agriculture, leading to alterations in regional water-energy balances. We present an approach to identify the influence of agriculture on the water-energy balance using empirical data. We explore the departure from the Budyko curve for catchments with agricultural expansion and their associations with changes in the water-energy balance using a causal discovery algorithm. Analyzing data from 1,342 catchments across three Köppen-Geiger climate classes-temperate, snowy, and others-from 1980 to 2014, we show that temperate and snowy catchments, which account for over 90% of stations, exhibit distinct patterns. Cropland percentage (CL%) emerges as the dominant factor, explaining 47 and 37% of the variance in deviations from the Budyko curve in temperate and snowy catchments, respectively. In temperate catchments, CL% shows a strong negative correlation with precipitation-streamflow (P-Q) causal strength (Spearman ), suggesting that cropland exacerbates precipitation-driven deviations. A moderate negative correlation with aridity-streamflow (AR-Q) causal strength ( ) indicates additional influences of cropland through aridity-driven interactions. In snowy catchments, CL% is similarly influential, with a positive correlation with P-Q causal strength ( ). However, the negative correlation with AR-Q causal strength ( ) underscores the role of aridity as a secondary driver. While vegetation and precipitation seasonality also contribute to the deviations, their impacts are comparatively lower. These findings underscore the need for inclusion of agricultural activities in changing water-energy balance to secure future water supplies.",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2410521122",
+      "date_added": "2025-04-17",
+      "id": "52baa9c1fe38ed3f91fb5d26f66b0dba",
+      "topic": [
+        "findings"
+      ]
+    },
+    {
+      "title": "Ignoring previous water conditions underestimates global terrestrial ecosystem productivity in severely arid vegetation regions",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Zeng"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Tan"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Qu"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "Global and Planetary Change",
+      "citations": 1,
+      "abstract": "In the context of global climate change, changes in water conditions significantly affect the productivity of terrestrial ecosystems. However, the impact of previous water conditions has not received sufficient attention. Using machine learning and a large amount of global ground observation data, we evaluated the impact of previous water conditions at various time scales on global productivity estimation through paired experiments and residual comparison methods. By incorporating run theory, we investigated the uncertainty introduced by neglecting previous water conditions in estimating ecosystem productivity across various levels of vegetation drought frequency, intensity, duration, and severity. We found that 36.8 % of global net primary productivity (NPP) is predominantly influenced by water conditions over the previous 24 months, a percentage higher than those observed at 6, 12, and 18-month time. Considering previous water conditions, the estimated global productivity was 66.72 Pg C yr −1 (468.98 g C/m 2 yr). Neglecting previous water conditions may lead to an underestimation of global productivity by up to 1.27 Pg ( p < 0.05). Regions experiencing severe, prolonged, and intense drought may have significant NPP estimation biases without considering previous water conditions. This study provides an important step toward understanding the impact of previous water conditions and vegetation drought disasters on the carbon sink function of global terrestrial ecosystems.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0921818125001080",
+      "date_added": "2025-04-17",
+      "id": "144700938642f88803037afdbc827b0c",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Widespread sensitivity of Vegetation to the transition from Normal droughts to Flash droughts",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Liao"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Pi"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Ke"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Zhan"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Chen"
+        }
+      ],
+      "journal": "Geophysical Research Letters",
+      "citations": 0,
+      "abstract": "Global climate change has intensified flash droughts, which differ from traditional droughts, and have significant ecological impacts. However, differences in ecosystem responses to normal and flash droughts in China remain unclear, particularly in terms of vegetation vulnerability and resilience. Using a three-dimensional clustering method, we identified disparities between these drought types from 1982 to 2022 and found that flash droughts developed 40% faster than normal droughts, but normal droughts caused more severe vegetation damage. With the transition to flash droughts, vegetation sensitivity to droughts has increased. Using Shapley's additive interpretation method, we assessed the role of each environmental factor in vegetation recovery. The results show that in normal droughts, drought characteristics and vegetation sensitivity drive the resilience of vegetation, whereas in flash droughts, temperature and vapor pressure deficit become more significant. These insights provide a deeper understanding of vegetation resilience and drought tolerance under changing climatic conditions.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024GL114321",
+      "date_added": "2025-04-17",
+      "id": "3679f1ccfcca6e02cee62bbc47b64680",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Development of web-based decision support tool for rainfall erosivity estimation using both high-resolution rainfall data and simplified models",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Kim"
+        },
+        {
+          "first_name": "SO",
+          "last_name": "Hur"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Kwak"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Kim"
+        },
+        {
+          "first_name": "MS",
+          "last_name": "Kang"
+        }
+      ],
+      "journal": "International Soil and Water Conservation Research",
+      "citations": 0,
+      "abstract": "Soil erosion is a significant global problem that has far-reaching effects on agricultural productivity, environmental health, and ecosystem stability. The rainfall erosivity factor (R-factor) used in the Universal Soil Loss Equation (USLE) is a key parameter for predicting soil erosion. However, its accurate estimation is difficult owing to the complexities of high-resolution rainfall data and limitations of simplified models. This study addressed these challenges by introducing several key innovations. We developed a precise algorithm for calculating the R-factor using minute-interval rainfall data to effectively capture the necessary temporal resolution for assessing the impacts of extreme rainfall events. This advancement allows for accurate R-factor estimation, thereby overcoming the complexities associated with high-resolution data processing. In addition, we established a comprehensive rainfall erosivity database across South Korea based on 24 years of minute-interval rainfall data. We then derived an optimal regression model for estimating monthly rainfall erosivity from daily precipitation data, achieving high accuracy (R 2 = 0.87) by effectively accounting for extreme rainfall events. These efforts culminated in the development of the Web-based Rainfall Erosivity Calculation (WREC) tool, which integrates a database, a rainfall erosivity calculation algorithm, and a simple estimation model. The user-friendly interface of the WREC tool offers a versatile platform for calculating rainfall erosivity, supporting practical applications, and assessing future climate change impacts. Expanding the WREC tool globally and adapting regression models to local contexts will enhance our ability to manage soil erosion and promote sustainable land and water management practices.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2095633925000346",
+      "date_added": "2025-04-17",
+      "id": "a8ba6593d1d7f8dd4ff225d9bcc81032",
+      "topic": [
+        "web-mapping-development"
+      ]
+    },
+    {
+      "title": "Global gridded population datasets systematically underrepresent rural population",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Láng-Ritter"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Keskinen"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Tenkanen"
+        }
+      ],
+      "journal": "Nature Communications",
+      "citations": 0,
+      "abstract": "Numerous initiatives towards sustainable development rely on global gridded population data. Such data have been calibrated primarily for urban environments, but their accuracy in the rural domain remains largely unexplored. This study systematically validates global gridded population datasets in rural areas, based on reported human resettlement from 307 large dam construction projects in 35 countries. We find large discrepancies between the examined datasets, and, without exception, significant negative biases of −53%, −65%, −67%, −68%, and −84% for WorldPop, GWP, GRUMP, LandScan, and GHS-POP, respectively. This implies that rural population is, even in the most accurate dataset, underestimated by half compared to reported figures. To ensure equitable access to services and resources for rural communities, past and future applications of the datasets must undergo a critical discussion in light of the identified biases. Improvements in the datasets’ accuracies in rural areas can be attained through strengthened population censuses, alternative population counts, and a more balanced calibration of population models.",
+      "url": "https://www.nature.com/articles/s41467-025-56906-7",
+      "date_added": "2025-04-17",
+      "id": "a46a4a5d2298a2c5f1e6b69c9d199d0c",
+      "topic": [
+        "findings"
+      ]
+    },
+    {
+      "title": "Temperature drives the variations in cropland exposure to compound drought and heatwave events under future climate in Northeast China",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Gao"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Shen"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Wu"
+        }
+      ],
+      "journal": "Geography and Sustainability",
+      "citations": 0,
+      "abstract": "Exposure assessment is critical for hazard risk management. It is important to investigate the cropland exposure to compound drought and heatwave (CDHW) events because of their severe impacts on agriculture. We quantified the variations in CDHW characteristics (i.e., frequency, duration, and magnitude) and the cropland exposure to CDHW events in Northeast China using 20 CMIP6 climate projections for each of the four Shared Socioeconomic Pathways (i.e., SSP126, SSP245, SSP370, and SSP585). The results indicate that increase in CDHW characteristics leading to an anticipated increase in cropland exposure ranges from 1.6-fold to 5.8-fold (the range describes the differences among SSPs), with the west and northeast of the region poised to experience a more pronounced increase. Notably, controlling the development pathway to SSP126 can reduce the rate of increase in CDHW magnitude and cropland exposure compared to other SSPs. Path analysis demonstrates that cropland exposure is primarily driven by maximum temperature (Tmax). Although precipitation (Pre) increases (0.36-0.75 mm year -1 ), the increase in potential evapotranspiration (PET) due to global warming is higher than that of Pre (0.26-1.07 mm year -1 ) except for SSP126, leading to more drought events. In addition, Tmax rise increases the frequency of extreme temperature events. Therefore, increases in Tmax and ALA together contributed to the increase in exposure, with Tmax being the dominant factor in this process. Our findings emphasize the pivotal role of regulating the development pathway into SSP126 for sustainable agricultural development, and optimize planting distribution and planting heat-tolerant crop varieties are recommended for CDHW adaption.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666683925000318",
+      "date_added": "2025-04-17",
+      "id": "0adbeb901bde3912537b95342341dbcc",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Earlier vegetation green-up is intensifying hydrological drought in the Tianshan Mountain basins",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Jia"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Guo"
+        }
+      ],
+      "journal": "Journal of Hydrology: Regional Studies",
+      "citations": 0,
+      "abstract": "Study region Two inland basins in the Tianshan Mountains: the Huangshui Basin (HSB) and the Kashi Basin (KSB). Study focus Earlier green-up driven by climate warming can profoundly alter hydrological processes. However, the isolated impact of phenological changes on hydrological dynamics, independent of climatic factors, remains largely unexplored. To address this gap, we quantified the contributions of earlier green-up to evapotranspiration (ET) and basin streamflow by developing a framework that integrates an NDPI-based phenology model with the RHESSys eco-hydrological model. New hydrological insights for the region Between 2001 and 2020, the start of the growing season (SOS) advanced at rates of 1.02 days/year in HSB and 0.97 days/year in KSB, while changes in the end of the growing season were minimal (0.17 and − 0.12 days/year, respectively). In HSB, each one-day advancement in green-up increased ET by 2.22 mm and reduced streamflow discharge by 2.35 million m3. In contrast, in KSB, a one-day advancement in green-up resulted in a more significant increase in ET (11.22 mm) and a more substantial reduction in streamflow discharge (58.24 million m3). KSB's westward-facing topography facilitates the inflow of warm, humid Atlantic air, contributing to a more humid climate, higher vegetation cover, and an earlier SOS compared to HSB. These findings highlight the importance of incorporating phenological dynamics into eco-hydrological assessments to develop effective climate adaptation strategies for inland mountain basins.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214581825001454",
+      "date_added": "2025-04-17",
+      "id": "bd83f75c2de36d03b2ff3150b10840e8",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Decreasing dynamic predictability of global agricultural drought with warming climate",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "H",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Su"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "VP",
+          "last_name": "Singh"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Tan"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Hu"
+        }
+      ],
+      "journal": "Nature Climate Change",
+      "citations": 1,
+      "abstract": "Droughts have been occurring frequently worldwide in a warming climate with an adverse impact on water-food-energy-ecology security, which raises substantial challenges for drought predictability. However, little is known about the future changes in dynamic predictability of agricultural drought over the globe and the dominant confounders causing this change. Here we leveraged Bayesian model averaging ensemble vine copula model to reveal changes in agricultural drought predictability globally in warm seasons at three projected global warming levels. We found that the projected dynamic predictability of agricultural drought would significantly decrease over 70% of the global land areas in +2 °C and +3 °C worlds, especially over North America, Amazonia, Europe, eastern and southern Asia and Australia. This was primarily attributed to the weakening soil moisture memory, background aridity and weakening land-atmosphere coupling. Our findings highlight that stakeholders should employ dynamic climate adaptations to cope with the decreasing drought predictability in a warmer climate.",
+      "url": "https://www.nature.com/articles/s41558-025-02289-y",
+      "date_added": "2025-04-17",
+      "id": "bd72a4451d188ddc9bd7688db8f88abf",
+      "topic": [
+        "findings"
+      ]
+    },
+    {
+      "title": "Investigating the characteristics and drivers of slow droughts and flash droughts: A multi-temporal scale drought identification framework",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Z",
+          "last_name": "Qi"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Ye"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Cai"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Xie"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Cheng"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Wan"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 3,
+      "abstract": "Global climate change has altered the characteristics of conventional drought events, with an increasing number of Slow droughts (SD) rapidly transitioning into Flash droughts (FD). This study introduces a novel multi-temporal scale drought identification framework (MTSDIF) that classifies historical agricultural drought events into three types: SD, FD, and Slow-to-Flash Drought (SFD). Based on the MTSDIF, the GLDAS-Noah root zone soil moisture dataset was used to analyze the spatiotemporal characteristics, evolution, and driving factors of multi-temporal scale droughts in China. Our study confirms the effectiveness of the proposed MTSDIF in classifying droughts with different onset speeds (SD, FD, and SFD). The results indicate that, from 1980 to 2020, the three types of drought events in China exhibited short-term, medium-term, and long-term periodic oscillations. Before 2000, SD events were the predominant type of agricultural drought in China, but post-2000, the areas affected by FD and SFD have been continuously expanding. Compared to SD, key meteorological elements influencing FD and SFD show anomalies exceeding 0.5 times the standard deviation. In the southeastern regions of China, areas with human-impacted soils, leached soils, and incept soils exhibit a higher response frequency to FD. Sea surface temperature indices, including the interannual El Niño-Southern Oscillation in the Pacific and interdecadal variations such as the +PDO and −AMO, significantly influence the occurrence of FD in the monsoon regions of China ( p < 0.01). Together, the results highlight the necessity of understanding the disparities and consistencies in land-atmosphere-ocean mechanisms behind drought events with varying onset speeds.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024WR037181",
+      "date_added": "2025-04-17",
+      "id": "67fc4e898c70d9f578d03e53686f19c0",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Spatio-temporal evolution of compound hot and dry extremes synchronizations in Europe",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "D",
+          "last_name": "Giaquinto"
+        },
+        {
+          "first_name": "G Di",
+          "last_name": "Capua"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Marzocchi"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Kurths"
+        }
+      ],
+      "journal": "Climate Dynamics",
+      "citations": 0,
+      "abstract": "The probability of incidence of compound extreme climate events is increasing due to human-induced climate change: in particular, there is high confidence that concurrent hot and dry extremes will become more frequent with increased global warming. In this context, Europe is no exception. Understanding the aggregated impact of synchronized compound hot and dry events at different locations is a pressing issue, especially when it comes to predicting these extremes. We use concepts and methods derived from network theory to highlight hotspot regions in Europe where these spatially compound extremes are increasing and analyse the atmospheric precursors driving these anomalous conditions. Using ERA5 reanalysis data and focusing on the summer and winter seasons of the period 1941-2020, we construct evolving networks constituted by 51 consecutive blocks, encoding the spatial synchronization structure of compound hot and dry events. Next, we highlight the regional and seasonal differences of compounds occurrences and synchronizations, unraveling the main changes in the graphs structure, identifying hotspot regions and, finally, describing the atmospheric conditions behind compound events. The increase of compounds frequency and spatial synchronizations do not always match: synchronizations increase in Southeastern Europe during winter and in some locations in Finland, north of Poland and the Baltic states in summer, although, in both cases, we do not detect a corresponding trend in compounds occurrences. Moreover, we show that most of the synchronizations evolution can be explained by atmospheric pressure dynamical changes, including NAO and SNAO intensity. This work brings out key aspects concerning the underlying spatio-temporal dynamics of concurrent hot and dry events.",
+      "url": "https://link.springer.com/article/10.1007/s00382-025-07626-7",
+      "date_added": "2025-04-17",
+      "id": "c73cee9b53d3bc1cd240e8d35b746218",
+      "topic": [
+        "meteorology"
+      ]
+    },
+    {
+      "title": "Detection and attribution of human influence on seasonal extreme precipitation in northern Hemisphere",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "KE",
+          "last_name": "Gan"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Tan"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Yan"
+        },
+        {
+          "first_name": "TY",
+          "last_name": "Gan"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Fingerprinting analyses have detected the impact of human activities on annual precipitation extremes. Using simulations of selected climate models of the Coupled Model Intercomparison Project Phase 6 (CMIP6), this study has comprehensively demonstrated human influence on seasonal precipitation extremes of Northern Hemisphere Land (NHL) over different spatial scales from 1950 to 2014. By assessing the impacts of various climatic forcings on the maximum 1-day (Rx1day) and 5-day (Rx5day) precipitation indices, our results show that greenhouse gas (GHG) forcings predominantly drive the increase in observed Rx1day across most of the NHL in all four seasons, with more pronounced effects in fall and winter than in spring and summer. Furthermore, low-risk regions tend to experience greater GHG-induced Rx1day than high-risk regions in all seasons. Anthropogenic aerosol (AER) forcings significantly weaken Rx1day, particularly during winter in regions like India and southern China. Change point analysis reveals a rapid increase in Rx1day under GHG forcings and a slower decrease under AER forcing since the 1980 s. However, the abrupt change in Rx1day under both anthropogenic and natural external (ALL) forcings generally began a decade later, around the 1990 s. Using optimal fingerprinting techniques, we demonstrate for the first time that discernible anthropogenic forcings (ANT) impact at least one season in over 80 % of CMIP6 subregions, with more than 60 % of the contributions being attributable to ANT forcings. The number of subregions with detected ANT forcings is twice as high in winter compared to summer. Although seasonal natural (NAT) forcings are undetectable in one-signal analyses, they are detected in similar regions in both two- and three-signal analyses, suggesting that observed changes should be attributed to both anthropogenic and natural forcings.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425004718",
+      "date_added": "2025-04-17",
+      "id": "ecc8f0c00cde7440059609ec7bf164c8",
+      "topic": [
+        "climate_change"
+      ]
+    },
+    {
+      "title": "Probabilistic Assessment of the Impact of Compound Dry and Hot Events on Vegetation Drought Over Northwestern China",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Qian"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Su"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "VP",
+          "last_name": "Singh"
+        }
+      ],
+      "journal": "Ecohydrology",
+      "citations": 0,
+      "abstract": "Climate extremes have garnered considerable attention recently because of their devastating effects on both water resources and vegetation health. The vegetation responses to climate extremes, such as high temperatures (hot events), droughts (dry events) and compound dry and hot events (CDHEs), have been extensively evaluated. However, the risk of vegetation drought considering different severity levels of individual and compound climate extremes is not well assessed. In this study, we employed the meta-Gaussian (MG) model, a multivariate approach, to evaluate the response of vegetation drought [characterized by the Standardized Normalized Difference Vegetation Index (SNDVI)] to dry events, hot events and CDHEs. The study found that the dominant factor of vegetation drought, in the central and northwestern parts of Northwestern China (NWC), was the dry events. Conversely, in the southern NWC, temperature exerted a substantial influence on vegetation drought. Relative to individual dry events (hot events), the conditional probability of vegetation drought under CDHEs had decreased (increased) by approximately 24% (17%). Furthermore, the response of grassland to both individual and compound climate extremes was sensitive, whereas forests demonstrated greater resilience to droughts. These findings help us better understand the influence that various severity levels of climate extremes exert on vegetation dynamics.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/eco.70008",
+      "date_added": "2025-04-17",
+      "id": "bd6311223f758622e7d58343c30a1c60",
+      "topic": [
+        "climate_change"
+      ]
+    },
+    {
+      "title": "Vegetation browning as an indicator of drought impact and ecosystem resilience",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "I",
+          "last_name": "Fuentes"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Lopatin"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Galleguillos"
+        },
+        {
+          "first_name": "J",
+          "last_name": "McPhee"
+        }
+      ],
+      "journal": "Science of Remote Sensing",
+      "citations": 0,
+      "abstract": "Climate change influences climate variability, increasing the frequency and severity of droughts. These events may trigger vegetation browning, a key indicator of drought propagation and shifts in resilience. While long-term trends often measure browning, rapid vegetation declines require alternative approaches. This study examines drought-induced vegetation browning, resilience, and propagation in central Chile using Moderate Resolution Imaging Spectroradiometer (MODIS) time series of normalised difference vegetation index (NDVI), leaf area index (LAI), and gross primary productivity (GPP). The Continuous Change Detection and Classification (CCDC) algorithm identified negative vegetation changes, filtering out non-browning events to reduce uncertainties. Spatial variations in browning were analysed across latitudinal gradients, topographies, and vegetation types, while shifts in temporal autocorrelation served as a proxy for resilience. Results indicated declines in NDVI across 19% of the study area, GPP in 12%, and LAI in 8%. NDVI responded to drought within six months, with productivity losses lagging by 8.7 months. Recovery was slow, averaging 3.6 years, and only 20%-25% of the affected areas recovered. Variations in browning timing and magnitude were driven by topography, vegetation, and latitude. A decline in vegetation resilience highlights the need for strategies to enhance adaptability to climate change.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666017225000252",
+      "date_added": "2025-04-21",
+      "id": "1ed4e38eaef431ab765a646f974f7282",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Disparities in the impact of drought on agriculture across countries",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "H",
+          "last_name": "Freedman"
+        },
+        {
+          "first_name": "A",
+          "last_name": "AghaKouchak"
+        },
+        {
+          "first_name": "AJ",
+          "last_name": "Rigden"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Hoek"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Tomlinson"
+        }
+      ],
+      "journal": "Scientific Reports",
+      "citations": 0,
+      "abstract": "Over the last several decades, droughts driven by climate change have damaged agricultural production as the planet warms. It is crucial for the future of the global food supply to develop effective adaptation strategies. However, not all countries and regions are affected equally by drought. We fit a hierarchical Bayesian model with a dataset containing 60 years of country-level drought and agricultural productivity data to probabilistically identify the susceptibility of various countries and regions to drought. We find that regions such as Eastern Africa and Southern Asia are highly susceptible to drought, with each region exhibiting a >90% chance that drought has negatively affected agriculture, leading to estimated historical agricultural losses of >14%, while Eastern Asia is the most drought-resilient region, with only a 44% probability that drought has negatively affected agriculture in this region. The results of this study can help inform the allocation of future resources to enhance agricultural resilience in the most vulnerable regions. Additionally, they provide a foundation for case studies examining specific countries or regions that demonstrate notable resilience or susceptibility to drought.",
+      "url": "https://www.nature.com/articles/s41598-025-94166-z",
+      "date_added": "2025-04-21",
+      "id": "0b2703a2c9f5f913071d388a926884a0",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Quantifying CO2 and Non-CO2 Contributions to Climate Change Under 1.5°C and 2°C Adaptive Emission Scenarios",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "D",
+          "last_name": "Lee"
+        },
+        {
+          "first_name": "SN",
+          "last_name": "Sparrow"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Willeit"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Ceppi"
+        },
+        {
+          "first_name": "MR",
+          "last_name": "Allen"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "The individual contributions of various human-induced forcings under scenarios compatible with the Paris Agreement targets are highly uncertain. To quantify this uncertainty, we analyze three types of models with physical parameter perturbed large ensembles under global warming levels of 1.5 and 2.0°C. The scenarios use adaptive CO 2 emissions, while non-CO 2 emissions are prescribed. The residual emission budgets in the scenarios are measured in terms of CO 2 forcing equivalent (CO 2 -fe). Our simulations quantify approximately 0.8 (0.2-1.3 for a 90% confidence interval) and 1.9 (0.9-3.0) TtCO 2 -fe for the 1.5 and 2.0°C targets by the end of the 21st century. About 37.5% (73.7%) of the budget for 1.5°C (2.0°C) originates from the CO 2 emission pathways, highlighting the importance of non-CO 2 forcings. Aerosols dominate the uncertainty in non-CO 2 contributions to global responses in both temperature and precipitation. Our modeling results underline the need to constrain the response to each climate forcing, particularly aerosol, to build an accurate mitigation and adaptation plan under the pledges of the Paris Agreement. Moreover, we demonstrate robust differences in global and regional temperature and precipitation responses between the higher and lower CO 2 emission scenarios, highlighting the significance of carbon neutrality.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024EF005580",
+      "date_added": "2025-04-21",
+      "id": "dc3013e8b478f0f5e5b19eaae987e316",
+      "topic": [
+        "climate_change"
+      ]
+    },
+    {
+      "title": "A pronounced decline in northern vegetation resistance to flash droughts from 2001 to 2022",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "M",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Zeng"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Pan"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Xiao"
+        },
+        {
+          "first_name": "TF",
+          "last_name": "Keenan"
+        }
+      ],
+      "journal": "Nature Communications",
+      "citations": 0,
+      "abstract": "Climate change has led to the transition of droughts into rapid and intensified phenomena known as flash droughts, presenting considerable challenges for risk management, particularly concerning their impact on ecosystem productivity. Quantifying the ecosystem’s capacity to maintain productivity during flash droughts, referred to as ecosystem resistance, is crucial to assess drought impacts. However, it remains uncertain how the resistance of ecosystem productivity to flash drought changes over time. Here we show that vegetation resistance to flash droughts declines by up to 27% (±5%) over the Northern Hemisphere hotspots during 2001-2022, including eastern Asia, western North America, and northern Europe. The notable decline in vegetation resistance is mainly attributed to increased vapour pressure deficit and temperature, and enhanced vegetation structural sensitivity to water availability. Flash droughts pose higher ecological risks than slowly-developing droughts during the growing seasons, where ecosystem productivity experiences faster decline rates with a shorter response time. Our results underscore the limited ecosystem capacity to resist flash droughts under climate change.",
+      "url": "https://www.nature.com/articles/s41467-025-58253-z",
+      "date_added": "2025-04-21",
+      "id": "613d3c3e0ee20d46226c46acb642ac5a",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Agricultural flash droughts and their impact on crop yields in southeastern South America",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "MA",
+          "last_name": "Lovino"
+        },
+        {
+          "first_name": "MJ",
+          "last_name": "Pierrestegui"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Masaro"
+        },
+        {
+          "first_name": "OV",
+          "last_name": "Müller"
+        },
+        {
+          "first_name": "GV",
+          "last_name": "Müller"
+        },
+        {
+          "first_name": "EHH",
+          "last_name": "Berbery"
+        }
+      ],
+      "journal": "Environmental Research Letters",
+      "citations": 0,
+      "abstract": "This study investigates the characteristics of agricultural flash droughts (AFDs) and their impacts on critical growth periods of soybean and corn in southeastern South America (SESA). Using ERA5 data from 1960 to 2022, we examine AFD frequency, duration, intensity, trends, seasonality, life cycle, and the influence of land-atmosphere interactions. Historical crop data, spanning different time periods across SESA countries, are analyzed to assess how the spatiotemporal evolution and varying life cycles of AFDs affect crop yields. The highest AFD frequencies (3 to 8 events per decade) occur in the central portion of SESA. These rapidly intensifying events often evolve into seasonal droughts lasting 1.5 to 3 months. Although area-averaged AFD frequency shows no significant change in central SESA, positive trends are noticeable in southern Brazil and Uruguay. Towards the north of SESA, AFDs are less frequent, with 1 to 3 episodes per decade, although the frequency has significantly increased since 1970. AFDs tend to last over 3 months and reach higher intensity. Land-atmosphere feedback mechanisms are reflected in high positive vapor pressure deficit and temperature anomalies that exacerbate soil moisture deficits despite a relatively stable precipitation deficit, accelerating AFD intensification periods. AFDs typically impact smaller areas, while slow-evolving droughts affect larger regions. However, AFDs’ timing during the critical growth periods of the crops can lead to substantial yield losses. In central SESA, AFDs mainly occur between November and January, affecting both crops during their flowering and grain filling in December and January. In northern SESA, AFDs occur later, from February to April, primarily impacting second-season corn. The overall impact on crop yields depends on the duration, spatial extent, and intensity of the drought after its intensification.",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/adcd88/meta",
+      "date_added": "2025-04-21",
+      "id": "8be954669b59392f30df16ad58b2591f",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Relationship between daily precipitation extremes and temperature in changing climate across smart cities of Central India",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "V",
+          "last_name": "Jain"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Kumar"
+        },
+        {
+          "first_name": "MK",
+          "last_name": "Goyal"
+        }
+      ],
+      "journal": "Journal of Environmental Management",
+      "citations": 0,
+      "abstract": "The Central India region is observing a rise in extreme precipitation events. Its impact is enhanced across the urban regions due to their higher population and economic potential. In this study, we assessed the historical (1951-2022) Clausius Clapeyron relation between daily precipitation extremes (P ex ) with daily maximum temperature (T max ) and dew point (DPT) for ten smart cities of Central India. Further, future (2023-2100) assessments have been carried out for SSP 245 and 585 scenarios between T max and different P ex using NEX-GDDP-CMIP6 datasets. The future assessment is further classified for near (NF: 2023-2050) and far (FF:2051-2100) future periods. We determined that historically, T max has not been prominent in enhancing regional P ex . However, DPT enhanced the regional P ex with super scaling rates maximum of 17 %°C −1 . In the future, we observed that scaling rates between T max and P ex enhanced in SSP 245 and 585, respectively. Cities like Satna, Sagar, and Jabalpur tend to have positive scaling in the future. Therefore, DPT is a better predictor of precipitation extremes and assists in precise predictive modeling for enhancing regional urban sustainability and mitigating urban flood risk. However, the rise in T max has influenced the precipitation extremes substantially since the far future period. Overall, it will assist the concerned smart cities policymakers and scientific community in making Indian cities resilient to climate change.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301479725010126",
+      "date_added": "2025-04-21",
+      "id": "e92bee4757d5741b4fb42870aa1016db",
+      "topic": [
+        "statistics-big-data"
+      ]
+    }
+  ]
+}
