@@ -92,8 +92,7 @@ activate_conda() {
         print_message "${RED}" "Error: Failed to activate conda environment '${CONDA_ENV_NAME}'."
         # Attempt to provide more info if env doesn't exist
         if ! conda env list | grep -q "${CONDA_ENV_NAME}"; then
-             print_message "${YELLOW}" "Environment '${CONDA_ENV_NAME}' not found. You might need to create it using 'setup_project.sh' or
-'conda env create -f ${BACKEND_REPO_DIR}/environment.yml'."
+             print_message "${YELLOW}" "Environment '${CONDA_ENV_NAME}' not found. You might need to create it using 'setup_project.sh' or 'conda env create -f ${BACKEND_REPO_DIR}/environment.yml'."
         fi
         return 1
     fi
