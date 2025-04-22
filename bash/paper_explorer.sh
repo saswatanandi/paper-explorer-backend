@@ -364,8 +364,7 @@ upload_data_to_github() {
 # Function to upload backend repo changes to GitHub
 upload_backend_to_github() {
     # No data prep needed here, just commit/push existing changes
-    commit_and_push_repo "${BACKEND_REPO_DIR}" "Backend Repo" "${BACKEND_REPO_REMOTE}" "${BACKEND_REPO_BRANCH}"
-"${DEFAULT_COMMIT_MSG_BACKEND}"
+    commit_and_push_repo "${BACKEND_REPO_DIR}" "Backend Repo" "${BACKEND_REPO_REMOTE}" "${BACKEND_REPO_BRANCH}" "${DEFAULT_COMMIT_MSG_BACKEND}"
     return $? # Return the exit status of the commit/push
 }
 
