@@ -209,7 +209,7 @@ update_index_json() {
 
     # Find files, sort them (optional, but nice), and count
     local files_list
-    files_list=$(find "$papers_dir" -maxdepth 1 -name '*.json.gz' -printf '"%p",\n' | sort)
+    files_list=$(find "$papers_dir" -maxdepth 1 -name '*.json.gz' -printf '"%p"\n' | sort)
     local file_count
     file_count=$(echo "$files_list" | grep -c .) # Count non-empty lines
 
@@ -217,8 +217,8 @@ update_index_json() {
         print_message "${YELLOW}" "Warning: No .json.gz files found in ${papers_dir}. index.json will be empty."
         files_json="[]"
     else
-        # Remove trailing comma and wrap in brackets
-        files_json="[${files_list%,\n}]"
+        # Join files with comma separator and wrap in brackets
+        files_json=$(echo "$files_list" | paste -sd ',' | sed 's/^/[/' | sed 's/$/]/')
     fi
 
     local today
