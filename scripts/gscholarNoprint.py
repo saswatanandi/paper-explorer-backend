@@ -16,7 +16,7 @@ from urllib.parse import quote
 from bs4 import BeautifulSoup
 
 class GoogleScholarScraper:
-    def __init__(self, browser_path="~/chrome/opt/google/chrome/chrome"):
+    def __init__(self, browser_path="/home/sn/chrome/opt/google/chrome/chrome"):
         self.browser = None
         self.browser_path = browser_path
         self.initialized = False
