@@ -6533,6 +6533,398 @@
       "topic": [
         "heatwave"
       ]
+    },
+    {
+      "title": "Changes in the frequencies of occurrence of maximum daily precipitation for the metropolitan region of Belo Horizonte-Brazil",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "DA",
+          "last_name": "Jimenez"
+        },
+        {
+          "first_name": "CA",
+          "last_name": "Jimenez"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Menapace"
+        },
+        {
+          "first_name": "EJ de Andrade",
+          "last_name": "Pinto"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Brentan"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Avila-Diaz"
+        }
+      ],
+      "journal": "Urban Climate",
+      "citations": 0,
+      "abstract": "Extreme precipitation events in Brazilian metropolitan areas, are projected to intensify as climate warming continues. This study assesses future changes in daily precipitation quantiles for a set of return periods in the MRBH under the Shared Socioeconomic Pathways SSP1-2.6 and SSP5-8.5, across short (2015-2045), medium (2045-2075), and long-term (2075-2100). The average projected changes indicate that, in the short term, under the SSP1-2.6 scenario, precipitation quantiles decrease for return periods longer than two years (ranging from 8.17 % to 16.16 %), while a slight increase (0.15 % to 9.97 %) is observed for the 2-year return period at 69 % of the stations. In contrast, the SSP5-8.5 scenario consistently increases across all return periods (ranging from 0.017 % to 26.16 %). In the medium and long terms, both scenarios project an increment in precipitation quantiles. In the medium term, the SSP1-2.6 scenario shows increases ranging from 0.013 % to 37.27 %, while the SSP5-8.5 scenario shows a variation from 0.0093 % to 37.22 %. In the long term, increases range from 0.21 % to 33.38 % under the SSP1-2.6 scenario and from 0.014 % to 66.03 % under the SSP5-8.5 scenario. These findings suggest extreme rainfall events may intensify, leading to more frequent and severe flood events.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2212095525001774",
+      "date_added": "2025-06-09",
+      "id": "1fd3f7f764d3677eecce6a90e5b20cbd",
+      "topic": [
+        "climate_change"
+      ]
+    },
+    {
+      "title": "Analyzing wildfire patterns and climate interactions in Campania, Italy: A multi-sensor remote sensing study",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "H",
+          "last_name": "Dadkhah"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Rana"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Ghaderpour"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Mazzanti"
+        }
+      ],
+      "journal": "Ecological Informatics",
+      "citations": 0,
+      "abstract": "Wildfire dynamics and their interactions with climatic variables pose significant challenges in Mediterranean ecosystems. This study investigates spatiotemporal wildfire patterns in Campania, southwestern Italy, for the period 2001-2020 during the peak fire season (June-September). Burned area, land cover/use, land surface temperature (LST), and normalized difference vegetation index (NDVI) products of moderate resolution imaging spectroradiometer (MODIS) as well as the Climate Hazards Group Infrared Precipitation with Stations (CHIRPS) dataset are employed. First, the Mann-Kendall test and Sen's slope estimator are applied to each land cover/use class within each province. Next, Pearson's correlations among NDVI, LST, and precipitation are estimated at the pixel level, and their interconnections with fire activity are studied at the province level. The results reveal significant declines in grasslands across all provinces, with the strongest (−17.69 km2/year) in Avellino, and increases in grassy woodlands, e.g., +16.51 km2/year in Avellino and + 11.41 km2/year in Benevento. LST shows the strongest positive correlation with burned area in Caserta (r = 0.67), while NDVI correlates negatively with fire, with the highest magnitude in Avellino (r = −0.70). Precipitation-fire relationships are generally weak to moderate and negative, with the strongest in Benevento (r = −0.52). NDVI-LST correlations are significantly negative across all provinces, with the strongest (r = −0.79) in Benevento, highlighting vegetation stress under thermal extremes. To complement the regional assessment, a case study of the 2017 wildfire on Ischia Island is also presented, employing Sentinel-2 imagery for differenced normalized burn ratio (dNBR) mapping and dynamic world land cover data for detecting short-term post-fire land cover changes. The findings highlight the importance of integrating low to high-resolution satellite images to capture both broad-scale climate-fire interactions and localized fire dynamics, supporting improved wildfire susceptibility assessment in Mediterranean landscapes.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1574954125002584",
+      "date_added": "2025-06-09",
+      "id": "c9fdd2204ad20d4d1f7438672e61f384",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "A macroscale evapotranspiration benchmark based on spatial and temporal enhancements to the Budyko framework",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Vrieling"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Marshall"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Nelson"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "The Budyko framework estimates macroscale evapotranspiration (ET) through hydrological partitioning, which determines what proportion of precipitation becomes ET or passes overland as runoff. This method has been widely used for modelling catchment ET and calibrating satellite-based ET algorithms at multi-annual timesteps, as it effectively accounts for how the relationship between water and energy balance changes with climatic aridity. However, substantial deviations from the predictive Budyko curve are observed as the spatiotemporal resolution increases, suggesting that additional environmental controls beside aridity also significantly influence hydrological partitioning over space and time. In this study, we assessed the impact of 14 environmental indicators on hydrological partitioning from the Budyko framework across 45 catchments over central-western Europe. The combination of catchment slope and two climatic factors − cumulative moisture surplus and rainfall erosivity − effectively explained spatial differences in hydrological partitioning (r = 0.83, rRMSE = 11.66 %). Interannual variations in the enhanced vegetation index and the fraction of precipitation falling as snow captured the temporal scatters (r = 0.37, rRMSE = 14.18 %). Based on these findings, we introduced a two-step modification involving a spatial adjustment of curve parameter ( w ) and a temporal correction of curve scatter (α) into the Budyko model, which led to improved ET prediction (Δr = 0.30, ΔRMSE = -21.62 mm yr −1 ) compared to the original framework. The revised Budyko model can be further applied to map ET beyond catchment scale, which facilitates water balance studies at regional scales. The Budyko-predicted ET, independent from existing energy-balance ET (ET EB ) products, can also serve as a macroscale water-balance ET benchmark for satellite-based products in data-scarce regions.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425009631",
+      "date_added": "2025-06-09",
+      "id": "73f4dc8596e80f69d2af76554efd32a9",
+      "topic": [
+        "budyko"
+      ]
+    },
+    {
+      "title": "Flash drought impacts on global ecosystems amplified by extreme heat",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Gu"
+        },
+        {
+          "first_name": "DL",
+          "last_name": "Schumacher"
+        },
+        {
+          "first_name": "EM",
+          "last_name": "Fischer"
+        },
+        {
+          "first_name": "LJ",
+          "last_name": "Slater"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Yin"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Sippel"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Knutti"
+        }
+      ],
+      "journal": "Nature Geoscience",
+      "citations": 0,
+      "abstract": "Flash droughts-characterized by their rapid onset-can cause devastating socioeconomic and agricultural damage. During such events, soil moisture depletion is driven not only by precipitation shortages but also by the elevated atmospheric moisture demand arising due to extreme heat. However, the role of extreme heat in shaping the evolution of flash droughts and their ecological impacts remains uncertain. Here we investigate the processes involved by analysing global reanalysis data from 1950 to 2022. We find that, when flash droughts are accompanied by extreme heat, they exhibit 6.7-90.8% higher severity and 8.3-114.3% longer recovery time than flash droughts without extreme heat. The presence of extreme heat during flash droughts accelerates soil moisture drawdown over high latitudes, where wet soils and enhanced radiation foster evapotranspiration. By contrast, it slows the absolute onset speed in subtropical transitional climate zones owing to evapotranspiration throttling. Our machine learning approach further reveals that hot flash droughts lead to sharper declines in ecosystem productivity, particularly in croplands, thereby threatening global food security. These findings underscore the pressing need for enhanced infrastructure and ecosystem resilience to hot flash droughts in a warming future.",
+      "url": "https://www.nature.com/articles/s41561-025-01719-y",
+      "date_added": "2025-06-09",
+      "id": "e5f7dd0e56ad56268548354c793e9ccd",
+      "topic": [
+        "findings"
+      ]
+    },
+    {
+      "title": "Temporally compounding wedroughts at the global scale: Distribution, propagation, and projection",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Hao"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "VP",
+          "last_name": "Singh"
+        }
+      ],
+      "journal": "Global and Planetary Change",
+      "citations": 0,
+      "abstract": "Temporally compounding droughts (TCD), which are usually referred to as consecutive years of droughts or recurrent droughts, can lead to larger impacts on different sectors than those resulting from individual droughts occurring in isolation. Previous investigations of the changes in TCD mostly focused on case studies or selected events. However, systematic assessments of the distribution, propagation, and projection of TCD across the globe are still limited, which hinders the understanding of their risk in a changing climate. In this study, we leveraged annual precipitation and soil moisture from ERA-5 reanalysis products to define different types of TCD, including those based on meteorological droughts (TCD M ) and agricultural droughts (TCD A ), and explored their spatial distributions and propagations during historical periods (1950-2014), followed by future projections (2036-2100) based on model simulations from the Coupled Model Intercomparison Project Phase 6 (CMIP6). Several regions, such as southern North America, northern Africa, and Australia, are the hot spots of TCD. In addition, the probability of TCDA conditional on TCDM (as a measure of drought propagation) is higher in southern North America, Africa, and Australia. For the future period, the frequency of short-term TCDM is projected to decrease in large regions across the Northern Hemisphere and increase in certain regions (e.g., northern South America, Mediterranean regions, southern Africa, and Australia). The projected frequency of short-term TCD A based on surface soil moisture shows an increase for the majority of global land areas except for a few regions, such as central Africa and southern Asia. The findings of this study are useful for the impact assessment of droughts and the development of mitigation measures under a changing climate.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0921818125002140",
+      "date_added": "2025-06-09",
+      "id": "c1463a9ab5ddddce4bc2845a521e4f49",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Warming accelerates global drought severity",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "SH",
+          "last_name": "Gebrechorkos"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Sheffield"
+        },
+        {
+          "first_name": "SM",
+          "last_name": "Vicente-Serrano"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Funk"
+        },
+        {
+          "first_name": "DG",
+          "last_name": "Miralles"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Dyer"
+        }
+      ],
+      "journal": "Nature",
+      "citations": 0,
+      "abstract": "Drought is one of the most common and complex natural hazards affecting the environment, economies and populations globally 1, 2, 3, 4. However, there are significant uncertainties in global drought trends 4, 5, 6, and a limited understanding of the extent to which a key driver, atmospheric evaporative demand (AED), impacts the recent evolution of the magnitude, frequency, duration and areal extent of droughts. Here, by developing an ensemble of high-resolution global drought datasets for 1901-2022, we find an increasing trend in drought severity worldwide. Our findings suggest that AED has increased drought severity by an average of 40% globally. Not only are typically dry regions becoming drier but also wet areas are experiencing drying trends. During the past 5 years (2018-2022), the areas in drought have expanded by 74% on average compared with 1981-2017, with AED contributing to 58% of this increase. The year 2022 was record-breaking, with 30% of the global land area affected by moderate and extreme droughts, 42% of which was attributed to increased AED. Our findings indicate that AED has an increasingly important role in driving severe droughts and that this tendency will likely continue under future warming scenarios.",
+      "url": "https://www.nature.com/articles/s41586-025-09047-2",
+      "date_added": "2025-06-09",
+      "id": "20318d24c8d046d7180ecb7143851528",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Diverse wildfire impacts on river flows across the globe",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "M",
+          "last_name": "Grillakis"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Voulgarakis"
+        }
+      ],
+      "journal": "Communications Earth & Environment",
+      "citations": 0,
+      "abstract": "Forest fires can significantly impact the hydrological regime of river basins, affecting short-term flood propensity and long-term water resource availability until vegetation is reestablished. While basin-level studies have extensively investigated these impacts, regional and global-scale assessments remain limited. Here we use a comprehensive global dataset of river discharge observations to systematically assess the hydrological response to wildfires for a range of hydrologically homogenous world regions and biomes. Our analysis reveals contrasting hydrological impacts by region, with high-latitude discharge ratios declining by 7.5% and 16% in the first and second year after wildfire, respectively, while Northern mid-latitude regions showing a marginal 3.3% median increase in discharge ratio the first-year post-fire. Sub-tropical and equatorial regions display negative and positive effects, respectively. We further discuss how potential ecological and hydroclimatic factors, along with human river and watershed management, shape these diverse hydrological responses per hydroclimatic region.",
+      "url": "https://www.nature.com/articles/s43247-025-02419-6",
+      "date_added": "2025-06-09",
+      "id": "5812a7231aae2c9ff9feaeefd958b1eb",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "The biomass carbon sequestration potential in China's drylands",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Z",
+          "last_name": "Tan"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Wei"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Fu"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Drylands are important carbon pools for climate change mitigation but remain highly vulnerable to climate and anthropogenic pressures. Despite China hosting one of the largest dryland areas globally, limited studies have quantified its biomass carbon storage and sequestration potential. Here, we divided China's drylands into ecological types and climate zones and employed random forest models to estimate biomass carbon carrying capacity and carbon sequestration potential. The results showed that the carrying capacity of China's drylands is 7.1 Pg C, with ∼4.1 Pg C (∼58%) already stored and an additional 3 Pg C potentially sequesterable. Regions with the highest carbon sequestration potential are concentrated in the eastern part of Inner Mongolia, the Northeast China, the northern part of Xinjiang, and the Huang-huai-hai region. Forests showed the highest total carbon carrying capacity (4.2 Pg C) and carbon sequestration potential (2.1 Pg C), followed by grasslands with a carbon carrying capacity of 2.7 Pg C and sequestration potential of 1.6 Pg C. Carbon sequestration thresholds varied across land use change types and aridity gradients. The identified hotspots in our study where vegetation has not yet reached its full potential should be the main target of future restoration projects. It should be noted that these estimates are based on historical climate conditions and land cover patterns, and may vary under future climate change and land use transitions. Therefore, these figures should be interpreted as conditional estimates, reflecting the limitations of using static climatic baselines.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006022",
+      "date_added": "2025-06-09",
+      "id": "74ed0eba22b5e8248ba8272afeb23c95",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Examination of area-based trend and drought characteristics of drought classes in the context of climate change",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "O",
+          "last_name": "Simsek"
+        },
+        {
+          "first_name": "Hİ",
+          "last_name": "Şenol"
+        },
+        {
+          "first_name": "AD",
+          "last_name": "Keskiner"
+        }
+      ],
+      "journal": "Natural Hazards",
+      "citations": 0,
+      "abstract": "In this study, the meteorological drought of the Mediterranean region, which represents the most significant risk area in Turkey regarding drought and forms the southern border, was evaluated using the Standardized Precipitation Index (SPI) method with precipitation data measured at 28 stations between 1970 and 2022. The data are divided into different periods: the first period (FP) between 1970 and 1996, the second period (SP) between 1997 and 2022, and all period (AP) between 1970 and 2022 to assess the change in meteorological drought in the region from the past to the present. Applying the run theory to the SPI series obtained in these periods, duration, severity, intensity, and peak values are calculated for wet and dry conditions. The Mann-Kendall (MK), Spearman-Rho (SR), and Innovative Trend Analysis (ITA) methods are applied to ascertain the change in the spatial occurrence of drought classes. The study reveals that drought exhibits distinct characteristics and occurrence rates in different regions of the study area, with notable differences between the western and eastern regions. The study region exhibits considerable variability in average duration and severity. The results indicated that extreme and severe drought-wet conditions have increased again after a 30-year interval. Furthermore, it is determined that the region is experiencing significant shifts in extreme wet and dry conditions and extreme events related to flooding and drought.",
+      "url": "https://link.springer.com/article/10.1007/s11069-025-07412-y",
+      "date_added": "2025-06-09",
+      "id": "80999c88279e2e0c3ad3345413527738",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Hydrogeophysical crystalline aquifer characterization in the Ajumako-Enyan-Essiam District, Ghana",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "VO",
+          "last_name": "Agyemang"
+        }
+      ],
+      "journal": "International Journal of Energy and Water Resources",
+      "citations": 0,
+      "abstract": "The Ajumako-Enyan-Essiam district is infamously dependent on groundwater. The district is experiencing a water deficit due to surface water bodies drying up and water demand increasing. Consequently, the suitability of the electromagnetic approach for groundwater exploration was evaluated. Ten profiles were used for the electromagnetic method survey. Points were selected on the profiles for VES and borehole drilling. The range of conductivity values was 22-80 mS/m, the range of resistivity values was 31.7-2599.0 Ωm, the range of depth to basement rock was 7.8-48.8 m, and the range of geoelectric layer thicknesses was 1.1-44.7 m. The range of borehole depth was 35-60 m, the range yield was 13-60 l/min, the range of specific capacity was 0.692-18.81 m 3/day/m and the range of transmissivity was 0.404-30.744 m 2/day. The lithology of the area was laterite, weathered granite, fresh granite, and fractured granite. The area has a complex and highly heterogeneous hydrogeological environment. The fractured granite was the main aquifer in the district. The high consistency between the electromagnetic method, vertical electrical sounding, and borehole data interpretations showed the effectiveness of the electromagnetic method for groundwater exploration in the area.",
+      "url": "https://link.springer.com/article/10.1007/s42108-025-00374-8",
+      "date_added": "2025-06-09",
+      "id": "e54ed0ce344ed92008ff2aa5d2cf6a82",
+      "topic": [
+        "wrf"
+      ]
+    },
+    {
+      "title": "Using solar-induced chlorophyll fluorescence to estimate forest evapotranspiration",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Evapotranspiration (ET) over forests plays a crucial role in controlling the global hydrological cycle, regulating the global energy, water, and carbon cycle. The prevailing large-scale evapotranspiration models usually rely on remotely-sensed meteorological conditions and terrestrial properties. In recent years, Solar-Induced chlorophyll Fluorescence (SIF) has shown great potential in estimating transpiration, providing a new way for evapotranspiration estimation. In this study, we developed a transpiration model based on the water-carbon coupling theory by using remotely sensed SIF. Then we adopted different evaporation models to achieve the estimation of total ET using the two-source scheme. The performances of the proposed ET models were evaluated at 51 forest sites in FLUXNET2015 database. We found that the ET models we proposed generally perform well, but the different evaporation models largely determine the overall performance of ET models. In particular, the best-performing model − ET(SIF + PT) achieves a Root Mean Square Error (RMSE) of 17.8 W m −2 and a Bias of −4.1 W m −2 by combining SIF-based transpiration model and an improved evaporation module based on the Priestley-Taylor model. The generally good performance of the ET model we proposed underscores the potential of using SIF to estimate forest evapotranspiration",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425009333",
+      "date_added": "2025-06-09",
+      "id": "b990b55acbbf83b0a0a05d3da4954223",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Detectable anthropogenic expand of compound dry and hot events areas on global land",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Sun"
+        }
+      ],
+      "journal": "Atmospheric Research",
+      "citations": 0,
+      "abstract": "Anthropogenic influence have led to an increase in the frequency of compound dry and hot events (CDHEs) globally under the background of global warming. However, there is limited research on the extent of anthropogenic influence on the spatial extent of CDHEs. Our analysis, focusing on the changes in the affected area of CDHEs across the global land during the warm season from 1961 to 2013, indicates an increasing trend in both hemispheres and six continents, with the most obviously increases observed in the Northern Hemisphere (15.8 %/53 yr), Asia (16 %/53 yr), and Africa (14 %/53 yr). Using the optimal fingerprinting method for detection and attribution analysis, we found that the anthropogenic signal was robustly detected in all regions except Oceania. The greenhouse gases emission played a major role in the observed increasing trends in all regions except Oceania. Furthermore, we conducted an event attribution analysis for the 2022 CHDEs areas in the Northern Hemisphere, finding that nearly 95 %, 91 %, and 89 % of the trends in the Northern Hemisphere, Asia, and Europe, respectively, could be attributed to anthropogenic climate change. Using the attribution result, we constrained projections of spatial extent of CDHEs under the SSP2-4.5 and SSP5-8.5 emission scenarios. The constrained projections show a smaller increasing magnitude compared to the raw projections (except for Asia), with the largest differences observed in South America in the Southern Hemisphere. By 2100, the CDHEs areas in the Northern Hemisphere is projected to reach 43 % and 68 % under the SSP2-4.5 and SSP5-8.5 scenarios, respectively. Asia faces the most widespread impact from CHDEs, with more than 93 % under the SSP5-8.5 scenario and 56 % under the SSP2-4.5 scenario. Therefore, reducing greenhouse gas emissions has huge benefits for better mitigating the impacts of CDHEs across the global land.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0169809525003114",
+      "date_added": "2025-06-09",
+      "id": "b0c1a4c8368718655b12a89ff0690be5",
+      "topic": [
+        "meteorology"
+      ]
     }
   ]
 }
