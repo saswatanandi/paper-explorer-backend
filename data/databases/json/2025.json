@@ -6854,25 +6854,6 @@
       ]
     },
     {
-      "title": "Hydrogeophysical crystalline aquifer characterization in the Ajumako-Enyan-Essiam District, Ghana",
-      "year": "2025",
-      "authors": [
-        {
-          "first_name": "VO",
-          "last_name": "Agyemang"
-        }
-      ],
-      "journal": "International Journal of Energy and Water Resources",
-      "citations": 0,
-      "abstract": "The Ajumako-Enyan-Essiam district is infamously dependent on groundwater. The district is experiencing a water deficit due to surface water bodies drying up and water demand increasing. Consequently, the suitability of the electromagnetic approach for groundwater exploration was evaluated. Ten profiles were used for the electromagnetic method survey. Points were selected on the profiles for VES and borehole drilling. The range of conductivity values was 22-80 mS/m, the range of resistivity values was 31.7-2599.0 Ωm, the range of depth to basement rock was 7.8-48.8 m, and the range of geoelectric layer thicknesses was 1.1-44.7 m. The range of borehole depth was 35-60 m, the range yield was 13-60 l/min, the range of specific capacity was 0.692-18.81 m 3/day/m and the range of transmissivity was 0.404-30.744 m 2/day. The lithology of the area was laterite, weathered granite, fresh granite, and fractured granite. The area has a complex and highly heterogeneous hydrogeological environment. The fractured granite was the main aquifer in the district. The high consistency between the electromagnetic method, vertical electrical sounding, and borehole data interpretations showed the effectiveness of the electromagnetic method for groundwater exploration in the area.",
-      "url": "https://link.springer.com/article/10.1007/s42108-025-00374-8",
-      "date_added": "2025-06-09",
-      "id": "e54ed0ce344ed92008ff2aa5d2cf6a82",
-      "topic": [
-        "wrf"
-      ]
-    },
-    {
       "title": "Using solar-induced chlorophyll fluorescence to estimate forest evapotranspiration",
       "year": "2025",
       "authors": [
@@ -6924,6 +6905,243 @@
       "id": "b0c1a4c8368718655b12a89ff0690be5",
       "topic": [
         "meteorology"
+      ]
+    },
+    {
+      "title": "Global mapping of concurrent hazards and impacts associated with climate extremes under climate change",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "G",
+          "last_name": "Messori"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Muheki"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Batibeniz"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Bevacqua"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Suarez‐Gutierrez"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Thiery"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Climate-related extreme events impose a heavy toll on humankind, and many will likely become more frequent in the future. The compound (joint) occurrence of different climate-related hazards and impacts can further exacerbate the detrimental consequences for society. By analyzing postprocessed data from the Inter-Sectoral Impact Model Intercomparison Project, we provide a global mapping of future changes in the compound occurrence of six categories of hazards or impacts related to climate extremes. These are: river floods, droughts, heatwaves, wildfires, tropical cyclone-induced winds and crop failures. In line with the existing literature, we find sharp increases in the occurrence of many individual hazards and impacts, notably heatwaves and wildfires. Under a medium-high emission scenario, many regions worldwide transition from chiefly experiencing a given category of hazard or impact in isolation to routinely experiencing compound hazard or impact occurrences. A similarly striking change is projected for the future recurrence of compound hazards or impacts, with many locations experiencing specific compound occurrences at least once a year for several years, or even decades, in a row. In the absence of effective global climate mitigation actions, we may thus witness a qualitative regime shift from a world dominated by individual climate-related hazards and impacts to one where compound occurrences become the norm.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006325",
+      "date_added": "2025-06-12",
+      "id": "11556635ec61068dfb3d2c199c653282",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Integrated Spatial Analysis of Drought Risk Factors Using Agglomerative Hierarchical Clustering and Correlation",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Wijitkosum"
+        }
+      ],
+      "journal": "Environmental Advances",
+      "citations": 0,
+      "abstract": "Drought results from the complex interplay between climatic variability and human activities, further intensified by hydro-meteorological and socio-economic interactions. This study investigates the interrelationships among climatic, geographic, soil, and anthropogenic factors influencing drought risk in the Upper Phetchaburi River Basin. Ten key drought risk factors-precipitation, aridity index, slope, elevation, soil texture, drainage, fertility, erosion, land use, and land cover-were spatially analyzed using Agglomerative Hierarchical Clustering and Pearson Product-Moment Correlation. The analysis revealed both direct and inverse relationships among these variables, underscoring the compounded effects of climate, land use, and soil dynamics on drought vulnerability. A particularly strong correlation between climatic and anthropogenic variables suggests a spatial-temporal alignment that intensifies drought conditions. Additional significant correlations-including precipitation-aridity index, aridity index-land use, and slope-soil fertility-further emphasize the integrated nature of environmental processes regulating drought susceptibility. Clustering analysis identified three distinct groups: (1) precipitation, aridity index, and soil erosion, illustrating how reductions in precipitation and aridity index accelerate soil degradation; (2) soil properties-texture, drainage, and fertility-highlighting their roles in water retention, nutrient availability, and vegetation resilience; and (3) elevation, land use, and land cover, demonstrating the combined effects of topography and anthropogenic activities on drought dynamics. These findings underscore the urgent need for sustainable land management, targeted ecosystem restoration, and climate-adaptive policies to mitigate drought risks. By elucidating localized drought drivers within broader environmental contexts, this study offers a transferable framework for informing proactive, cross-disciplinary drought mitigation strategies.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666765725000389",
+      "date_added": "2025-06-12",
+      "id": "742dd16030635fae2a996c3a33e67a7f",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Retrieval of non-optical active water quality parameters in complex Lake environments using a novel zoning-based ensemble modeling strategy",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Cai"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Pang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Bai"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "Ecological Indicators",
+      "citations": 0,
+      "abstract": "Remote sensing technology has provided significant support for the spatial and quantitative limitations of traditional water quality monitoring methods. However, accurate retrieval of non-optically active water quality parameters (NAWQPs) remains challenging due to their weak spectral responses and interference from diverse aquatic vegetation. In this study, we proposed a novel zoning-based ensemble modeling strategy (ZBEMS) by integrating aquatic vegetation classification with hyperspectral features derived from ZY-1 02D images, and tested it in Nansi Lake to retrieve NAWQPs (ammonia nitrogen (NH 3 -N), chemical oxygen demand (COD), and dissolved oxygen (DO)). Firstly, diverse aquatic vegetation was identified using aquatic vegetation index (AVI), floating algae index (FAI), and normalized difference vegetation index (NDVI), and the dominant type within each 3 × 3 Km grid determined vegetation zones (floating emergent vegetation (FEVA), submerged aquatic vegetation (SAV), and algae bloom (AB)). Secondly, multi-spectral scale morphological combination features (MSMCF) were extracted from the ZY-1 02D images. Finally, the ZBEMS integrating four machine learning models (Random Forest Regression (RFR), Gradient Boosting Regressor (GBR), eXtreme Gradient Boosting (XGBoost), and Support Vector Regression (SVR)) was applied across different zones for NAWQPs retrieval. Within the sampling area, the model achieved R 2 values of 0.56, 0.54, and 0.57 and root mean square errors (RMSE) of 0.04 mg/L, 4.56 mg/L, and 1.87 mg/L for retrieval of NH 3 -N, COD, and DO, respectively. Compared with traditional ensemble learning models, ZBEMS model improved the R 2 by approximately 0.13 for three parameters. These results indicate that the ZBEMS offers a promising approach for NAWQPs retrieval in complex aquatic environments.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1470160X25006533",
+      "date_added": "2025-06-12",
+      "id": "2267869837f5dc94295c7e0075465d1e",
+      "topic": [
+        "water-quality"
+      ]
+    },
+    {
+      "title": "Socio-ecological impacts of the investment of urban nature in heat mitigation for two megacities",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "T",
+          "last_name": "McPhearson"
+        },
+        {
+          "first_name": "EM",
+          "last_name": "Cook"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Herreros‐Cantis"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Liu"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Cities are increasingly adapting green interventions meant to enhance climate resilience, given their capacity to provide numerous ecosystem services (ES). Yet, little is known about ecological and social impacts of such interventions in the context of socio-ecological framework and environmental justice. Here, we used a quantitative and spatial analytical approach to assess the changes of urban greenspace (UG) and examine the equity of changes in ES supply and demand across demographic and socioeconomic groups in Beijing and NYC between 2010 and 2017. Results showed that previously existing green space and its expansion were unevenly distributed across districts. High-income districts in NYC had high green cover and experienced the highest increase of UG, in contrast to high green cover in areas with low population density and the greatest increase of UG in high-income areas for Beijing, respectively. The inequitable distribution of UG resulted in a high level of mismatch in supply demand of ES, revealing a pattern of distributional ecological injustice within city. We also found more ecological supply was provided in the areas having less vulnerability, indicating that social vulnerability remained in a lower greenspace exposure after greening implementation in both cities. Our study contributes to a better understanding on how the dynamics of urban greenspace impact urban climate injustices, and provides new insights for critical urban adaptation interventions or practice on shaping ecological injustice.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF005976",
+      "date_added": "2025-06-12",
+      "id": "8ed97497fb687b88c886eb0919958fa6",
+      "topic": [
+        "urban"
+      ]
+    },
+    {
+      "title": "A driving force analysis method for drought-flood abrupt alternation events",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Shi"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Yin"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Qin"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "Ecological Informatics",
+      "citations": 0,
+      "abstract": "Drought-Flood Abrupt Alternation (DFAA) events are complex hydrometeorological disasters that have become increasingly frequent under global warming, posing significant threats to socio-economic systems and the ecological stability. This study applies the Standardized Weighted Average Precipitation (SWAP) index to identify DFAA events at a daily scale in the middle and lower reaches of the Yangtze River Basin (MLRYRB) from 2001 to 2022. Additionally, a method is proposed to analyze the driving factors of DFAA and quantify the spatial distribution of dominant contributors. The results indicate that: (1) in the MLRYRB, DFAA events lasted up to 50 days and occurred 7 to 10 times in total, with the highest frequency in southern Shaanxi, central Hubei, central Anhui, and southern Jiangxi; (2) the areas affected by DTF and FTD events decreased at rates of 0.43/a and 0.62/a, respectively. DTF events were predominantly moderate in intensity, while FTD events were mostly slight; (3) the key factors driving drought-flood alternation included convective precipitation (CP), total cloud cover (TCC), top net solar radiation (TNSR), 2-m temperature (TEM), and relative humidity (RH). Regions dominated by RH and TEM accounted for 44.62 % and 30.22 % of the study area, respectively, mainly in Hubei, Hunan, Jiangxi, and Anhui. These findings offer a scientific basis for developing disaster prevention and mitigation strategies in the region.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1574954125002237",
+      "date_added": "2025-06-12",
+      "id": "b7271a7fb2a5d3831201d390b3608bdc",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Intensifying renewable energy droughts in the Western US amid evolving infrastructure and climate",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Bracken"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Voisin"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Mongird"
+        },
+        {
+          "first_name": "CD",
+          "last_name": "Burleyson"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Oikonomou"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "If renewable energy resources continue to become a larger part of the generation mix in the United States (U.S.), so does the potential impact of prolonged periods of low wind and solar generation, known as variable renewable energy (VRE) droughts. In such a future, naturally occurring VRE droughts need to be evaluated for their potential impact on grid reliability. This study is the first of its kind to examine the impacts of compound VRE energy droughts in the Western U.S. across a range of potential future climate and infrastructure scenarios. We find that compound VRE drought severity may increase significantly in the future, primarily due to the dramatic increase in wind and solar generation needed in some future infrastructure scenarios. We find that in our future climate scenario, the variability of energy drought severity increases, which has implications for sizing energy storage necessary for mitigating drought events. We also examine the spatial patterns of compound VRE drought events that effect multiple regions of the grid simultaneously. These co-occurring events have distinct spatial patterns depending on the season. We observed overall fewer connected events in the future with the combined effect of potential climate and infrastructure changes, although in the fall we observe a climate-induced shift toward events which impact more regions simultaneously.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024EF005313",
+      "date_added": "2025-06-12",
+      "id": "4d66e45f7fe5bcac04e4ffdefcd4a478",
+      "topic": [
+        "findings"
+      ]
+    },
+    {
+      "title": "Developing reservoir drought index and conducting copula-based frequency analysis for Lake Urmia basin in Iran",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Sadeghfam"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Farmani"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Mirabbasi"
+        }
+      ],
+      "journal": "Journal of Hydrology: Regional Studies",
+      "citations": 0,
+      "abstract": "Study region This study investigates the hydrological drought applied to five reservoirs in the Lake Urmia basin in Iran, a region suffering from unsustainable water resource management. Study focus The study develops the Standardized Reservoir Index (SRI) for analyzing reservoir droughts using the standardization technique. Also, the copula analysis was conducted to calculate joint probabilities and return periods of drought characteristics, i.e., duration and severity. The Standardized Precipitation Index (SPI) and SRI time series were analyzed with the Sustainability Index (SI) to capture the anthropogenic impact on drought exacerbation. New hydrological insights for the region The results reveal a 7- to 9-month lag time to propagate from meteorological drought (SPI) to hydrological drought (SRI). A comparison of SPI and SRI shows a significant SI decrease between 2 % and 13 %, highlighting anthropogenic impacts on drought exacerbation. Examination of the precipitation trend using the modified Mann-Kendall test also shows an insignificant trend at the 5 % significance level. The copulas were fitted with high accuracy, with Nash Sutcliffe efficiency values between 0.9 and 1, and root mean square error below 0.16. The results indicate that, from the perspective of the OR state, exacerbated hydrological droughts are detectable in the investigated reservoirs. The average probability of occurrence was 42 % for meteorological droughts and 46 % for hydrological droughts, for different severity and duration values.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214581825003015",
+      "date_added": "2025-06-12",
+      "id": "164f228f2f1b16bd7308c0211c921692",
+      "topic": [
+        "copula"
       ]
     }
   ]
