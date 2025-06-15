@@ -7143,6 +7143,170 @@
       "topic": [
         "copula"
       ]
+    },
+    {
+      "title": "Advancing evapotranspiration modeling with optimized soil and canopy resistance combinations",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yin"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Tang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Liang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Winkler"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Jiang"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Dual-source remotely sensed evapotranspiration (ET) models require accurate separation of soil evaporation (Es), plant transpiration (Ec), and precipitation interception (Ei) based on soil and canopy resistances. Despite the availability of several ET products and algorithms, comprehensive evaluations of resistance configurations remain scarce. This study systematically evaluates various combinations of five soil resistance methods, eight canopy resistance methods, and two precipitation interception algorithms within the Shuttleworth-Wallace (S-W) framework. Using eddy covariance data from 119 FLUXNET sites and the latest ET products, we find that the Ball-Berry-Leuning method, unified stomatal method, and RL empirical method provide comparable and top-ranked performance across plant functional types (PFTs) and climate zones, with only a single free parameter calibrated by genetic algorithm. The power function method (S2), sensitive to soil surface water content proves to be the most effective for modeling Es, particularly in water-limited regions. The performance of best-performing but unexplored combinations (S2-C1, S2-C2, S2-C5) is consistent with PML-V2, GLEAM4, and underlying water use efficiency model, explaining 56% of the variation in daily ET and achieving an root mean square error as low as 1.02 mm day −1 . However, these models show reduced accuracy in arid zones, where prolonged water stress led to a 38% reduction in R 2 . This highlights the need for a more accurate representation of soil moisture stress in arid regions, which is often overlooked in existing models. Our study offers robust, parsimonious, and broadly applicable models for ET estimation across PFTs and climate zones.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024WR039252",
+      "date_added": "2025-06-14",
+      "id": "f584efcf97d4d095ecca77dac4c050ed",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Global evaluation of the wettest days contributing to 50% of annual precipitation (WD50)",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "BD",
+          "last_name": "Goffin"
+        },
+        {
+          "first_name": "V",
+          "last_name": "Lakshmi"
+        }
+      ],
+      "journal": "Geophysical Research Letters",
+      "citations": 0,
+      "abstract": "Amid intensifying global warming, precipitation regimes become increasingly concentrated on the wettest days. Yet, there remains limited research at the global scale analyzing how half of the annual precipitation falls predominantly on these days. Therefore, we leveraged five of the most notable satellite precipitation products (SPPs) to map the number of wettest days that account for 50% of annual precipitation (WD50) across all oceans and landmasses. We found substantial differences in WD50 between SPPs and further evaluated their ability to capture spatial patterns accurately. Out of the SPPs studied, data from the Integrated Multi-satellite Retrievals for Global Precipitation Measurement aligned most closely with rain-gauge measurements. This research also revealed substantial variability in WD50 across reference climate regions, shedding new lights onto the global distribution of WD50-a variable particularly relevant for water resources planning as precipitation regimes are projected to become more unevenly distributed in the future.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025GL114859",
+      "date_added": "2025-06-14",
+      "id": "955489d5acbac513acc0e7c9ae246a39",
+      "topic": [
+        "findings"
+      ]
+    },
+    {
+      "title": "Recent widespread deceleration of global surface urban heat islands unveiled by satellites",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Zhan"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "TC",
+          "last_name": "Chakraborty"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Hu"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Liao"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Du"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Geophysical Research Letters",
+      "citations": 0,
+      "abstract": "Tracking the temporal dynamics of urban heat island (UHI) is critical for urban heat adaptation and mitigation strategies. However, whether UHI trends have shifted recently and their underlying drivers remain unknown. Here we investigate the variabilities in surface UHI trends and their associated determinants in 2,104 cities worldwide from 2000 to 2022. Our findings reveal that approximately half of the world's cities have experienced notable shifts in surface UHI trends, predominantly characterized by UHI deceleration. These shifts can be primarily attributed to alterations in vegetation trends during the day and to modifications in surface albedo and local warming trends at night. Our study challenges the conventional linear models commonly employed to estimate surface UHI trends, suggesting potential biases in such estimates. Our findings underscore the need for nuanced policies to curtail UHI growth by considering changes in urban underlying surfaces and background climate, particularly from a nonlinear perspective.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024GL112711",
+      "date_added": "2025-06-14",
+      "id": "7090658101e1819822e98d5baf96aff0",
+      "topic": [
+        "urban"
+      ]
+    },
+    {
+      "title": "Impact of wintertime total column ozone on snow cover over the Tibetan Plateau",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Duan"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Tian"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Hu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "Journal of Climate",
+      "citations": 0,
+      "abstract": "Using various observations and a chemistry-climate model, this study investigates the impact of wintertime total column ozone (TCO) on snow cover over the Tibetan Plateau (TP). The results indicate that during anomalously high TP TCO events, the snow cover on the TP is anomalously high, and vice versa. Further analysis reveals that high TP TCO leads to a warmer stratosphere and a colder troposphere. The stratospheric warming induces lower geopotential height in the upper troposphere and lower stratosphere (UTLS) over the TP. The cyclonic circulation in the UTLS associated with this low-pressure leads to high-potential vorticity (PV) stratospheric air being transported to the western TP. To maintain the conservation of PV, cyclonic vorticity forms above the western TP in the UTLS and can extend into the troposphere, then transporting water vapor from the Bay of Bengal and the Arabian Sea to the TP. The southerlies associated with this cyclonic circulation and positive vertical gradient of zonal wind in the troposphere induce ascending motions over the TP. Increased water vapor and ascending motions lead to more snowfall and cloud formation. The increased cloud enhances the cooling of the TP, leading to condensation process in the southern boundary of the TP and lower geopotential height in the UTLS over the TP. This decreased geopotential height strengthens the snowfall process. The increased snow cover in turn causes a cooling of the TP surface. This positive feedback further amplifies the snow cover variation. Model simulations suggest that a change of 10 DU in TCO can result in a 1.7% change in snow cover.",
+      "url": "https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-24-0610.1/JCLI-D-24-0610.1.xml",
+      "date_added": "2025-06-14",
+      "id": "16a648519706c6e301e08fa10a01b37d",
+      "topic": [
+        "findings"
+      ]
     }
   ]
 }

@@ -246,6 +246,11 @@ commit_and_push_repo() {
     local branch="$4"
     local default_commit_msg="$5"
 
+    # Add today's date to the default commit message
+    local today
+    today=$(date +"%Y-%m-%d")
+    default_commit_msg="${default_commit_msg} [${today}]"    
+
     print_header "Syncing ${repo_name} with GitHub"
     cd "${repo_dir}" || return 1
 
