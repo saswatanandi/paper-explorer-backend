@@ -7307,6 +7307,130 @@
       "topic": [
         "findings"
       ]
+    },
+    {
+      "title": "Machine-learning-based reconstruction of long-term global terrestrial water storage anomalies from observed, satellite and land-surface model data",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "N",
+          "last_name": "Mandal"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Das"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Chanda"
+        }
+      ],
+      "journal": "Earth System Science Data",
+      "citations": 0,
+      "abstract": "Understanding long-term terrestrial water storage (TWS) variations is vital for investigating hydrological extreme events, managing water resources and assessing climate change impacts. However, the limited data duration from the Gravity Recovery and Climate Experiment (GRACE) and its follow-on mission (GRACE-FO) poses challenges for comprehensive long-term analysis. In this study, we reconstruct TWS anomalies (TWSAs) for the period from January 1960 to December 2022, thereby filling data gaps between the GRACE and GRACE-FO missions and generating a complete dataset for the pre-GRACE era. The workflow involves identifying optimal predictors from land surface model (LSM) outputs, meteorological variables and climatic indices using a novel Bayesian network (BN) technique for raster-based TWSA simulations. Climate indices, like the Oceanic Niño Index and Dipole Mode Index, are selected as optimal predictors for a large number of grid cells globally, along with TWSAs from LSM outputs. The most effective machine learning (ML) algorithms among convolutional neural network (CNN), support vector regression (SVR), extra trees regressor (ETR) and stacking ensemble regression (SER) models are evaluated at each grid cell to achieve optimal reproducibility. Globally, ETR performs best for most of the grid cells; this is also noticed at the river basin scale, particularly for the Ganga-Brahmaputra-Meghna, Godavari, Krishna, Limpopo and Nile river basins. The simulated TWSAs (BNML_TWSA) outperformed the TWSAs from LSM outputs when evaluated against GRACE datasets. Improvements are particularly noted in river basins such as the Godavari, Krishna, Danube and Amazon, with median correlation coefficient, Nash-Sutcliffe efficiency, and RMSE values for all grid cells in the Godavari Basin, India, being 0.927, 0.839 and 63.7 mm, respectively. A comparison with TWSAs reconstructed in recent studies indicates that the proposed BNML_TWSA outperforms them globally as well as for all of the 11 major river basins examined. Furthermore, the uncertainty of BNML_TWSA is assessed for each grid cell in terms of the standard error. Results show smaller standard error magnitudes in grid cells in arid regions compared to other regions. The presented gridded dataset is published at https://doi.org/10.6084/m9.figshare.25376695 , featuring a spatial resolution of 0.50° 0.50° and offering global coverage.",
+      "url": "https://essd.copernicus.org/articles/17/2575/2025/essd-17-2575-2025.html",
+      "date_added": "2025-06-20",
+      "id": "6b6f0511f099308726c0baf5ce0553b3",
+      "topic": [
+        "data_sources"
+      ]
+    },
+    {
+      "title": "Global heatwaves dynamics under climate change scenarios: Multidimensional Drivers and Cascading Impacts",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "OE",
+          "last_name": "Adeyeri"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "CE",
+          "last_name": "Ndehedehe"
+        },
+        {
+          "first_name": "KA",
+          "last_name": "Ishola"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Laux"
+        },
+        {
+          "first_name": "AA",
+          "last_name": "Akinsanola"
+        },
+        {
+          "first_name": "MDB",
+          "last_name": "Dieng"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 1,
+      "abstract": "Heatwaves are intensifying globally due to climate change. However, the contributions of large-scale atmospheric processes and land-atmosphere interactions to heatwave dynamics and their cascading impacts on water resources and human exposure are not fully understood. This study investigates heatwave frequency (HWF) across 50 global regions, spanning historical (1979-2014) and future periods (2025-2060 and 2065-2100) under SSP 370 (regional rivalry) and SSP 585 (fossil-fuel development) scenarios. Using bias-corrected general circulation model simulations and reconstructed terrestrial water storage (TWS) data, we quantify the contributions of atmospheric processes to HWF modulation and assess the impacts of HWF and temperature changes on water storage deficits using TWS drought severity index (TWS-DSI) and standardized temperature index (STI). We show that Western Central Asia exhibits moisture divergence driven by significant positive thermodynamic effects, which correlates with increased HWF. In West Africa, moisture flux divergence at 1,000 hPa accounts for 45% of HWF variability, while relative humidity at 300 hPa explains 58% of HWF changes in East Asia. HWF and STI strongly influence TWS-DSI, with high STI intensifying TWS deficits. Concurrent high HWF and wet conditions in Western North America are linked to atmospheric blocking and hydrological persistence, highlighting complex illative mechanisms. We project population exposure to HWF to rise tenfold globally by 2100, with regions such as South Asia experiencing over 100% increases due to combined climate and population effects. These findings emphasize the need for tailored adaptation strategies to mitigate heatwave impacts and ensure resilience in a warming world.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006486",
+      "date_added": "2025-06-20",
+      "id": "102231c91b6ae6abb8cff010aa04ca58",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Decreasing frequency of low and moderate fire weather days may be contributing to large wildfire occurrence in the northern Sierra Nevada",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "BM",
+          "last_name": "Collins"
+        }
+      ],
+      "journal": "Agricultural and Forest Meteorology",
+      "citations": 0,
+      "abstract": "Previous analyses identified large-scale climatic patterns contributing to greater fuel aridity as drivers of recent dramatic increases in wildfire activity throughout California. This study revisits an approach to investigate more local fire weather patterns in the northern Sierra Nevada; a region within California that has experienced exceptionally high wildfire activity recently. The annual percentages of fire season days above 90th and 95th percentile Energy Release Component (ERC) values were very low prior to 1994 (Fig. 3). Since 1994, years with noticeable percentages of exceedances (>20 %) occurred more frequently. However, neither the highest nor second highest annual exceedances occurred after 2012. Starting in the late 1990s and early 2000s there was a decreasing trend in number of fire season days below the 80th and 50th percentile ERC thresholds. Linear trend lines indicated strongly negative declines throughout the study period. The most likely impact of these declines is on the effectiveness of fire suppression, which rely on low to moderate fire weather to “gain ground” on containment. That said, even the combination of both fire weather conditions (greater high fire weather days and lesser low fire weather days) provides an imperfect explanation for the recent increases in burned area. Additional influences, such as dense forest structures, greater fuel continuity, and ignitions (both number and timing of) are likely contributing as well.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168192325003089",
+      "date_added": "2025-06-20",
+      "id": "b4d877321881f38a05707007407322a6",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "Warming temperatures and decreasing soil moisture are increasing tree mortality in mature Douglas-fir forests of western Oregon, USA",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "SP",
+          "last_name": "Cline"
+        },
+        {
+          "first_name": "EH",
+          "last_name": "Lee"
+        },
+        {
+          "first_name": "RS",
+          "last_name": "Waschmann"
+        },
+        {
+          "first_name": "MA",
+          "last_name": "Bollman"
+        },
+        {
+          "first_name": "PA",
+          "last_name": "Beedlow"
+        }
+      ],
+      "journal": "Agricultural and Forest Meteorology",
+      "citations": 0,
+      "abstract": "Temporal patterns of tree mortality were determined for naturally regenerated Douglas-fir-dominated ( Pseudotsuga menziesii (Mirb.) Franco) conifer stands, aged from about 125 to 500+ years, along an elevational gradient in western Oregon, USA based on periodic mortality surveys. Tree mortality increased from 2000 to 2023, a prolonged period of drought and warming. Soil moisture, air temperature, and vapor pressure deficit (VPD) were the key climatic predictors of tree mortality for all sites, species, and canopy classes based on logistic regression modeling. Increasing trends in annual probability of mortality were associated with decreasing summer available soil water and increasing summer temperature and associated VPD. These trends were most pronounced at mid-elevation (∼600 m) sites west of the Cascade crest, and they were higher for small diameter trees in suppressed and intermediate canopy class positions compared with co-dominant and dominant trees for all sites and species. Competition exacerbated the climate effects on mortality of small trees at drier sites. Insect-induced mortality was evident in large Douglas-fir following prolonged drought and high summer temperatures. In recent decades, long-term soil drying associated with warming temperatures appears to underlie tree mortality in these mesic forests of western Oregon.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168192325003016",
+      "date_added": "2025-06-20",
+      "id": "fcaf74343e679ec4e3f3cc4d249d71f0",
+      "topic": [
+        "forest"
+      ]
     }
   ]
 }
