@@ -7431,6 +7431,227 @@
       "topic": [
         "forest"
       ]
+    },
+    {
+      "title": "Increasing cumulative impacts of droughts under climate change does not alter the ecosystem resilience in India",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "V",
+          "last_name": "Bejagam"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Sharma"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Drought significantly impacts plant carbon uptake, a critical process for regulating atmospheric CO 2 . With the intensification of droughts under climate change, understanding ecosystem responses to these events is essential. In this study, we analyzed the impacts of droughts on Net Primary Productivity (NPP) in India over the 21st century. We tested two hypotheses: (a) increasing drought intensity and frequency will exacerbate NPP reductions, and (b) climate warming will diminish ecosystem resilience, leading to greater NPP reductions per drought event. To evaluate ecosystem responses, we employed a Multi-Dimensional Resilience Index (MDRI), which integrates resistance and recovery time to quantify resilience. Our analysis revealed a substantial increase in extreme and moderate droughts, while mild droughts remained stable. Extreme droughts were projected to cause NPP reductions three times greater under the SSP2-4.5 scenario and six times greater under the SSP5-8.5 scenario compared to the baseline period (1850-2014). Ecosystems in the Western Ghats and lower Himalayan regions demonstrated moderate resilience due to prolonged recovery times and moderate resistance. Conversely, ecosystems in Northeastern India exhibited high resilience, characterized by strong resistance and shorter recovery periods. Interestingly, while resistance exhibited an increasing trend, likely influenced by carbon fertilization, recovery times showed a declining trend, potentially linked to rising temperatures. These findings do not support the second hypothesis, as no significant changes in overall ecosystem resilience were observed due to compensatory effects between resistance and recovery. This study can inform conservation strategies aimed at mitigating the adverse impacts of drought on carbon cycling.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024EF005888",
+      "date_added": "2025-06-23",
+      "id": "a50f04dd6375bceabc76d333179d4de0",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Remote Sensing-Based Assessment of Carbon and Water Ecosystem Services in Response to Climate and Vegetation Cover Changes Across Global Major River Basins",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Jin"
+        }
+      ],
+      "journal": "Land Degradation & Development",
+      "citations": 0,
+      "abstract": "Improving our understanding of terrestrial carbon-water coupling processes at the basin scale is crucial for assessing the impacts of global change on river basin's ecosystem services. Supported by remote sensing technology, previous studies have investigated the variability of carbon sequestration or water yield of a basin separately. However, the integration of these two components in an assessment system has rarely been considered, which may lead to partial appraisals of eco-hydrological services. To address this knowledge gap, we have developed a new remotely sensed index, the Carbon-Water Efficiency Index (CWEI), which is derived as the product of the normalized precipitation use efficiency (PUE) and water yield efficiency (WYE) during a specified period for a given basin, to quantify the coupling carbon-water ecosystem service. In this study, the spatial and temporal variabilities of CWEI were investigated using satellite-based products across the 38 major river basins from 1982 to 2016. Furthermore, the response patterns of CWEI to its components were explored, and the contributions of the three variables (i.e., temperature, precipitation, vegetation coverage) on changes in CWEI were quantified for each of the basins. The results demonstrated that the CWEI exhibited an increase in 31.6% of the world's major river basins, of which 83.3% with an increasing CWEI demonstrated a response pattern of increasing PUE and decreasing WYE. Furthermore, temperature was identified as the primary contributor to CWEI in 50% of the basins. It is noteworthy that green hotspot basins, where afforestation projects were underway, exhibited enhancements in reduced water yield pressure and demonstrable benefits to local ecohydrology. The proposed CWEI provides a new framework for comprehending the sustainable development of river basins worldwide.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ldr.70025",
+      "date_added": "2025-06-23",
+      "id": "7f120d51debfdc9240b3a62709afcbd7",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Green and blue water response to drought modulated by background climate and vegetation",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Xiao"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Hong"
+        }
+      ],
+      "journal": "Communications Earth & Environment",
+      "citations": 0,
+      "abstract": "Drought affects the health of natural and socio-ecological systems by altering green water evapotranspiration and blue water runoff. However, the global patterns of green and blue water responses to drought remain unclear. Here we quantified drought using root-zone soil moisture reductions and examined the resulting water deficits across different climatic and vegetation conditions. We show that drought generally reduces both evapotranspiration and runoff globally, though with pronounced spatiotemporal variability. In high-latitude humid regions, drought can initially enhance evapotranspiration, whereas runoff responds more rapidly and declines consistently throughout drought periods. Furthermore, drought reduces runoff more than evapotranspiration in humid regions, but the reverse pattern occurs in arid regions. Compared to other vegetation types, forests exhibit smaller drought-induced reductions in evapotranspiration but greater reductions in runoff. These results underscore the importance of considering background climate and vegetation when assessing drought’s hydrological impacts, with important implications for ecohydrological understanding and water resource management.",
+      "url": "https://www.nature.com/articles/s43247-025-02476-x",
+      "date_added": "2025-06-23",
+      "id": "58d4ad10cf0d7d655e4afb6a90f86275",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Analysis of concurrent extreme precipitation and water vapor events on the Tibetan Plateau: copula-based probability modeling and atmospheric teleconnection",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "P",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Qiu"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Gao"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Li"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Extreme precipitation events represent critical manifestations of climate variability and are profoundly influenced by intense water vapor transport, a key source and driver of these phenomena. The Tibetan Plateau (TP), often termed the “Third Pole,” serves as a crucial water source for Asia’s major rivers and is highly sensitive to climatic fluctuations. This study investigates the spatiotemporal characteristics and joint probability of concurrent extreme precipitation and water vapor transport events over the TP from 1979 to 2018. Utilizing copula functions, we estimate the joint and conditional probabilities of extreme precipitation and integrated vapor transport (IVT). Correlations between major climate indicators and these extreme events were analyzed, including the Indian Ocean Dipole (IOD), Nino 3.4 SST Index (Nino), and the Thermal Contrast Index (TCI) between the TP and the Indian Ocean, and simulations with the Hybrid Single-Particle Lagrangian Integrated Trajectory (HYSPLIT) model revealed water vapor pathways for 103 extreme events. The results indicate: (1) Extreme precipitation and water vapor flux indices exhibit spatial gradients and overall upward trends, with high values concentrated in the southeastern TP. (2) The central and northeastern regions of the TP exhibit strong coupling. Conditional probabilities highlight significantly higher risks of extreme precipitation in the western and central TP under specific IVT thresholds. (3) Climate indices demonstrate regional variability in their influence, with IOD and Nino generally suppressing water vapor transport, while TCI enhances it. (4) Extreme event water vapor sources exhibit spatial heterogeneity, driven by large-scale circulations such as westerlies and monsoons. These findings provide insights into the mechanisms driving extreme weather in complex terrains, offering a framework for improved risk assessment and climate adaptation strategies.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425010339",
+      "date_added": "2025-06-23",
+      "id": "9069d3092aafba4ba64c7cc53589df54",
+      "topic": [
+        "copula"
+      ]
+    },
+    {
+      "title": "What are the impacts of land use change and cover-management factors on soil erosion modelling studies?",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "M",
+          "last_name": "Kijowska-Strugała"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Demczuk"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Bucała-Hrabia"
+        }
+      ],
+      "journal": "Catena",
+      "citations": 0,
+      "abstract": "Soil erosion is a major environmental problem with significant impacts on land degradation. This study’s main objective was to determine the effect of different cover-management factor ( C -factor) values on soil erosion estimates with varying proportions of land use types. This effect was demonstrated in a mountain catchment, located in the Polish Carpathians, over two time periods (1977 and 2019), reflecting differing land use and land cover (LULC) influenced by political and socioeconomic changes, particularly after the collapse of communism. The LULC changes in the studied catchment, including an increase in forest area and a decrease in cultivated land, represent broader regional trends within the Carpathian Mountains. The Revised Universal Soil Erosion Equation was used to estimate soil erosion. The model was validated using 30 years of stationary measurements from experimental plots on Carpathian slopes. This study investigated four different C -factor variants, including values derived from previous remote sensing-based European studies and local long-term field data, to comprehensively assess their impact on soil erosion estimates. This study’s results show how the proportion of each LULC type changes the estimated soil erosion values at different C -factors. The average differences in soil erosion between the four C -factor variants were up to 41 % in 1977 and over 96 % in 2019. These contrasts are due to significant differences in the C -factor in all variants, especially for grassland, forests and cultivated land, the areas of which changed significantly over the studied period. The results of this comparison should be considered in soil erosion analyses and guide the selection of appropriate C -factor values, especially in areas where detailed data are unavailable. Overall, this analysis showed that C -factor selection is crucial for determining soil erosion values and that land use structure plays an important role in soil erosion dynamics and sustainable development. Based on this study’s results, specific recommendations for land use management and conservation strategies are proposed. To mitigate soil erosion, afforestation efforts should be prioritised on steeper slopes, while permanent grassland cover should be maintained in areas prone to surface runoff.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0341816225005429",
+      "date_added": "2025-06-23",
+      "id": "b77221038c02e046c1ab6512e3b540e7",
+      "topic": [
+        "soil-erosion"
+      ]
+    },
+    {
+      "title": "A physics-constrained deep learning framework for actual evapotranspiration estimation using ground station observations and remote sensing data",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Hu"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Bai"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Cao"
+        },
+        {
+          "first_name": "O",
+          "last_name": "Hellwich"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Bao"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Chen"
+        }
+      ],
+      "journal": "Environmental Modelling & Software",
+      "citations": 0,
+      "abstract": "Evapotranspiration (ET) is a key process in the water cycle. While machine learning-based methods have been increasingly applied to ET estimation, they typically neglect physical mechanisms and ecological impacts. This study proposes a physics-constrained hybrid model (TST-PHY) that incorporates Penman-Monteith-derived physical knowledge into the time series transformer (TST). The framework integrates Bayesian optimization to automatically determine optimal weights for physical mechanisms within the data-driven modeling workflow. The arid and semi-arid regions of Northern China (ASNC) were chosen as the study area, and our results show that the proposed framework optimally balances estimation error and the physical law, with value and trend constraint weights of 0.26 and 0.41, respectively. Moreover, proper physical constraints can improve the prediction accuracy, generalization, and physical consistency of TST-PHY at various spatiotemporal scales. In conclusion, this study establishes a novel paradigm for evapotranspiration estimation in data-sparse regions through the synergistic integration of data-driven and knowledge-based models.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1364815225002695",
+      "date_added": "2025-06-23",
+      "id": "24aed05eb07f516f594e98c02b316879",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "An analytical approach for quantifying the role of vapor pressure deficit in soil moisture depletion during flash droughts",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "V",
+          "last_name": "Singh"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Apurv"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Several studies have attributed the rapid drying during flash droughts to vapor pressure deficit (VPD) by using VPD anomaly based metrics. In this study, we use an analytical approach to investigate the role of VPD in the depletion of soil moisture through evapotranspiration (ET) and evaluate if the anomalies reflect its actual contribution toward drying. We model the energy and water balance of the land and lower atmosphere using a simplified slab model and use the energy and water balance equations of the model to decompose the daily changes in soil moisture during flash droughts into those caused by external forcings such as precipitation, wind and radiation on a day and the system response driven by the initial conditions of ground temperature, air temperature, soil moisture and specific humidity on the day. We apply this approach to investigate the role of VPD in ET-driven soil moisture depletion in 10 major watersheds of India. Contrary to previous studies, we find negligible contribution of VPD toward soil moisture depletion in humid regions and high contribution in arid regions. In arid regions, even low anomalies of VPD can contribute significantly to soil moisture depletion due to the large magnitude of VPD, whereas in humid regions even large VPD anomalies do not lead to significant impact on soil moisture depletion. Our results show that the influence of VPD is underestimated in arid regions and overestimated in humid regions in previous studies which have used VPD anomaly based metrics for quantifying its effect on flash droughts.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024WR038995",
+      "date_added": "2025-06-23",
+      "id": "1f5feec95eaa72656a19971db249e52c",
+      "topic": [
+        "drought"
+      ]
     }
   ]
 }
