@@ -7652,6 +7652,396 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "Testing new potential evaporation formulations for identifying soil moisture deficiency in agricultural areas under global warming",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "D",
+          "last_name": "Kim"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Choi"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Kang"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Anthropogenic global warming shortens the residence time of soil moisture and raises atmospheric evaporative demand (E p ), posing significant threats to agricultural productivity. Conventional E p estimates-such as the reference evapotranspiration (E ref ) derived from the Penman-Monteith equation-assume fixed vegetation properties, thereby neglecting dynamic physiological responses to elevated CO 2 (eCO 2 ) and vapor pressure deficit (VPD). In this work, we extended recent E p formulations by transitioning from a big-leaf to a two-source framework that separately represents vegetation and bare soil, explicitly capturing the effects of Earth’s greening and dynamic stomatal responses to eCO 2 and VPD. Using global datasets, we generated ratios of actual evapotranspiration (E) to E p for historical (1985-2020) and future (2021-2100) periods under multiple CO 2 emission scenarios. The E/E p ratios were converted into the Evaporative Stress Index (ESI) and compared with the standardized soil moisture index (SSI). Results showed that, in agricultural regions, the refined E p formulations exhibited gentler upward trends compared to E ref -primarily due to the moderating influence of increased stomatal resistance (r s ) under rising VPD. Future projections further suggested that r s responses to eCO 2 and VPD might partially offset increases in E p , implying that future plant water stress may be less severe than conventional indices predicted. Nonetheless, persistent discrepancies between ESI and SSI projections underscore the critical role of non-meteorological drivers in shaping future evaporative demand and highlight the need for further research to resolve the remaining uncertainties.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425010984",
+      "date_added": "2025-06-28",
+      "id": "3ba4836f6a9db052ec825d353a376d2a",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Spatiotemporal patterns of drought migration across the contiguous United States",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "A",
+          "last_name": "Sabut"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Mishra"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Entekhabi"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Drought phenomena exhibit three-dimensional spatiotemporal propagation patterns, often impacting vast regions and lasting for extended periods. Quantifying these spatial and temporal dynamics is essential for understanding their progression and underlying causes. However, there is a lack of studies investigating the spatiotemporal progression and migration of major drought events. In this study, we employed the Spatio-temporal Density-Based Spatial Clustering of Applications with Noise (ST-DBSCAN) clustering method to identify significant drought events across the Contiguous United States (CONUS) from 1901 to 2022. This algorithm effectively identifies clusters of arbitrary shapes within a specified three-dimensional space. By tracking the centroids of these drought clusters, we analyzed the progressive development and migration pathways of these events. Our findings indicate that the Great Plains region acts as a key migration corridor, experiencing a higher frequency of drought events compared to other areas in the CONUS. We observed that droughts can travel hundreds of kilometers, gradually intensifying before eventually dissipating. Moreover, a significant linear relationship exists between migration distances and the duration of droughts. Moreover, over 77% of the analyzed drought events exhibited notable spatial shifts, suggesting that the majority of these events migrated across different regions instead of staying confined to a single area. Furthermore, we identified two primary migration patterns for these drought clusters: eastward and westward movements. These findings offer crucial spatiotemporal frameworks for studying the migration process and provide valuable insights for predicting drought occurrences.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024WR039855",
+      "date_added": "2025-06-28",
+      "id": "5c5de23adfa7963984799ec685db5dd5",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Modelling the impact of agriculture expansion on water scarcity in Xinjiang, China",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Shen"
+        }
+      ],
+      "journal": "Ecological Indicators",
+      "citations": 0,
+      "abstract": "Quantitative evaluation of changes in water supply and demand, water scarcity, and their influencing factors is essential for the sustainable management of regional water resources, food production, and ecological health. In this study, a distributed climate-water-ecology-economy (CWEE) comprehensive water demand model was established to estimate the spatial and temporal changes in socio-economic and ecological water demand. Annual and seasonal changes in water scarcity levels were spatially analyzed in Xinjiang. Subsequently, the logarithmic mean divisia index (LMDI) method was employed to decompose the contributions of three major impact factors to changes in water scarcity. The results indicated that the socio-economic water demand in Xinjiang increased significantly, with a 110% increase (1989-2017). The water scarcity index (WSI) showed an increasing trend in fluctuation, which was between 0.29 and 0.42 with a predominant moderate water scarcity before 2007 and higher than 0.5 with severe water scarcity after 2007. Monthly water scarcity was prominent in some basins. The improvement in water use efficiency helped to reduce socio-economic water demand. However, the sharp expansion of the planting scale and changes in the crop structure have led to a significant increase in socio-economic water demand (with agricultural water demand contributing over 93%), emerging as the primary factors exacerbating water scarcity. Therefore, controlling the crop planting scale, reasonably arranging the crop structure, and developing agricultural water-saving technologies are the main measures to relieve water scarcity and realize sustainable development in Xinjiang.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1470160X25007095",
+      "date_added": "2025-06-28",
+      "id": "4ae73275855a0ca604b09d81ab746e12",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Global overlooked multidimensional water scarcity",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Fu"
+        },
+        {
+          "first_name": "MTH van",
+          "last_name": "Vliet"
+        },
+        {
+          "first_name": "KF",
+          "last_name": "Davis"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Ciais"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Bao"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Bai"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Du"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Kang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Yin"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Fang"
+        }
+      ],
+      "journal": "Proceedings of the National Academy of Sciences",
+      "citations": 0,
+      "abstract": "Freshwater resources are fundamental to supporting humanity, and measures of water scarcity have been critical for identifying where water requirements and water availability are imbalanced. Existing water scarcity metrics typically account for blue water withdrawals (i.e., from surface-/groundwater), while the contribution of green water (i.e., soil moisture) and water quality-dimensions with important implications for multiple societal sectors-to water scarcity remains unclear. Here, we introduce the concept of multidimensional water scarcity that explicitly assesses all three of these dimensions of water scarcity and evaluates their individual and combined effects. We find that 22 to 26% of the global land area and 58 to 64% of the global population are exposed to some form of water scarcity annually, with multidimensional (i.e., blue, green, and quality) water scarcity particularly high in India, China, and Pakistan. Examining seasonal water scarcity, we estimate that 5.9 billion people (or 80% of the world’s population in 2015) were exposed to at least one dimension of water scarcity for at least 1 mo per year and that 1-in-10 people (10%) were exposed to multidimensional water scarcity at least 1 mo per year. Our findings demonstrate that the challenges of water scarcity are far more widespread than previously understood. As such, our assessment provides a more holistic view of global water scarcity issues and points to overlooked scarcity where action needs to bring human pressure on freshwater resources into balance with water quantity and quality.",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2413541122",
+      "date_added": "2025-06-28",
+      "id": "3ce3354f972cba1ee50317926b979042",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Spatiotemporal Analysis of Atmospheric Aerosols in African Environments Using MERRA-2 Data (1980-2024): Impacts on Climate Extremes",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "DO",
+          "last_name": "Omokpariola"
+        }
+      ],
+      "journal": "Iscience",
+      "citations": 0,
+      "abstract": "This study investigates atmospheric aerosol trends and their climatic impacts across Africa from 1980 to 2024 using MERRA-2 reanalysis data. It reveals rising concentrations of organic and black carbon, dust, and PM 2 . 5 , largely driven by industrialization and urbanization. These aerosols influence climate extremes by altering radiation balance and cloud dynamics, contributing to increased heatwave frequency, temperature rise, and precipitation variability. The study employs spatiotemporal analysis and predictive modeling to assess aerosol-climate interactions and their implications for human health, agriculture, and water resources. Findings highlight consistent warming, worsening drought conditions, and elevated public health risks, particularly in urban and arid regions. This work underscores the need for targeted adaptation strategies and air quality management to mitigate the socio-environmental impacts of climate change in Africa.",
+      "url": "https://www.cell.com/iscience/fulltext/S2589-0042(25)01256-8",
+      "date_added": "2025-06-28",
+      "id": "8d8852704d66bc5a7ce3f9bf97253083",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Fuelling future fires: predicting variation in fuel hazard and availability across an environmental gradient",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "SC",
+          "last_name": "McColl-Gausden"
+        },
+        {
+          "first_name": "LT",
+          "last_name": "Bennett"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Clarke"
+        },
+        {
+          "first_name": "TD",
+          "last_name": "Penman"
+        }
+      ],
+      "journal": "International Journal of Wildland Fire",
+      "citations": 0,
+      "abstract": "Background Fuel is a key driver of wildfire patterns but the impacts of changing climate on fuel hazard and availability to burn is often poorly understood. Aims To examine future landscape patterns in fuel hazard and availability across a broad climate- to fuel-limited gradient of native vegetation. Methods We used six future climate projections to predict fuel hazard (proxy for fuel load and structure) and fuel availability (using vapour pressure deficit) across 11 bioregions in Victoria, Australia. We evaluated shifts in fuel hazard ratings and fuel availability between two time periods: 2020-2039 and 2080-2099. Key results The greatest shifts in fuel hazard were increases in near-surface and elevated fuel in ecosystems closer to the middle of the climate- to fuel-limited gradient. Fuel hazard was not predicted to change in the most climate-limited areas but predicted increases in vapour pressure deficit indicated more frequent availability to burn. Conclusions Global climatic change will likely shift landscape fuel patterns, and any changes will vary depending on an ecosystem’s position along fuel- to climate-limited gradients. Implications Fuel management will need to consider the risks associated shifting patterns of fuel hazard and availability with the acknowledgement that risk is changing under changing climates.",
+      "url": "https://www.publish.csiro.au/WF/WF24222",
+      "date_added": "2025-06-29",
+      "id": "493129166d5564c1e99d427a02fbba54",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "Impacts of deforestation on drought patterns across multiple time scales in Europe: Insights from LUCAS regional climate models",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Rechid"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Hoffmann"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Jach"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Warrach-Sagi"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Breil"
+        },
+        {
+          "first_name": "PA",
+          "last_name": "Mooney"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Tölle"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Land cover changes, particularly deforestation, exert significant biophysical influences on regional climates, yet their impacts on drought remain inadequately understood. This study employs seven regional climate models from the Land Use and Climate Across Scales project under the EURO-CORDEX framework to investigate deforestation’s effect on multi time scale droughts across Europe using the Standardized Precipitation Evapotranspiration Index (SPEI). Simulations contrast idealized scenarios of maximum forest cover and grassland to evaluate climatological responses. The multi-model median results reveal intensified droughts post-deforestation, especially in northern Europe for long-term droughts at the 24-month scale (SPEI24 decrease of approximately 0.5). Pronounced seasonal variability emerges: winter drying (SPEI01 reduction of ∼0.3) and summer wetting (SPEI01 increase of ∼0.25) in Scandinavia, driven largely by shifts in potential evapotranspiration rather than precipitation. Model discrepancies underscore that employing multiple models under a unified framework and protocol reduces extreme or biased outcomes in assessing multi-time scale drought responses to land cover change, compared to reliance on single-model analyses. Regional contrasts underscore heightened drought risks in water-limited Mediterranean areas compared to seasonally modulated impacts in northern Europe. These findings advocate the need for region-specific land management strategies to mitigate climate risks and inform policies addressing forest change biophysical consequences in Europe.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425011199",
+      "date_added": "2025-06-29",
+      "id": "4e6f61c7d1aaf3c88a5223864e960a56",
+      "topic": [
+        "forest"
+      ]
+    },
+    {
+      "title": "Future spatiotemporal inequality of precipitation extreme in monsoon-driven country using Gini coefficient and random forest model",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Q",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "RA",
+          "last_name": "Mishu"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Hu"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Hasan"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Kamruzzaman"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Bhattacharjee"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Rahman"
+        }
+      ],
+      "journal": "Theoretical and Applied Climatology",
+      "citations": 0,
+      "abstract": "Understanding the variability and causes of extreme precipitation events is critical for effective climate risk management and adaptation to climate change. Although previous studies rely on extreme precipitation indices, they either exceed a certain absolute threshold or are based on the chance of a given quantity occurring, ignoring the inequality of projected extreme precipitation events. To fill in the gaps, this study used a group of thirteen bias-corrected CMIP6 GCMs to predict differences in extreme precipitation levels for the near future (2021-2060) and far future (2061-2100), using two common socioeconomic pathways (SSPs): SSP2-4.5 and SSP5-8.5 compared to the current period (1985-2014). The current study aims to evaluate future spatiotemporal inequality in the MME mean of extreme rainfall indices across Bangladesh using Gini coefficients (GCs) and their plausible causes of inequality in the precipitation system. The results indicated a varying increase in precipitation inequality in the near and far future compared to the baseline. In the near future, the northern region shows a significant spike in precipitation inequality (GC= 0.24), while the far future shows a slightly reduced inequality (GC= 0.22). Importantly, far-future projections suggest more potential shifts than near-future shifts in precipitation inequality. The simple daily intensity index (SDII) shows positive correlations with sociodemographic variables such as population, male, and female (r= 0.56, p< 0.01), suggesting a socioeconomic loss in the northern region. The results of the random forest model revealed that literacy rate and labor participation are critical sociodemographic factors influencing extreme precipitation in Bangladesh. Higher geopotential heights, lessened relative humidity, and increased monsoon rainfall, all connected to a decrease in surface pressure, contribute to the precipitation system’s inequality, as demonstrated by the. ERA5 reanalysis datasets. The results of this study provide valuable insights into the spatiotemporal irregularity of precipitation extremes and may assist policymakers in managing water-related disasters.",
+      "url": "https://link.springer.com/article/10.1007/s00704-025-05616-7",
+      "date_added": "2025-06-29",
+      "id": "ddc7bdfb9ec63f1e64d7150976996076",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Network of networks: Time series clustering of AmeriFlux sites",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "DE",
+          "last_name": "Reed"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Chu"
+        },
+        {
+          "first_name": "BG",
+          "last_name": "Peter"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Abraha"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Amiro"
+        },
+        {
+          "first_name": "RG",
+          "last_name": "Anderson"
+        },
+        {
+          "first_name": "MA",
+          "last_name": "Arain"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Arruda"
+        }
+      ],
+      "journal": "Agricultural and Forest Meteorology",
+      "citations": 0,
+      "abstract": "Environmental observation networks, such as AmeriFlux, are foundational for monitoring ecosystem response to climate change, management practices, and natural disturbances; however, their effectiveness depends on their representativeness for the regions or continents. We proposed an empirical, time series approach to quantify the similarity of ecosystem fluxes across AmeriFlux sites. We extracted the diel and seasonal characteristics (i.e., amplitudes, phases) from carbon dioxide, water vapor, energy, and momentum fluxes, which reflect the effects of climate, plant phenology, and ecophysiology on the observations, and explored the potential aggregations of AmeriFlux sites through hierarchical clustering. While net radiation and temperature showed latitudinal clustering as expected, flux variables revealed a more uneven clustering with many small (number of sites  100) to intermediate (15-70) groups, highlighting the significant ecological regulations of ecosystem fluxes. Many identified unique groups were from under-sampled ecoregions and biome types of the International Geosphere-Biosphere Programme (IGBP), with distinct flux dynamics compared to the rest of the network. At the finer spatial scale, local topography, disturbance, management, edaphic, and hydrological regimes further enlarge the difference in flux dynamics within the groups. Nonetheless, our clustering approach is a data-driven method to interpret the AmeriFlux network, informing future cross-site syntheses, upscaling, and model-data benchmarking research. Finally, we highlighted the unique and underrepresented sites in the AmeriFlux network, which were found mainly in Hawaii and Latin America, mountains, and at under-sampled IGBP types (e.g., urban, open water), motivating the incorporation of new/unregistered sites from these groups.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168192325003065",
+      "date_added": "2025-06-29",
+      "id": "869c505def9777b330771036be76c718",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Compound dry-hot-fire events connecting Central and Southeastern South America: an unapparent and deadly ripple effect",
+      "year": "2024",
+      "authors": [
+        {
+          "first_name": "D Monteiro dos",
+          "last_name": "Santos"
+        },
+        {
+          "first_name": "AM de",
+          "last_name": "Oliveira"
+        },
+        {
+          "first_name": "ESF",
+          "last_name": "Duarte"
+        },
+        {
+          "first_name": "JA",
+          "last_name": "Rodrigues"
+        },
+        {
+          "first_name": "LS",
+          "last_name": "Menezes"
+        }
+      ],
+      "journal": "npj Natural Hazards",
+      "citations": 1,
+      "abstract": "South America has experienced severe compound drought-heatwaves (CDHW), exacerbating fires. Recently, the unprecedented Pantanal 2020 fire season (P20F), burning a third of the biome, resulted in well-reported local impacts on the ecosystem, economy, and health. Nevertheless, the long-range ripple effects of this event remain unknown. We investigated the P20F-related cascading hazards, integrating models, observational and satellite-based data. P20F-related smoke elevated PM 2.5 levels in the SA’s most populated area, exceeding WHO guidelines by up to 600%. Smoke-induced air pollution episodes coincided with widespread heatwaves, amplifying health risks. The mortality burden attributable to this multi-hazard short-term (14 days) exposure was estimated to be 2150 premature deaths (21% increase above expected levels). Our findings highlight that the impacts of CDHW-fires in SA are beyond the local level, implying growing challenges for risk management and public health and the need for governance based on telecoupled flows, linking different systems over multiple scales.",
+      "url": "https://www.nature.com/articles/s44304-024-00031-w",
+      "date_added": "2025-06-29",
+      "id": "c66190066b761e01966958480ef8b1e8",
+      "topic": [
+        "wildfire"
+      ]
     }
   ]
 }
