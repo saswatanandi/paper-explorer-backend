@@ -8042,6 +8042,53 @@
       "topic": [
         "wildfire"
       ]
+    },
+    {
+      "title": "Soil-moisture-atmosphere coupling hotspots and their representation in seasonal forecasts of boreal summer",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "JJ",
+          "last_name": "Day"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Vitart"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Stockdale"
+        },
+        {
+          "first_name": "P de",
+          "last_name": "Rosnay"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Ardilouze"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Peano"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Sanna"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Fröhlich"
+        }
+      ],
+      "journal": "Climate Dynamics",
+      "citations": 0,
+      "abstract": "This study examines soil-moisture-atmosphere coupling “hotspots” across the Northern Hemisphere during the summer months and evaluates their representation in seasonal forecasting systems. Using hindcasts from the Copernicus Climate Change Service (C3S) multi-model seasonal forecast ensemble, the analysis explores the predictability of land-atmosphere interactions related to soil moisture anomalies. The results indicate that regions with strong soil-moisture-atmosphere coupling, such as parts of western North America, southern Europe, and Central Asia, exhibit potential for predicting seasonal temperature and precipitation patterns a season or more in advance. However, significant uncertainty exists in estimates of the soil-moisture initial conditions and soil-moisture persistence timescales. Moreover, while some regions exhibit realistic coupled behaviour, others, including a large swathe of North America, Eastern Europe, and Northern India display exaggerated coupling, resulting in systematic errors in temperature forecasts. This study underscores the potential for predicting the atmosphere in summer based on memory of soil-moisture initial conditions whilst highlighting the need to improve the representation of soil-moisture atmosphere feedbacks in order to enhance the skill of seasonal climate predictions over land.",
+      "url": "https://link.springer.com/article/10.1007/s00382-025-07753-1",
+      "date_added": "2025-07-01",
+      "id": "ac6dfd614de5b7e18e5d24fc9127e9a1",
+      "topic": [
+        "atmosphere"
+      ]
     }
   ]
 }
