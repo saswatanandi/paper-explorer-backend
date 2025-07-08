@@ -8089,6 +8089,118 @@
       "topic": [
         "atmosphere"
       ]
+    },
+    {
+      "title": "Firestorm in California: The new reality for wildland-urban interface regions",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "A",
+          "last_name": "Amiri"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Gumiere"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Bonakdari"
+        }
+      ],
+      "journal": "Urban Climate",
+      "citations": 0,
+      "abstract": "The January 2025 wildfires in Los Angeles County, one of the most catastrophic fire seasons in recent decades, were driven by a confluence of extreme drought, high temperatures, and intense Santa Ana winds. While wildfires are a familiar threat in California, the unprecedented intensity, frequency, and scale of these blazes pushed residents and officials to confront challenges unlike anything the state had previously faced. This study examines the environmental conditions preceding the fires, focusing on multi-source satellite-derived and reanalysis datasets of soil moisture, temperature, precipitation anomalies, and wind patterns. The anomalous soil moisture depletion resulting from negative precipitation anomalies in southern California, combined with temperature anomalies exceeding +2.8 °C, created highly flammable conditions, while gusty winds exacerbated fire spread. Using the Moderate Resolution Imaging Spectroradiometer (MODIS) and the European Centre for Medium-Range Weather Forecasts Reanalysis v5 for Land (ERA5-Land) datasets, we performed spatial and temporal anomaly analyses to quantify deviations from climatological norms. Spatial analysis revealed a strong correlation between moisture deficits and fire intensity, particularly in the wildland-urban interface zones. Additionally, the research highlights how a decrease in leaf area index (LAI) and prolonged aridity have increased vegetation vulnerability, contributing to the rapid escalation of fires. The findings underscore the urgent need for integrated climate adaptation strategies and resilient land-use planning to mitigate wildfire risks in wildland-urban zones.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2212095525002445",
+      "date_added": "2025-07-07",
+      "id": "6246b1731b4181aee62f754011606a73",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "Asymmetric shifts in precipitation due to urbanization across global cities",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Xiong"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Yang"
+        }
+      ],
+      "journal": "Nature Communications",
+      "citations": 0,
+      "abstract": "Urbanization alters precipitation patterns by modifying thermal, dynamic, and chemical processes in the atmosphere. However, its effect on precipitation regimes, particularly at the sub-daily scale, is poorly understood. In this work, we use a high-resolution, spatially continuous satellite precipitation dataset to examine urbanization-induced shifts across precipitation intensities over global cities. We show that urbanization generally causes asymmetric shifts, increasing lower-intensity events and decreasing higher-intensity ones, with distinct patterns in tropical monsoon regions. These shifts, primarily driven by changes in event frequency, lead to reduced precipitation variability in urban areas, particularly in temperate cities and those exhibiting higher urbanization levels. Sub-daily analysis reveals that lower-intensity precipitation most notably increases in the early morning, while higher-intensity events decrease in the late afternoon, dampening diurnal precipitation variability. These findings offer important observational evidence of how urbanization alters precipitation regimes and highlight the need for adaptive urban water management strategies.",
+      "url": "https://www.nature.com/articles/s41467-025-61053-0",
+      "date_added": "2025-07-08",
+      "id": "e5430b747e39698eeae52d273117a05c",
+      "topic": [
+        "urban"
+      ]
+    },
+    {
+      "title": "Climate change may alter rainfall-partitioning in ways unlikely to be detected in the coming decades",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "LW",
+          "last_name": "Pamminger"
+        },
+        {
+          "first_name": "TJ",
+          "last_name": "Peterson"
+        },
+        {
+          "first_name": "MC",
+          "last_name": "Peel"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Droughts around the world have resulted in less annual streamflow relative to annual rainfall. The decrease in streamflow cannot be explained by changes in land-use, precipitation or temperature alone. Rather, the decrease in annual streamflow has been linked to changes in annual rainfall-partitioning. Climate change is predicted to induce similar, if not worse conditions than previous droughts. This could make the disproportionate shifts in annual streamflow more frequent or intense. Currently, most methods assume annual rainfall-partitioning remains constant and thus are unlikely to accurately predict how climate change could impact streamflow. Our aim is to conduct a thought-experiment to examine the various ways climate change could alter annual rainfall-partitioning and to determine what types of changes in rainfall-partitioning are likely to be statistically detectable in the coming decades. Using a synthetic streamflow model, we show how changing the rainfall-runoff intercept, rainfall-runoff slope, lag-1 autocorrelation, standard deviation per rainfall depth and, skewness per rainfall depth alters rainfall-partitioning. Of all the rainfall-partitioning changes examined only the rainfall-runoff intercept and slope are likely to be statistically detectable in the coming decades. Changes impacting lag-1 autocorrelation of annual streamflow, standard deviation per rainfall depth and skewness per rainfall depth are unlikely to be statistically detectable in the coming decades. Although being unlikely to be statistically identified, these changes still alter both the rainfall-runoff and streamflow-time relationships. Rainfall-partitioning changes that alter streamflow and are unlikely to be statistically detected in the coming decades will make prediction and allocation of water resources more challenging.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024WR039102",
+      "date_added": "2025-07-08",
+      "id": "2c351fe3de803b175d8ff998bb37be75",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Spatial analysis of propagation thresholds from meteorological to hydrological droughts in the São Francisco river catchment, Brazil",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "LV",
+          "last_name": "Magalhães"
+        },
+        {
+          "first_name": "VMB",
+          "last_name": "Raposo"
+        },
+        {
+          "first_name": "VAF",
+          "last_name": "Costa"
+        }
+      ],
+      "journal": "Natural Hazards",
+      "citations": 0,
+      "abstract": "Effective water management requires a deeper understanding of the spatiotemporal dynamics of thresholds that trigger the propagation from meteorological to hydrological droughts. In this sense, this study resorts to a probabilistic approach for assessing the likelihood of occurrence of a hydrological drought at distinct levels (moderate, severe, and extreme) conditioned to the durations and severities of meteorological droughts. The aim is to investigate how climate conditions and catchment characteristics influence these propagation thresholds. Therefore, critical thresholds were estimated for 50 sub-basins in the Alto São Francisco River Basin, Brazil. The duration thresholds, whose medians were 3.61, 5.58, and 10.67 months for moderate, severe, and extreme events, respectively, were not too different across the study region, for all levels, and no clear spatial patterns could be found for this statistic. The severity thresholds, on the other hand, were more structured in space, with medians 4,13, 6.81, and 10.09 for the referred levels, but much more dispersed. Additionally, we analyzed the correlations among the propagation thresholds and mean annual precipitation, baseflow index, and land use characteristics of the sub-basins, but no significant relationships were identified. Our results highlighted the difficulties in describing the spatial variability of the propagation thresholds, due to the complex interactions of climate, storage, and human intervention. Despite these limitations, the proposed approach proved able to capture the joint variations of drought statistics and might be useful for water resources management, promoting better decision-making and the development of appropriate mitigation strategies.",
+      "url": "https://link.springer.com/article/10.1007/s11069-025-07480-0",
+      "date_added": "2025-07-08",
+      "id": "ae24fd995c245acb7c77ab1ea2843785",
+      "topic": [
+        "drought"
+      ]
     }
   ]
 }
