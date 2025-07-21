@@ -8201,6 +8201,259 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "Decomposing the Effects of Changes in Catchment Characteristics on Runoff Into Chain Transmission Effects of Climate Change and Human Activities Using an Improved Budyko Framework",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "K",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Tang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Cao"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Effect of catchment characteristics (e.g., land use/land cover changes) is increasingly accepted as the main cause of runoff changes, besides direct effects of climate change and human activities. However, previous studies usually attributed this effect to human activities, and ignored the effect of climate changes, namely chain transmission effects via catchment characteristic alterations. This study proposes a novel assessment approach of runoff change to disentangle both direct and chain transmission effects by adopting nonlinear relationships between catchment characteristic parameters and multiple impact factors into the Budyko framework. Eight catchments in the arid and semi-arid, semi-humid, and humid climatic zones are selected as our study area. Results show that runoff in most catchments decreases, while catchment characteristic parameters increase, with slopes of −2.44 to 3.79 mm/year and −0.003 to 0.017/year, respectively. It indicates that more precipitation evaporates than that contributing to runoff due to the catchment characteristic alterations. These changes are the most significant in the semi-humid zone, followed by those in the arid and semi-arid zone. Annual temperature and precipitation, gross domestic product, industrial water use, and population are the main impact factors. The contributions of human activities to runoff changes are usually the largest (i.e., −62.9% to 72.0%), followed by the direct effects of climate change (i.e., −32.6% to 88.0%). The chain transmission effects of climate change are also nonnegligible, with the contributions of −38.3% to 8.2%, particularly in the semi-humid zone. Our study improves the traditional Budyko-based framework for attributing runoff changes and provides scientific support for understanding hydrological cycle change mechanisms in climate-sensitive areas.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006041",
+      "date_added": "2025-07-20",
+      "id": "396713c5278ca90ea48583dbb7c4fd5e",
+      "topic": [
+        "budyko"
+      ]
+    },
+    {
+      "title": "Long-Term Temporal Divergence in Post-Drought Resilience Decline Between Deciduous and Evergreen Tree Species",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Marchand"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Depardieu"
+        },
+        {
+          "first_name": "EM",
+          "last_name": "Campbell"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Bousquet"
+        },
+        {
+          "first_name": "MP",
+          "last_name": "Girardin"
+        }
+      ],
+      "journal": "Global Change Biology",
+      "citations": 0,
+      "abstract": "Severe drought increasingly threatens the resilience, productivity, and distribution of forest biomes worldwide. Understanding the evolution of tree drought resilience over the past century, along with its geographical and taxonomic relationships, is essential for predicting future forest dynamics. Using a tree-ring database from Canadian forests, encompassing 40,147 trees across 4558 plots and 23 species, we analyzed temporal and spatial patterns of drought resilience. We examined how leaf habit, prior drought exposure, and site- and tree-level factors influence growth resistance (immediate drought response), growth recovery (post-drought growth resumption), and overall resilience. Our findings indicate that most major Canadian tree species exhibit low and declining drought resilience. Mean temperature, moisture availability, and elevation emerged as critical factors in shaping tree responses to drought. At high elevation, drought impacts were buffered by cool temperatures, enabling trees to maintain stable growth rates. Deciduous species showed a significant decline in recovery and resilience throughout the 20th century, whereas evergreen species displayed stable but low resilience and recovery. Summer droughts particularly reduced resistance and recovery in deciduous species compared to evergreens. However, prior drought exposure mitigated negative drought responses over a tree's lifetime, suggesting an adaptive capacity in both evergreen and deciduous species. Older forests unaccustomed to severe droughts appear especially vulnerable, potentially leading to shifts in ecosystem composition and reduced biodiversity. The declining resilience of deciduous species, combined with the low resilience of evergreens, suggests major changes for Canadian forests, including reduced productivity and altered species composition. Our results emphasize the importance of proactive forest management strategies to preserve forest productivity and biodiversity in the context of a changing climate.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.70330",
+      "date_added": "2025-07-20",
+      "id": "029e34b23cc5079f38c97cd25410ce56",
+      "topic": [
+        "forest"
+      ]
+    },
+    {
+      "title": "A novel approach to increase accuracy in remotely sensed evapotranspiration through basin water balance and flux tower constraints",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "K",
+          "last_name": "Khand"
+        },
+        {
+          "first_name": "GB",
+          "last_name": "Senay"
+        },
+        {
+          "first_name": "MK",
+          "last_name": "Friedrichs"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Yi"
+        },
+        {
+          "first_name": "JB",
+          "last_name": "Fisher"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Suvočarev"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Ahmadi"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Chu"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Remote sensing-derived evapotranspiration (RSET) products capture the spatiotemporal variations of evapotranspiration (ET) from field to basin scales with unprecedented details. However, their accuracy varies across RSET estimation methods and diverse hydroclimate regions. While ET modeling efforts to account for biophysical processes and controlling parameters have made good progress in recent years, a parallel approach of integrating in-situ ET with RSET could reduce biases in RSET products. Basin water balance ET (WBET) and flux tower ET are widely applied to evaluate RSET accuracy, yet such ET measurements are rarely used for RSET bias corrections, especially for large area applications. To address this issue, we propose a novel approach: the water balance equivalence (WABE) method, which generates spatially continuous WBET for correcting biases in RSET products. The WABE method computes synthetic WBET by integrating observed WBET and flux tower-derived FLUXCOM ET, which fills the spatial gaps of observed WBET and generates a spatially continuous WBET dataset. Synthetic WBET (2002-2015 annual average) of eight-digit hydrologic unit code (HUC8) basins across the conterminous United States (CONUS), constituting 44 % (887 out of 2035 basins) of CONUS basins, was determined within 2.0 % (RMSE = 12 %) of observed WBET at CONUS and between 1-12 % (RMSE = 3-33 %) across 18 regions in CONUS. With WABE-based bias corrections, the overall annual bias of RSET decreased from 10 % (RMSE = 34 %) to 6 % (RMSE = 26 %) across 37 flux tower sites. The WABE method offers a new approach for RSET accuracy improvement and shows great promise for large area implementations with a potential to yield substantial benefits for building accurate basin water budgets and water management decisions",
+      "url": "https://www.sciencedirect.com/science/article/pii/S002216942501162X",
+      "date_added": "2025-07-20",
+      "id": "1874d3e870ac5912d3c0519fd112deb8",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Response of Soil Moisture Deficits to Compound Droughts and Hot Extremes Across the Yangtze and Yellow River Basins",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Pang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Hao"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "International Journal of Climatology",
+      "citations": 0,
+      "abstract": "Compound droughts and hot extremes (CDHEs) can exert higher impacts on water resources, agricultural production and ecosystems, among others. Though the low precipitation and high temperature leading to reduced soil moisture have been well documented, the quantitative estimation of the impact of CDHEs on soil moisture deficits (or agricultural droughts) has been rather limited. In this study, we investigated the distinct response of soil moisture deficits to CDHEs across two major basins in China, the Yangtze River Basin (YZRB) (mostly humid regions) and the Yellow River Basin (YRB) (mostly arid and semi-arid regions). We found the response of soil moisture deficits is stronger under CDHEs compared with individual meteorological droughts (precipitation deficits). In addition, due to the difference in evapotranspiration response, the physical processes of soil moisture deficits responding to CDHEs in the YZRB differ from those in the YRB. The differences in meteorological factors (e.g., rainfall, temperature, vapour pressure deficit, radiation and evapotranspiration) leading to soil moisture deficits under individual meteorological droughts and CDHEs are also investigated. The case study of the record CDHEs during 2022 further demonstrates the response pattern of soil moisture deficits and associated driving factors. These results highlight the importance of considering different climate regions in understanding the impact of CDHEs on agricultural droughts.",
+      "url": "https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.8925",
+      "date_added": "2025-07-20",
+      "id": "7198461afb7fdc3cfd729c2ea9eaa97e",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Projected increase in global compound agricultural drought and hot events under climate change",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Shi"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Xie"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Forzieri"
+        }
+      ],
+      "journal": "Global and Planetary Change",
+      "citations": 0,
+      "abstract": "Compound agricultural drought and hot events (CADHEs, co-occurring soil moisture depletion and high temperature) have intensified over the last decades and are expected to further rise in view of climate change. Such increasing climate hazards have the potential to push agricultural systems towards critical tipping points with dramatic consequences for human societies. Despite the urgency of this issue, the future evolution of CADHEs characteristics in response to changing environmental conditions remains poorly quantified. Here, we propose a multivariate probabilistic assessment framework based on a copula function to integrate the key characteristics of CADHEs - duration, intensity, and severity - and project future CADHEs dynamics. To this aim, CADHEs are identified based on the joint distribution of standardized soil moisture index (SSI) and standardized temperature index (STI) retrieved for the mid-term (2021-2060) and long-term (2061-2100) periods from an ensemble of nine Coupled Model Intercomparison Project Phase 6 (CMIP6) Global Climate Models under two Shared Socioeconomic Pathways (sustainability pathway and high-emissions pathway: SSP1-2.6 and SSP5-8.5). Results show that the likelihood of CADHEs is projected to increase globally throughout the 21st century compared to the baseline period (1975-2014), with a more pronounced increase under SSP5-8.5. Northern Africa, the Middle East, and South Asia emerge as key hotspots where longer duration, greater intensity, and higher severity are expected to manifest simultaneously. Under SSP5-8.5, these hotpots are expected to expand further compared to SSP1-2.6, particularly in the long-term period. Our findings provide useful input for forthcoming global disaster risk and adaptation policy, ultimately contributing to the long-term stability of agricultural systems and food security.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0921818125002711",
+      "date_added": "2025-07-20",
+      "id": "cd08c7fa984e4aaed96995f14a1d54a5",
+      "topic": [
+        "climate_change"
+      ]
+    },
+    {
+      "title": "Climate change increases evaporative and crop irrigation demand in North America",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "EL",
+          "last_name": "Williams"
+        },
+        {
+          "first_name": "JT",
+          "last_name": "Abatzoglou"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Across North America, warmer temperatures have increased reference evapotranspiration (ETo), taxing water resources. This problem is especially pronounced for semi-arid regions with large amounts of irrigated agriculture, such as California's Central Valley. In this region, increased ETo has increased irrigation demand, but the role of anthropogenic climate change (ACC) in driving this increase has not yet been quantified. Here, we quantified the influence of ACC on ETo and how these changes have translated into increased irrigation demand. We calculated observational ETo from ERA5-Land and counterfactual ETo that removes the forced changes simulated by 20 models from the Coupled Model Intercomparison Project Phase 6 from the observational records. At the scale of North America, we found that ACC drove a 64 mm increase in annual ETo from 1980 to 2022, compared to the observed 54 mm increase. The largest observed increases in ETo were found in the southwestern and central regions, where ACC has likely exacerbated trends linked to natural climate variability. The largest ACC contributor to increased ETo was increased vapor pressure deficit, while decreased solar radiation has tempered increased ETo. Finally, we found that ACC has increased annual crop irrigation demand in the Central Valley by 0.76 km 3 during 1980-2022, with cumulative increased irrigation demand of 9.2 km 3 , equivalent to ∼11% of the region's groundwater loss during this time. Our findings suggest that ACC is accelerating demand for water in this already water-limited region, and this phenomenon is likely occurring in other semi-arid agricultural regions of North America.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF005931",
+      "date_added": "2025-07-20",
+      "id": "34e4d4bc1fdb225937b71c9a15e4590b",
+      "topic": [
+        "climate_change"
+      ]
+    },
+    {
+      "title": "What Factors Drove the Global Cropland Expansion Into Highlands?",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Gu"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Ma"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zeng"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "The escalating demand for agricultural land, along with limited availability in lowland areas, has driven cropland expansion into highlands (CEIH), potentially resulting in land degradation, habitat degradation, and a decline in food production. However, few studies thoroughly investigated the distribution and driving factors of global CEIH, even though a considerable amount of cropland has extended to the highlands over recent decades. To investigate CEIH, we employed spatial statistics, elevation spectrum analysis, and terrain gradient methods to quantify spatio-temporal patterns and elevation changes in global cropland distribution from 1995 to 2020. We then explored the key driving factors of CEIH at different scales using spatial regression models and multiscale geo-weighted regression model. The results revealed that global average cropland elevation increased from 422.782 m in 1995 to 427.321 m in 2020, representing a 4.539 m net increase. CEIH was reflected on both global and continental scales in all continents except South America during the study period. Furthermore, CEIH showed an intense agglomeration pattern. Human activities and cropland reclamation rate emerged as the primary underlying driving factors of CEIH. The encroachment of development on lowland agricultural areas forced CEIH, which was the core of this phenomenon. Vertical cropland expansion was predominantly concentrated in ecologically vulnerable highlands and ecological transition zones. The driving factors of CEIH exhibited spatial and multiscale heterogeneity. These findings provided a scientific basis for formulating targeted cropland conservation policies by highlighting the differences in cropland management performance across various levels of government globally.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024EF005337",
+      "date_added": "2025-07-20",
+      "id": "0ee9b8204e14da9857478a8a31155003",
+      "topic": [
+        "statistics-big-data"
+      ]
     }
   ]
 }
