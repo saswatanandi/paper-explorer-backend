@@ -103,6 +103,91 @@ def load_csv_to_set(file_path: str, column_name: str) -> Set[str]:
                         writer.writeheader()
     return result
 
+def load_reviewed_papers(file_path: str) -> Set[str]:
+    """Load reviewed paper IDs, filtering out entries older than 365 days."""
+    result = set()
+    cutoff_date = datetime.datetime.now() - datetime.timedelta(days=365)
+    
+    if os.path.exists(file_path):
+        # Try different encodings if UTF-8 fails
+        encodings = ['utf-8', 'latin-1', 'cp1252']
+        
+        for encoding in encodings:
+            try:
+                with open(file_path, 'r', encoding=encoding) as f:
+                    reader = csv.DictReader(f)
+                    if reader.fieldnames and 'paper_id' in reader.fieldnames and 'date_added' in reader.fieldnames:
+                        for row in reader:
+                            try:
+                                # Parse the date and check if it's within 365 days
+                                date_added = datetime.datetime.strptime(row['date_added'].strip(), '%Y-%m-%d')
+                                if date_added >= cutoff_date:
+                                    result.add(row['paper_id'].strip())
+                            except ValueError:
+                                # Skip rows with invalid dates
+                                continue
+                # If we get here, reading was successful
+                break
+            except UnicodeDecodeError:
+                # Try the next encoding
+                continue
+            except Exception as e:
+                print(f"Error reading {file_path} with {encoding} encoding: {e}")
+                # Create an empty file if it can't be read at all
+                if encoding == encodings[-1]:  # Last encoding attempt
+                    print(f"Creating new empty file for {file_path}")
+                    with open(file_path, 'w', encoding='utf-8', newline='') as f:
+                        writer = csv.DictWriter(f, fieldnames=['paper_id', 'date_added'])
+                        writer.writeheader()
+    else:
+        # Create the file if it doesn't exist
+        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        with open(file_path, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=['paper_id', 'date_added'])
+            writer.writeheader()
+    
+    return result
+
+def save_reviewed_papers(reviewed_papers: Set[str], file_path: str):
+    """Save reviewed papers with current date, cleanup old entries."""
+    current_date = datetime.datetime.now().strftime('%Y-%m-%d')
+    cutoff_date = datetime.datetime.now() - datetime.timedelta(days=365)
+    
+    # Load existing entries that are still valid (within 365 days)
+    existing_papers = set()
+    valid_entries = []
+    
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                if reader.fieldnames and 'paper_id' in reader.fieldnames and 'date_added' in reader.fieldnames:
+                    for row in reader:
+                        try:
+                            date_added = datetime.datetime.strptime(row['date_added'].strip(), '%Y-%m-%d')
+                            if date_added >= cutoff_date:
+                                paper_id = row['paper_id'].strip()
+                                existing_papers.add(paper_id)
+                                valid_entries.append({'paper_id': paper_id, 'date_added': row['date_added'].strip()})
+                        except ValueError:
+                            # Skip rows with invalid dates
+                            continue
+        except Exception as e:
+            print(f"Error reading existing reviewed papers: {e}")
+    
+    # Add new papers that aren't already in the existing set
+    for paper_id in reviewed_papers:
+        if paper_id not in existing_papers:
+            valid_entries.append({'paper_id': paper_id, 'date_added': current_date})
+    
+    # Write all valid entries back to the file
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, 'w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=['paper_id', 'date_added'])
+        writer.writeheader()
+        for entry in sorted(valid_entries, key=lambda x: x['paper_id']):
+            writer.writerow(entry)
+
 
 def compress_json_file(input_file, output_file):
     """
@@ -443,12 +528,15 @@ async def process_eml_files(
     unique_paper_id_path = os.path.join(data_dir, "databases", "csv", "unique_paper_id.csv")
     unique_journal_path = os.path.join(data_dir, "databases", "csv", "unique_journal.csv")
     unique_topic_path = os.path.join(data_dir, "databases", "csv", "unique_topic.csv")
+    paper_reviewed_path = os.path.join(data_dir, "databases", "csv", "paper_reviewed.csv")
     
     # Load data from CSV files to memory
     avoid_journals = load_csv_to_set(avoid_journals_path, "name")
     unique_paper_ids = load_csv_to_set(unique_paper_id_path, "id")
     journal_mapping = load_journal_mapping(unique_journal_path)
     topics = load_csv_to_set(unique_topic_path, "name")
+    reviewed_paper_ids = load_reviewed_papers(paper_reviewed_path)
+    new_reviewed_papers = set()  # Track papers reviewed in this session
     
     # Extract paper titles from EML files
     print("Extracting paper titles from EML files...")
@@ -469,11 +557,33 @@ async def process_eml_files(
     
     print(f"Found {len(unique_titles)} unique paper titles.")
     
+    # Early filtering: Remove already reviewed papers
+    current_year = str(datetime.datetime.now().year)
+    filtered_titles = []
+    
+    for title in unique_titles:
+        # Generate paper ID using current year as fallback for early filtering
+        paper_id = generate_paper_id(title, current_year)
+        
+        # Check if already reviewed
+        if paper_id in reviewed_paper_ids:
+            print(f"Skipping already reviewed paper: {title}")
+            continue
+            
+        # Check if already in database
+        if paper_id in unique_paper_ids:
+            print(f"Skipping paper already in database: {title}")
+            continue
+            
+        filtered_titles.append(title)
+    
+    print(f"After filtering, {len(filtered_titles)} papers remain for processing.")
+    
     # Process each paper
     selected_papers = []
     
-    for i, title in enumerate(unique_titles, 1):
-        print(f"\n[{i}/{len(unique_titles)}] Processing: {title}")
+    for i, title in enumerate(filtered_titles, 1):
+        print(f"\n[{i}/{len(filtered_titles)}] Processing: {title}")
         
         # Scrape paper metadata
         paper_info = await scraper.search_paper(title)
@@ -542,6 +652,11 @@ async def process_eml_files(
         # Ask if we want to add this paper BEFORE doing detailed metadata editing
         add_paper = input("Add this paper to the database? (y/n): ").lower().strip()
         if add_paper != 'y':
+            # Track this paper as reviewed but not selected
+            if paper_metadata.get("title") and paper_metadata.get("year"):
+                rejected_paper_id = generate_paper_id(paper_metadata["title"], str(paper_metadata["year"]))
+                new_reviewed_papers.add(rejected_paper_id)
+                print(f"Paper marked as reviewed: {rejected_paper_id}")
             continue
         
         # Check if we need to modify paper metadata
@@ -626,6 +741,11 @@ async def process_eml_files(
     save_set_to_csv(unique_paper_ids, unique_paper_id_path, "id")
     save_journal_mapping(journal_mapping, unique_journal_path)
     save_set_to_csv(topics, unique_topic_path, "name")
+    
+    # Save reviewed papers (includes automatic cleanup of old entries)
+    if new_reviewed_papers:
+        save_reviewed_papers(new_reviewed_papers, paper_reviewed_path)
+        print(f"Saved {len(new_reviewed_papers)} reviewed papers to {paper_reviewed_path}")
     
     print("\nProcessing complete!")
 

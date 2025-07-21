@@ -8454,6 +8454,108 @@
       "topic": [
         "statistics-big-data"
       ]
+    },
+    {
+      "title": "Characteristics and evolution of heat wave and extreme precipitation compound events in South China based on copula function",
+      "year": 2025,
+      "authors": [
+        {
+          "first_name": "R",
+          "last_name": "Xiao"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Xie"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Bi"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "Quarterly Journal of the Royal Meteorological Society",
+      "citations": 0,
+      "abstract": "Compared to single events, compound extreme weather and climate events have the potential to exert more serious impacts on natural systems and human society, particularly in densely populated regions. Focusing on South China, this study identified heat wave-extreme precipitation compound events based on summer daily maximum temperature and precipitation data of 79 meteorological stations spanning 1970 to 2019. A two-dimensional joint cumulative probability distribution function of heat wave intensity and extreme precipitation intensity was constructed using the copula function, and the return periods of different types of compound events were analyzed to evaluate their occurrence characteristics. The results indicate that the average heatwave intensity and extreme precipitation intensity increased at rates of 0.1°C per decade and 4.1 mm per decade, respectively. A two-dimensional joint analysis of heatwave and extreme precipitation intensities was performed, with the Gaussian copula function identified as the most appropriate model. In recent years compound events have exhibited higher frequencies, stronger intensities, wider spatial distributions, and significantly shorter return periods compared to earlier periods. Moreover, under similar conditions of heatwave and extreme precipitation, the Pearl River Delta and northern mountainous regions are more prone to the occurrence of compound events.",
+      "url": "https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.5055",
+      "date_added": "2025-07-21",
+      "id": "32823f0e6b3135c0043657c0c2f2d249",
+      "topic": [
+        "copula"
+      ]
+    },
+    {
+      "title": "Effect of human-driven hydrological change on vegetation distribution in the Shiyang River Basin",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Meng"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Qiu"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Jiao"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Qi"
+        }
+      ],
+      "journal": "Journal of Mountain Science",
+      "citations": 0,
+      "abstract": "China has implemented large-scale hydraulic engineering projects in arid regions where water resources are severely scarce to efficiently maximize limited water resources for production and domestic needs. The processes and consequences of how the change of hydrological factors affects vegetation distribution remain unclear. This study employed multi-source remote sensing data to investigate the impact of hydrological factors on vegetation distribution in the Shiyang River Basin (SRB) in the arid region in Northwestern China. The results indicate that: (1) The NDVI values in the SRB showed a fluctuating upward trend of (0.0014/yr), with vegetation increase occurring in 62.71% of the area while vegetation degradation was observed in only 6.44% of the area. (2) The Surface Water Storage Anomaly (SWSA) shows an increasing trend of (0.112 mm/month), while Terrestrial Water Storage Anomaly (TWSA) and Groundwater Storage Anomaly (GWSA) exhibit significant declines at rates of -0.124 mm/month and -0.236 mm/month, respectively. (3) Vegetation growth on agricultural land and in planted forests has shown significant growth, in contrast to the general degradation of natural vegetation that is dependent on groundwater. In addition, surface water inputs directly catalyze vegetation growth dynamics. However, the complex mechanisms linking vegetation increase and decreasing terrestrial water reserves in arid regions still need to be studied in depth. The potential negative ecological impacts that may result from the continuous decline of terrestrial and groundwater reserves should not be taken lightly.",
+      "url": "https://link.springer.com/article/10.1007/s11629-024-9567-6",
+      "date_added": "2025-07-21",
+      "id": "7fca3aba6b8cde6845febc566e3fea74",
+      "topic": [
+        "forest"
+      ]
     }
   ]
 }
