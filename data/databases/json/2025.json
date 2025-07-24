@@ -8556,6 +8556,147 @@
       "topic": [
         "forest"
       ]
+    },
+    {
+      "title": "Relative contribution of anthropogenic warming to the unprecedented heatwave in South America in 2023",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Deng"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Han"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Ma"
+        }
+      ],
+      "journal": "npj Climate and Atmospheric Science",
+      "citations": 0,
+      "abstract": "In 2023, South America experienced an unprecedented heatwave that threatened socioeconomic structures and ecosystems. This study uses attribution analysis to evaluate the contributions of atmospheric circulation patterns and human factors to the heatwave's probability and intensity. The 2023 heatwave is a 1-in-130-year event and a 1-in-65-year event, with and without considering the 2023 heatwave in the fitting, respectively. The large-scale meteorological analysis revealed that the heatwave was driven by an anomalously high-pressure system that formed a heat dome from dry, hot air columns. ALL (all-forcing scenario) and GHG (greenhouse gas scenario) simulations indicate the likelihood of future extreme heatwaves increases by 28.45% [27.60%, 29.30%] (90% confidence interval) and 30.42% [29.51%, 31.33%] (90% confidence interval), respectively, based on data from 1850 to 2014. Insights from Coupled Model Intercomparison Project Phase 6 (CMIP6) models emphasize that human-induced warming significantly contributes to heatwaves, which highlights the need for effective climate adaptation and mitigation strategies.",
+      "url": "https://www.nature.com/articles/s41612-025-01142-5",
+      "date_added": "2025-07-23",
+      "id": "fd6c83609d178eafb5dee1a75cc1b0b6",
+      "topic": [
+        "heatwave"
+      ]
+    },
+    {
+      "title": "Advancing wildfire monitoring: remote sensing techniques and applications in the Sana River Basin, Bosnia and Herzegovina",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Sabljić"
+        },
+        {
+          "first_name": "ZM",
+          "last_name": "Perić"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Bajić"
+        },
+        {
+          "first_name": "SB",
+          "last_name": "Marković"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Adžić"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Lukić"
+        }
+      ],
+      "journal": "Natural Hazards",
+      "citations": 0,
+      "abstract": "The subject of this research is the application of remote sensing and geographic information systems (GIS) in identifying, monitoring, and analyzing wildfires in the Sana River basin in Bosnia and Herzegovina in 2017. The research aims to determine the weather conditions that favor the occurrence of wildfires and their spatial impact on vegetation and to assess the degree of land degradation after the wildfires. Through the calculation of the Standardized Precipitation-Evapotranspiration Index (SPEI), critical dry periods with significantly negative values were identified in July (− 1.60) and August (− 1.94), indicating severe droughts with a high hazard of wildfire occurrence. Additionally, the calculation of the Angstrom index identified a period of high wildfire hazard (from July 5 to August 5, 2017). Vegetation condition monitoring and burn severity during the high-hazard period were assessed by calculating the differenced Normalized Difference Vegetation Index (dNDVI) and the differenced Normalized Burn Ratio (dNBR). By intersecting dNDVI and dNBR with the results of the supervised classification, the impact of wildfires on different land use types was effectively assessed. It was determined that a total of 214.61 km 2 (dNDVI) and 168.77 km 2 (dNBR) of meadows and pastures, 270.45 km 2 (dNDVI) and 35.2 km 2 (dNBR) of forested areas, and 30.12 km 2 (dNDVI) and 17.95 km 2 (dNBR) agriculture areas where exposed to moderate, high, and very high wildfires. Additionally, a total of 19,077 residents were affected by the wildfires. The research results highlight the need to develop and implement more effective prevention and hazard management strategies, particularly in protecting the study area’s forest ecosystems and agriculture.",
+      "url": "https://link.springer.com/article/10.1007/s11069-025-07518-3",
+      "date_added": "2025-07-23",
+      "id": "1583203f72f8c8b2c689e5dcfaee77b2",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "Evaluation of ecological drought in northwest China by integrating ecological water budget and vegetation status",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Z",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "J",
+          "last_name": "He"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Ding"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "I",
+          "last_name": "Malik"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Wistuba"
+        }
+      ],
+      "journal": "Journal of Environmental Management",
+      "citations": 0,
+      "abstract": "Global warming is increasing the frequency and intensity of drought events, posing profound threats to ecosystems. Ecological drought is a multifaceted process in terrestrial ecosystems, characterized by the impairment of vegetation eco-physiological functions due to water stress. However, current ecological drought assessments primarily focus on ecological water supply and demand, often overlooking the status of vegetation growth. To address this gap, we developed a standardized composite ecological drought index (SCEDI) that integrates precipitation (Pre), ecological water deficit (EWD), and the vegetation health index (VHI) using a Euclidean distance-based approach. We further analyzed spatiotemporal dynamics of ecological drought and its characteristics, utilizing run theory and empirical orthogonal function (EOF) methods. Results showed that ecological drought intensified in spring (SCEDI change: −0.002) and winter (−0.013), but weakened in summer (0.006) and autumn (0.002). The first EOF mode explained 30.51 % of the total variance, indicating a reversal in wet-dry patterns between mountainous regions and oases around 2002. Over the past 34 years, Xinjiang has experienced more than 19 ecological drought events, each with an average duration of approximately 3.11 months. Regionally, droughts in mountainous areas occurred more frequently but were shorter and less intense, while in oasis areas they were less frequent but more persistent and severe. Furthermore, Shapley Additive Explanations (SHAP) analysis identified EWD (SHAP value: 0.265) and precipitation (0.176) as the most influential drivers of ecological drought. Higher values of both factors were positively associated with ecological drought severity, while lower values had a mitigating effect. This study highlights the potential of SCEDI in accurately capturing ecological drought dynamics and provides a scientific basis for ecological risk assessment and adaptive drought management in arid regions.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301479725025642",
+      "date_added": "2025-07-23",
+      "id": "3676850965147f53130eec68aba73a8a",
+      "topic": [
+        "drought"
+      ]
     }
   ]
 }
