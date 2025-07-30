@@ -8697,6 +8697,72 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "Snow droughts amplify compound climate extremes over the Tibetan Plateau",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Communications Earth & Environment",
+      "citations": 0,
+      "abstract": "Escalating impacts of snow droughts have critically threatened hydrological stability and socioeconomic resilience on the Tibetan Plateau, Asia’s alpine water tower. However, the mechanisms linking snow droughts to compound climate extremes remain poorly understood. Here, we presented comprehensive assessment of how snow drought regimes modulated compound climate extremes during the period 1979-2022. We found significant increases in severity for both dry snow droughts and warm snow droughts, with warm types emerging as a dominant driver of snowpack depletion. Dry/warm snow droughts triggered compound dry-hot/pluvial-hot extremes through divergent heat-moisture regulation pathways: surface energy budget imbalances acted as the common trigger, while moisture heterogeneity governed the dry-wet divergence. After snow disappearance, a significant coincidence rate of 0.68 (0.58) for compound dry-hot extremes (compound pluvial-hot extremes) was observed at a 1-month lag time ( p < 0.05). These findings necessitate adaptive strategies to mitigate cascading threats to water-ecosystem-socioeconomic systems in the Asian water tower.",
+      "url": "https://www.nature.com/articles/s43247-025-02551-3",
+      "date_added": "2025-07-29",
+      "id": "945f1ead68dec0d548be24310720a193",
+      "topic": [
+        "snow"
+      ]
+    },
+    {
+      "title": "A novel methodology to assess fuel treatment effectiveness: application to California's forests",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "K",
+          "last_name": "Fallon"
+        },
+        {
+          "first_name": "JT",
+          "last_name": "Abatzoglou"
+        },
+        {
+          "first_name": "MD",
+          "last_name": "Hurteau"
+        }
+      ],
+      "journal": "Journal of Wildland Fire",
+      "citations": 0,
+      "abstract": "Fuel treatments are increasingly used to mitigate wildfire risks. Aims. Proposing a novel, scalable and transferable methodology, this study investigates which treatment is (more) effective at a regional scale. This research evaluates the effectiveness of fuel treat-ments in California forests using the Fuel Treatment Effectiveness Monitoring (FTEM) database,which provides a binary (yes/no) assessment of treatment efficacy based on a structuredsubjective evaluation process. Proposed methodology enables scaling up site-specific treatmentoutcomes to the regional level. 61% of treatment footprints that were intersected bya wildfire were effective at modifying fire behavior. Treatments that included wildland fire and/orfuel removal were more effective in modifying fire behavior (>70%) than those dominated by fuelrearrangement (49-54%). Even treatments with lower overall efficacy successfully modified firebehavior when applied at large scales. Fuel treatment effectiveness outcomes were robust underextreme weather conditions.  Fuel treatments are an effective wildfire mitigationtool, even under a warming climate with intensified fire weather. The proposed methodology canbe used to assess fuel treatment effectiveness in United States regions that do not haveCalifornia’s extensive case studies.",
+      "url": "https://www.publish.csiro.au/WF/pdf/WF24220",
+      "date_added": "2025-07-29",
+      "id": "833d0e2cb28baebc280c81ca010a1cfc",
+      "topic": [
+        "forest"
+      ]
     }
   ]
 }
