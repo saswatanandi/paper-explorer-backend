@@ -8763,6 +8763,221 @@
       "topic": [
         "forest"
       ]
+    },
+    {
+      "title": "Disentangling radiative versus non-radiative controls on urban evapotranspiration under global warming",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Ren"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Miao"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Song"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "Geophysical Research Letters",
+      "citations": 0,
+      "abstract": "As the nexus of terrestrial water-energy-carbon exchange, evapotranspiration (ET) modulates ecosystem-climate interactions, yet its biophysical responses to urbanization and climate change remain unclear. Using fully coupled Earth system modeling and flux tower observations, we disentangle radiative (surface available energy) and non-radiative (advection-sustained vapor gradients) controls on global ET. The decoupling factor, a pivotal biophysical regulator of land-atmosphere coupling for ET, exhibits a climate-vegetation latitudinal gradient spanning 0.1 (arid) to 0.5 (continental). Global warming enhances land-atmosphere coupling, suppressing radiative contributions while amplifying non-radiative influences. Urbanization reduces ET but tends to shift its dominant driver toward available energy, unlike rural areas dominated by advection-sustained vapor gradients. The urban-rural contrast in the radiative contributor intensifies at ∼0.3 W m −2 decade −1 (2.4 times that of the non-radiative contributor) under RCP8.5, linked to a 60% slower decline in urban decoupling factor than rural areas. This study provides a fuller picture of the mechanistic understanding of ET.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025GL115978",
+      "date_added": "2025-08-06",
+      "id": "f43156bf7850d10d22e2cdeff7e66dbd",
+      "topic": [
+        "atmosphere"
+      ]
+    },
+    {
+      "title": "Will thinning and fuel reduction treatments help dry conifer forests persist under climate change?",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "A",
+          "last_name": "Hanbury-Brown"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Holm"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Tortorelli"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Young"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Gao"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Koven"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Knox"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Kueppers"
+        }
+      ],
+      "journal": "Environmental Research Communications",
+      "citations": 0,
+      "abstract": "There is widespread concern that dry conifer forests in the western US will transition to oak and shrub-dominated ecosystems due to global warming and wildfire. The leading management practice to promote conifer resilience is to reduce fuel loads and tree density. However, it is unknown if these policies will enable forests to persist in the long term. Here we further develop, calibrate, and benchmark the FATES vegetation model to project changes in vegetation structure, including conifer and oak basal area and shrub cover, under a high global warming future climate scenario (2015-2098) and management scenarios in a mixed conifer forest in California’s southern Sierra Nevada. Accounting for vegetation parameter uncertainty, we found that tree thinning and surface fuel reduction treatments delayed conifer losses until∼ 2070, but could not prevent a shift towards oak-dominant forests by 2100 when drought coincided with regional mean annual temperatures exceeding 3.5 C above pre-industrial levels (equivalent to 2.5 C of global mean warming). Our results suggest that dry mixed conifer forests in California will be a carbon source under 2.5 C of global mean warming in the late 21st century regardless of management and that conifer fire resilience efforts are being deployed in areas that would ultimately transition to oak-dominant forests if global warming exceeds 2.5 C. However, there is still significant projection uncertainty associated with key biological traits controlling photosynthesis, fuel drying and decomposition rates, drought tolerance, and competition between conifers, oaks, and shrubs. We recommend targeted data collection for these traits to reduce projection uncertainty.",
+      "url": "https://iopscience.iop.org/article/10.1088/2515-7620/aded5b/meta",
+      "date_added": "2025-08-06",
+      "id": "317a2a881e038170c5f46205de3e4a49",
+      "topic": [
+        "forest"
+      ]
+    },
+    {
+      "title": "Adaptive crop switching for irrigated agriculture in response to climate change in the Western US",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Fazli"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Maharjan"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Thomas"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Tariq"
+        },
+        {
+          "first_name": "H",
+          "last_name": "El-Askary"
+        }
+      ],
+      "journal": "Agricultural Water Management",
+      "citations": 0,
+      "abstract": "Adaptive irrigation strategies are crucial for balancing water use, economic viability, and food security in the arid Western United States. However, as a key indicator vital in regulating agricultural productivity and crop irrigation, water use efficiency (WUE c ) is becoming increasingly complex to estimate due to climate change. This study explores the critical role of key meteorological drivers, such as maximum temperature (tmax) and vapor pressure deficit (vpd), and their impacts on crop-specific WUE c . Future impacts are also assessed through integrating machine learning models with climate projections from the CMIP6 framework under SSP2-4.5 and SSP5-8.5 scenarios to forecast WUE c trends from 2025 to 2099. Based on WUEc projections, crop-switching strategies were designed to optimize land allocation among cereals in the Imperial Valley and Lower Gila River regions. Results suggest that reallocating cereal crops under SSP2-4.5 can reduce water consumption by up to 13.7 %, while increasing farmers’ profits (up to 44.8 %) and calorie production (up to 2.7 %). Under the warmer SSP5-8.5 scenario, sustaining profit (up to 39 %) and calorie gains (up to 10.2 %) would require up to 9.5 % more water. These findings highlight the importance of crop-switching as a practical adaptation strategy and emphasize the need for region-specific approaches to ensure resilience to climate change. The research underscores the potential of climate-driven decision-making to enhance agricultural sustainability in water-scarce environments.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377425004147",
+      "date_added": "2025-08-06",
+      "id": "8fb94be83a23e9c440933580f152ec37",
+      "topic": [
+        "agriculture"
+      ]
+    },
+    {
+      "title": "Limited Regulation of Canopy Water Use Efficiency by Stomatal Behavior Under Drought Propagation",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "F",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Xin"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Yi"
+        },
+        {
+          "first_name": "SA",
+          "last_name": "Kannenberg"
+        },
+        {
+          "first_name": "JK",
+          "last_name": "Green"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Migliavacca"
+        },
+        {
+          "first_name": "DJP",
+          "last_name": "Moore"
+        },
+        {
+          "first_name": "AR",
+          "last_name": "Kemanian"
+        }
+      ],
+      "journal": "Global Change Biology",
+      "citations": 0,
+      "abstract": "Water use efficiency (WUE) is a critical ecosystem function and a key indicator of vegetation responses to drought, yet its temporal trajectories and underlying drivers during drought propagation remain insufficiently understood. Here, we examined the trajectories, interdependencies and drivers of multidimensional WUE metrics and their components (gross primary production (GPP), evapotranspiration, transpiration (T), and canopy conductance (Gc)) using a conceptual drought propagation framework. We found that even though the carbon assimilation efficiency per stomata increases during drought, the canopy-level WUE (represented by transpiration WUE (TWUE)) declines, indicating that stomatal regulation operates primarily at the leaf level and cannot offset the drought-induced reduction in WUE at the canopy scale. A stronger dependence on T and TWUE indicates that the water-carbon trade-off relationship of vegetation more inclines toward water transport than carbon assimilation. Gc fails to prevent the sharp decline in GPP during drought and has limited capacity to suppress T, as reflected by the reduction magnitude and the threshold (the turning point at which a component shifts from a normal to drought-responsive state). The primary drivers of the water-carbon relationship under drought propagation include vapor pressure deficit and hydraulic traits. Among plant functional types, grasslands show the strongest water-carbon fluxes in response to drought, whereas evergreen broadleaf forests exhibit the weakest response. These findings refine our comprehensive understanding of multidimensional ecosystem functional dynamics under drought propagation and enlighten how the physiological response of vegetation to drought affects the carbon and water cycles.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.70381",
+      "date_added": "2025-08-06",
+      "id": "38f9bc0bf45f50e04538b2b36e6eb7e1",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Adjusting the main cropping types in Mollisol regions could improve the net primary productivity of low-producing areas by 20%-30% under future climate change",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Bao"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Meng"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Yao"
+        },
+        {
+          "first_name": "AM",
+          "last_name": "Mouazen"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Rationalizing site-specific crop types is an effective strategy for ensuring food security under climate change. This study employed environmental covariates representing climate, soil, and vegetation, combined with a hybrid convolutional neural network - Long Short-term Memory-self-attention (CNN-LSTM-SA) model to predict net primary productivity (NPP) of the Northeast China (NEC) and the Mississippi River Basin (MRB) Mollisol regions. The analysis covered the periods from 2001 to 2020, and 2021 to 2040 under two Shared Socioeconomic Pathways (SSPs): SSP245 and SSP585. Subsequently, areas requiring crop type adjustments were identified, and appropriate crops were assigned to each growth site. Our results elucidate that: (a) During 2021-2040, a general increase in temperature and minor fluctuations in precipitation were observed across the study area. In the NEC, crop NPP initially increases before decreasing, whereas in the MRB, it consistently decreases. (b) Both vegetation and soil covariates explained 75.6% of NPP variability in the NEC, while in the MRB, climate factors, particularly precipitation, accounted for 18.4% of the variability. (c) The proportion of area requiring adjustment in the NEC ranged from 4.45% to 5.13% (SSP245) to 5.05%-5.77% (SSP585), while in the MRB, it varied from 4.92% to 7.54% (SSP245) to 6.49%-9.10% (SSP585), suggesting a necessity for more substantial cropping type adjustments under the SSP585 climate scenario. (d) In the NEC, the area cultivated with corn, soybean, and other crops will decrease, while rice cultivation will increase. Conversely, a decrease in wheat and pasture, and an increase in corn and soybean cultivation are suggested in the MRB. (e) Following crop type adjustments, the average NPP enhancements for corn, soybean, rice, and other crops in unsuitable areas of the NEC were 22.85%, 22.2%, 17.35%, and 20.5%, respectively, In the MRB, the average NPP enhancements for corn, soybean, wheat, and pasture were 28.5%, 26.9%, 32.4%, and 21.1%, respectively. Our research provides valuable insights into predicting future NPP changes, and develops effective crop adjustment strategies to address global food security challenges.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006074",
+      "date_added": "2025-08-07",
+      "id": "693d5019bf0dfa311628e975d9123827",
+      "topic": [
+        "machine_learning"
+      ]
     }
   ]
 }
