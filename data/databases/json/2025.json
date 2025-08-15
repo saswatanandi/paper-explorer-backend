@@ -9181,6 +9181,65 @@
       "topic": [
         "ecohydrology"
       ]
+    },
+    {
+      "title": "Increasing aridity and interannual precipitation variability drives resilience declines in restored forests across China",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Dong"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Fan"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Tian"
+        },
+        {
+          "first_name": "LS Phan",
+          "last_name": "Tran"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Forestation plays a crucial role in the restoration of ecosystem functions and services, while the sustainability of restored forests arouses pervasive concerns, and the resilience dynamics and mechanisms of these forests remain poorly understood. Here, we utilize the lag-1 temporal autocorrelation of satellite-based vegetation data to evaluate long-term resilience trends in stable and restored forests across China from 2001 to 2020, then apply machine-learning algorithms to explore the key drivers behind these trends. Results show that nearly half (45%) of forest ecosystems have experienced resilience declines, whether they are stable forests (44.4%) or restored forests (44.8%). Increased aridity and interannual precipitation variability have a significant impact on the resilience declines in both types of forest ecosystems. Comparatively, non-climate variables exert a larger impact on resilience declines in restored forests than in stable forests. Resilience declines are more prevalent in restored forests with low plant species richness (0.2 m 3 /m 3 ). Structural equation models reveal that fewer critical factors directly influence the resilience of restored forests compared to stable forests. These findings underscore the importance of integrating these determinants into ecological restoration efforts to ensure forestation sustainability.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006164",
+      "date_added": "2025-08-15",
+      "id": "d0bc2827d4e7167a5c5fef377640904f",
+      "topic": [
+        "statistics-big-data"
+      ]
     }
   ]
 }
