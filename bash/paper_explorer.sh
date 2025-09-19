@@ -24,7 +24,7 @@ DATA_REPO_DIR="${MAIN_DIR}/paper-explorer-data"
 DATA_UPLOAD_DIR="${PYTHON_APP_DIR}/data/databases/upload" # Path relative to PYTHON_APP_DIR
 
 # Conda Environment
-CONDA_ENV_NAME="py24"
+CONDA_ENV_NAME="py25"
 # Optional: Specify full path if needed, but activation by name is preferred
 # CONDA_ENV_PATH="/home/sn/snd/soft/con/envs/py24"
 

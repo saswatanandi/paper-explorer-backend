@@ -9240,6 +9240,41 @@
       "topic": [
         "statistics-big-data"
       ]
+    },
+    {
+      "title": "Characteristics of Compound Heatwave and Heavy Precipitation Events in the Huai River Eco-economic Corridor",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "D",
+          "last_name": "Zhong"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Liu"
+        }
+      ],
+      "journal": "International Journal of Climatology",
+      "citations": 1,
+      "abstract": "Climate warming has increased the frequency of compound weather events, with alternating heatwaves and heavy precipitation often causing impacts greater than individual extremes. However, studies on compound events involving their sequential occurrence, such as compound heatwaves followed by heavy precipitation (CHWHP) and heavy precipitation followed by heatwaves (CHPHW) within short intervals (≤ 7 days), remain limited. This study investigated spatiotemporal patterns of CHWHP and CHPHW events in the Huai River Eco-economic Corridor (HREC) during 1981-2020. Results showed CHWHP events increased by 0.046 events/decade within a 5-day interval, with frequency and magnitude hotspots in the southwestern and eastern HREC. Although CHWHP and CHPHW events were infrequent in the northwest, their occurrence increased by 300%-400% during 2001-2020 compared to 1981-2000. CHWHP events are notably more intense and frequent than heatwaves not followed by heavy precipitation. The 2018 case study revealed that mid-tropospheric anomalies, notably 500 hPa geopotential height and cloud cover, influenced CHWHP and CHPHW events. Heatwaves featured high pressure and less cloud cover, boosting solar radiation and atmospheric stability, whereas heavy precipitation involved moisture convergence and diminished radiation from increased clouds. These findings highlight the influence of circulation, radiation and moisture transport on compound heatwave-precipitation events.",
+      "url": "https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.70069",
+      "date_added": "2025-09-18",
+      "id": "568fe622c023a3582975a3c0326fbfd4",
+      "topic": [
+        "heatwave"
+      ]
     }
   ]
 }

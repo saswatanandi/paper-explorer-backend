@@ -11,28 +11,106 @@ import json
 import datetime
 import re
 import unicodedata
+import os
+import platform
+import shutil
 from urllib.parse import quote
 from bs4 import BeautifulSoup
 
+def _resolve_browser_path(preferred_path: str | None = None) -> str | None:
+    """Resolve a viable browser executable path across OSes.
+
+    Precedence:
+    1) Explicit preferred_path if it exists
+    2) Env var BROWSER_PATH if it exists
+    3) OS-specific common install locations (preferring ungoogled-chromium/Chromium on macOS if present)
+    4) Lookups via PATH (shutil.which)
+    Returns the first existing path found, else None.
+    """
+    # 1) Explicit preferred path
+    if preferred_path and os.path.exists(preferred_path):
+        return preferred_path
+
+    # 2) Env override
+    env_path = os.environ.get("BROWSER_PATH")
+    if env_path and os.path.exists(env_path):
+        return env_path
+
+    system = platform.system()  # 'Darwin', 'Linux', 'Windows'
+
+    candidates: list[str] = []
+    if system == "Darwin":  # macOS
+        print("Checking common macOS browser paths...")
+        candidates = [
+            "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+            "/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary",
+            "/Applications/Chromium.app/Contents/MacOS/Chromium",  # Homebrew Chromium / ungoogled
+            "/Applications/ungoogled-chromium.app/Contents/MacOS/ungoogled-chromium",  # alt naming
+        ]
+    elif system == "Linux":
+        print("Checking common Linux browser paths...")
+        candidates = [
+            "/home/sn/chrome/opt/google/chrome/chrome",  # original machine
+            "/usr/bin/google-chrome-stable",
+            "/usr/bin/google-chrome",
+            "/opt/google/chrome/chrome",
+            "/usr/bin/chromium-browser",
+            "/usr/bin/chromium",
+        ]
+    elif system == "Windows":
+        print("Checking common Windows browser paths...")
+        candidates = [
+            r"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            r"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+            r"C:\\Program Files\\Chromium\\Application\\chrome.exe",
+        ]
+
+    for path in candidates:
+        if os.path.exists(path):
+            return path
+
+    # 4) PATH lookups as a last resort
+    for name in [
+        "ungoogled-chromium",
+        "chromium",
+        "chromium-browser",
+        "google-chrome-stable",
+        "google-chrome",
+        "chrome",
+    ]:
+        which_path = shutil.which(name)
+        if which_path and os.path.exists(which_path):
+            return which_path
+
+    return None
+
+
 class GoogleScholarScraper:
-    def __init__(self, browser_path="/home/sn/chrome/opt/google/chrome/chrome"):
+    def __init__(self, browser_path: str | None = None):
         self.browser = None
-        self.browser_path = browser_path
+        # Resolve to a usable browser path; keep None if not found so uc can auto-detect
+        self.browser_path = _resolve_browser_path(browser_path)
         self.initialized = False
 
     async def initialize(self):
         """Initialize browser once"""
         if not self.initialized:
             print("Starting browser...")
-            self.browser = await uc.start(
-                browser_executable_path=self.browser_path,
-                headless=False,
-                browser_args=[
+            start_kwargs = {
+                "headless": False,
+                "browser_args": [
                     "--disable-blink-features=AutomationControlled",
                     "--disable-features=IsolateOrigins,site-per-process",
-                    "--no-default-browser-check"
-                ]
-            )
+                    "--no-default-browser-check",
+                ],
+            }
+            if self.browser_path:
+                start_kwargs["browser_executable_path"] = self.browser_path
+                print(f"Using browser executable: {self.browser_path}")
+            else:
+                print("No explicit browser path found; letting driver auto-detect.")
+
+            self.browser = await uc.start(**start_kwargs)
             self.initialized = True
             return True
         return False
