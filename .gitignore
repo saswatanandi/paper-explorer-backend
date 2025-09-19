@@ -4,6 +4,9 @@ __pycache__/
 *.pyo
 *.pyd
 
+# Dsstore
+.DS_Store
+
 # Generated data (stored in data repo or intermediate)
 data/databases/upload/
 data/eml/*
