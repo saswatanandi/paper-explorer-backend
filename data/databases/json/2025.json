@@ -9240,6 +9240,205 @@
       "topic": [
         "statistics-big-data"
       ]
+    },
+    {
+      "title": "A mass conservation relaxed (MCR) LSTM model for streamflow simulation across CONUS",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "NB",
+          "last_name": "Erichson"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Yang"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "The recent development of the physics-aware Mass-Conserving Long Short-Term Memory network (MC-LSTM) provides an alternative to other data-driven Deep Learning (DL) models in hydrology. Mass-Conserving Long Short-Term Memory incorporates mass conservation directly into the LSTM architecture. Despite the theoretical advancements, studies have reported a surprisingly limited performance of the MC-LSTM in streamflow simulation. We hypothesize that such a limitation is due to the unrealistic mass conservation scheme in MC-LSTM, which overlooks unobserved incoming water fluxes beyond precipitation. As an attempt to verify this hypothesis, we propose a Mass Conservation Relaxed LSTM (MCR-LSTM), which incorporates a bi-directional mass relaxation (MR) component to account for potential incoming water fluxes beyond precipitation. We train and test the proposed MCR-LSTM model across 531 watersheds in the contiguous United States (CONUS) against three baseline models: the Sacramento Soil Moisture Accounting, LSTM, and MC-LSTM. Our results show that MCR-LSTM outperforms MC-LSTM despite its underperformance compared to LSTM. Specifically, MCR-LSTM's advantage over MC-LSTM is mainly seen in the Plains and Western U.S., where the newly incorporated MR component better simulates water loss and suggests the likely existence of additional incoming water fluxes beyond precipitation, respectively. The novelty and contribution of this study are twofold: firstly, it introduces an alternative physics-aware DL tool (i.e., MCR-LSTM) in hydrology with higher accuracy in specific regions compared to MC-LSTM. Secondly, it provides a diagnosis of regions where strict, precipitation-based mass conservation constraints may be unrealistic in streamflow simulation.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024WR039131",
+      "date_added": "2025-10-07",
+      "id": "4925690feaca1558018e4a7948eaeb26",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "Vegetation productivity responses to compound and individual climatic stressors in drylands",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Lian"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Cui"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Hong"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Journal of Geophysical Research: Biogeosciences",
+      "citations": 0,
+      "abstract": "Dryland ecosystems are a critical component of the terrestrial carbon cycle and host a significant portion of the world's biodiversity. Under anthropogenic warming, these water-limited ecosystems are increasingly threatened by the more frequent and severe heatwaves and often co-occurring droughts (known as compound hot-dry extremes). However, the respective impacts of heat and water stress on ecosystems functioning in drylands during compound extremes remain unexplored. Using satellite-observed solar-induced chlorophyll fluorescence as a proxy for vegetation productivity, our study examined its response to variations of soil moisture and air temperature by separating conditions where the two climatic factors are coupled (hot and dry) or decoupled (hot but not dry, dry but not hot). The decoupled conditions confirm soil moisture as the predominant control of dryland ecosystem productivity. However, temperature acts as a significant modulator of the moisture control particularly under wet or dry extremes: high temperatures amplify both the adverse effect of dry extremes and the positive effect of wet extremes. The productivity sensitivity to temperature and water varies strongly across regions and vegetation types, with deeper-rooted vegetation exhibiting stronger resistance to hot-dry extremes. With more frequent occurrence of hot-dry extremes under global warming, this trend leads to more negative productivity anomalies and leaves a footprint on the trajectory of productivity changes in drylands. This study highlights the additional heat-water stress on dryland ecosystems by compound hot-dry extremes superimposed on that from anthropogenic warming and drying, which adversely impact photosynthetic activities and increasingly counteract the beneficial CO 2 fertilization effect.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024JG008695",
+      "date_added": "2025-10-07",
+      "id": "b6aa7062a535017795e30fcf49bf9326",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Spatio-temporal dynamics of forest and grassland fire risk in Xinjiang and quantification of variable influence",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Li"
+        }
+      ],
+      "journal": "Ecological Indicators",
+      "citations": 0,
+      "abstract": "Under the dual pressures of increasing extreme climate events and the expanding scope of human activities, forest and grassland fires are becoming more frequent and severe. Developing high-precision fire risk assessment models and identifying key driving factors are essential for effective fire prevention and control. However, selecting appropriate modeling variables and revealing the spatial heterogeneity of driving forces remain insufficient in current research. To address these issues, this study compared and analyzed multiple variable selection methods (PCA, LASSO, Stepwise Regression) coupled with machine learning algorithm (RF, SVM, BP-ANN) to identify the optimal modeling framework for simulating the spatial distribution of forest and grassland fire risk in Xinjiang from 2001 to 2022. Furthermore, we detected temporal breakpoints and trend conversions, and quantified the contribution of driving factors. The results indicate that: (1) Step_RF model is the optimal model (Acc = 89.31 %, F1 = 88.19 %, AUC = 0.9546) for simulating forest and grassland fire risk in Xinjiang; (2) Spatially, fire risk exhibited a decreasing gradient from northwest to southeast, with higher risk in regions of high altitude and high vegetation coverage; (3) Most of the region showed a significant increasing trend, nearly half of the region experienced a trend shift from increasing to decreasing in 2015-2019; (4) All variables exhibited bidirectional effects, with aboveground biomass showed a particularly pronounced positive influence in shrublands, open forest land, medium-coverage and low-coverage grasslands. This study provides scientific support for the precise prevention and control of forest and grassland fires under the context of climate change.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1470160X25009744",
+      "date_added": "2025-10-07",
+      "id": "d44b9fbb1cfc578569d636a68cfc98b8",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "Reconciling ecosystem service supply-demand mismatches through ecological compensation in the Tibetan plateau",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Yao"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Jia"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Ma"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Tu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Sun"
+        }
+      ],
+      "journal": "Carbon Balance and Management",
+      "citations": 0,
+      "abstract": "Accurately identifying ecological compensation (EC) regions and establishing clear compensation criteria are essential for promoting carbon sequestration, mitigating ecological degradation, and supporting equitable resource allocation. In this study, ecological modeling combined with hotspot analysis was applied to quantify the spatial mismatch between ecosystem service (ES) supply and demand on the Tibetan Plateau (TP) in 2020. We introduced the concept of comparative ecological radiation force (CERF) to characterize the spatial flow of ESs and to estimate the total compensation required to balance these flows. Our results highlight that the value of carbon sequestration, represented by net primary production (NPP), reached 1.21 × 106 CNY, alongside other key services such as soil conservation (SC) (284.69 × 10 6 CNY), water yield (WY) (44.99 × 10 6 CNY) and food supply (FS) (20.81 × 10 6 CNY). The directional analysis of service flows revealed that NPP, along with SC and WY, predominantly flowed from east to west, while FS exhibited a north-to-south pattern. Notably, NPP received only 0.16% of the total ecological compensation, in contrast to 95.42% for SC, 4.21% for WY, and 0.21% for FS. This study provides an integrated framework for aligning EC strategies with carbon management goals, offering insights to support carbon neutrality efforts and ecosystem restoration on the TP.",
+      "url": "https://link.springer.com/article/10.1186/s13021-025-00325-0",
+      "date_added": "2025-10-07",
+      "id": "17242fe0a33b139cf12b1d364bb9c79e",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Increasing constraint of aridity on tree intrinsic water use efficiency",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "M",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Felton"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Chen"
+        }
+      ],
+      "journal": "Nature Communications",
+      "citations": 1,
+      "abstract": "The intrinsic water use efficiency ( W ) of trees serves as a key variable linking water and carbon fluxes in forest ecosystems. Interannual variations in aridity (e.g., represented by the Standardized Precipitation Evapotranspiration Index, SPEI) can cause changes in W . However, it is unclear whether the aridity constraint on W , as indicated by the sensitivity of W to SPEI (S W ), has changed with recent climate change. Here, we use stable carbon isotope abundance of tree rings from 296 sites to estimate interannual variation of W and S W . S W is defined as the slope in a linear regression of W against SPEI and is negative for most of the tree sites. Our findings suggest an increasing aridity constraint on W from 1951 to 2010, with the absolute value of S W increasing by 112% over the period. This more negative trend in S W is statistically significant for gymnosperms but not for angiosperms. The change in S W over the past six decades is linked to rising aridity and atmospheric CO 2 , as revealed by a theoretical stomatal model. Our study highlights the increasing aridity control on tree W variation and implies the resilience of tree intrinsic functions to aridity variability under future climate change.",
+      "url": "https://www.nature.com/articles/s41467-025-62845-0",
+      "date_added": "2025-10-07",
+      "id": "83d4437f5f8f542289393a162f8b0c86",
+      "topic": [
+        "statistics-big-data"
+      ]
     }
   ]
 }
