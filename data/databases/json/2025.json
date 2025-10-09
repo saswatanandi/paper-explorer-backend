@@ -9565,49 +9565,6 @@
       ]
     },
     {
-      "title": "Exploring agricultural stakeholders' mental models of the water-energy-food-ecosystems (WEFE) Nexus: Insights from Mediterranean case studies",
-      "year": "2025",
-      "authors": [
-        {
-          "first_name": "E",
-          "last_name": "Garau"
-        },
-        {
-          "first_name": "G de",
-          "last_name": "Abreu"
-        },
-        {
-          "first_name": "I",
-          "last_name": "Pérez-Ramírez"
-        },
-        {
-          "first_name": "N",
-          "last_name": "Schütze"
-        },
-        {
-          "first_name": "Y",
-          "last_name": "Farhat"
-        },
-        {
-          "first_name": "H El",
-          "last_name": "Moussaoui"
-        },
-        {
-          "first_name": "J",
-          "last_name": "Loureiro"
-        }
-      ],
-      "journal": "Environmental Science & Policy",
-      "citations": 0,
-      "abstract": "Environmental crises, such as climate change, biodiversity loss, water scarcity, and food insecurity, pose global challenges that threaten ecosystems and human well-being. The water-energy-food-ecosystems (WEFE) Nexus concept advocates integrated resource management to optimize synergies, minimize trade-offs, and promote sustainability. Despite its prominence in policy and research, the WEFE Nexus often overlooks local socio-cultural contexts and stakeholder perspectives. This study addresses this gap by examining how stakeholders from the food sector conceptualize and value the WEFE Nexus across four Mediterranean case studies in Lebanon, Portugal, Spain, and Tunisia. Using a qualitative approach, we conducted semi-structured interviews alongside graphical visualization techniques, including hand-drawn illustrations and colored dot exercises, to explore agricultural stakeholders' mental models of the WEFE Nexus. The findings reveal significant variability in their perceptions of relationships among water, energy, food, and ecosystems, shaped by diverse socio-cultural, environmental, and economic contexts. Instrumental and relational values were most frequently identified, while intrinsic values were less commonly recognized. Agricultural stakeholders' interpretations ranged from a holistic framework of interconnected components to a narrower focus on specific elements like water or energy. Graphical representations generally aligned with oral descriptions, and four distinct patterns emerged between the identified relations among WEFE components: overlapping circular, overlapping linear, overlapping and separated, and ambiguous relations. This study underscores the importance of tailored, participatory approaches that incorporate stakeholders’ diverse perceptions into policy-making and resource management. By combining oral descriptions with visual representations, it provides an innovative framework for exploring the cognitive understandings and values that underpin the social-ecological dynamics shaping WEFE Nexus perspectives.",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1462901125002126",
-      "date_added": "2025-10-09",
-      "id": "b512a0c8e5aac7793ede8bad3f04a924",
-      "topic": [
-        "wrf"
-      ]
-    },
-    {
       "title": "Controls and intermediate processes of regional water use efficiency in Northwest China",
       "year": "2025",
       "authors": [
@@ -9644,6 +9601,29 @@
       "id": "ba0012ce4d971edb20d41a2084c6fd32",
       "topic": [
         "ecohydrology"
+      ]
+    },
+    {
+      "title": "Assessment of a Survivability Index for Drought Management in River Basins",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "MC",
+          "last_name": "Gunacti"
+        },
+        {
+          "first_name": "CP",
+          "last_name": "Cetinkaya"
+        }
+      ],
+      "journal": "Water Resources Management",
+      "citations": 0,
+      "abstract": "The adverse effects of droughts have been a struggle for humanity from an early age and are still truly relevant problems. The efforts to understand, prevent, and mitigate the drought have motivated researchers to develop indicators, indices, and action plans for its management. The presented paper suggests a novel index entitled Survivability from Droughts Index (SDI) to evaluate quantitative and qualitative indicators that represent the WEF Nexus system as well as the pillars of sustainability: economy, social, institutional, and environmental aspects. The index consists of four main sub-indices, namely, perception, vulnerability, adaptability, and recoverability. Each of these defines the stages when engaging with drought. The SDI encapsulates the economic survivability capacity of the agricultural sector at the scale of a river basin, in the case of the Gediz River Basin (GBR), Türkiye. In GBR, the calculated SDI of a relatively wet year, 1982, is determined as 0.38. While in a relatively drier period, namely 1991-1992, the value drops to 0.31, in a recent year, 2023, the value increases to 0.48. The results of the paper both validate the historical droughts and indicate that survivability from droughts can be achieved by actions to improve the sub-indices of SDI. The overall framework of SDI demands various data and engagement with stakeholders, but the results represent a strong connection with the analyzed case study. The presented outcomes are most beneficial to the decision-makers to detect and prioritize their measurements, such as new investments, insurance policies in drought-vulnerable areas within the analyzed extent.",
+      "url": "https://link.springer.com/article/10.1007/s11269-025-04321-4",
+      "date_added": "2025-10-09",
+      "id": "72690bfae25f9b93aeac9bbf68e31617",
+      "topic": [
+        "drought"
       ]
     }
   ]
