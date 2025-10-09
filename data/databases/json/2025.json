@@ -9439,6 +9439,212 @@
       "topic": [
         "statistics-big-data"
       ]
+    },
+    {
+      "title": "Compounding droughts and floods amplify socio-economic impacts",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "K",
+          "last_name": "Worou"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Messori"
+        }
+      ],
+      "journal": "Environmental Research Letters",
+      "citations": 0,
+      "abstract": "In recent years, compound climate and weather extremes have received significant attention due to the heightened threat they pose to the environment, human societies, and the economy. This study investigates the impacts of compound drought-flood (CDF) extremes using data from two widely-used disaster databases: the emergency events database (EM-DAT) and its geocoded disasters (GDIS), along with the DesInventar database. The analysis covers the period from 1960 to 2018, consistent with GDIS’temporal coverage. CDF events are defined as instances where drought and flood hazards occur concurrently or sequentially, with a flood taking place during a drought period or within four months of its end. Our findings for the global extratropics reveal that the economic losses and the number of affected people resulting from CDF events are up to eight times higher than those ascribed to isolated droughts or floods, with a confidence interval ranging from one to twelve. Similar qualitative results emerge from DesInventar and EM-DAT, albeit with some quantitative differences. Furthermore, impact ratios have increased in more recent decades compared to earlier periods, emphasizing the increasing impacts of the drought-flood compound events. These results highlight the amplified negative impacts when droughts and floods occur concomitantly or sequentially, underscoring the need for targeted policies to address their socioeconomic risks, particularly under changing climatic conditions.",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/adfe82/meta",
+      "date_added": "2025-10-09",
+      "id": "3777c3880857e9ca8a0fd6e2eb846fba",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Development of an improved Scaled Drought Condition Index (ISDCI) incorporating soil moisture for drought monitoring in Xinjiang",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Cao"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Meng"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Gan"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Bao"
+        },
+        {
+          "first_name": "P De",
+          "last_name": "Maeyer"
+        }
+      ],
+      "journal": "Ecological Indicators",
+      "citations": 0,
+      "abstract": "Various composite drought indices have been developed to quantify drought conditions. However, many challenges, such as inadequate soil moisture representation, empirical variable weights, and arbitrary drought classification, still exist. Xinjiang was selected as a typical study area, and an Improved Scaled Drought Condition Index (ISDCI) was developed by integrating precipitation, vegetation, temperature, and downscaled soil moisture with objectively determined weights. Additionally, the classification of drought severity has been refined in a relatively objective way. The results indicate the following: (1) Compared to the Scaled Drought Condition Index (SDCI) and the Vegetation Health Index (VHI), ISDCI showed a higher correlation with the Standardized Precipitation Evapotranspiration Index (SPEI) and the self-calibrating Palmer Drought Severity Index (scPDSI). (2) The optimized drought classification scheme exhibited better alignment with SPEI in terms of drought frequency and drought affected area. (3) Based on ISDCI, Xinjiang experienced an overall drying trend during the 2001-2023 growing seasons. The Ili River Basin dried the fastest (slope = − 8 × 10 −4 ), while the Tarim River Basin showed the slowest drying trend (slope = −2 × 10 −4 ). Oases and some mountainous areas became wetter, whereas deserts continued to dry. (4) ISDCI effectively captured major droughts, including those in Xinjiang (2008) and the Ili River Basin (2014). Overall, ISDCI offers high-resolution and near-real-time drought monitoring capabilities, providing scientific support for agricultural management and water resource regulation in arid and semi-arid regions.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1470160X25010477",
+      "date_added": "2025-10-09",
+      "id": "7ad75b0dee1c42d1bcf7ccf2b312d376",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Risk of rice production failure in India under climate change",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Bowden"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Foster"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Parkes"
+        }
+      ],
+      "journal": "Environmental Research Letters",
+      "citations": 0,
+      "abstract": "Rice production failure is a major threat to food security and supply chain resilience across India. In this paper, we examine future rice production failure risks across India by integrating down-scaled climate projections with machine learning models that capture complex crop-climate interactions. First, we identify key drivers of historical crop failures and demonstrate the critical role of monthly weather variability. We then use our historically-trained ML models to project future production failure risk across India, linking spatial changes in failure risk with projected future weather distributions and exploratory scenarios of changes in irrigation access. Our findings indicate that district-level risks of rice production failures in India are projected to increase (26% average) under future climate change across all shared socioeconomic pathways in the near (2025-2054) and far (2055-2084) future. Our analysis demonstrates that expanding irrigation access could play a vital role in mitigating these risks, with substantial risk reductions observed in high-vulnerability regions. These insights provide actionable information for policymakers aiming to enhance agricultural resilience, identifying priority areas where adaptive measures, particularly irrigation improvements, can most effectively reduce vulnerability to climate-driven production risks.",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/adf459/meta",
+      "date_added": "2025-10-09",
+      "id": "0130b7a4b8a524afbb8096f88fe5b434",
+      "topic": [
+        "crop"
+      ]
+    },
+    {
+      "title": "Global decarbonization corresponding with unseasonal land cover change",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "K",
+          "last_name": "He"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Liu"
+        }
+      ],
+      "journal": "Nature Communications",
+      "citations": 0,
+      "abstract": "Understanding the link between unseasonal land cover changes and CO 2 emissions can indicate the decarbonization progress of a region, but limited modeling tools exist for analysis in near-real-time. Here, we developed a modeling framework to reveal a strong and robust relationship between the two quantities. By applying the Butterworth filter, unseasonal changes in land cover and fuel-consuming sectors are extracted for Autoregressive Distributed Lag regression analysis in major economies. Among all investigated economies, Russia has demonstrated the strongest co-relationship (R-squared value of 0.730) between unseasonal CO 2 emissions and land cover changes, indicative of its heavy reliance on fossil fuels. Both Brazil (1200 km 2 /MtCO 2 e on average) and Russia (10,700 km 2 /MtCO 2 e) exhibit greatest sensitivity in land cover changes to CO 2 emission changes. This research provides an effective tool to assess the coupling between unseasonal land cover change and CO 2 emitting economic activities, presenting an alternative indicator to monitor decarbonization in real-time.",
+      "url": "https://www.nature.com/articles/s41467-025-63144-4",
+      "date_added": "2025-10-09",
+      "id": "0fa834b959e668ae5e678b41630e1edb",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Exploring agricultural stakeholders' mental models of the water-energy-food-ecosystems (WEFE) Nexus: Insights from Mediterranean case studies",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "E",
+          "last_name": "Garau"
+        },
+        {
+          "first_name": "G de",
+          "last_name": "Abreu"
+        },
+        {
+          "first_name": "I",
+          "last_name": "Pérez-Ramírez"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Schütze"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Farhat"
+        },
+        {
+          "first_name": "H El",
+          "last_name": "Moussaoui"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Loureiro"
+        }
+      ],
+      "journal": "Environmental Science & Policy",
+      "citations": 0,
+      "abstract": "Environmental crises, such as climate change, biodiversity loss, water scarcity, and food insecurity, pose global challenges that threaten ecosystems and human well-being. The water-energy-food-ecosystems (WEFE) Nexus concept advocates integrated resource management to optimize synergies, minimize trade-offs, and promote sustainability. Despite its prominence in policy and research, the WEFE Nexus often overlooks local socio-cultural contexts and stakeholder perspectives. This study addresses this gap by examining how stakeholders from the food sector conceptualize and value the WEFE Nexus across four Mediterranean case studies in Lebanon, Portugal, Spain, and Tunisia. Using a qualitative approach, we conducted semi-structured interviews alongside graphical visualization techniques, including hand-drawn illustrations and colored dot exercises, to explore agricultural stakeholders' mental models of the WEFE Nexus. The findings reveal significant variability in their perceptions of relationships among water, energy, food, and ecosystems, shaped by diverse socio-cultural, environmental, and economic contexts. Instrumental and relational values were most frequently identified, while intrinsic values were less commonly recognized. Agricultural stakeholders' interpretations ranged from a holistic framework of interconnected components to a narrower focus on specific elements like water or energy. Graphical representations generally aligned with oral descriptions, and four distinct patterns emerged between the identified relations among WEFE components: overlapping circular, overlapping linear, overlapping and separated, and ambiguous relations. This study underscores the importance of tailored, participatory approaches that incorporate stakeholders’ diverse perceptions into policy-making and resource management. By combining oral descriptions with visual representations, it provides an innovative framework for exploring the cognitive understandings and values that underpin the social-ecological dynamics shaping WEFE Nexus perspectives.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1462901125002126",
+      "date_added": "2025-10-09",
+      "id": "b512a0c8e5aac7793ede8bad3f04a924",
+      "topic": [
+        "wrf"
+      ]
+    },
+    {
+      "title": "Controls and intermediate processes of regional water use efficiency in Northwest China",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Chang"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Ning"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Zhou"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Ecosystem water use efficiency (WUE) is a critical parameter to reflect the trade-off relationship between water consumption and carbon sequestration. Generally, WUE is calculated as the ratio of gross primary productivity (GPP) or net primary production (NPP) to evapotranspiration (ET) or transpiration (T). These formulations, however, do not reflect the intermediate processes of vegetation water utilization. Here, by selecting typical ecosystems in Northwest China, a WUE chain framework was developed to decompose WUE into four intermediate processes: GPP/T, T/ET, ET/SW (SW refers to soil water), and SW/TWI (TWI refers to total water input). The variance decomposition method and structural equation model were used to attribute the changes in WUE. The results revealed that T/ET and ET/SW were the main processes driving WUE variance. The variance in ET/SW accounted for 55.5%, 49.1%, and 58.1% of the WUE variation in croplands, grasslands, and forests, respectively, whereas the variance in T/ET explained 46.0% of the WUE variation in shrublands. Regarding the factors controlling WUE and its intermediate processes, temperature enhanced the WUE of croplands and grasslands by affecting GPP/T and T/ET. Precipitation controlled forests WUE by regulating T/ET and SW/TWI. Elevated CO 2 primarily regulated the WUE of shrublands by impacting GPP/T, T/ET, and SW/TWI. The CO 2 fertilization effect was detected across all four ecosystems. This study provides valuable insights into the mechanisms causing spatial variability in WUE, enriching our understanding of the integrated water-carbon cycle.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425014568",
+      "date_added": "2025-10-09",
+      "id": "ba0012ce4d971edb20d41a2084c6fd32",
+      "topic": [
+        "ecohydrology"
+      ]
     }
   ]
 }
