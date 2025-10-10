@@ -9625,6 +9625,402 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "Hysteresis and reversibility of agroecological droughts in response to carbon dioxide removal",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Hauser"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Windisch"
+        },
+        {
+          "first_name": "SI",
+          "last_name": "Seneviratne"
+        }
+      ],
+      "journal": "Nature Water",
+      "citations": 0,
+      "abstract": "Agroecological droughts are expected to increase with climate change, becoming one of the greatest threats to ecosystems and human society. To mitigate climate change and the growing risk of agroecological droughts, carbon dioxide removal (CDR) is increasingly recognized as unavoidable. However, it remains unclear whether the increase of agroecological drought due to atmospheric CO 2 emissions will be symmetrically reversed by an equivalent atmospheric CDR. Here we investigate this question by utilizing an idealized atmospheric CO 2 emission and removal experiment from the CDR Model Intercomparison Project, involving eight Earth system models, and develop a new methodology to quantify climate hysteresis and reversibility. We find that drought increases in hotspot regions cannot be symmetrically reversed by an equivalent CDR: drought severity under the CDR pathway is 65% ± 30% greater than under the emission pathway; drought frequency increases are only partially reversed by 73% ± 18% when CO 2 emissions are balanced by equivalent CDR. Drought hysteresis and irreversibility are most pronounced in the Mediterranean, northern Central America, west and east southern Africa and southern Australia. Our findings imply irreversible drought impacts associated with CDR, highlighting the need for planning long-term drought adaptations.",
+      "url": "https://www.nature.com/articles/s44221-025-00487-8",
+      "date_added": "2025-10-09",
+      "id": "bffafa2a66b5127fbbee23d71e192a6c",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Critical Role of Spring Snowmelt on Soil Moisture Retention During Meteorological Droughts in Middle and High Latitude of Eurasia",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "M",
+          "last_name": "Msafiri"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Chen"
+        }
+      ],
+      "journal": "Journal of Climate",
+      "citations": 0,
+      "abstract": "Despite the increased frequency and intensity of meteorological droughts, Eurasian vegetation has demonstrated resilience during droughts or dry spells, possibly due to soil moisture retention from seasonal snowmelt. In this study, we present the first continental-scale investigation of quantifying this critical relationship through a comprehensive analysis of drought indices, snowmelt patterns, and soil moisture retention dynamics from 1960 to 2024. The results show that drought severity varies spatially, with southwestern Eurasia experiencing extreme short-term droughts [standardized precipitation index (SPI) < −2.5] and broader regions facing prolonged drought (SPI −1.5 to −1.0). Spring snowmelt exceeds 45 mm in eastern China, central/southern Russia, and northern Europe, while other regions receive less. This directly influences summer soil moisture, with high-snowmelt areas retaining more than 50 mm, compared to deficits of less than −25 mm in low-snowmelt zones such as southwestern Eurasia. Notably, summer precipitation shows weak correlations (r < −0.25) with soil moisture retention in drought-prone areas, highlighting snowmelt’s disproportionate importance. Furthermore, the empirical orthogonal function (EOF) analysis confirms a strong snowmelt-soil moisture coupling in northern Eurasia (48.1% variance), but concerning trends emerge: snowmelt declines in Siberia and Scandinavia correspond with drying in central Asia and southern Europe. While central Russia shows increasing snowmelt, overall trends indicate reduced snowpack persistence and earlier melt timing. These changes threaten the historical balance between water availability and ecological needs. Our findings emphasize the need for adaptive water management strategies to offset the loss of spring snowmelt buffers, which serve as a natural drought defense in the mid- and high latitudes of Eurasia.",
+      "url": "https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-24-0740.1/JCLI-D-24-0740.1.xml",
+      "date_added": "2025-10-10",
+      "id": "f9fd9c432dd644764e4d220acf246579",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Comparison of three daily rainfall-runoff models with multiple regression analysis for catchment parameters in Biobío, Chile",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "N",
+          "last_name": "Flores"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Rodríguez"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Alzamora"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Gavilán"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Acuña"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Balocchi"
+        }
+      ],
+      "journal": "Hydrological Sciences Journal",
+      "citations": 0,
+      "abstract": "This study analyzes the predictive capacity of three conceptual rainfall-runoff models (GR4J, GR5J, GR6J) in ungauged catchments within the Biobío Region, Chile. The study proposes a multiple regression-based regionalization approach using morphometric variables from nearby gauged catchments. Two unmonitored catchments were simulated due to their agroclimatic importance. The GR4J model excelled at simulating daily runoff, yielding satisfactory NSE, KGE, and RMSE values in most validations. Although GR5J and GR6J offered benefits in complex scenarios, they struggled with extreme precipitation events. Parameter regionalization, involving catchment area, mean slope, and shape factor, effectively transferred information, with R 2 values from 0.68 to 0.99. Supported by a validated agroclimatic classification, this integrated approach underscores the value of combining regionalization and hydrological modeling in data-scarce catchments. Findings strengthen sustainable water resources management strategies and highlight the need for continued methods refinement under climate change and exacerbating aridity.",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/02626667.2025.2563596",
+      "date_added": "2025-10-10",
+      "id": "2ab6b06f558fea69e37615d24f73a640",
+      "topic": [
+        "hydrological_modelling"
+      ]
+    },
+    {
+      "title": "Impact of current and warmer climate conditions on snow cover loss in burned forests",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "A",
+          "last_name": "Koshkin"
+        },
+        {
+          "first_name": "AM",
+          "last_name": "Marshall"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Rittger"
+        }
+      ],
+      "journal": "Science Advances",
+      "citations": 1,
+      "abstract": "Wildfires are increasingly burning in snow-dominated watersheds and can alter snowmelt dynamics. However, the spatial variability of snow cover loss in burned forests has been under characterized. Here, we use remotely sensed snow data to show that, under average winter conditions, snow melts earlier in the first year postfire in 99% of the snow zone. Postfire snow cover loss is more extreme in relatively low-elevation, warm environments compared to that in high-elevation, cold regions. Under +2°C of warming, 73% of the snow zone would experience more extreme earlier postfire snowmelt compared to historically average conditions. Regions with the largest shift earlier in postfire snowmelt timing under average climate conditions also have the largest shift earlier in postfire snowmelt under +2°C warming. The spatial variability in postfire snowmelt timing and exacerbated impact in projected warmer winters affect ecosystem water availability, snow albedo feedbacks, and snowmelt runoff forecasting essential to water resource management.",
+      "url": "https://www.science.org/doi/abs/10.1126/sciadv.adt9866",
+      "date_added": "2025-10-10",
+      "id": "ac4fd639b8d6fee499b24f6545e8d1eb",
+      "topic": [
+        "snow"
+      ]
+    },
+    {
+      "title": "Probabilistic physics-guided deep neural networks with recurrence and attention mechanisms for interpretable daily streamflow simulation",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S Sadeghi",
+          "last_name": "Tabas"
+        },
+        {
+          "first_name": "V",
+          "last_name": "Samadi"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Wilson"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Bhattacharya"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "As Deep Neural Networks (DNNs) are being increasingly employed to make important simulations in rainfall-runoff contexts, the demand for interpretability is increasing in the hydrology community. Interpretability is not just a scientific question, but rather knowing where the models fall flat, how to fix them, and how to explain their outcomes to scientific communities so that everyone understands how the model arrives at specific simulations This paper addresses these challenges by deciphering interpretable probabilistic DNNs utilizing the Deep Autoregressive Recurrent (DeepAR) and Temporal Fusion Transformer (TFT) for daily streamflow simulation across the continental United States (CONUS). We benchmarked TFT and DeepAR against conceptual to physics-based hydrologic models. In this setting, catchment physical attributes were incorporated into the training process to create physics-guided TFT and DeepAR configurations. Our proposed physics-guided configurations are also designed to aggregate the patterns across the entire data set, analyze the sensitivity of key catchment physical attributes and facilitate the interpretability of temporal dynamics in rainfall-runoff generation mechanisms. To assess the uncertainty, the modeling configurations were coupled with a quantile regression by adding Gaussian noise N(0,σ) $N\\,(0,\\sigma )$ with increasing standard deviation to the individual catchment attributes. Analysis suggested that the physics-guided TFT was superior in predicting daily streamflow compared to the original TFT and DeepAR as well as benchmark hydrologic models. Predictive uncertainty intervals effectively bracketed most of the observational data by simultaneous simulation of various percentiles (e.g., 10th, 50th, and 90th). Interpretable physics-guided TFT proved to be a strong candidate for CONUS daily streamflow simulations.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR040173",
+      "date_added": "2025-10-10",
+      "id": "c0621a4d887f4710fa2703d4a64d510a",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "A Novel Standardized Optimal Synthesized Drought Index (SOSDI) for agro-drought monitoring using multi-source remote sensing data",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Fan"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "IEEE Transactions on Geoscience and Remote Sensing",
+      "citations": 0,
+      "abstract": "Drought has been putting enormous pressure on agriculture and food security, especially for African countries with inadequate monitoring. However, there is still a lack of standardization in the synthesized drought index, which could better monitor drought than normalized indices, as well as insufficient attention to the geographical backgrounds of weights. We aim to develop a Standardized Optimal Synthesized Drought Index (SOSDI) that will improve drought monitoring and reflect dominant factors. The standardization transforms the input variable distribution functions, with the constraint optimization to compute the weight. Weight matrices are suggested to examine the geospatial heterogeneity of the input variable. Assessment of SOSDI from several dimensions was implemented. SOSDI was applied to monitor the periodic drought in East Africa, where rain-fed agriculture was susceptible to seasonal alternation. The results confirmed that standardization was more effective than normalization in the synthesized drought index, and the average correlation between SOSDI with existing indices, soil moisture, and crop yield reached about 0.6, 0.7, and 0.7, respectively. The cyclical drought is well captured on the seasonal and annual scales, mostly during the long-dry season. SOSDI could capture drought evolution and had good resistance to disturbances. Overall, SOSDI demonstrated a strong capability in drought monitoring and enhanced the drought expression derived from vegetation and temperature more effectively, rather than just precipitation.",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11155889/",
+      "date_added": "2025-10-10",
+      "id": "3c5e75d30f2a3d8270ca380375a1465b",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Changing seasonality and advanced mean date of annual maximum daily precipitation in major river basins of China (1960-2018)",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Mao"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "B",
+          "last_name": "He"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Environmental Research Letters",
+      "citations": 0,
+      "abstract": "Extreme rainfall seasonality plays a critical role in vegetation growth, agricultural production, and water resource management. Under global warming, increasing attention has been paid to its seasonal shifts and nonstationarity characteristics. In our comprehensive research, we utilized daily precipitation data from approximately 2200 gauge stations across China to investigate the spatial patterns, interannual variability, and long-term changes in the seasonality characteristics of annual maximum daily precipitation from 1960 to 2018. In the northern river basins, such as Hai, Songliao, Yellow, and Northwest River Basins, extreme daily events exhibit lower magnitude but stronger seasonality, accompanied by later timing and less variability in the mean date. Conversely, the southern river basins, such as Yangtze, Pearl, and Southeast River Basins, display the opposite pattern. Trend analysis shows that the mean occurrence date of extreme precipitation has generally advanced across most basins. Changes in the seasonality index reveal a clear north-south contrast: in the Northern basins, seasonality has weakened, implying that extreme precipitation events become more dispersed throughout the year. In the Southern basins, seasonality has strengthened, with extreme precipitation becoming more concentrated. The seasonal pattern of total column water vapor (TCWV) partly explains the earlier timing of extremes, especially in northern and central regions.Notably, El Niño-Southern Oscillation (ENSO) exert a discernible influence on the seasonality of extreme precipitation. El Niño induces delayed extremes in the Huai and lower Yangtze River Basin, but earlier events in the Northwest and Pearl River Basin. Notable reduced SI during El Niño versus La Niña phases, indicating La Niña intensifies precipitation seasonality. This study plays a pivotal role in advancing our understanding of extreme precipitation events, ultimately promoting resilience and reducing vulnerabilities to weather-related disasters.",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/adf97f/meta",
+      "date_added": "2025-10-10",
+      "id": "28beb7b46d8e4a1eedd058c936b40156",
+      "topic": [
+        "meteorology"
+      ]
+    },
+    {
+      "title": "Response Modes of Global Vegetation to Extreme Drought",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "YH",
+          "last_name": "Bai"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "YW",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Tang"
+        }
+      ],
+      "journal": "Global Change Biology",
+      "citations": 0,
+      "abstract": "Increasingly frequent extreme droughts pose a serious threat to global vegetation. However, previous studies have not characterized the whole response process of vegetation to drought, and there are uncertainties in their methods and indicators. In this study, we developed a new indicator system and derived the response modes of global vegetation to extreme drought. We examined the influence of environmental variables on the modes, as well as the temporal changes of vegetation's responses. We found that vegetation in low- and mid-latitude regions exhibited contrasting response modes to extreme drought. Long-term moisture played a dominant role in shaping the spatial patterns. Over the past 40 years, both the total loss and response time of global vegetation have increased with time. Among various biome types, tropical and subtropical moist broadleaf forests exhibited a mode of low maximum decrease and short response time to extreme drought, resulting in the lowest total loss, whereas temperate grasslands, savannas and shrublands demonstrated high vulnerability in both current and future trends, warranting great attention. These results provide valuable insights for a more comprehensive understanding of global vegetation's responses to extreme drought and for assessing the vulnerability of different biome types.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.70488",
+      "date_added": "2025-10-10",
+      "id": "ca83ed422f35c2be0157becddbf8cbcb",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Long-Term Drought Persistently Shifts Plant and Soil Microbial Communities but Has Limited Impact on CO2 Fluxes Under Subsequent Drought",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "M",
+          "last_name": "Gliesch"
+        },
+        {
+          "first_name": "LH",
+          "last_name": "Sanchez"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Boreel"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Tietema"
+        },
+        {
+          "first_name": "FT de",
+          "last_name": "Vries"
+        }
+      ],
+      "journal": "Global Change Biology",
+      "citations": 0,
+      "abstract": "Droughts are increasing with climate change, affecting the functioning of terrestrial ecosystems and limiting their capacity to mitigate rising atmospheric CO 2 levels. However, there is still large uncertainty on the long-term impacts of drought on ecosystem carbon (C) cycling, and how this determines the effect of subsequent droughts. Here, we aimed to quantify how drought legacy affects the response of a heathland ecosystem to a subsequent drought for two life stages of Calluna vulgaris resulting from different mowing regimes. We imposed a subsequent drought in a long-term (20 years) drought field experiment combined with different mowing years. We hypothesised that drought legacy would reduce the impact of a subsequent drought on ecosystem respiration (ER) through shifts in microbial community composition, and we expected a stronger effect of drought legacy on building stage Calluna (mowed in 2013) than on seedlings (mowed in 2020), with knock-on effects for net ecosystem exchange (NEE) and ER. We found that drought legacy persistently shifted soil bacterial and fungal communities, but the subsequent drought had minimal effect. Drought legacy also shifted plant community composition, with the strongest effect of subsequent drought on the building stage of Calluna . Subsequent drought reduced all CO 2 fluxes independent of drought legacy, and this effect was most pronounced in the building stage of Calluna . The observed strong and persistent shifts in soil microbial communities as a result of 20 years of summer drought did not explain ecosystem CO 2 fluxes, which were determined by changes in plant communities. Thus, our findings show a mismatch between aboveground and belowground responses to drought, and highlight that older heathlands are more vulnerable to drought, reducing their CO 2 uptake capacity in the crucial phase of ecosystem C stock accumulation. These findings give insight into the consequences of long-term drought for ecosystem C cycling and its response to future drought.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.70441",
+      "date_added": "2025-10-10",
+      "id": "29326b421d5d5b2a011572f0783506f9",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Global comparison of temperature and water stress representations in light use efficiency models for gross primary productivity estimation",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "E",
+          "last_name": "Gong"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Hu"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Bai"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "ISPRS Journal of Photogrammetry and Remote Sensing",
+      "citations": 0,
+      "abstract": "Accurate estimation of gross primary productivity (GPP) using light use efficiency (LUE) models based on remote sensing data remains a challenge, because LUE determines environmental constraints within the modeling framework by incorporating temperature and water stress functions. Moreover, LUE models represent environmental stresses inconsistently. We conducted a global-scale comparison of different combinations of temperature and water stress functions to systematically evaluate the impact on GPP estimates. Monthly observation data from 172 eddy covariance flux towers distributed around the world were combined with six stress functions drawn from three prominent LUE models (the Carnegie-Ames-Stanford Approach (CASA), Vegetation Photosynthesis Model (VPM), and Moderate Resolution Imaging Spectroradiometer) to develop nine candidate schemes, and the model performance was evaluated according to the coefficient of determination (R 2 ) and root mean square error (RMSE). Globally, the best-performing configuration coupled the water stress function from VPM with the temperature stress function from CASA (R 2 = 0.721; RMSE = 55.4 g C·m −2 ·month −1 ). However, the model performance markedly varied with the vegetation types: temperature stresses were the principal limiting factor in forests, croplands, and wetlands, whereas water stresses were the principal limiting factor in arid and temperate grasslands. A feature importance analysis using the XGBoost algorithm corroborated this pattern. The differences among stress functions mainly originated from their input parameters. A sensitivity analysis revealed that GPP is most responsive to changes in the optimum temperature compared with water or temperature extremes. These findings underscore the need to tailor stress parameterization to specific climate zones and vegetation types. They provide clear guidance for improving GPP estimates based on remote sensing products and lay a foundation for the next generation of carbon-cycle models to consider the effects of climate change.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0924271625003764",
+      "date_added": "2025-10-10",
+      "id": "9a124105da5571eb3723da6189428502",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "MamGA: a deep neural network architecture for dual-channel parallel monthly runoff prediction based on mamba and depth-gated attention layer",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Tian"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Ren"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Xu"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Monthly runoff prediction is crucial in water resource management, involving both short-term hydrological dynamics and long-term planning. It has a decisive impact on flood prevention, resource allocation, and ecological protection. In the context of increasing uncertainties in runoff due to climate change and human activities, accurate monthly runoff forecasting becomes even more essential. Therefore, this paper proposes a novel dual-channel parallel monthly runoff prediction deep neural network architecture-MamGA-built on the significant application value of deep neural networks in runoff prediction. The architecture first introduces the Mamba model, which employs a selection mechanism to achieve selective information propagation and suppression, effectively enhancing the processing capability of global feature information while reducing the computational complexity of modelling long sequences. Furthermore, this paper incorporates a Depth-gated Attention Layer that combines bidirectional depth-gated modules and linear attention mechanisms to address the shortcomings of the Mamba network in unidirectional information processing. Integrating an Embedded Coding layer and a Sequential Decoding layer constructs an efficient coding and decoding system, further strengthening the model’s ability to capture global features and temporal information. To validate the effectiveness and advancement of the MamGA model, this study selected the Manwan Station (MW), Xiaowan Station (XW) in China, and the Thunder Creek Station (TC) in the United States as experimental subjects. Five evaluation metrics were employed for comparative analysis against nine benchmark models. The experimental results indicate that the MamGA model exhibits significant superiority across all cases. For instance, at the MW station, compared to the Long Short-Term Memory (LSTM) model, the MamGA model reduced the Mean Absolute Error (MAE) and Normalized Root Mean Square Error (NRMSE) by 33.08% and 23.93%, respectively. Meanwhile, the Nash Efficiency Coefficient (NSE), correlation coefficient (R), and Kling-Gupta Efficiency (KGE) improved by 8.41%, 3.93%, and 8.36%, respectively, with both R and NSE exceeding 0.9. The MamGA model also demonstrated significant performance improvements at other stations compared to the competing models. The study suggests that the MamGA model, as an advanced tool for monthly runoff prediction, can significantly enhance the accuracy of runoff forecasting, providing robust support for the optimal allocation and management of water resources",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425016440",
+      "date_added": "2025-10-10",
+      "id": "b7e62f4bc20a9fd9014ab6acabbcd755",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "Probabilistic Flood Susceptibility Mapping Using Explainable AI for the Western United States",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "CC",
+          "last_name": "Ibebuchi"
+        },
+        {
+          "first_name": "IO",
+          "last_name": "Abu"
+        }
+      ],
+      "journal": "Environmental Research Communications",
+      "citations": 0,
+      "abstract": "Floods are among the most consequential environmental hazards, threatening lives, infrastructure, and economic stability. In the western United States, increasing variability in streamflow and shifting hydrologic regimes have heightened concerns about flood susceptibility and long-term water security. This study aims to predict flood susceptibility and analyze multi-decadal trends in extreme streamflow events across 1,088 United States Geological Survey flow-monitoring stations. We employ an explainable artificial intelligence (XAI) framework, integrating a random forest model with SHapley Additive exPlanations (SHAP), to identify and interpret the dominant drivers of flood susceptibility. The XAI model achieved a high predictive performance (Area Under Curve = 0.92), offering a reliable probabilistic tool for hazard mitigation and emergency planning. SHAP analysis showed that low channel elevation, high discharge variability, and flatter slopes were the strongest predictors of flood susceptibility, jointly accounting for 53% of model importance. Additionally, a statistically significant positive trend in annual mean discharge emerged as another important predictor (7% SHAP contribution). Seasonal analysis further revealed that streams with lower summer and spring flow thresholds were particularly susceptible, as reduced channel capacity and flow volatility heightened flood potential. Spatially, flood susceptibility hotspots (with predicted susceptibility >50%) emerged along the Pacific slope, extending from coastal Washington through northern California, where low elevations and flat terrain facilitate water accumulation. Additional clusters were identified in interior mountainous regions, including the Sierra Nevada and Cascades. To complement station-level findings, we developed a county-level composite risk index incorporating flood hazard susceptibility, land cover, settlement patterns, population exposure, and social vulnerability. This probability-based XAI-driven framework provides a transparent and actionable tool for identifying at-risk areas, enabling targeted mitigation strategies and resilience-building efforts across the western United States.",
+      "url": "https://iopscience.iop.org/article/10.1088/2515-7620/ae0c5c/meta",
+      "date_added": "2025-10-10",
+      "id": "22d5953dfe27ec3cb6e474fcbc014d89",
+      "topic": [
+        "machine_learning"
+      ]
     }
   ]
 }
