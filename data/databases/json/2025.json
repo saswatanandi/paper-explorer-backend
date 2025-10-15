@@ -10021,6 +10021,84 @@
       "topic": [
         "machine_learning"
       ]
+    },
+    {
+      "title": "Responses and shifting drivers of ecosystem carbon fluxes under drought conditions",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Ming"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Xiao"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Lin"
+        }
+      ],
+      "journal": "Ecological Indicators",
+      "citations": 0,
+      "abstract": "Net ecosystem productivity (NEP), i.e., the balance between carbon uptake and respiration, is a critical indicator of ecosystem carbon dynamics under climate extremes. The effects of drought on ecosystem carbon fluxes were investigated via eddy covariance observations from 77 flux sites worldwide (FLUXNET2015, ChinaFLUX, and the Heihe network), with drought quantified on the basis of the standardized precipitation evapotranspiration index (SPEI) across multiple timescales ranging from 1-12 months (SPEI-1 to SPEI-12). The results revealed that ecosystems were most sensitive to short-term drought (1-3 months), with most sites exhibiting maximum carbon flux-SPEI correlations. Although short-term moisture variability drove immediate responses in carbon fluxes, the cumulative moisture stress over seasonal timescales (SPEI-6) indicated a significant threshold response in these fluxes: relative to normal conditions (SPEI-6 > − 0.5), the NEP increased slightly under mild to moderate drought conditions (−1.5 < SPEI-6 ≤ − 0.5). However, for SPEI-6 ≤ − 1.5 (severe drought), the NEP decreased sharply, indicating that adaptive mechanisms were compromised beyond the critical SPEI-6 threshold of − 1.5. Notably, wetlands (WET) and mixed forests (MF) maintained their carbon-sink functions even under severe drought, indicating substantial drought resistance through hydrological buffering and functional diversity. Moreover, the results of SHapley Additive exPlanations (SHAP) analysis revealed that the leaf area index (LAI) was the main regulator of the NEP, contributing approximately 30 % under both nondrought and drought conditions. Relative to normal conditions, drought modulated the controls on carbon fluxes: the importance of canopy conductance (Gc) increased from 17.93 % to 25.52 % (+7.59 percentage points), whereas the importance of net radiation (Rn) decreased from 19.81 % to 9.09 % (−10.72 percentage points), indicating a transition from energy to water limitation in terms of ecosystem carbon dynamics. These findings establish a critical seasonal drought threshold for ecosystem carbon dynamics and capture the shift from energy to water limitation in carbon flux regulation, offering actionable insights for ecosystem management and drought resilience strategies.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1470160X25012154",
+      "date_added": "2025-10-15",
+      "id": "031aa80972f782f42c9226a12d056535",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Copula-based joint risk analysis of future Meiyu duration and intensity over China",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Kuang"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Yu"
+        }
+      ],
+      "journal": "Theoretical and Applied Climatology",
+      "citations": 0,
+      "abstract": "Meiyu is a special precipitation anomaly taking place in China, Japan, and Korea. In China, Meiyu always happens in the lower reaches (LR) of the Yangtze River Basin (YRB). Its traditional characteristics have changed in recent years with global warming. Meiyu is getting more and more extreme. It potentially threatened the energy supply. But precise projections are still lacking. A Meiyu projection and risk analysis approach (MPRA) is developed in this study. It is aimed to give a comprehensive picture of future Meiyu considering multiple synoptic patterns (SPs) based on statistical downscaling and K-means clustering. Multilevel Meiyu recurrence risks will be quantified by the Copula function, and the effects on food, energy and water resources will be discussed. Results suggest that the future Meiyu will last longer and have much more rainfall compared with the 2000s (i.e., 1985-2014). Considering four shared socioeconomic pathways (SSPs), Meiyu will be most severe under SSP585, with 16.27 days and 38.19 mm/grid more than in the 2000s. The high-pressure anomalies around YRB can easily trigger long-duration and high-intensity Meiyu. The multilevel heavy Meiyu (i.e., with 5, 10, 20, and 50 return periods) will keep increasing only under SSP585 in the 21st century, with 10 times increase in total conditional probabilities. Intensified Meiyu will threaten food and water energy, but somehow drive the energy transition. It is suggested to implement emission reduction to mitigate climate change and improve the resilience to Meiyu risks.",
+      "url": "https://link.springer.com/article/10.1007/s00704-025-05744-0",
+      "date_added": "2025-10-15",
+      "id": "d43d44ed28b90c95ebba97ecb854e500",
+      "topic": [
+        "copula"
+      ]
     }
   ]
 }
