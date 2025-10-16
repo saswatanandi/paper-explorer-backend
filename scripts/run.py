@@ -32,7 +32,7 @@ def clean_unicode_text(text: str) -> str:
     """Clean and normalize Unicode characters in text."""
     if not text:
         return ""
-    
+
     # Replace common Unicode problems
     text = text.replace('\u2010', '-')  # Unicode hyphen
     text = text.replace('\u2011', '-')  # Non-breaking hyphen
@@ -42,8 +42,53 @@ def clean_unicode_text(text: str) -> str:
     text = text.replace('\u2015', '-')  # Horizontal bar
     text = text.replace('\u00a0', ' ')  # Non-breaking space
     text = text.replace('\u2026', '...')  # Ellipsis
-    
+
     return text
+
+def contains_non_english_chars(text: str) -> bool:
+    """Detect if text contains non-English characters (Chinese, Japanese, Korean, Cyrillic, etc.)."""
+    if not text:
+        return False
+
+    for char in text:
+        # Get Unicode code point
+        code_point = ord(char)
+
+        # Check for CJK (Chinese, Japanese, Korean) characters
+        if (0x4E00 <= code_point <= 0x9FFF or  # CJK Unified Ideographs
+            0x3400 <= code_point <= 0x4DBF or  # CJK Unified Ideographs Extension A
+            0x20000 <= code_point <= 0x2A6DF or  # CJK Unified Ideographs Extension B
+            0x2A700 <= code_point <= 0x2B73F or  # CJK Unified Ideographs Extension C
+            0x2B740 <= code_point <= 0x2B81F or  # CJK Unified Ideographs Extension D
+            0x2B820 <= code_point <= 0x2CEAF or  # CJK Unified Ideographs Extension E
+            0xF900 <= code_point <= 0xFAFF or  # CJK Compatibility Ideographs
+            0x3040 <= code_point <= 0x309F or  # Hiragana
+            0x30A0 <= code_point <= 0x30FF or  # Katakana
+            0xAC00 <= code_point <= 0xD7AF):  # Hangul Syllables
+            return True
+
+        # Check for Cyrillic characters
+        if (0x0400 <= code_point <= 0x04FF or  # Cyrillic
+            0x0500 <= code_point <= 0x052F or  # Cyrillic Supplement
+            0x2DE0 <= code_point <= 0x2DFF or  # Cyrillic Extended-A
+            0xA640 <= code_point <= 0xA69F):  # Cyrillic Extended-B
+            return True
+
+        # Check for Arabic
+        if 0x0600 <= code_point <= 0x06FF:
+            return True
+
+        # Check for Hebrew
+        if 0x0590 <= code_point <= 0x05FF:
+            return True
+
+        # Check for Thai
+        if 0x0E00 <= code_point <= 0x0E7F:
+            return True
+
+        # Check for other non-Latin scripts can be added here if needed
+
+    return False
 
 def extract_html_from_eml(eml_file: str) -> Optional[str]:
     """Extract HTML content from an .eml file if it's a Google Scholar alert."""
@@ -525,6 +570,7 @@ async def process_eml_files(
     
     # Define file paths
     avoid_journals_path = os.path.join(data_dir, "databases", "csv", "avoid.csv")
+    avoid_keywords_path = os.path.join(data_dir, "databases", "csv", "avoid_keywords.csv")
     unique_paper_id_path = os.path.join(data_dir, "databases", "csv", "unique_paper_id.csv")
     unique_journal_path = os.path.join(data_dir, "databases", "csv", "unique_journal.csv")
     unique_topic_path = os.path.join(data_dir, "databases", "csv", "unique_topic.csv")
@@ -532,12 +578,15 @@ async def process_eml_files(
     
     # Load data from CSV files to memory
     avoid_journals = load_csv_to_set(avoid_journals_path, "name")
+    avoid_keywords = load_csv_to_set(avoid_keywords_path, "keyword")
     unique_paper_ids = load_csv_to_set(unique_paper_id_path, "id")
     journal_mapping = load_journal_mapping(unique_journal_path)
     topics = load_csv_to_set(unique_topic_path, "name")
     reviewed_paper_ids = load_reviewed_papers(paper_reviewed_path)
     new_reviewed_papers = set()  # Track papers reviewed in this session
-    
+    non_english_papers_count = 0  # Track papers filtered due to non-English titles
+    keyword_filtered_count = 0  # Track papers filtered due to avoid keywords
+
     # Extract paper titles from EML files
     print("Extracting paper titles from EML files...")
     all_titles = []
@@ -562,22 +611,46 @@ async def process_eml_files(
     filtered_titles = []
     
     for title in unique_titles:
+        # Check for non-English characters first
+        if contains_non_english_chars(title):
+            print(f"Skipping non-English paper: {title}")
+            non_english_papers_count += 1
+            continue
+
+        # Check for avoid keywords in title
+        title_lower = title.lower()
+        found_keyword = None
+        for keyword in avoid_keywords:
+            if keyword in title_lower:
+                found_keyword = keyword
+                break
+
+        if found_keyword:
+            print(f"Skipping paper with keyword '{found_keyword}': {title}")
+            keyword_filtered_count += 1
+            continue
+
         # Generate paper ID using current year as fallback for early filtering
         paper_id = generate_paper_id(title, current_year)
-        
+
         # Check if already reviewed
         if paper_id in reviewed_paper_ids:
             print(f"Skipping already reviewed paper: {title}")
             continue
-            
+
         # Check if already in database
         if paper_id in unique_paper_ids:
             print(f"Skipping paper already in database: {title}")
             continue
-            
+
         filtered_titles.append(title)
     
+
+    if keyword_filtered_count > 0:
+        print(f"Filtered out {keyword_filtered_count} papers due to avoid keywords.")
+            
     print(f"After filtering, {len(filtered_titles)} papers remain for processing.")
+
     
     # Process each paper
     selected_papers = []
@@ -599,6 +672,12 @@ async def process_eml_files(
             "url": paper_info.get("url", ""),
             "date_added": datetime.datetime.now().strftime("%Y-%m-%d")
         }
+
+        # Check if scraped title contains non-English characters
+        if paper_metadata.get("title") and contains_non_english_chars(paper_metadata["title"]):
+            print(f"Skipping non-English paper (from Google Scholar): {paper_metadata['title']}")
+            non_english_papers_count += 1
+            continue
 
         # Generate paper ID early to check if it already exists
         if paper_metadata.get("title") and paper_metadata.get("year"):
@@ -746,8 +825,11 @@ async def process_eml_files(
     if new_reviewed_papers:
         save_reviewed_papers(new_reviewed_papers, paper_reviewed_path)
         print(f"Saved {len(new_reviewed_papers)} reviewed papers to {paper_reviewed_path}")
-    
+
     print("\nProcessing complete!")
+    if non_english_papers_count > 0:
+        print(f"Filtered out {non_english_papers_count} papers due to non-English titles.")
+
 
 async def main():
     """Main entry point."""

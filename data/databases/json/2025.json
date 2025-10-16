@@ -10099,6 +10099,53 @@
       "topic": [
         "copula"
       ]
+    },
+    {
+      "title": "Socio-Economic Risk of Rising Compound Precipitation-Wind Extremes in San Francisco Bay Area",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "N",
+          "last_name": "Kumar"
+        },
+        {
+          "first_name": "GB",
+          "last_name": "Pasternack"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Jin"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Alexander"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Rampini"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Storesund"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Lim"
+        }
+      ],
+      "journal": "International Journal of Climatology",
+      "citations": 0,
+      "abstract": "Compound precipitation-wind extremes (CPWEs) pose significant socio-economic challenges in urban areas, with the most severe impacts often felt by vulnerable populations. While CPWE studies have often focused on large-scale assessments, localised urban contexts, at a scale of a city and its suburban surroundings, remain understudied, particularly in terms of how CPWEs might differentially impact different socio-economic communities. This study aims to advance understanding of how CPWEs interact with social vulnerability at a localised scale, using the San Francisco Bay Area (SFBA)-a global hotspot for CPWEs with diverse climates, physiography, and socio-economic factors-as a test case. Daily precipitation and wind speed data (~4 km) from the gridMET dataset (1982-2022) were used to identify CPWEs during the wet season (October-April). Patterns of CPWE event frequency and trends were then analysed. We found that the return period for CPWEs in the SFBA ranges from 0.5 to 2 years, suggesting nearly annual occurrences. Over recent decades, these events have become more frequent (an increase of two events per decade) and more intense, particularly in terms of daily precipitation trends (an increase of 0-5 mm/decade), across the SFBA. We further examined the connection between CPWEs and social vulnerability using the Social Vulnerability Index from the Centers for Disease Control and Prevention, considering factors such as socio-economic status, household characteristics, racial and ethnic composition, housing conditions, and access to transportation. Key urban centres, such as San José and Oakland, emerged as hotspots where high CPWE frequency coincides with high levels of social vulnerability due to economic constraints, inadequate housing, and limited transportation access. These findings underscore the need for targeted adaptation measures to protect populations most at risk in the SFBA.",
+      "url": "https://escholarship.org/uc/item/1tj5949h",
+      "date_added": "2025-10-16",
+      "id": "f746950cf773312f8fa91e7e60a4cb77",
+      "topic": [
+        "meteorology"
+      ]
     }
   ]
 }
