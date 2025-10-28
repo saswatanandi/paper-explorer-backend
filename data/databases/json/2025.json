@@ -10306,6 +10306,505 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "Synoptic origins of extreme riverine floods over the North China Plain with focus on the tail behaviors",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Yang"
+        }
+      ],
+      "journal": "Geophysical Research Letters",
+      "citations": 0,
+      "abstract": "Inadequate flood risk management highlights the need to better understand when and where extreme floods occur. Existing wisdom explains the geographic likelihood of these floods, but falls short in determining when they can be anticipated. Here we identify synoptic origins (referring to large-scale weather patterns and the associated rainfall processes) of extreme floods by analyzing a large catalog of flood-producing storms over the North China Plain. The most extreme floods are associated with a northward and westward extension of the Subtropical High, providing favorable synoptic conditions for predecessor rainfall processes, despite their relatively low frequency of occurrence. Low-level moisture convergence modulated by both regional topography and synoptic forcing dictates the spatiotemporal variability of extreme rainfall. We reveal a critical dependence of basin-scale flood controls on synoptic origins of extreme floods. Our analysis provides process-driven insights into the tail behavior of flood peaks that can inform flood risk management.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025GL118216",
+      "date_added": "2025-10-28",
+      "id": "8b6751e6a31fcc8450e91f6822565a0d",
+      "topic": [
+        "atmosphere"
+      ]
+    },
+    {
+      "title": "A Study of the Dependence between Soil Moisture and Precipitation in different Ecoregions of the Northern Hemisphere",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Xue"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Wu"
+        }
+      ],
+      "journal": "Hydrology and Earth System Sciences",
+      "citations": 2,
+      "abstract": "Soil moisture plays a critical role in the land-atmosphere coupling system. It is replenished by precipitation and transported back to the atmosphere through land surface evaporation and vegetation transpiration. Soil moisture is, therefore, influenced by both precipitation and evapotranspiration, with spatial heterogeneities and seasonal variations across different ecological zones. The relationship between soil moisture and precipitation was found to be nonlinear and negative in Northern Hemisphere ecosystems. However, the driving mechanisms of these negative correlations, especially how soil moisture is influenced by precipitation and evapotranspiration, still remain unclear. This study quantified the spatiotemporal distribution of the nonlinear dependence of soil moisture to precipitation, and identify the dominant factors in different ecoregions to explore the driving mechanisms and regional patterns. The joint distributions of precipitation and soil moisture were analyzed at monthly and annual scales, using soil moisture and precipitation data from ERA5-Land and Global Precipitation Climatology Project, respectively. The nonlinear negative dependences reached to 19.2 %, 0.7 %, and 2.3 % at monthly scale, while were 3.0 %, 4.0 %, and 8.6 % at annual scale, respectively, for the three soil layers. These negative dependences were shown to be most prominent in temperate grasslands, savannas, shrublands, deserts, xeric shrublands, and tundra regions, where driven by the land surface temperature and by the air temperature-gross primary production relationship at the monthly scale based on Ridge regression models and Bayesian models. Additionally, the negative dependence is also linked to freeze-thaw cycles, precipitation seasonality, and temperature fluctuations, which lead to asynchronous changes between soil moisture and precipitation at the seasonal scale. At the annual scale, the negative dependence was associated with long-term changes in precipitation and temperature that affect vegetation and surface properties, by altering soil water capacity. These findings enhance the understanding of land-atmosphere interactions providing a valuable basis for future research on drought, hydrometeorology, and ecological conservation.",
+      "url": "https://hess.copernicus.org/articles/29/5575/2025/",
+      "date_added": "2025-10-28",
+      "id": "2c62fd98b3431451ca2985b91704bad0",
+      "topic": [
+        "meteorology"
+      ]
+    },
+    {
+      "title": "Significant sensitivity of global vegetation productivity to terrestrial surface wind speed changes",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "H",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Fu"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "ZA",
+          "last_name": "Mekonnen"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Ciais"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Yang"
+        }
+      ],
+      "journal": "Nature Communications",
+      "citations": 0,
+      "abstract": "Decadal changes in terrestrial surface wind speed since the 1960s have been extensively documented, while the mechanism and the extent of their impacts on terrestrial ecosystem productivity remain unclear. Here, we systematically explore the impacts of wind speed changes on terrestrial gross primary production (GPP) using satellite-derived data, reanalysis datasets, flux tower observations, CMIP6 models, and exploratory simulation experiments. Our results show a negative sensitivity of terrestrial GPP to wind speed change, ranging from −156.67 to −65.82 g C m −2 yr −1 (m s −1 ) −1 , across different data sources from 1983 to 2100. This is mainly attributed to the impacts of wind speed decline on stomatal conductance by reducing atmospheric dryness and soil drying. We find that during 1983 - 2010, wind speed decline is the most important factor, after rising atmospheric CO 2 concentrations, in its contribution to the increasing trend in GPP (6.0% -7.8%). With further declines in wind speed, this contribution to GPP is projected to rank between second and third during 2031 - 2100. Among seven plant functional types, grasslands contribute most to the wind-induced changes in the GPP trend under current and future climates. These findings highlight the substantial effects of wind speed on centennial-scale global carbon dynamics.",
+      "url": "https://www.nature.com/articles/s41467-025-65000-x",
+      "date_added": "2025-10-28",
+      "id": "2d02b904bff04cdcd8297ce12086e493",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Economic consequences of cascading drought-flood events: Evidence from Central Europe",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Deng"
+        },
+        {
+          "first_name": "RK",
+          "last_name": "Guntu"
+        },
+        {
+          "first_name": "S Khosh Bin",
+          "last_name": "Ghomash"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Kreibich"
+        }
+      ],
+      "journal": "Environmental Research Letters",
+      "citations": 0,
+      "abstract": "Cascading drought-flood events (CDFEs), also referred to as “drought-to-flood transitions” or “drought-flood abrupt alternations,” in which a flood follows a period of drought, may have different flood generation mechanisms than floods occurring independently from drought, as the drought could affect soil infiltration rates and, consequently, runoff dynamics. With the increasing frequency of extreme weather events driven by climate change, understanding the cascading nature of drought and flood events has become crucial for effective disaster risk management. However, there is a lack of empirical evidence on how these drought-flood interactions work and translate to economic losses. This study addresses this gap by identifying CDFEs and flood-only events (FEs) across Central Europe and linking them to their flood impacts from the modelled Historical Analysis of Natural Hazards in Europe (HANZE) database. CDFEs are associated with significantly higher maximum daily mean streamflow (58.51 m3/s vs. 38.20 m3/s), deeper mean water depths (1.90m vs. 1.88m), and greater economic losses (€33.09 million/km2 vs. €29.75 million/km2) compared to FEs. These findings underscore the special features of cascading drought-flood events and the need to take them into account in flood risk management.",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/ae0f43/meta",
+      "date_added": "2025-10-28",
+      "id": "bbce929ccad14c3a50e541f27a92d3cb",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Increased desertification exposure in dryland areas",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "G",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "FC",
+          "last_name": "Ljungqvist"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Che"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Guan"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Huang"
+        }
+      ],
+      "journal": "Ecological Indicators",
+      "citations": 0,
+      "abstract": "Desertification threatens livelihoods and sustainable development in dryland areas, with its risks further intensified by climate change and human activities. However, its extent and severity remain insufficiently quantified across global, regional, and national scales. Here we integrate annual aridity-index-based dryland classifications to indicate potential desertification areas, apply land cover conversion to bare areas to identify desertified areas, and use high-resolution population data to estimate both the number and spatial distribution of populations exposed to desertification at multiple scales. Between 2001 and 2018, the global desertified area increased by 5,387.8 ± 383.5 km 2 yr −1 , while the exposed population grew by 126,857 ± 6,723 people yr −1 . Population exposure exhibits pronounced spatial heterogeneity, particularly at the national level. As desertified areas expand, more people, who lack the resources to migrate, become increasingly dependent on degraded land, thereby further accelerating land degradation. This self-reinforcing feedback loop complicates efforts to achieve land degradation neutrality by 2030, as outlined in the United Nations Sustainable Development Goals. By explicitly incorporating hyper-arid areas and linking ecosystem service loss with population exposure, this study develops a cross-scale analytical framework that enhances the assessment of desertification exposure and offers new insights into global desertification risks.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1470160X25011963",
+      "date_added": "2025-10-28",
+      "id": "1cd3f8154a39f03882e25634f0d2121f",
+      "topic": [
+        "meteorology"
+      ]
+    },
+    {
+      "title": "Subsidence in Qinghai-Tibet Plateau Peatlands Driven by Drainage Disturbance and Climatic Variability",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "E",
+          "last_name": "Tian"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Xue"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Song"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "Geosciences",
+      "citations": 0,
+      "abstract": "Peatlands are globally important carbon sinks, yet these are increasingly threatened by climate change and human disturbances. Among degradation indicators, surface subsidence is gradual and challenging to monitor, particularly in alpine peatlands. This study applied SBAS-InSAR techniques to analyze surface deformation in the Zoige peatland of the eastern Qinghai-Tibet Plateau using Sentinel-1 SAR data from 2017 to 2023. The results showed a maximum interannual subsidence of −167.92 mm and a peak seasonal deformation of −144.11 mm, with a cumulative average of −23.99 mm (−3.43 mm·yr −1 ). Approximately 80.9% of peatlands within the protected area exhibited subsidence. Drainage ditch construction emerged as the dominant driver, while climatic factors such as precipitation and temperature exhibited seasonal effects. Subsidence was more pronounced in drier years and during winter months. These findings highlight the spatial heterogeneity and seasonal dynamics of peatland subsidence and underscore the urgent need for hydrological restoration and long-term monitoring to mitigate degradation in alpine peatland ecosystems.",
+      "url": "https://www.mdpi.com/2076-3263/15/11/407",
+      "date_added": "2025-10-28",
+      "id": "fa4a47229f417fb2e56111c291de56a4",
+      "topic": [
+        "wrf"
+      ]
+    },
+    {
+      "title": "Crop diversification improves water-use efficiency and regional water sustainability",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Ruehr"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Bassiouni"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Kang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Socolar"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Magney"
+        },
+        {
+          "first_name": "TF",
+          "last_name": "Keenan"
+        }
+      ],
+      "journal": "Environmental Research Letters",
+      "citations": 0,
+      "abstract": "As global water scarcity intensifies, identifying agricultural practices that enhance sustainable water management is critical. Temporal crop diversification-rotating multiple species over time-has been proposed to improve soil health and water retention based on field-scale experiments. However, widespread adoption remains limited on farms, in part due to unverified benefits at larger scales. Here, we assess the influence of crop diversification on agricultural water-use efficiency (WUE, ratio of gross primary productivity to evapotranspiration) along a spectrum of monoculture to complex species rotations in California. Leveraging new high-resolution remote sensing datasets, we show that crop diversification is a key driver of agricultural WUE, and increasing the number of species planted in the previous six years from two to four increases WUE by ~20% after accounting for differences between crops. Our results provide spatially explicit, large-scale quantification of crop diversification's improvements to WUE, with direct implications for climate adaptation. More broadly, our framework offers a tool to evaluate other sustainable practices and guide policy and farm-scale decision-making.",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/ae15a9/meta",
+      "date_added": "2025-10-28",
+      "id": "16ae8e6d6f4f4826c1a9d04739e37bf2",
+      "topic": [
+        "agriculture"
+      ]
+    },
+    {
+      "title": "Assessment of future grassland fire susceptibility changes in Qinghai Province based on CMIP6",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Z",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Earth and Space Science",
+      "citations": 0,
+      "abstract": "As an important grassland ecological function area on the Tibetan Plateau, the risk of grassland fires in Qinghai Province has gradually increased due to climate warming and human activities. To quantitatively assess changes in grassland fire susceptibility under future climate scenarios, this study used historical fire data and CMIP6 model data, combined with multiple regression and the MaxEnt model, to simulate the distribution and trend of NDVI and fire susceptibility. Results showed that NDVI decreased under the low emission scenario (SSP119), and NDVI of grassland with medium and low coverage increased under medium and high emission scenarios (SSP245 and SSP585), while that of high coverage grassland decreased slightly. Fire susceptibility was higher in the east and south, and lower in the Qaidam Basin and northwest, with wind speed, distance from settlements, NDVI, slope, and human footprint as main driving factors. Mann-Kendall and Theil-Sen slope analyses showed that future fire susceptibility areas under medium- and high-emission scenarios increased significantly and fluctuated, concentrating in the periphery of the Qaidam Basin and Southern Qinghai Plateau. Risk varied significantly among grasslands of different coverage. The study reveals the impact of global emission pathways on regional fire risk, emphasizing the need to strengthen adaptation, mitigation, and optimize grassland fire prevention to safeguard ecological security of the Qinghai-Tibetan Plateau.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EA004400",
+      "date_added": "2025-10-28",
+      "id": "caeeb8e65c3fe25a71168daca707182c",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "Quantifying single, compound and cascading climate extremes: Implications for agricultural resilience in California",
+      "year": "2026",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Fazli"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Thomas"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Maharjan"
+        },
+        {
+          "first_name": "MS",
+          "last_name": "Jahangir"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Daccache"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Morgan"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Allali"
+        }
+      ],
+      "journal": "Agricultural and Forest Meteorology",
+      "citations": 0,
+      "abstract": "As climate change intensifies, extreme weather increasingly threatens California’s Central Valley (CV), a vital agricultural region exposed to rising risks from heatwaves (HW), droughts (DR), and compound extremes. These events disrupt crop productivity and broader processes like water demand, pest dynamics, and soil stability, posing systemic risks. This study examines the spatiotemporal dynamics of HW, coldwaves (CW), DR, excessive rainfall (ER), and their compound (e.g., HWDR) and cascading forms from 1951 to 2025, using NOAA nClimGrid-Daily data. We assessed trends in frequency, intensity, and duration over long-term (1951-2025) and mid-term (1981-2025) periods. Results show increasing HW and DR in the southern CV, with 35 % and 60 % of the region exhibiting strong upward trends in HW frequency and intensity (mid-term), respectively, linked to warming (+0.234 °C/decade) and precipitation variability. Northern CV, especially Tehama to Sacramento, shows greater vulnerability to ER, CWDR, and CWER, reflecting heightened climate variability. Hotspots of extremes are shifting northward, with HWDR migrating at 20.94 km/decade. June-July HW and DR peaks coincide with critical crop stages, while February-March rainfall supports early vegetation growth. Almonds showed the highest vulnerability to drought, with severe kNDVI anomaly drops in 2014, while grapes responded moderately to heat and benefited from early rain, reaching a kNDVI anomaly peak of 0.03 in 2005. Intra-annual analysis reveals that 2014′s extreme HW and DR, combined with low rainfall and groundwater decline, intensified stress during hull split and fruit set. Targeted strategies like precision irrigation and drought-tolerant cultivars are essential to enhance agricultural resilience.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S016819232500509X",
+      "date_added": "2025-10-28",
+      "id": "7b7b86d7318afae78faeae9f8cb47b6a",
+      "topic": [
+        "agriculture"
+      ]
+    },
+    {
+      "title": "Biogeophysical warming effects of vegetation growth in the temperate water-limited region",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Lan"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "F",
+          "last_name": "He"
+        }
+      ],
+      "journal": "Agricultural and Forest Meteorology",
+      "citations": 0,
+      "abstract": "Vegetation growth modulates land surface temperature (LST) through biogeophysical processes, yet these mechanisms remain insufficiently quantified. This study analyzed LST variations and their response to key biogeophysical factors-Albedo, evapotranspiration (ET), leaf area index (LAI), and soil moisture (SM)-across forests, grasslands, and croplands from 2000 to 2020. LST exhibited distinct daily (daytime vs. nighttime) and seasonal (growing vs. non-growing seasons) trend patterns. While annual LST remained stable (Slope (S) =0.0014 K/yr, p > 0.05), significant seasonal contrasts emerged: cooling during growing seasons ( S = -0.05 K/yr, p  0.05). Diurnal asymmetry was evident, with daytime LST cooling ( S =-0.106 K/yr, p < 0.05) and nighttime LST warming ( S = 0.064 K/yr, p = 0.06). Grasslands showed unique warming trends in both annual ( S = 0.093 K/yr, p = 0.08) and non-growing seasons ( S = 0.22 K/yr, p < 0.05), contrasting with cooling in croplands and forests. The reduction in daytime LST was primarily driven by ET, contributing -0.08 K/yr, while the increase in nighttime LST was mainly regulated by Albedo, with a contribution of 0.07 K/yr. During growing seasons, SM was the key driver of cooling, contributing -0.028 K/yr. In contrast, LST warming in the non-growing seasons was co-regulated by Albedo (0.038 K/yr) and LAI (0.059 K/yr). Compared to croplands and forests, grasslands exhibited increasing LST in annual and non-growing season, largely influenced by Albedo (0.07 K/yr), ET (0.05K/yr), and LAI (0.1 K/yr). These findings highlighted the role of the biogeophysical effects of vegetation and land-use types in shaping LST variations, offering critical insights for climate-land interactions and sustainable land management.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168192325005052",
+      "date_added": "2025-10-28",
+      "id": "117fe4c81898ae0d594f9623234db546",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Stronger climatic impact than anthropogenic control on vegetation carbon sink growth in China",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "D",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Wei"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Xiong"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Du..."
+        }
+      ],
+      "journal": "Ecological Frontiers",
+      "citations": 0,
+      "abstract": "Vegetation carbon sequestration is significantly impacted by climate change (CC), which affects its dynamic variation and regional patterns, increasing the unpredictability of the carbon sequestration process. A detailed understanding of their dynamic changes and underlying driving mechanisms is crucial for optimizing ecosystem carbon sequestration. However, the evolutionary characteristics and driving mechanisms of the vegetation carbon sink remain inadequately clarified under the complex influences of CC. This study revealed",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2950509725001625",
+      "date_added": "2025-10-28",
+      "id": "8248cd9e4eccdcabc413674476a3b2f8",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Unraveling the impacts of temperature and vapor pressure deficit on gross primary productivity from current to future scenarios",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Yang"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Elevated air temperature and atmospheric vapor pressure deficit (VPD) are key drivers of plant physiological and ecological processes. However, their relative impacts on vegetation productivity remain difficult to isolate due to the strong coupling between them. This coupling complicates efforts to disentangle independent effects, particularly under compound drought conditions at regional or global scales. We used solar-induced chlorophyll fluorescence and gross primary productivity as proxies for vegetation productivity from 2000 to 2023. Causal relationships among factors and between each factor and SIF were first identified using the convergent cross mapping method. These relationships were then integrated into a partial least squares structural equation model to disentangle the relative effects of air temperature and VPD on SIF. Additionally, we used CMIP6 data under future scenarios to assess their respective future contributions. Our results show that VPD has a dominant negative effect on vegetation productivity. In contrast, air temperature generally exerts a positive influence when the interaction between the two variables is excluded. However, the interaction between VPD and air temperature weakens the positive effect of warming. Furthermore, the adverse impacts of VPD are intensified by other climatic factors. Future projections under SSP1-2.6, SSP2-4.5, SSP3-7.0, and SSP5-8.5 scenarios indicate a continued intensification of VPD’s negative effects and a gradual decline in the positive influence of air temperature by the end of the 21st century. Our study highlights the critical role of VPD in regulating ecosystem functioning. It clarifies the individual contributions of air temperature and VPD to vegetation productivity and underscores the growing threat posed by VPD under global warming, particularly in mid-latitude regions. These findings provide important insights for vegetation management and climate change mitigation strategies.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S002216942501772X",
+      "date_added": "2025-10-28",
+      "id": "8a5c1699b50a4338dcbf601ca287c5fc",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "The effects of increased evapotranspiration on precipitation in the Yellow River Basin",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "H",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Ye"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "The Yellow River Basin (YRB) is characterized by water scarcity, emphasizing the critical necessity for a comprehensive understanding of the effects of evapotranspiration (ET) on regional precipitation. Despite the vegetation greening phenomenon leading to a considerable rise in ET, uncertainties still exist regarding its effects on precipitation at the regional scale. To address this research gap, we integrated GLEAM ET and UTrack data, and found a significant increase in the ET rate of 1.06 mm/yr 2 in the YRB from 1980 to 2020. Notably, ET contributes 107 mm/yr of precipitation locally, constituting 20 % of the total, with the primary contributions coming from the upper and middle regions. Transpiration accounts for approximately 15 % of the total precipitation, underscoring the significant role played by vegetation transpiration in the YRB. Moreover, our findings indicate that ET contributes 63, 23, 20, and 20 mm/yr of precipitation to the Haihe River Basin, Yangtze Basin, Huaihe River Basin, and Songliao River Basin, respectively. Compared to 1980−1984, the increased ET led to around 11 mm/yr of additional precipitation during 2016−2020, effectively counterbalancing one-third of the ET increase observed. We further illustrated a schematic diagram depicting the water cycle in the YRB, emphasizing the reinforcement of the vertical water cycle within the basin. This study significantly advances our knowledge of hydrological processes at the basin scale, highlighting the crucial supplementary effect of ET. Such insights are instrumental in guiding scientific planning related to ecological restoration and water resource management.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425017937",
+      "date_added": "2025-10-28",
+      "id": "9a0d7a6d1ac504f40c76d49425df9bfd",
+      "topic": [
+        "meteorology"
+      ]
     }
   ]
 }
