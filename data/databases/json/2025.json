@@ -10503,45 +10503,6 @@
       ]
     },
     {
-      "title": "Subsidence in Qinghai-Tibet Plateau Peatlands Driven by Drainage Disturbance and Climatic Variability",
-      "year": "2025",
-      "authors": [
-        {
-          "first_name": "E",
-          "last_name": "Tian"
-        },
-        {
-          "first_name": "Z",
-          "last_name": "Xue"
-        },
-        {
-          "first_name": "Y",
-          "last_name": "Wu"
-        },
-        {
-          "first_name": "K",
-          "last_name": "Song"
-        },
-        {
-          "first_name": "R",
-          "last_name": "Li"
-        },
-        {
-          "first_name": "R",
-          "last_name": "Zhang"
-        }
-      ],
-      "journal": "Geosciences",
-      "citations": 0,
-      "abstract": "Peatlands are globally important carbon sinks, yet these are increasingly threatened by climate change and human disturbances. Among degradation indicators, surface subsidence is gradual and challenging to monitor, particularly in alpine peatlands. This study applied SBAS-InSAR techniques to analyze surface deformation in the Zoige peatland of the eastern Qinghai-Tibet Plateau using Sentinel-1 SAR data from 2017 to 2023. The results showed a maximum interannual subsidence of −167.92 mm and a peak seasonal deformation of −144.11 mm, with a cumulative average of −23.99 mm (−3.43 mm·yr −1 ). Approximately 80.9% of peatlands within the protected area exhibited subsidence. Drainage ditch construction emerged as the dominant driver, while climatic factors such as precipitation and temperature exhibited seasonal effects. Subsidence was more pronounced in drier years and during winter months. These findings highlight the spatial heterogeneity and seasonal dynamics of peatland subsidence and underscore the urgent need for hydrological restoration and long-term monitoring to mitigate degradation in alpine peatland ecosystems.",
-      "url": "https://www.mdpi.com/2076-3263/15/11/407",
-      "date_added": "2025-10-28",
-      "id": "fa4a47229f417fb2e56111c291de56a4",
-      "topic": [
-        "wrf"
-      ]
-    },
-    {
       "title": "Crop diversification improves water-use efficiency and regional water sustainability",
       "year": "2025",
       "authors": [
@@ -10804,6 +10765,29 @@
       "id": "9a0d7a6d1ac504f40c76d49425df9bfd",
       "topic": [
         "meteorology"
+      ]
+    },
+    {
+      "title": "Crop water origins and hydroclimate vulnerability of global croplands",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "JA",
+          "last_name": "Burney"
+        }
+      ],
+      "journal": "Nature Sustainability",
+      "citations": 0,
+      "abstract": "Water availability critically influences crop phenology and agricultural productivity. Here we use satellite-derived water isotope observations and physical models to trace atmospheric moisture origins for major global rain-fed crops from 2003 to 2019, distinguishing between oceanic and terrestrial sources. Our analysis shows that the fraction of rainwater originating from land ( f ) varies both geographically and seasonally, with an important threshold at ~36%. Regions with higher f , that is, more dependent on land-originating water, are more prone to insufficient rainwater supply and soil moisture deficits during the main growing season. Crops in these regions show higher sensitivity to hydroclimate-with reduced productivity in lower-rainfall years-and a higher likelihood of drought. Notably, more than 40% of global maize and 60% of winter wheat is grown in regions where rainfall depends heavily on land-originating moisture ( f ≥ 36%), underscoring the vulnerability of key staple crops to hydroclimate stress. Our results highlight the importance of managing local land moisture sources and reveal where targeted water management strategies would be most expected to enhance agricultural resilience.",
+      "url": "https://www.nature.com/articles/s41893-025-01662-1",
+      "date_added": "2025-10-31",
+      "id": "9db8ccb7fdd2599891cb8d442dfb2f41",
+      "topic": [
+        "agriculture"
       ]
     }
   ]
