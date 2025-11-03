@@ -10789,6 +10789,111 @@
       "topic": [
         "agriculture"
       ]
+    },
+    {
+      "title": "Skilful seasonal predictions of droughts in the Mediterranean region",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "T Dal",
+          "last_name": "Monte"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Alessandri"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Cherchi"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Gaetani"
+        }
+      ],
+      "journal": "Climate Dynamics",
+      "citations": 0,
+      "abstract": "Drought events represent a potential source of increasing risk for several socio-economic sectors, ranging from water management and agriculture to the energy and health systems. Skilful seasonal forecasts may crucially affect the planning and governance of these activities. In this study, the skill of seasonal prediction systems (SPS\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$_\\textrm{s}$$\\end{document}) in predicting meteorological drought in the Mediterranean region is investigated. In particular, the 3-month standardised precipitation index (SPI3) and standardised precipitation evapotranspiration index (SPEI3) at 1-month lead time are used and their probabilistic accuracy is measured using the Brier skill score (BSS). The evaluation considers the performance of individual prediction systems as well as the optimization of the forecasts using a selection of multi-model ensembles (MME) combinations. This study demonstrates that SPS\\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$_\\textrm{s}$$\\end{document} can successfully predict meteorological drought indices in the Mediterranean region, given the overall positive values of the optimized BSS. We find that SPEI3 is more predictable than SPI3 with varying spatial patterns across different seasons. Results demonstrate the potential of optimizing forecast scores using MME combinations, with the Iberian Peninsula, the Balkan area, the Anatolia, the Middle East and North Africa exhibiting the largest performance.",
+      "url": "https://link.springer.com/article/10.1007/s00382-025-07872-9",
+      "date_added": "2025-11-03",
+      "id": "e7c8c81797940f42d3f345fcdd12a06e",
+      "topic": [
+        "forecast"
+      ]
+    },
+    {
+      "title": "Regionalizing Hydrologic Information for Runoff Predictions Beyond Continental Boundaries Using Machine Learning",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "MM",
+          "last_name": "Fathi"
+        },
+        {
+          "first_name": "AG",
+          "last_name": "Awadallah"
+        }
+      ],
+      "journal": "Advances in Water Resources",
+      "citations": 0,
+      "abstract": "Accurately predicting runoff responses in ungauged catchments remains a central challenge in hydrology, particularly for regions lacking sufficient observational data. The regionalization approach is a powerful strategy to address this challenge, enabling the extrapolation of knowledge derived from gauged catchments to ungauged locations. However, the development of robust regionalization models is often constrained by limited datasets, in terms of the number of catchments and/or the availability of catchment attributes. Despite recent advancements, most existing studies evaluate model performance using subsets of the same dataset for both training and testing, limiting the assessment of model transferability. To address this gap, this study introduces a regionalization framework using the large-scale CAMELS-US dataset to train a set of regression models for predicting the calibrated parameters of the GR2M, a monthly water balance model. The framework is then evaluated on the CAMELS-GB (Great Britain dataset), representing a distinct climatic and geographic context beyond continental boundaries. A critical aspect of this study is its focus on uncovering the physical meaning of the GR2M parameters by linking them to measurable catchment attributes. Results show that while linear regression models perform well within the training domain, their predictive skill declines significantly when applied to the GB dataset. In contrast, machine learning models, particularly Support Vector Regression, demonstrate strong generalization capabilities, achieving high accuracy in predicting runoff responses across GB catchments. These findings underscore the importance of nonlinear approaches in developing globally transferable regionalization frameworks and underscore their potential to support reliable hydrologic predictions in data-scarce regions.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0309170825002763",
+      "date_added": "2025-11-03",
+      "id": "49be2ce87b1b8419a5c7fbb5aa2eef03",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "A Python diagnostics package for evaluation of Madden-Julian Oscillation (MJO) teleconnections in subseasonal-to-seasonal (S2S) forecast systems",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Stan"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Kollapaneni"
+        },
+        {
+          "first_name": "AM",
+          "last_name": "Jenney"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Kim"
+        },
+        {
+          "first_name": "CI",
+          "last_name": "Garfinkel"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Singh"
+        }
+      ],
+      "journal": "Geoscientific Model Development",
+      "citations": 0,
+      "abstract": "The Madden-Julian Oscillation (MJO) teleconnections diagnostics package is an open-source Python software package that provides process-level evaluation of MJO teleconnections predicted by subseasonal-to-seasonal (S2S) forecast systems. The package provides in-depth process-level evaluation of both tropospheric and stratospheric pathways defining the atmospheric teleconnections from the tropics to the extratropics on S2S time scales. The analyses include the comparison of a forecast model with a default verification dataset or user-provided verification data. The package consists of a user-friendly graphical user interface (GUI), which allows the package to be applied to both operational and research models. This approach allows for efficient data management and the reproducibility of the analysis.",
+      "url": "https://gmd.copernicus.org/articles/18/7969/2025/",
+      "date_added": "2025-11-03",
+      "id": "8f77c88e3c265678b69118f6a255989c",
+      "topic": [
+        "software-development"
+      ]
     }
   ]
 }
