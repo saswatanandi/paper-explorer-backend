@@ -10925,6 +10925,123 @@
       "topic": [
         "machine_learning"
       ]
+    },
+    {
+      "title": "Hydrograph spread increases as snow declines across the western US",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "K",
+          "last_name": "Bazlen"
+        },
+        {
+          "first_name": "AM",
+          "last_name": "Marshall"
+        },
+        {
+          "first_name": "SM",
+          "last_name": "Smith"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Koshkin"
+        }
+      ],
+      "journal": "Geophysical Research Letters",
+      "citations": 0,
+      "abstract": "The spread of the streamflow distribution throughout the water year has important implications for water availability, but the influence of changing snow on this hydrograph characteristic has not been studied. We use reference gage streamflow, the Western United States UCLA Daily Snow Reanalysis product (WUS-SR), and snow pillow data to evaluate the relationship between peak snow water equivalent (SWE peak ), day of SWE peak (DOPS), and four measures of the width of the streamflow distribution. Across the western U.S., low peak SWE is associated with wider streamflow distributions at 63%-85% of gages, depending on measure used to assess the temporal distribution of streamflow ( p FDR < 0.1 at 43%-61%). Effects are consistent in sign but not magnitude using snow pillow data. Given expected declines in SWE peak , our results suggest water users may experience changes in water availability beyond those expected from streamflow quantity and timing alone, due to widening distributions.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025GL116816",
+      "date_added": "2025-11-12",
+      "id": "72524bb41fa04549c78262a36b63ae01",
+      "topic": [
+        "snow"
+      ]
+    },
+    {
+      "title": "River metabolism in the contiguous United States: A West of extremes",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "T",
+          "last_name": "Maavara"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "AM",
+          "last_name": "Johnson"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "KS",
+          "last_name": "Aho"
+        },
+        {
+          "first_name": "CB",
+          "last_name": "Brinkerhoff"
+        },
+        {
+          "first_name": "LA",
+          "last_name": "Logozzo"
+        }
+      ],
+      "journal": "Science",
+      "citations": 0,
+      "abstract": "River metabolism is among the most uncertain fluxes in the global carbon cycle. We present estimates for gross primary productivity (GPP) and ecosystem respiration (ER) for more than 175,000 rivers across the contiguous United States (CONUS), including metabolic responses to extreme hydrological conditions. Our model predicts an annual GPP in CONUS rivers of 10.1 teragrams of carbon per year and an ER of 18.7 teragrams of carbon per year, which implies that net ecosystem productivity (NEP; where NEP = GPP - ER) is a small contributor to river carbon dioxide emissions. More than 70% of river metabolism occurs in the West, where regions of both extreme heterotrophy and autotrophy exist. Autotrophy is prominent across the West and is sensitive to drought, particularly in understudied biomes such as arid desert shrublands, which may indicate that global riverine uptake of carbon dioxide is higher than hypothesized.",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adu9843",
+      "date_added": "2025-11-12",
+      "id": "3bee5a0322a0c27899a3d6f4dff07062",
+      "topic": [
+        "water-quality"
+      ]
+    },
+    {
+      "title": "Exploring causal pathways among soil moisture, climate and ocean-atmosphere teleconnection patterns over the drought-prone Greater Horn of Africa",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Zhuo"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Fang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Gao"
+        },
+        {
+          "first_name": "RB",
+          "last_name": "Lourenço"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Han"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Gonsamo"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Drought over the Greater Horn of Africa (GHOA) is a recurring phenomenon primarily associated with precipitation deficit which leads to decreased soil moisture. Understanding the interactions among atmosphere, ocean, climate, and soil is therefore necessary for water resource management, drought monitoring, and disaster prevention. Assessing those interactions so far primarily focused on dynamic climate models and statistic models. However, the former model is proven to have well-known biases in simulating both the strength and the timing of rainfall in GHOA, and the latter model often fails to discover causal relationship due to autocorrelation and high dimensionality within time series variables. Here, we use a data driven causal graph discovery algorithm called PCMCI+ to discover causal relationships among El Niño Southern Oscillation (ENSO) and Indian Ocean Dipole (IOD) teleconnection patterns, precipitation, temperature and soil moisture (SM) during 1980-2022 over drought-prone GHOA. Additionally, we quantitatively calculated the causal effects of teleconnection patterns on SM mediated through different climate paths, and the correlation with regional drought conditions are further explored. Results suggest that IOD generally presents higher causal effects on climate variables (temperature and precipitation) or on SM through both climate pathways than ENSO over most parts of GHOA, and the strongest correlation with drought conditions are generally found during different IOD phases. Moreover, precipitation is a more vital path through which teleconnection patterns causally impact SM in GHOA. Our study provides the first attempt to quantitatively analyze the causal effects of teleconnection patterns on SM through both precipitation and temperature pathways, and it highlights the causal relationships within atmosphere-ocean-climate-soil interactions, which could help for better understanding of climate change impact on drought over GHOA.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425018748",
+      "date_added": "2025-11-12",
+      "id": "f4b56ebe66b1bf0e76a9bad4adb9e43e",
+      "topic": [
+        "drought"
+      ]
     }
   ]
 }
