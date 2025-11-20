@@ -11042,6 +11042,185 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "CAMBIO: A carbon mass balance model for undergraduates",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Neshyba"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Posta"
+        },
+        {
+          "first_name": "WC",
+          "last_name": "Pfalzgraff"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Eklof"
+        },
+        {
+          "first_name": "DP",
+          "last_name": "Neshyba-Rowe"
+        },
+        {
+          "first_name": "PM",
+          "last_name": "Rowe"
+        }
+      ],
+      "journal": "Bulletin of the American Meteorological Society",
+      "citations": 0,
+      "abstract": "The mathematical complexity of climate modelling presents significant challenges to teaching climate change at the undergraduate level. Here we address this challenge with the Cambio climate model, a set of ordinary time-dependent differential equations that simulate carbon exchanges between Earth’s atmosphere, ocean, and land reservoirs. Students obtain solutions to versions of these equations that embed a series of feedbacks, progressively adding i) temperature-dependent Henry’s Law equilibration of CO 2 between oceans and atmosphere, ii) reductions in global albedo as parameterized by anticipated reductions in Earth’s cryosphere, and iii) reductions in the efficiency of terrestrial CO 2 fertilization parameterized by observed changes in net atmosphere-to-land CO 2 fluxes. As validation, we find that the range of anthropogenic warming produced by this progression plausibly replicates the range of published warming values, even for a fixed Charney equilibrium climate sensitivity. We have found that students taking an undergraduate general education course on modeling Earth’s climate with minimal prerequisites and no programming experience can learn the necessary programming skills to write the code to create Cambio from the ground up. Creating and implementing Cambio themselves helps students develop skills needed to understand the nonlinear processes inherent in climate dynamics, including feedbacks, time delays, reservoir stocks, and flows between reservoirs. We also describe an analytical solution to the Cambio equations that reproduces observed log-linear increases in atmospheric and oceanic carbon reservoirs. We conclude with pedagogical insights regarding the use of scaffolded Python/Jupyter Notebooks, as a way to reach a wide range of students.",
+      "url": "https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-25-0069.1/BAMS-D-25-0069.1.xml",
+      "date_added": "2025-11-19",
+      "id": "515f2bfb24884effc0a87f922297fff7",
+      "topic": [
+        "atmosphere"
+      ]
+    },
+    {
+      "title": "Future supply, demand, and vulnerability of domestic water supply systems in Asian mega cities",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "MR",
+          "last_name": "Panda"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Lee"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Kim"
+        }
+      ],
+      "journal": "Science of the Total Environment",
+      "citations": 0,
+      "abstract": "Rapid urbanization and income growth are reshaping domestic water demand across Asian megacities. Accordingly, we developed an integrated system dynamics model at the city scale to reconstruct the domestic water demand and supply for 42 megacities from 2015 to 2035. The cities were clustered into five archetypes based on climatic conditions, technological advancement (TA), wastewater reuse (WR), and economic growth trajectories, and uncertainty was quantified using a Monte Carlo (MC) ensemble. We summarized this uncertainty by reporting the 5th-95th percentile range of key risk metrics for each city and synthesized four indicators, namely shortage depth, frequency, probability, and urgency, into a composite vulnerability index (CVI). Our results revealed the concentration of demand growth in South Asia and the Pearl River region, whereas East Asian megacities exhibited flat or declining trajectories. The MC analysis indicated a near-universal risk, with the median probability of at least one shortfall defined as a water supply-to-demand ratio (WSDR) <1 between 2015 and 2035 at 1.00 for every archetype. Furthermore, archetypes 1, 2, 4, and 5 were projected to remain below sufficiency for nearly the entire period, whereas archetype 3 would sustain sufficiency for a median of 16 years. Minimum WSDR medians ranged from 0.44 (in archetype 2) to 0.83-0.85 in buffered cities like Hong Kong and Shanghai. CVI spanned 27.6-80.0 across the cities, with Chennai, Shenzhen, Surat, Bengaluru, and Kolkata ranking highest, and Chongqing, Shanghai, Hyderabad, Hong Kong, Nagoya, and Tokyo ranking lowest. The archetype-level CVI was highest for archetypes 2 and 1 and lowest for archetype 3. Our findings highlight that large-scale TA consistently improves WSDR, whereas the effects of WR remain heterogeneous and context-dependent. We also confirmed climate variability to be a persistent stressor. Overall, this framework offers comparable, uncertainty-aware diagnostics to prioritize efficiency, reuse integration, and supply augmentation programs across diverse urban contexts.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0048969725024519",
+      "date_added": "2025-11-19",
+      "id": "72236d7e080444b3906610b494515a8f",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Fluctuations of the 400 mm precipitation line under the influence of multiple factors",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Qin"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Xia"
+        }
+      ],
+      "journal": "Global and Planetary Change",
+      "citations": 0,
+      "abstract": "The 400 mm isohyet matters in climate and ecology. Its fluctuations impact agriculture, water, ecology and economy. Past studies on precipitation have focused on precipitation or drought indices, neglecting 400 mm isohyet fluctuations. This paper defines its global fluctuation range, creates the Precipitation Line Fluctuation Intensity (PFI) Index, detects spatio-temporal migrations in typical regions, and explores regional differences and drivers to assess climate change. Results show PFI 400 exhibits significant spatial heterogeneity, with the strongest fluctuations observed in Australia and the weakest in western South America. The Pacific Decadal Oscillation (PDO) and topography are identified as the primary factors influencing these fluctuations, with PDO being the most widely affecting dynamic factor, especially on short-term scales. The study reveals that regions with strong fluctuations are often influenced by the coupled effects of multiple factors, such as temperature, wind speed, and atmospheric circulation. Moreover, the 400 mm isohyet is migrating rapidly toward higher values in western North America and northern Africa, potentially increasing drought risks. These findings underscore the complexity of precipitation line fluctuations, enhancing the theoretical framework for precipitation variability and offering critical insights for water resource management and climate adaptation in arid, semi-arid, agricultural, and pastoral regions under climate change.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0921818125004886",
+      "date_added": "2025-11-19",
+      "id": "84a56a1a4d97b8c56bac8a63841e7412",
+      "topic": [
+        "findings"
+      ]
+    },
+    {
+      "title": "Land use-induced soil carbon loss in the dry tropics nearly offsets gains in northern lands",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "H",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Ciais"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Smith"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Grassi"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Schwingshackl"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Panagos"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Bar-On"
+        }
+      ],
+      "journal": "Nature Communications",
+      "citations": 0,
+      "abstract": "Soil carbon changes are difficult to measure globally, and global models are poorly constrained. Here, we propose a framework to map annual changes in soil carbon and litter (SOCL) as the difference between the net land CO 2 flux from atmospheric inversions and satellite-based maps of biomass changes. We show that SOCL accumulated globally at a rate of about 0.34 ± 0.30 ( ± 1 sigma) billion tonnes of carbon per year (PgC yr − 1 ) during 2011-2020. The largest SOCL sink is found in boreal regions (0.93 ± 0.45 PgC yr − 1 in total) particularly in undisturbed peatlands and managed forests. The largest losses occur in the dry tropics (−0.50 ± 0.47 PgC yr − 1 ) and correspond with agricultural expansion from land use change, cropland management and grazing. By contrast, forests in the wet tropics act as a net soil carbon sink (0.32 ± 0.35 PgC yr − 1 ). Our findings highlight the large mitigation opportunities in the dry tropics to restore agricultural soil carbon.",
+      "url": "https://www.nature.com/articles/s41467-025-64929-3",
+      "date_added": "2025-11-19",
+      "id": "02685120725a51b6ef7bbec565224636",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Increase in ENSO frequency and intensity under 20th and 21st century warming: Insights from CMIP6 large ensembles",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "A",
+          "last_name": "Coquereau"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Sévellec"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Huck"
+        },
+        {
+          "first_name": "AV",
+          "last_name": "Fedorov"
+        }
+      ],
+      "journal": "Geophysical Research Letters",
+      "citations": 0,
+      "abstract": "Future changes in El Niño-Southern Oscillation (ENSO), the dominant mode of global climate variability, remain uncertain. Accordingly, large ensembles-which allow internally-generated variations to be averaged out-are essential for assessing the response of ENSO to external forcing. In this study, we analyze state-of-the-art large-ensemble simulations from CMIP6 climate models and show that, in most models, ENSO frequency increases under anthropogenic warming. Two factors drive this frequency increase. First, a shift toward the Eastern Pacific (EP) El Niño pattern-characterized by higher frequencies and greater amplitudes relative to the Central Pacific (CP) pattern. Second, an overall increase in the frequency of both EP and CP variability. These changes scale with the intensity of anthropogenic forcing. Most models also exhibit ENSO strengthening that begins in the 20th $20\\text{th}$ century and continues throughout the 21st $21\\text{st}$ century. Consequently, the observed intensification of ENSO during the second half of the 20th $20\\text{th}$ century could be of anthropogenic origin.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025GL116541",
+      "date_added": "2025-11-19",
+      "id": "7677882725f3d4df0d452c3bcb8caf1d",
+      "topic": [
+        "atmosphere"
+      ]
     }
   ]
 }

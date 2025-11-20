@@ -682,6 +682,11 @@ async def process_eml_files(
         # Generate paper ID early to check if it already exists
         if paper_metadata.get("title") and paper_metadata.get("year"):
             paper_id = generate_paper_id(paper_metadata["title"], str(paper_metadata["year"]))
+
+            # Skip papers that were already reviewed when we have the real year from metadata
+            if paper_id in reviewed_paper_ids:
+                print(f"Skipping already reviewed paper (metadata match): {paper_metadata['title']}")
+                continue
             
             # Check if paper already exists
             if paper_id in unique_paper_ids:
@@ -732,8 +737,12 @@ async def process_eml_files(
         add_paper = input("Add this paper to the database? (y/n): ").lower().strip()
         if add_paper != 'y':
             # Track this paper as reviewed but not selected
-            if paper_metadata.get("title") and paper_metadata.get("year"):
-                rejected_paper_id = generate_paper_id(paper_metadata["title"], str(paper_metadata["year"]))
+            if paper_metadata.get("title"):
+                # Fallback to current year if scraped year is missing so we still de-dupe
+                fallback_year = paper_metadata.get("year") or datetime.datetime.now().year
+                rejected_paper_id = generate_paper_id(paper_metadata["title"], str(fallback_year))
+                # Keep both the in-memory and session sets in sync
+                reviewed_paper_ids.add(rejected_paper_id)
                 new_reviewed_papers.add(rejected_paper_id)
                 print(f"Paper marked as reviewed: {rejected_paper_id}")
             continue
@@ -787,6 +796,10 @@ async def process_eml_files(
             paper_metadata["topic"] = [topic]
             topics.add(topic)
         
+        # Mark accepted paper as reviewed immediately
+        reviewed_paper_ids.add(paper_id)
+        new_reviewed_papers.add(paper_id)
+
         # Add paper to selected papers
         selected_papers.append(paper_metadata)
         unique_paper_ids.add(paper_id)
