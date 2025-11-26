@@ -11221,6 +11221,417 @@
       "topic": [
         "atmosphere"
       ]
+    },
+    {
+      "title": "Water demand projection accuracy and demand management trends in California cities",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "JA",
+          "last_name": "Capone"
+        },
+        {
+          "first_name": "LT",
+          "last_name": "Marston"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "This study investigates the accuracy of long-term water demand projections and tracks the evolution of water demand management incentives across 61 California water suppliers from 2000 to 2020. Through a systematic analysis of Urban Water Management Plans, we find that water suppliers consistently overestimated future demand by an average of 25% for 5-year projections and 74% for 20-year projections. This overestimation stems primarily from assumptions about per capita water demand rather than population growth estimates. While suppliers generally projected stable or increasing per capita demand, actual water demand per capita declined by 1.9% annually between 2000 and 2020, leading to a decoupling of water demand from population growth. Concurrently, we document a substantial increase in water demand management incentives, with non-voluntary regulations emerging as the dominant demand management approach by 2020, largely driven by state policies like the Model Water Efficient Landscape Ordinance and California Green Building Standards. Demand management efforts have evolved from primarily indoor and educational initiatives toward outdoor-focused non-voluntary regulations and rebates. This shift appears closely linked to the reduction in per capita demand that suppliers failed to fully capture in their water demand projections. Our findings underscore the importance of incorporating dynamic conservation trends into demand projections and suggest that suppliers should develop more sophisticated forecasting methods that account for the continuing evolution of water efficiency incentives. This research provides valuable insights for water resource planners seeking to improve the accuracy of water demand projections in an era of increasing conservation and climate uncertainty.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR040474",
+      "date_added": "2025-11-26",
+      "id": "3fdb7d3c06e2afd3b0588bca236e0b99",
+      "topic": [
+        "urban"
+      ]
+    },
+    {
+      "title": "Impacts of anthropogenic climate change and vegetation variations on global changes in baseflow and stormflow",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Tan"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Tan"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Fu"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Comprehending the causal relationships between shifting climatic patterns, dynamic vegetation cover, and altered hydrological cycles constitutes a fundamental prerequisite for developing adaptive strategies in water resources governance. We analyze changes in baseflow ( BF ) and stormflow ( SF ) in 3,388 watersheds globally in the response to changes in precipitation characteristics, vegetation (Normalized Difference Vegetation Index, NDVI ), temperature, potential evapotranspiration, and the aridity index from 1982 to 2016, based on Random Forest Model simulations and Shapley Additive Explanations. We also evaluate the effects of anthropogenic climate change on changes in baseflow index ( BFI , the ratio of baseflow to total streamflow) using the signal-to-noise ratio (SNR) method applied to multi-model simulations from ISIMIP2b. Results show that the BF and SF in the majority of watersheds show consistent trends, but they also show the opposite trends in specific seasons. Over 60% of watersheds in the Northern Hemisphere experienced a decrease in BF contribution to the total streamflow during the June-July-August season. Minimum temperature and NDVI are the most important factors influencing changes in BF and SF . Minimum and maximum temperature, precipitation seasonality, and precipitation intensity show negative effects on the BF , and the impact of vegetation on the BFI varies from region to region. The contribution of BF to the total streamflow decreases significantly at the global scale under the impact of anthropogenic climate change, according to the SNR analysis. The interaction of climate and vegetation changes on changes in BF and SF should take into account to regional adaptation of climate change for the utilization of groundwater and surface water resources.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR040309",
+      "date_added": "2025-11-26",
+      "id": "b88abfdcb2193e4125ffa000cc574bb6",
+      "topic": [
+        "streamflow"
+      ]
+    },
+    {
+      "title": "Emerging patterns of changes in intra-annual variability of streamflow",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Jiang"
+        }
+      ],
+      "journal": "Geophysical Research Letters",
+      "citations": 0,
+      "abstract": "Large-sample observational analyses of changes in intra-annual streamflow variability remain rare. This study presents the first large-scale analysis of spatial patterns in long-term trends of intra-annual streamflow variability from 1970 to 2022 across free-flowing and non-free-flowing rivers in diverse climate zones. Analyzing 12,311 streamflow stations, we found ∼23% of stations exhibit significant trends in variability (∼11% increasing, ∼12% decreasing). A spatial pattern emerges, that is, increasing variability dominates in tropical regions, driven largely by declining low flows, while decreasing variability prevails in cold regions, mainly due to rising low flows. In arid and semi-arid transition zones, changes in variability are strongly associated with reductions in streamflow. Non-free-flowing rivers exhibit a higher proportion of decreasing variability than free-flowing rivers. Further analysis of precipitation variability shows a consistency of variability between precipitation and streamflow only in tropical regions, indicating widespread non-precipitation-led flow regime changes.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025GL118724",
+      "date_added": "2025-11-26",
+      "id": "5f12d01d1ac0c3efe974af54fe83644e",
+      "topic": [
+        "streamflow"
+      ]
+    },
+    {
+      "title": "Differential sensitivities of three types of compound drought and heatwave events to human-induced climate change across the globe",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Gong"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Chen"
+        }
+      ],
+      "journal": "Weather and Climate Extremes",
+      "citations": 0,
+      "abstract": "Compound drought and heatwave (CDHW) events threaten ecosystems, water security, and human health through mutually reinforcing thermal and hydrological stress. Using CMIP6 multi-model simulations, we quantify influences of human-induced climate change on three CDHW types (i.e., precipitation-based (CMDH), runoff-based (CHDH), and soil-moisture-based (CSDH)) by isolating greenhouse gas, aerosol, and natural forcings (1960-2014). Greenhouse gas forcing emerges as the dominant driver of global CDHW intensification, with CSDH showing the strongest and most coherent amplification of CDHW frequency and severity. Aerosols partially offset warming-induced increases, particularly in monsoon regions. Interpretable machine learning reveals temperature as the primary driver, with precipitation and vapor pressure deficit playing event-dependent roles. Future projections (2015-2100) under high-emission pathways indicate significant severity growth (6.8%, 9.4%, and 15.4% for CMDH, CHDH, and CSDH on average) and sharply rising population exposure (with slope of 0.22, 0.23, and 0.65 for CMDH, CHDH, and CSDH) concentrated in tropical and temperate regions. These findings highlight the urgency of aggressive mitigation and adaptation strategies that address the compound nature of climate extremes and the spatial heterogeneity of anthropogenic impacts.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2212094725000945",
+      "date_added": "2025-11-26",
+      "id": "3d1a29eec99062253cc2c46851ad172d",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Dynamic Water Storage Response During Meteorological Droughts in South-Central Chile",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "G",
+          "last_name": "Barrientos"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Rubilar"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Duarte"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Sandoval‐Quilondrán"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Aguayo"
+        }
+      ],
+      "journal": "Hydrological Processes",
+      "citations": 0,
+      "abstract": "Dynamic water storage reflects the movement of water within a watershed, including infiltration from the surface to the subsurface. In this study, we addressed two questions: (a) What are the spatiotemporal patterns of dynamic water storage during 13 extreme drought events? and (b) How do these patterns correlate with specific hydroclimatic and physiographic characteristics? To answer these questions, we analysed the variability of dynamic water storage d S ( t ), estimated via a water-balance approach as the increase or decrease in storage over time from the beginning to the end of the rainy season across 43 watersheds in south-central Chile (1980-2020), focusing on how meteorological droughts influence watershed storage dynamics. Our results show that dynamic water storage responds rapidly to precipitation, with maximum values ranging from 17 to 632 mm, and declines to negative values during dry periods. On average, storage peaks were observed 126 days after the onset of precipitation. The initial storage reduction during the droughts averaged 51 mm. Lower storage maxima are associated with drier climatic conditions (negative values of the standardised precipitation index [SPI] and the Palmer drought severity index [PDSI]), increased numbers of consecutive dry days in both summer and winter, and catchment characteristics such as higher elevation, steeper slopes and higher flow velocities. Seasonal shifts in storage, with accumulation at the beginning of the wet season and a rapid decline to negative values at the end of the dry season, reflect periods of water connectivity and disconnection, offering critical insights into hydrological modelling and drought mitigation strategies. We interpret the disconnection period as one in which surface water levels decrease owing to the absence of precipitation and increased evapotranspiration rates, highlighting the vulnerability of watersheds to extreme climatic events.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.70335",
+      "date_added": "2025-11-26",
+      "id": "52ce34fc5a860cbb360783e0198f560a",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Global warming intensifies extreme day-to-day temperature changes in mid-low latitudes",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Q",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Fu"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Ding"
+        }
+      ],
+      "journal": "Nature Climate Change",
+      "citations": 0,
+      "abstract": "Global warming is increasing the number and intensity of many extreme weather and climate events. Here we argue that extreme day-to-day temperature changes, exceeding the 90th percentile threshold of historical records, are an independent, but largely ignored, aspect of extreme weather events. Such extreme temperature changes have a stronger impact on human health in many locations than do diurnal temperature variations. Global observations show that such events have become more frequent since the 1960s in low and mid-latitudes but decreased at high latitudes, primarily due to GHG forcing. Climate models project a further amplification of extreme day-to-day temperature changes under warming, with frequency, amplitude and total intensity rising by ~17%, ~3% and ~20%, respectively, by 2100 in regions covering 80% of global population. Increased extreme day-to-day temperature changes are associated with drier soil and increased variability in pressure and soil moisture, posing substantial risks to societal and ecosystem resilience and adaptation.",
+      "url": "https://www.nature.com/articles/s41558-025-02486-9",
+      "date_added": "2025-11-26",
+      "id": "09cbdf94db6d8e9669af98e97237e199",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Graph Fourier deep learning for spatiotemporal and hydrogeological interpretation of groundwater levels in the Yellow River Basin",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Z",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yao"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "He"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Lancia"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Zheng"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Groundwater systems exhibit strong spatial heterogeneity and nonlinear dynamics, complicating the parameterization of physically based hydrological models and limiting adaptability at large scales. Deep learning (DL) offers a promising data-driven alternative but faces challenges in prediction accuracy and interpretability. This study proposes a novel Graph Fourier Network (GFN) model that integrates Fourier domain modeling, dynamic graph structure generation, and multi-head graph attention. Hydrogeological units are embedded as prior information, leveraging data from 473 groundwater monitoring wells across the Yellow River Basin (YRB), China. We show that the proposed GFN model significantly outperforms baseline models, including Long Short-Term Memory (LSTM), Extreme Gradient Boosting (XGBoost) and Spatio-Temporal LSTM (ST-LSTM), achieving an R 2 of up to 0.90. By incorporating hydrogeological prior knowledge, the GFN model enhances the extrapolation capability of groundwater level predictions, particularly for extended lead times up to 25 days. The predicted groundwater level dynamics show lagged and nonlinear responses to climatic and ecological drivers, with their spatial heterogeneity shaped by hydrogeological conditions. These response patterns include the prolonged influence of precipitation, and spatially varying effects of evapotranspiration and vegetation across hydrogeological units. These findings highlight the GFN model informed by hydrogeological information effectively captures characteristics of regional groundwater system. This study provides a fast and reliable approach for short- and long-term regional groundwater prediction under varying hydrogeological conditions.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR041215",
+      "date_added": "2025-11-26",
+      "id": "8b236a40eacb93cd940fbd9f2e7b3dc2",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "Quantifying ENSO and IOD effects in Vidarbha region of central India using climate sensitive indicators",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "TM",
+          "last_name": "Jibhakate"
+        },
+        {
+          "first_name": "YB",
+          "last_name": "Katpatal"
+        }
+      ],
+      "journal": "Theoretical and Applied Climatology",
+      "citations": 0,
+      "abstract": "Assessing the effects of the large-scale oceanic phenomena like El Niño Southern Oscillation (ENSO) and Indian Ocean Dipole (IOD) on Indian Summer Monsoon rainfall (ISMR) at the regional scale is crucial for the management of water resources. This study assesses the impacts of climate variability (ENSO and IOD) on rainfall in the Vidarbha region of Maharashtra, central India. The research uses long-term data spanning 44 years (1981-2024) to analyse spatiotemporal variation of climate sensitive indicators such as rainfall, runoff, soil moisture, and NDVI (Normalized Difference Vegetation Index). The main objective of the study is to identify areas in the Central Indian region affected by the combination of ENSO (El Niño/La Niña) and IOD (Positive/Negative) phenomena. The clustering approach, Wavelet analysis, and the Hidden Markov Model are applied to analyse the rainfall pattern over the study area. The study indicates that the negative trends of rainfall, runoff, and soil moisture have shifted to positive trends since 2002. The findings of rainfall associated with climate indices using anomalies and clustering approach indicate that the Oceanic Niño Index (ONI) shows a significant relationship with the rainfall pattern than the Dipole Mode Index (DMI). The weighted overlay analysis of climate sensitive parameters with the help of the Analytical Hierarchy Process (AHP) indicates that the pure events of Positive IOD and El Niño are strongly linked to increase and decrease in the rainfall respectively, while La Niña, occurring with the negative IOD, is associated with significant increase in the rainfall. El Niño with Negative IOD create unfavourable conditions, whereas El Niño with Positive IOD yield favourable conditions in some areas and unfavourable conditions over other areas of Vidarbha region.",
+      "url": "https://link.springer.com/article/10.1007/s00704-025-05900-6",
+      "date_added": "2025-11-26",
+      "id": "b90a376ad48d8bda7b42b58150c4acba",
+      "topic": [
+        "wavelet"
+      ]
+    },
+    {
+      "title": "Distinct favored regions for historical record-setting and future record-breaking humid heat",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Raymond"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Suarez‐Gutierrez"
+        },
+        {
+          "first_name": "V",
+          "last_name": "Thompson"
+        },
+        {
+          "first_name": "K van der",
+          "last_name": "Wiel"
+        }
+      ],
+      "journal": "AGU Advances",
+      "citations": 0,
+      "abstract": "Recent studies have revealed strong trends in humid heat, including the nearing of human physiological limits in some regions. Understanding of past extremes and their meaningfulness for contextualizing future possibilities, especially in the near-term, is limited by the absence of a global analysis focused on the most extreme humid-heat-anomaly events. Here we identify record-setting humid-heat days for 216 global regions and assess the likelihood of these records being broken even under present-day climate forcing. We use several reanalyses as a historical catalogue, and large climate-model ensembles to represent other statistically plausible events. Unlike the spatial pattern of large temperature anomalies, we find that humid-heat anomalies are most intense, and most seasonally and interannually concentrated, in the deep tropics and arid subtropics. Many top events have attracted little if any prior attention. The eastern United States is especially susceptible to record-breaking humid heat due to modest current records (>1% inferred annual exceedance probability) contrasting with numerous simulated large-anomaly days. Australia and eastern China are also prone to locally exceptional episodes, with >40% of ensemble members simulating events exceeding the ERA5-based distribution maximum. Model biases for key characteristics, together with the observed record-setting day affecting its estimated return period by >2.5x in half of regions, underline several valuable aspects of a joint observation/model perspective on humid heat. This approach aids in evaluating the plausibility of as-yet-unseen extremes; identifying regions of concern that might otherwise be overlooked and underprepared; and gauging regionally specific correlations between event magnitudes and societal impacts.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025AV001963",
+      "date_added": "2025-11-26",
+      "id": "1b7cd4f60f8801c55f14c7d6ad1ff5bb",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Runoff response to climate and landscape changes under variable fraction of snowfall in precipitation",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "G",
+          "last_name": "Shi"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Gao"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "A warmer climate will change the fraction of snowfall in precipitation. The switch of precipitation types not only directly changes the runoff but also influences the response of runoff to other factors, such as landscape or precipitation, which is not fully understood in previous studies. In this study, we modified the snow-involved Budyko equation for catchments with high snow ratio (the proportion of snowfall in precipitation) from the perspective of available water and energy. The elasticity of runoff derived from two modified Budyko frameworks was used to quantify the response of runoff to different factors with snow ratio and aridity index changes at 552 catchments in the contiguous USA. The results indicate that ignoring the effect of snowfall in the Budyko framework leads to overestimation of the elasticity of runoff to precipitation and landscape. With the increase of snow ratio, the elasticities of runoff to precipitation and landscape will decrease. For most catchments, the snow ratio elasticity will increase with the increment of snow ratio, and this trend is more significant in arid regions. A weak negative correlation between the snow ratio elasticity coefficient of runoff and snow ratio in humid catchments with high snow ratios are also detected. This study suggests that under the context of global warming, the decline of snow ratio will cause a more sensitive response of runoff to the changes in climate and landscape, which may result in a great challenge to the water resources management in the future.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR041443",
+      "date_added": "2025-11-26",
+      "id": "68e734cca7279bbd5c580cf71738eaee",
+      "topic": [
+        "snow"
+      ]
+    },
+    {
+      "title": "Quadratic response and adaption of vegetation growth to hydrological drought in heterogeneous lake floodplain wetlands",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Ye"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Yue"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "CY",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Li"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "The growth state and distribution pattern of wetland vegetation are prominently affected by hydrological conditions, but the response and adaption of vegetation growth to hydrological drought in heterogeneous floodplain wetlands remain poorly understood. Given the critical role of eco-hydrological conditions in lake functions, this study applied multi-source remote sensing data and image fusion technology to construct continuous high-spatiotemporal resolution Normalized Difference Water Index (NDWI) (8 days, 30 m) and Enhanced Vegetation Index (EVI) (16 days, 30 m) for the Poyang Lake (China's largest lake floodplain system) from 2000 to 2023. A novel Standardized Inundation Area Index (SIAI) was proposed, and then the responses of wetland vegetation growth to hydrological drought in the lake were quantitatively analyzed. Results revealed that EVI of the Poyang Lake floodplain wetlands exhibited a bimodal pattern throughout the year, with peaks in April and September. SIAI trends indicated a long-term worsening condition of hydrological drought in the lake. Evident quadratic relationships were identified between EVI and SIAI at both monthly and annual time scales, with a concave fitted curve showing maximum annual EVI at SIAI = −1.46. The impact of hydrological drought on vegetation growth showed a 1-4 months time-lag effect and a 2-11 months cumulative effect from March to June, though these were potentially interrupted by the summer flooding process. Autumn vegetation growth relied primarily on contemporary lake water conditions. The highlighted quadratic response of vegetation growth to hydrological drought deepens the understanding of floodplain eco-hydrological adaptability under extreme water regimes.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR040172",
+      "date_added": "2025-11-26",
+      "id": "a180ac2c65ad440ef0083f8a1f9d532c",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Risk of successive hot-pluvial extremes on crop yield loss over global breadbasket regions",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "AK",
+          "last_name": "Kabtih"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Qian"
+        }
+      ],
+      "journal": "Communications Earth & Environment",
+      "citations": 0,
+      "abstract": "Multiple climate extremes can coincide in time or happen sequentially and become a compound hazard. Recently, frequent occurrences of successive hot-pluvial extremes (SHPEs) have been presented, yet the risk of SHPEs on crop yield has not been investigated. Here we reveal peril of recurrent occurrences of SHPEs during intra-growing season and their connection with subsequent yield loss over breadbasket regions. Our results show an increasing trend in evolution of recurrent SHPEs during intra-growing seasons from 1979 to 2024. A significant risk of synchronized low crop yields is found in breadbasket regions, as shown by negative yield percentage changes and linear regression analysis. XGBoost classifier model predicts a negative likelihood of 49%, 50%, 49%, and 50% for maize, rice, soybean, and wheat yield responses to the emergence of frequent SHPE events, respectively. Alternatively, XGBoost regression surpasses and explains 36% of yield variability caused by recurrent occurrences of SHPEs globally for the studied crops, although it exhibits heterogeneities across different regions. The insights provide a foundation for considering the actual risk, which ultimately contributes to improving crop yield.",
+      "url": "https://www.nature.com/articles/s43247-025-02989-5",
+      "date_added": "2025-11-26",
+      "id": "b74d269e80726e4e608cc26b5b2ba298",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Multiscale drivers of extreme southern California flooding: ENSO, MJO, North Pacific jet, and atmospheric rivers",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "E",
+          "last_name": "Mazza"
+        },
+        {
+          "first_name": "SS",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "BW",
+          "last_name": "Kerns"
+        },
+        {
+          "first_name": "AC",
+          "last_name": "Winters"
+        }
+      ],
+      "journal": "npj Climate and Atmospheric Science",
+      "citations": 0,
+      "abstract": "Extreme rainfall and flooding, driven by a powerful atmospheric river (AR) and a persistent Madden-Julian Oscillation (MJO), hit Southern California in February 2024 during the 2023-2024 El Niño, affecting over 10 million people. ARs are key contributors to extreme rainfall and flooding along the U.S. West Coast. Although the AR-MJO link has been documented, its spatio-temporal variability remains a major forecasting and risk-management challenge. Combining precipitation, stream gauge and demographic data, we quantify the physical drivers and population exposure to this extreme event. Leveraging a Lagrangian MJO precipitation tracking algorithm, we unravel the multiscale interactions responsible for the AR’s development. El Niño favored a large, long-lived MJO that interacted with the North Pacific Jet (NPJ) over more than three weeks. The MJO convective outflow modulated the NPJ by inducing negative potential vorticity advection along the tropopause. The ensuing NPJ extension and acceleration induced explosive cyclogenesis, whose AR-driven moisture transport resulted in extreme rainfall.",
+      "url": "https://www.nature.com/articles/s41612-025-01242-2",
+      "date_added": "2025-11-26",
+      "id": "456f9751341196bb654680c744f7191f",
+      "topic": [
+        "statistics-big-data"
+      ]
     }
   ]
 }
