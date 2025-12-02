@@ -11632,6 +11632,60 @@
       "topic": [
         "statistics-big-data"
       ]
+    },
+    {
+      "title": "Large-scale moisture sources and delivery pathways contributing to winter floods in the US",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Hwang"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Sankarasubramanian"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Previous seminal studies on US flood hydroclimatology have recognized large-scale seasonal precipitation water from the lower atmosphere as a significant factor influencing flood patterns and have identified potential moisture delivery pathways associated with seasonal flooding across the conterminous United States (CONUS). Given the changing climate, however, an update of these studies is warranted, leveraging the more extensive and longer series of data sets currently available on floods and exogenous climate drivers. Using a Lagrangian particle tracking model (HYSPLIT), this study explores the large-scale moisture delivery pathways associated with monthly floods during the winter season across the CONUS. The contributions of various moisture sources (i.e., land, extratropical Pacific, tropical Pacific, extratropical Atlantic, tropical Atlantic, and Arctic) to winter floods are summarized for each hydrologic region (HUC02) based on the moisture delivery pathways identified by the HYSPLIT model. Our results show that major oceanic sources are the primary contributors to winter floods in coastal regions, whereas land remains a significant source for hydrologic regions over the Midwest. Humidity profiles along the trajectories further indicate that air masses from the Pacific lose substantial moisture when crossing western mountain ranges and subsequently gain over east of the Rockies, making land a key contributor to floods over the upper Midwest. We also find substantial variability in moisture source contributions depending on flood severity in specific regions. In addition, the circulation patterns associated with extreme flood trajectories reveal consistent large-scale features, typically involving a deep low-pressure system delivering moisture to hydrologic regions.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR040353",
+      "date_added": "2025-12-01",
+      "id": "ab3f80512a2bf1bf91ff881f5a11e037",
+      "topic": [
+        "atmosphere"
+      ]
+    },
+    {
+      "title": "Influence of drought identification methods on analyzing and assessing responses of water quality to droughts",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Yao"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Ecological Indicators",
+      "citations": 0,
+      "abstract": "Hydrological drought, a global extreme event impacting water resources and ecosystems, is characterized by absolute (fixed drought threshold, FDT) or relative (variable drought threshold, VDT) low streamflow metrics. These metrics influence water quality analyses during droughts, a previously overlooked aspect. This study compares FDT and VDT to assess their effects on water quality responses in Harp Lake catchment, Ontario, using long-term (1978-2018) streamflow and water quality data (e.g., dissolved organic carbon, DOC; total nitrogen, TN; total phosphorus,TP). Our findings demonstrate that methodological disparities in hydrological drought identification substantially influence water quality responses to droughts, with divergent thresholds yielding distinct dynamics. Specifically, (i) drought events identified by FDT exhibit higher concentrations of DOC, TP, and TN than those by VDT (e.g., the DOC concentration recognized by FDT is 23.11% higher than that of VDT). However, their fluxes are restricted by reduced streamflow (e.g., the DOC flux recognized by FDT is 80.15% lower). (ii) Both methods show drought duration and severity positively correlate with nutrient concentrations, but FDT exhibits faster response rates. (iii) Discrepancies arise because FDT identifies longer, cross-seasonal droughts (25.35% longer average duration), while VDT detects short-term wet-dry fluctuations, fragmenting events. The study reveals that apart from the perturbations caused by drought itself on water quality, the drought identification method used can also make remarkable difference in the assessment of these perturbations, which calls more research or attention.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1470160X25013901",
+      "date_added": "2025-12-01",
+      "id": "72304643a3d9801d00fa4dec925736c6",
+      "topic": [
+        "water-quality"
+      ]
     }
   ]
 }
