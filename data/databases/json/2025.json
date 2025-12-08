@@ -11686,6 +11686,110 @@
       "topic": [
         "water-quality"
       ]
+    },
+    {
+      "title": "RMC: advancing daily runoff forecasting with a unified cross-scale deep learning approach",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "D",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Zeng"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Zang"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Accurate hydrologic time-series forecasting is essential for water-resource management and disaster mitigation. Existing methods often fail to capture nonlinear dynamics, non-stationary behaviors, and the complex interactions among multi-source forcings. To address these challenges, we introduce a novel hybrid architecture-Res-Mamba-Causal (RMC)-that unifies multi-scale hydrologic feature modeling through a three-stage progressive framework. First, a residual convolutional layer with multi-scale dilated convolutions extracts fine-grained local patterns in parallel. Second, a Mamba state-space kernel captures long-range dependencies with linear complexity O(N). Finally, apply a causal mask within the sliding window to compensate for the insufficient local expression of Mamba, dynamically focus on key nodes, and enhance physical causal response. Evaluated on four U.S. watersheds-Fish River, Redstone, Johnson Creek, and McKenzie River-RMC consistently outperforms long short-term memory (LSTM), Transformer, and other baselines across Mean Absolute Percentage Error (MAPE), Root Mean Square Error (RMSE), Nash-Sutcliffe Efficiency (NSE), and Kling-Gupta Efficiency (KGE). Notably, at Fish River, RMC achieves an MAPE of 3.75, 71.1 % lower than Mamba (12.97), and a KGE of 0.992, 11.2 % higher than Mamba. At Redstone, RMC reduces Mean Absolute Error (MAE) by 52.9 % compared to Transformer. At McKenzie River, RMC attains an NSE of 0.980, 12.5 % higher than Convolutional Neural Network (CNN). These results demonstrate that RMC effectively integrates local-short-long-range features, offering a scalable and interpretable paradigm for complex hydrologic forecasting.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425020621",
+      "date_added": "2025-12-08",
+      "id": "cd84e9c8b04edd6b25936959eee60047",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "An impact-oriented framework for a deep learning-based composite drought index considering potential economic losses.",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "M Khosh",
+          "last_name": "Chehreh"
+        },
+        {
+          "first_name": "C De",
+          "last_name": "Michele"
+        }
+      ],
+      "journal": "Environmental Research Letters",
+      "citations": 0,
+      "abstract": "Droughts significantly impact socioeconomic systems globally. As a complex and multifaceted phenomenon, drought is characterized through various indices - meteorological, agricultural, and hydrological- each capturing different aspects of the phenomenon. This diversity has led to growing demand for integrated drought monitoring tools that offer a more holistic understanding of drought conditions. Traditionally, newly developed composite drought indices are assessed through the comparison with existing indices. However, this model-by-model validation approach does not necessarily reflect real-world accuracy or relevance. Therefore, a paradigm shift is needed - from comparative validation among indices to impact-oriented evaluation - emphasizing the capacity of drought indices to capture actual societal and environmental consequences. In this study, we propose a novel drought index derived from deep learning, evaluated through an impact-oriented lens using drought-induced economic losses as the primary performance metric. The index is computed using advanced deep learning techniques and a range of drought-related variables. To enhance model accuracy and robustness, we employ different self-supervised learning architectures, including convolutional neural networks, artificial neural networks, and variational autoencoders. The analysis utilizes ERA5 reanalysis data (1989-2024) for Italy, integrated with economic loss records from the EM-DAT database. Each model's performance is assessed based on its ability to estimate potential economic losses caused by drought. The proposed framework allows users to select the most suitable index based on a guided analysis, balancing data collection effort and predictive reliability.",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/ae269a/meta",
+      "date_added": "2025-12-08",
+      "id": "9d8acee792bbb2f65007b95a58777317",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Long-term projections of global groundwater storage under future climate change scenarios using deep learning",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "SR",
+          "last_name": "Patra"
+        },
+        {
+          "first_name": "HJ",
+          "last_name": "Chu"
+        }
+      ],
+      "journal": "Science of the Total Environment",
+      "citations": 0,
+      "abstract": "As climate change accelerates, understanding its impact on groundwater dynamics is essential for sustainable water management. This study employs a climate-induced AI model to project global variations in GRACE-derived groundwater storage (GWS) under future scenarios eg CMIP6 SSPs until 2100. The model demonstrates robust predictive performance, yielding NRMSE below 0.1 and IOA exceeding 0.9 across most regions worldwide. A feature sensitivity analysis revealed maximum temperature (T max) as the dominant driver: an increase in T max led to the largest absolute GWS changes, followed by precipitation and minimum temperature. Spatial map of projections at global scale under the high-emission SSP585 scenario indicate that tropical and temperate regions may face the most pronounced GWS declines, particularly when T max exceeds 3° C. Arid zones are projected to experience moderately high losses in comparison, while colder regions may see slight gains. Temperature extremes are projected to increase evaporative and crop water demand, as well as domestic and irrigation dependence, thereby intensifying groundwater stress, particularly in densely populated and agriculture-dependent regions. By 2100, over half of the world's population is expected to inhabit regions facing a decline in GWS, while major aquifers are projected to experience GWS declines, with the Ogallala Aquifer potentially losing up to 40% under severe warming conditions. These findings underscore the importance of integrating climate-induced groundwater changes into future water resource planning at a global scale.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S004896972502683X",
+      "date_added": "2025-12-08",
+      "id": "577dd532c84ae5f9d55559399ef2d2ae",
+      "topic": [
+        "groundwater"
+      ]
+    },
+    {
+      "title": "Formulation of a transformation-based approach to regional flood frequency analysis in LH-moment framework",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "AK",
+          "last_name": "Singh"
+        },
+        {
+          "first_name": "SR",
+          "last_name": "Chavan"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Regional flood frequency analysis (RFFA) facilitates the estimation of design floods at ungauged locations within hydrologically homogeneous regions. The utilization of higher order L-moments, famously known as LH-moments has proven to be more effective and advantageous in quantifying the design floods, particularly corresponding to larger return periods. In this paper, a transformation-based RFFA approach is formulated in LH-moment framework, considering five widely recognized peak flow distributions, namely Generalized Extreme Value, Generalized Logistic, Generalized Pareto, Pearson Type III and Generalized Normal distributions. Further, the expressions for location, scale and the shape parameters of Pearson Type III, Generalized Normal and Kappa distributions are derived using LH-moments in original space, since their unavailability. A Monte Carlo simulation experiment has revealed better performance of the formulated approach relative to conventional RFFA approach as well as L-moment based transformation approach. Finally, the efficacy of the developed transformation-based approach is validated through applications to real world catchments of the conterminous United States, and four major river basins in South India. Results indicate that the transformation-based approach to RFFA tend to outperform the conventional RFFA approach in LH-moment framework. The proposed approach offers substantial improvement in the accuracy of design flood estimates for large return periods in ungauged or data-scarce catchments, making it a reliable tool for analyzing highly skewed flood datasets.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425020347",
+      "date_added": "2025-12-08",
+      "id": "87cd457beefb787a6ac45ffcf12700b4",
+      "topic": [
+        "statistics-big-data"
+      ]
     }
   ]
 }
