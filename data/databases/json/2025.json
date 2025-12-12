@@ -11790,6 +11790,45 @@
       "topic": [
         "statistics-big-data"
       ]
+    },
+    {
+      "title": "Projected widening of sociodemographic heat disparities in the United States by end of century",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "K",
+          "last_name": "Song"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Hsu"
+        },
+        {
+          "first_name": "TC",
+          "last_name": "Chakraborty"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Kittner"
+        }
+      ],
+      "journal": "One Earth",
+      "citations": 0,
+      "abstract": "As global temperatures rise, heat-related hazards will escalate, unevenly affecting different regions and socioeconomic groups across the United States. However, we lack robust projections of who will face how much heat in the future, a gap that risks misdirecting adaptation resources and deepening avoidable and inequitable health impacts. Here, we combine multi-model ensemble of climate projections from the Coupled Model Intercomparison Project Phase 6 (CMIP6) with sociodemographic estimates to examine county-level exposure to moist heat stress from the present day to 2100. Our results show scenario-dependent widening of heat exposure by sociodemographic and geographic characteristics, with non-Hispanic Black populations, older adults, and heat-prone Southern counties experiencing the greatest increases. Across intermediate, high, and very high emission scenarios (SSP2-4.5, SSP3-7.0, and SSP5-8.5), absolute \"Extreme Caution+\" disparities expand, with the largest gaps in 2100 between non-Hispanic Black and non-Hispanic White populations. By resolving exposure by group, location, and scenario, these results can better inform adaptation planning that reflects differential risk and allows for prioritizing resources for the most affected communities.",
+      "url": "https://www.cell.com/one-earth/abstract/S2590-3322(25)00354-9",
+      "date_added": "2025-12-12",
+      "id": "ffe57781b368eb5472143f01fa3fe0b2",
+      "topic": [
+        "drought"
+      ]
     }
   ]
 }
