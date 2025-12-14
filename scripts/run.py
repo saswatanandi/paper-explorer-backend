@@ -16,6 +16,7 @@ import readchar
 import shutil
 from bs4 import BeautifulSoup
 from gscholarNoprint import GoogleScholarScraper, clean_text
+from urllib.parse import urlparse
 
 
 # Utility functions
@@ -147,6 +148,41 @@ def load_csv_to_set(file_path: str, column_name: str) -> Set[str]:
                         writer = csv.DictWriter(f, fieldnames=[column_name])
                         writer.writeheader()
     return result
+
+def extract_hostname(url: str) -> str:
+    """Extract a normalized hostname from a URL-like string."""
+    if not url:
+        return ""
+
+    candidate = url.strip()
+    if not candidate:
+        return ""
+
+    # urlparse treats schemeless URLs as paths; prepend scheme for host extraction.
+    parsed = urlparse(candidate if "://" in candidate else f"https://{candidate}")
+    hostname = (parsed.hostname or "").strip().lower()
+    if hostname.startswith("www."):
+        hostname = hostname[4:]
+    return hostname
+
+def matches_avoid_domain(hostname: str, patterns: Set[str]) -> Optional[str]:
+    """Return matched pattern if hostname matches pattern (including subdomains)."""
+    if not hostname or not patterns:
+        return None
+
+    for pattern in patterns:
+        if not pattern:
+            continue
+        normalized = pattern.strip().lower()
+        if normalized.startswith("www."):
+            normalized = normalized[4:]
+        if not normalized:
+            continue
+
+        if hostname == normalized or hostname.endswith(f".{normalized}"):
+            return pattern
+
+    return None
 
 def load_reviewed_papers(file_path: str) -> Set[str]:
     """Load reviewed paper IDs, filtering out entries older than 365 days."""
@@ -571,6 +607,7 @@ async def process_eml_files(
     # Define file paths
     avoid_journals_path = os.path.join(data_dir, "databases", "csv", "avoid.csv")
     avoid_keywords_path = os.path.join(data_dir, "databases", "csv", "avoid_keywords.csv")
+    avoid_urls_path = os.path.join(data_dir, "databases", "csv", "avoid_urls.csv")
     unique_paper_id_path = os.path.join(data_dir, "databases", "csv", "unique_paper_id.csv")
     unique_journal_path = os.path.join(data_dir, "databases", "csv", "unique_journal.csv")
     unique_topic_path = os.path.join(data_dir, "databases", "csv", "unique_topic.csv")
@@ -579,6 +616,7 @@ async def process_eml_files(
     # Load data from CSV files to memory
     avoid_journals = load_csv_to_set(avoid_journals_path, "name")
     avoid_keywords = load_csv_to_set(avoid_keywords_path, "keyword")
+    avoid_url_patterns = load_csv_to_set(avoid_urls_path, "pattern")
     unique_paper_ids = load_csv_to_set(unique_paper_id_path, "id")
     journal_mapping = load_journal_mapping(unique_journal_path)
     topics = load_csv_to_set(unique_topic_path, "name")
@@ -586,6 +624,7 @@ async def process_eml_files(
     new_reviewed_papers = set()  # Track papers reviewed in this session
     non_english_papers_count = 0  # Track papers filtered due to non-English titles
     keyword_filtered_count = 0  # Track papers filtered due to avoid keywords
+    url_filtered_count = 0  # Track papers filtered due to avoid URL patterns
 
     # Extract paper titles from EML files
     print("Extracting paper titles from EML files...")
@@ -672,6 +711,17 @@ async def process_eml_files(
             "url": paper_info.get("url", ""),
             "date_added": datetime.datetime.now().strftime("%Y-%m-%d")
         }
+
+        # Check URL domain against avoid list early
+        url_hostname = extract_hostname(paper_metadata.get("url", ""))
+        matched_pattern = matches_avoid_domain(url_hostname, avoid_url_patterns)
+        if matched_pattern:
+            print(
+                f"Skipping paper due to avoid URL domain: '{url_hostname}' "
+                f"(matched pattern '{matched_pattern}')"
+            )
+            url_filtered_count += 1
+            continue
 
         # Check if scraped title contains non-English characters
         if paper_metadata.get("title") and contains_non_english_chars(paper_metadata["title"]):
@@ -842,6 +892,8 @@ async def process_eml_files(
     print("\nProcessing complete!")
     if non_english_papers_count > 0:
         print(f"Filtered out {non_english_papers_count} papers due to non-English titles.")
+    if url_filtered_count > 0:
+        print(f"Filtered out {url_filtered_count} papers due to avoid URL domains.")
 
 
 async def main():
