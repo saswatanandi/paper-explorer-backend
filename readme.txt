@@ -235,6 +235,18 @@ Example index.json:{
   "lastUpdated": "2025-04-10"  # date of today
 }
 
+
+Cross-platform settings (Linux + macOS)
+--------------------------------------
+
+Some settings may differ across machines. You can override them without editing code:
+
+1) Conda environment name used by `bash/paper_explorer.sh`
+   export PAPER_EXPLORER_CONDA_ENV="py25"
+
+2) Chrome executable path used for Google Scholar scraping (`nodriver`)
+   export PAPER_EXPLORER_BROWSER_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
 This repository is there at local storeage (by doing git clone git@git-saswatanandi:saswatanandi/paper-explorer-data.git), at under current folder : 'paper-explorer-data'
 
 

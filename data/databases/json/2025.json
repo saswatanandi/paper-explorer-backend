@@ -11829,6 +11829,49 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "Drought onsets and their driving factors for multiple drought types in the Yangtze River Basin",
+      "year": "2026",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Xia"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Lu"
+        }
+      ],
+      "journal": "Climate Dynamics",
+      "citations": 0,
+      "abstract": "Under global warming, frequent droughts severely threaten the ecological environment and socio-economy of the Yangtze River Basin (YRB). However, uncertainty regarding the onset characteristics and driving mechanisms of different drought types hinders the enhancement of drought monitoring and early warning systems. Using the standardized precipitation evapotranspiration index (SPEI), standardized soil moisture index (SSI), and standardized runoff index (SRI) to characterize meteorological, agricultural, and hydrological droughts respectively, this study analyzed the drought onset time (DOT) and onset speed (DOS) of droughts in the YRB. Combining the extreme Gradient Boosting (XGB) model with Shapley additive explanation (SHAP), we further explored the driving mechanisms of DOT and DOS during the 2022 extreme drought. The results showed that: (1) throughout the YRB, DOT increased from meteorological to hydrological droughts and from mild to extreme categories (10-112 days), while DOS decreased (0.14-0.02 day −1 ), with the middle reaches exhibiting shorter DOT and faster DOS compared to the upper and lower reaches, where spatial heterogeneity gradually diminished; (2) temperature (TEM) was the dominant driver of drought onset, aligned with potential evapotranspiration (PET) but opposed precipitation. Influences of vapor pressure deficit (VPD), surface pressure (SP), and net surface solar radiation (NSSR) exhibited nonlinear patterns that vary by drought type; (3) when TEM exceeds 20 °C, PET and SP become dominant factors by weakening TEM’s impact on drought onset, with this effect more pronounced for hydrological than meteorological droughts. Overall, this study revealed drought onset patterns and driving mechanisms in the YRB, which provided a scientific basis for drought risk prevention and response strategies.",
+      "url": "https://link.springer.com/article/10.1007/s00382-025-07953-9",
+      "date_added": "2025-12-13",
+      "id": "304f937fc1c91431a776f442b47473ed",
+      "topic": [
+        "drought"
+      ]
     }
   ]
 }

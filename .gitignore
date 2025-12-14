@@ -12,3 +12,5 @@ data/eml/*
 .idea/
 .vscode/
 *.swp
+
+.DS_Store

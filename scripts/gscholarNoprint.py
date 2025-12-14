@@ -12,14 +12,70 @@ import json
 import datetime
 import re
 import unicodedata
+import os
+import sys
+import shutil
 from urllib.parse import quote
 from bs4 import BeautifulSoup
 
 class GoogleScholarScraper:
-    def __init__(self, browser_path="/home/sn/chrome/opt/google/chrome/chrome"):
+    def __init__(self, browser_path=None):
         self.browser = None
-        self.browser_path = browser_path
+        self.browser_path = browser_path or self._resolve_browser_path()
         self.initialized = False
+
+    @staticmethod
+    def _resolve_browser_path():
+        """
+        Resolve a Chrome/Chromium executable path cross-platform.
+
+        Priority:
+        1) PAPER_EXPLORER_BROWSER_PATH (must exist)
+        2) OS-specific well-known paths
+        3) PATH lookup for common chrome/chromium executables
+        """
+        override = os.environ.get("PAPER_EXPLORER_BROWSER_PATH", "").strip()
+        if override:
+            if os.path.exists(override):
+                return override
+            raise FileNotFoundError(
+                f"PAPER_EXPLORER_BROWSER_PATH is set but does not exist: {override}"
+            )
+
+        candidates = []
+
+        if sys.platform == "darwin":
+            candidates.extend(
+                [
+                    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+                    "/Applications/Chromium.app/Contents/MacOS/Chromium",
+                ]
+            )
+        else:
+            candidates.extend(
+                [
+                    "/home/sn/chrome/opt/google/chrome/chrome",
+                    "/usr/bin/google-chrome",
+                    "/usr/bin/google-chrome-stable",
+                    "/usr/bin/chromium",
+                    "/usr/bin/chromium-browser",
+                ]
+            )
+
+        for name in ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser"):
+            path = shutil.which(name)
+            if path:
+                candidates.append(path)
+
+        for path in candidates:
+            if path and os.path.exists(path):
+                return path
+
+        raise FileNotFoundError(
+            "Could not find a Chrome/Chromium executable. "
+            "Set PAPER_EXPLORER_BROWSER_PATH (macOS example: "
+            "'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome')."
+        )
 
     async def initialize(self):
         """Initialize browser once"""

@@ -24,7 +24,7 @@ DATA_REPO_DIR="${MAIN_DIR}/paper-explorer-data"
 DATA_UPLOAD_DIR="${PYTHON_APP_DIR}/data/databases/upload" # Path relative to PYTHON_APP_DIR
 
 # Conda Environment
-CONDA_ENV_NAME="py24"
+CONDA_ENV_NAME="${PAPER_EXPLORER_CONDA_ENV:-py24}"
 # Optional: Specify full path if needed, but activation by name is preferred
 # CONDA_ENV_PATH="/home/sn/snd/soft/con/envs/py24"
 
@@ -68,6 +68,17 @@ command_exists() {
 
 # Function to activate conda environment
 activate_conda() {
+    # Allow seamless use across machines with different env names.
+    # If PAPER_EXPLORER_CONDA_ENV is set, it always wins.
+    if [ -z "${PAPER_EXPLORER_CONDA_ENV:-}" ]; then
+        if conda env list | awk '{print $1}' | grep -qx "${CONDA_ENV_NAME}"; then
+            :
+        elif conda env list | awk '{print $1}' | grep -qx "py25"; then
+            print_message "${YELLOW}" "Conda environment '${CONDA_ENV_NAME}' not found; using 'py25' instead."
+            CONDA_ENV_NAME="py25"
+        fi
+    fi
+
     print_message "${YELLOW}" "Activating conda environment '${CONDA_ENV_NAME}'..."
     if ! command_exists conda; then
         print_message "${RED}" "Error: conda command not found. Please ensure Anaconda/Miniconda is installed and in your PATH."
@@ -207,30 +218,49 @@ update_index_json() {
          return 1
     fi
 
-    # Find files, sort them (optional, but nice), and count
-    local files_list
-    files_list=$(find "$papers_dir" -maxdepth 1 -name '*.json.gz' -printf '"%p"\n' | sort)
-    local file_count
-    file_count=$(echo "$files_list" | grep -c .) # Count non-empty lines
-
-    if [ "$file_count" -eq 0 ]; then
-        print_message "${YELLOW}" "Warning: No .json.gz files found in ${papers_dir}. index.json will be empty."
-        files_json="[]"
-    else
-        # Join files with comma separator and wrap in brackets
-        files_json=$(echo "$files_list" | paste -sd ',' | sed 's/^/[/' | sed 's/$/]/')
+    if ! command_exists conda; then
+        print_message "${RED}" "Error: conda command not found. Cannot generate index.json via 'conda run'."
+        return 1
     fi
 
-    local today
-    today=$(date +"%Y-%m-%d")
+    # BSD/macOS find does not support GNU find's -printf. Use Python for JSON generation.
+    # Count files in shell for user-facing messaging.
+    local file_count
+    file_count=$(find "$papers_dir" -maxdepth 1 -name '*.json.gz' -print | wc -l | tr -d ' ')
 
-    # Create the new index.json content using printf for better formatting control
-    printf '{\n  "files": %s,\n  "totalCount": %d,\n  "lastUpdated": "%s"\n}\n' \
-        "${files_json}" "${file_count}" "${today}" > index.json
+    if [ "${file_count}" -eq 0 ]; then
+        print_message "${YELLOW}" "Warning: No .json.gz files found in ${papers_dir}. index.json will be empty."
+    fi
 
-    if [ $? -ne 0 ]; then
-        print_message "${RED}" "Error: Failed to write index.json."
-        return 1
+    local conda_run_env="${CONDA_ENV_NAME}"
+    local py_code
+    py_code=$(
+        cat <<'PY'
+import sys
+import datetime
+import json
+from pathlib import Path
+
+papers_dir = Path(sys.argv[1])
+files = sorted((Path("papers") / path.name).as_posix() for path in papers_dir.glob("*.json.gz"))
+today = datetime.date.today().isoformat()
+
+files_json = json.dumps(files, separators=(",", ":"))
+payload = '{\n  "files": %s,\n  "totalCount": %d,\n  "lastUpdated": "%s"\n}\n' % (
+    files_json,
+    len(files),
+    today,
+)
+Path("index.json").write_text(payload, encoding="utf-8")
+PY
+    )
+
+    if ! conda run -n "${conda_run_env}" python -c "${py_code}" "${papers_dir}"; then
+        print_message "${YELLOW}" "Warning: Failed to run Python in conda env '${conda_run_env}'. Falling back to conda env 'base'..."
+        if ! conda run -n base python -c "${py_code}" "${papers_dir}"; then
+            print_message "${RED}" "Error: Failed to write index.json."
+            return 1
+        fi
     fi
 
     print_message "${GREEN}" "index.json updated successfully (${file_count} file(s))."
@@ -355,10 +385,86 @@ commit_and_push_repo() {
     return 0
 }
 
+sync_repo_with_remote() {
+    local repo_dir="$1"
+    local repo_name="$2" # User-friendly name (e.g., "Data Repo", "Backend Repo")
+    local remote="$3"
+    local branch="$4"
+
+    print_header "Syncing ${repo_name} with GitHub (pull latest)"
+    cd "${repo_dir}" || return 1
+
+    if ! command_exists git; then
+        print_message "${RED}" "Error: git command not found."
+        return 1
+    fi
+    if [ ! -d ".git" ]; then
+        print_message "${RED}" "Error: ${repo_dir} is not a git repository."
+        return 1
+    fi
+
+    local current_branch
+    current_branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
+    if [ -z "${current_branch}" ]; then
+        print_message "${RED}" "Error: Could not determine current branch for ${repo_name}."
+        return 1
+    fi
+    if [ "${current_branch}" != "${branch}" ]; then
+        print_message "${RED}" "Error: ${repo_name} is on branch '${current_branch}', expected '${branch}'."
+        print_message "${YELLOW}" "Please checkout '${branch}' and retry."
+        return 1
+    fi
+
+    # Abort if there are any uncommitted changes.
+    if [ -n "$(git status --porcelain)" ]; then
+        print_message "${RED}" "Error: ${repo_name} has uncommitted changes. Commit or stash them before syncing."
+        git status -s
+        return 1
+    fi
+
+    print_message "${YELLOW}" "Fetching latest changes from ${remote}/${branch}..."
+    if ! git fetch "${remote}" "${branch}"; then
+        print_message "${RED}" "Error: Git fetch failed for ${repo_name}."
+        return 1
+    fi
+
+    local local_hash
+    local remote_hash
+    local_hash=$(git rev-parse HEAD 2>/dev/null) || return 1
+    remote_hash=$(git rev-parse "${remote}/${branch}" 2>/dev/null) || {
+        print_message "${RED}" "Error: Could not resolve ${remote}/${branch} for ${repo_name}."
+        return 1
+    }
+
+    if [ "${local_hash}" = "${remote_hash}" ]; then
+        print_message "${GREEN}" "${repo_name}: Already up-to-date."
+        return 0
+    fi
+
+    if git merge-base --is-ancestor HEAD "${remote}/${branch}"; then
+        print_message "${YELLOW}" "${repo_name}: Local branch is behind remote. Pulling with rebase..."
+        if ! git pull "${remote}" "${branch}" --rebase; then
+            print_message "${RED}" "Error: Git pull --rebase failed for ${repo_name}. Resolve manually."
+            return 1
+        fi
+        print_message "${GREEN}" "${repo_name}: Updated to latest."
+        return 0
+    fi
+
+    if git merge-base --is-ancestor "${remote}/${branch}" HEAD; then
+        print_message "${YELLOW}" "${repo_name}: Local branch is ahead of remote. Will push later if you proceed."
+        return 0
+    fi
+
+    print_message "${RED}" "${repo_name}: Local and remote branches have diverged. Manual merge/rebase needed."
+    return 1
+}
+
 
 # Function to upload data repo changes to GitHub
 upload_data_to_github() {
     print_header "Preparing Data Repository"
+    sync_repo_with_remote "${DATA_REPO_DIR}" "Data Repo" "${DATA_REPO_REMOTE}" "${DATA_REPO_BRANCH}" || return 1
     check_and_copy_new_data || return 1
     update_index_json || return 1
     commit_and_push_repo "${DATA_REPO_DIR}" "Data Repo" "${DATA_REPO_REMOTE}" "${DATA_REPO_BRANCH}" "${DEFAULT_COMMIT_MSG_DATA}"
@@ -368,6 +474,7 @@ upload_data_to_github() {
 # Function to upload backend repo changes to GitHub
 upload_backend_to_github() {
     # No data prep needed here, just commit/push existing changes
+    sync_repo_with_remote "${BACKEND_REPO_DIR}" "Backend Repo" "${BACKEND_REPO_REMOTE}" "${BACKEND_REPO_BRANCH}" || return 1
     commit_and_push_repo "${BACKEND_REPO_DIR}" "Backend Repo" "${BACKEND_REPO_REMOTE}" "${BACKEND_REPO_BRANCH}" "${DEFAULT_COMMIT_MSG_BACKEND}"
     return $? # Return the exit status of the commit/push
 }
