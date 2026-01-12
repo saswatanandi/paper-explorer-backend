@@ -11872,6 +11872,45 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "Ecosystem leaf area, gross primary production, and evapotranspiration responses to wildfire in the Columbia River basin",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "M",
+          "last_name": "Shi"
+        },
+        {
+          "first_name": "N",
+          "last_name": "McDowell"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Zahura"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Chen"
+        }
+      ],
+      "journal": "Biogeosciences",
+      "citations": 0,
+      "abstract": "Wildfires impact vegetation mortality and productivity and are increasing in intensity, frequency, and spatial area in the western United States. The rates of vegetation recovery after fires play a major role in the reestablishment of biomass and ecosystem functioning (e.g., structure, resilience, and productivity), but such recovery rates are poorly understood. Here we use remotely sensed data products from the Moderate Resolution Imaging Spectroradiometer (MODIS) to quantify the resistance and resilience of leaf area index (LAI), gross primary production (GPP), and evapotranspiration (ET) to 138 wildfires of various burn severity across the Columbia River basin (CRB) of the Pacific Northwest in 2015. Increasing burn severity caused lower resistance and resilience for all three variables. Resistance and resilience are highest in grasslands, intermediate in savanna, and lowest in needleleaf evergreen forests, consistent with the adaptation of these vegetation types to fire. LAI has consistently lower resistance and resilience than GPP and ET, which is consistent with physical and physiological mechanisms that compensate for reduced LAI. Resilience is influenced by precipitation, vapor pressure deficit (VPD), and burn severity across all three vegetation types; however, burn severity plays a more minor role in grasslands. Increasing wildfire severity will reduce the resistance and resilience and lengthen the recovery time of vegetation structure and fluxes with climate change, with significant consequences for the provision of ecosystem functioning and implications for model predictions.",
+      "url": "https://bg.copernicus.org/articles/22/2225/2025/",
+      "date_added": "2025-12-15",
+      "id": "80925e22dd7fe3844ae46e7efa5aa202",
+      "topic": [
+        "wildfire"
+      ]
     }
   ]
 }
