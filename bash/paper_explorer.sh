@@ -415,13 +415,6 @@ sync_repo_with_remote() {
         return 1
     fi
 
-    # Abort if there are any uncommitted changes.
-    if [ -n "$(git status --porcelain)" ]; then
-        print_message "${RED}" "Error: ${repo_name} has uncommitted changes. Commit or stash them before syncing."
-        git status -s
-        return 1
-    fi
-
     print_message "${YELLOW}" "Fetching latest changes from ${remote}/${branch}..."
     if ! git fetch "${remote}" "${branch}"; then
         print_message "${RED}" "Error: Git fetch failed for ${repo_name}."
@@ -437,27 +430,29 @@ sync_repo_with_remote() {
     }
 
     if [ "${local_hash}" = "${remote_hash}" ]; then
-        print_message "${GREEN}" "${repo_name}: Already up-to-date."
+        print_message "${GREEN}" "${repo_name}: Already up-to-date with remote."
         return 0
     fi
 
-    if git merge-base --is-ancestor HEAD "${remote}/${branch}"; then
-        print_message "${YELLOW}" "${repo_name}: Local branch is behind remote. Pulling with rebase..."
-        if ! git pull "${remote}" "${branch}" --rebase; then
-            print_message "${RED}" "Error: Git pull --rebase failed for ${repo_name}. Resolve manually."
-            return 1
-        fi
-        print_message "${GREEN}" "${repo_name}: Updated to latest."
-        return 0
+    # Show what state we're in
+    if [ -n "$(git status --porcelain)" ]; then
+        print_message "${YELLOW}" "${repo_name}: Has uncommitted changes (will be preserved via autostash)."
     fi
 
-    if git merge-base --is-ancestor "${remote}/${branch}" HEAD; then
-        print_message "${YELLOW}" "${repo_name}: Local branch is ahead of remote. Will push later if you proceed."
-        return 0
+    # Use --rebase --autostash to handle all scenarios:
+    # - Uncommitted changes: autostash saves them, restores after pull
+    # - Behind remote: rebase updates to latest
+    # - Ahead of remote: no-op (will push later in commit_and_push_repo)
+    # - Diverged: rebases local commits on top of remote
+    print_message "${YELLOW}" "${repo_name}: Syncing with remote (rebase with autostash)..."
+    if ! git pull "${remote}" "${branch}" --rebase --autostash; then
+        print_message "${RED}" "Error: Git pull --rebase --autostash failed for ${repo_name}."
+        print_message "${YELLOW}" "You may need to resolve conflicts manually in ${repo_dir}."
+        return 1
     fi
 
-    print_message "${RED}" "${repo_name}: Local and remote branches have diverged. Manual merge/rebase needed."
-    return 1
+    print_message "${GREEN}" "${repo_name}: Successfully synced with remote."
+    return 0
 }
 
 
@@ -505,6 +500,12 @@ main() {
 
     case $choice in
         1)
+            # IMPORTANT: Sync backend repo FIRST to get latest paper_reviewed.csv
+            # This prevents re-reviewing papers already reviewed on another PC
+            sync_repo_with_remote "${BACKEND_REPO_DIR}" "Backend Repo" "${BACKEND_REPO_REMOTE}" "${BACKEND_REPO_BRANCH}" || {
+                print_message "${RED}" "Failed to sync backend repo. Aborting to prevent reviewing stale data."
+                return 1
+            }
             run_python_script
             local run_status=$?
             if [ $run_status -eq 0 ]; then
@@ -519,6 +520,11 @@ main() {
             fi
             ;;
         2)
+            # IMPORTANT: Sync backend repo FIRST to get latest paper_reviewed.csv
+            sync_repo_with_remote "${BACKEND_REPO_DIR}" "Backend Repo" "${BACKEND_REPO_REMOTE}" "${BACKEND_REPO_BRANCH}" || {
+                print_message "${RED}" "Failed to sync backend repo. Aborting to prevent reviewing stale data."
+                return 1
+            }
             run_python_script
             ;;
         3)
