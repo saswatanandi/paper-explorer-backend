@@ -1,0 +1,175 @@
+{
+  "papers": [
+    {
+      "title": "Future intensification of ENSO impacts on the Southeast Asian hydroclimate",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "T",
+          "last_name": "Le"
+        }
+      ],
+      "journal": "Hydrological Sciences Journal",
+      "citations": 0,
+      "abstract": "The hydroclimate of Southeast Asia (SEA) exhibits a robust connection with variations in the El Niño-Southern Oscillation (ENSO). However, our understanding of how ENSO will shape the future hydroclimate of this region remains largely uncertain. Here we evaluated the changes in the likelihood of ENSO-related impacts on SEA hydroclimate throughout the 21st century, utilizing data from the Coupled Modeling Intercomparison Project Phase 6 (CMIP6) model outputs. Our findings indicate that the impacts of ENSO on annual and seasonal precipitation, evaporation, runoff, soil moisture, and near-surface air temperature are anticipated to become more pronounced over mainland SEA and parts of insular SEA. Our results provide evidence indicating a possible intensification of ENSO-driven hydroclimatic impacts on SEA in the 21st century. These findings elucidate the evolving role of ENSO in shaping SEA’s hydroclimate patterns, underscoring the urgency for proactive, tailored adaptive strategies to address regionally specific impacts of shifting ENSO-SEA relationships.",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/02626667.2025.2606159",
+      "date_added": "2026-01-12",
+      "id": "341f1ea6f73faa26c80c5994e4f21d58",
+      "topic": [
+        "teleconnection"
+      ]
+    },
+    {
+      "title": "Development and assessment of a C-vine copula-based composite drought index coupling multiple hydrological cycle variables in the North China Plain",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Xue"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Zhong"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Yang"
+        }
+      ],
+      "journal": "Journal of Water and Climate Change",
+      "citations": 0,
+      "abstract": "Drought is a complex phenomenon involving multiple interrelated processes, including meteorological, hydrological, and agricultural components. Traditional drought indices typically focus on a single aspect of drought, limiting their ability to fully characterize its multifaceted nature. In this study, a composite drought index (CDI) is developed based on the C-vine copula modeling framework, coupling key hydrological cycle variables including precipitation, potential evapotranspiration, soil moisture, and runoff. Two CDI are constructed: CDI-P, which takes precipitation as the central variable, and CDI-R, which takes runoff as the central variable. The results indicate that the CDIs effectively capture drought events and exhibit strong correlations with traditional drought indices across the study area. They also maintain relatively low false alarm and omission rates. Moreover, they demonstrate sensitivity and responsiveness to various drought types. By analyzing drought events across varying patch-area thresholds, the optimal thresholds were identified as 6% for CDI-P and 5.5% for CDI-R. Compared with traditional indices, the CDIs offer improved capabilities in revealing the interrelationships among various drought processes and capturing their compound impacts. Since 2000, the North China Plain has experienced increasing trends in drought duration, intensity, and severity. Drought migration paths are predominantly aligned along the northeast-southwest orientation.",
+      "url": "https://iwaponline.com/jwcc/article/16/12/3840/110447",
+      "date_added": "2026-01-12",
+      "id": "b956b71111eb2647f38afa66529290b4",
+      "topic": [
+        "copula"
+      ]
+    },
+    {
+      "title": "Increased sensitivity of ecosystem to meteorological drought reduces carbon uptake in the Yellow River Basin",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "He"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Cao"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Yan"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Filonchyk"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Drought sensitivity, defined as ecosystem susceptibility to meteorological drought, is a key indicator of terrestrial ecosystem response to water stress and thereby critically regulates carbon sink function. However, little is known about the spatiotemporal evolution of drought sensitivity and its effects on carbon uptake changes. Here, we integrated multi-source remote sensing gross primary productivity data and meteorological drought indices in the Yellow River Basin from 1982 to 2018. Using interpretable machine learning methods, we revealed post-drought shifts in sensitivity, identified key drivers of the spatial changes in drought sensitivity, and quantified its influence on ecosystem carbon uptake. Our results showed that drought sensitivity of 57.12 % of the basin increased significantly (P < 0.05), particularly in arid regions and grassland ecosystems. Climate change was the main driving factor of drought sensitivity change, contributing 75.55 %, with rising solar radiation, intensifying drought, and increasing temperature as the primary factors. Increased drought sensitivity prolonged ecosystem recovery, reducing annual carbon uptake by 0.11 ± 0.05 Tg C during the 3-year recovery period, further weakening the ecosystem carbon sink capacity. Our findings highlight that increasing drought could further amplify the potential risk of carbon sinks in terrestrial ecosystems.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425021286",
+      "date_added": "2026-01-12",
+      "id": "a770b029c16fa3063a08e7b40505bbb8",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Attributing European runoff changes to climatic drivers under future conditions",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "I",
+          "last_name": "Clemenzi"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Du"
+        },
+        {
+          "first_name": "I",
+          "last_name": "Pechlivanidis"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Understanding the impact of climatic drivers on future catchment runoff is crucial for assessing how climate change will influence hydrological regimes. This knowledge is essential for evaluating water resources at the local and regional scales. Here, we assessed the contributions of climatic drivers to runoff changes under future conditions across Europe by analyzing the sensitivity of runoff to changes in precipitation and potential evapotranspiration using the Budyko framework. This analysis was conducted for 35,408 basins and based on ensembles of bias-adjusted climate projections and hydrological data. We further explored the link between runoff changes and catchment hydrological similarities, investigating the impact of climatic drivers on runoff across different hydrological regimes in three future periods (early, mid and late century) and emission scenarios. Results indicate precipitation as the primary driver of runoff changes across Europe under low and medium emission scenarios. However, by the mid and late century in high emission scenarios, potential evapotranspiration’s contribution becomes comparable to precipitation, significantly influencing runoff variations in central and southern Europe. Finally, the sensitivity of the runoff changes to climatic drivers is linked to the regime of the river systems. Runoff changes in basins with slow response to precipitation tended to show a more balanced contribution from both precipitation and potential evapotranspiration under high emission scenarios, while basins that are very responsive to precipitation, changes in precipitation primarily led to runoff changes. This Budyko-based diagnosis provides new insights into attribution analysis by linking hydrological regimes to runoff changes under global warming, supporting more effective local adaptation strategies.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425021341",
+      "date_added": "2026-01-12",
+      "id": "1034f2a85a56fdccebcc276d086edcde",
+      "topic": [
+        "hydrodynamic_modelling"
+      ]
+    },
+    {
+      "title": "Dynamic response of lake surface water temperature to atmospheric drought: a case of China",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Yuan"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Pei"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Luo"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Lake surface water temperature (LSWT), a key indicator of global warming, is highly sensitive to climate change. However, its response to drought remains poorly understood. This study utilized a dataset of lake surface water temperatures in China from 2001 to 2020 and the HSPEI drought index to objectively identify drought events that occurred in lake basins over the years and quantify extreme lake surface water temperature anomalies (LSWTA) during droughts. Event coincidence analysis and sensitivity analysis were employed to examine the coincidence rate between extreme LSWTA and drought events under varying climatic variables. Results showed that more than 60% of lakes experience extreme LSWTA during drought events. Extreme LSWTA during drought periods is the combined result of temperature, precipitation, solar radiation, and wind speed. Temperature acts as the primary driver of LSWTA, and increasing temperature gradients significantly elevate the likelihood of extreme LSWTA across all lakes; Precipitation and wind speed generally mitigate LSWTA; However, compared to large lakes, the LSWTA of minor and middle-sized lakes is not significantly affected by wind disturbance. Under sustained and intensified solar radiation, large lakes exhibit both high resistance and high vulnerability to LSWT. This study reveals the heterogeneous responses of LSWT to background climate variables during droughts, providing valuable insights for preventing cyanobacterial blooms and protecting aquatic organisms.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S002216942502133X",
+      "date_added": "2026-01-12",
+      "id": "4fc4b111fbe9fb25ad0133c993443c65",
+      "topic": [
+        "drought"
+      ]
+    }
+  ]
+}
