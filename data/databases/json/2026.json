@@ -170,6 +170,45 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "Vegetation suffers greater and longer impacts under hydrological-triggered droughts",
+      "year": "2026",
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Chang"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "MR",
+          "last_name": "Najafi"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Zhou"
+        }
+      ],
+      "journal": "Journal of Environmental Management",
+      "citations": 0,
+      "abstract": "Drought propagation involves multiple components of the water cycle, increasing the uncertainty in vegetation responses when these pathways differ. However, although current drought propagation research focuses on the relationships among two or more drought types, the differences in vegetation responses between hydrological-triggered drought (MHD) and non-hydrological-triggered drought (NHD) remain unclear. To this end, this study aims to quantify vegetation loss rates, response times, and post-drought recovery durations induced by both drought types using a matching method. Furthermore, we develop a vine copula-based framework to quantify the vegetation recovery probability from the MHD and NHD across diverse ecological geography regions. Compared to NHD events, MHD events are more likely to induce vegetation loss, amplify lagged effects on vegetation, and prolong vegetation recovery time. Consequently, greater impacts are observed in transitional climate zones (e.g., semi-arid and sub-humid regions) than in humid and arid regions. 87.5 % of ecological-geography regions show a reduced probability of vegetation recovery after MHD, indicating greater recovery difficulty compared to NHD. The probability of vegetation recovery increases under NHD events as conditions shift from dry to wet, whereas under MHD, recovery probabilities show a nearly symmetrical pattern across dry and wet conditions.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S030147972504246X",
+      "date_added": "2026-01-14",
+      "id": "5663d6c4fcbc1580fba4d73df6372261",
+      "topic": [
+        "drought"
+      ]
     }
   ]
 }
