@@ -209,6 +209,181 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "Hydrological impacts on the discrepancy between apparent potential evaporation and pan evaporation",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "E",
+          "last_name": "Lee"
+        },
+        {
+          "first_name": "DK",
+          "last_name": "Woo"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Terrestrial evaporation can be characterized as pan evaporation (), apparent potential evaporation (), and actual evapotranspiration (). Evaporation has been altered across different regions due to a changing climate, and the three measures of evaporation show a divergent trend: each of them either increased, decreased, or did not exhibit a significant change over time. and follow a well-established complementary relationship across varying moisture conditions. exhibits a similar trend to with greater variability, suggesting an underlying inconsistency that remains not fully explained by current understanding. Under a changing climate, the reliability of as a surrogate for remains uncertain and is likely to depend on a range of climatic, geographic, and environmental factors. Our results show that net longwave radiation, wind speed, and vapor pressure deficit (VPD) govern the deviation of from. Using-means clustering, we classified 16 stations across the United States into two groups based on the extent to which seven selected meteorological variables explain the deviation between and. The first group does not exceed the threshold of convergence between and due to persistently low moisture availability, whereas the second group exhibits a clear convergence between the two variables during the wet period. For the first group, minus has a median near zero, but a large spread highlights substantial variability likely driven by site-specific climatic and environmental factors. For the second group, overestimates at the stations located in the Great Plains (water-limited), whereas it underestimates at the stations located in the Eastern Temperate Forests (energy-limited). The latter group exhibits a clear meteorological influence on the deviation, where underestimates in months with lower VPD and higher net longwave radiation.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425022176",
+      "date_added": "2026-01-23",
+      "id": "a08a2c1e0f9f99760732672cfe710f29",
+      "topic": [
+        "satellite-application-et"
+      ]
+    },
+    {
+      "title": "Tracking drought-flood abrupt alternations: Event identification, path analysis, and ecological impacts on vegetation",
+      "year": "2025",
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Bai"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yao"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Xie"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Zhang"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Drought-flood abrupt alternation (DFAA) is a regional phenomenon characterized by spatiotemporal propagation continuity within the climate system’s dynamic evolution. Previous studies have typically examined the temporal or spatial dimensions of DFAA in isolation, overlooking its inherent spatiotemporal continuity and ecological consequences. This study proposes a novel three-dimensional identification method for drought-to-flood (DTF) and flood-to-drought (FTD) events in the Pearl River Basin. Key spatiotemporal features-duration, area, intensity, centroid, and migration direction-are quantified, and vegetation responses are evaluated using anomalies in fractional vegetation cover (FVC), normalized difference vegetation index (NDVI), and net primary productivity (NPP). The method proves highly applicable, identifying 47 DTF and 52 FTD events during 1979-2018. Among these, 41 DTF and 39 FTD events migrated predominantly westward. DTF events showed longer migration durations (mean: 4.7 months) and larger affected areas (mean coverage: 66 %) than FTD events (4.0 months; 57 % coverage). Spatiotemporal centroids were concentrated in the central basin from February to April for DTF and July to September for FTD. Vegetation response was characterized by rapid FVC/NDVI reaction to DTF (1-2 months lag) but delayed response to FTD (6-8 months lag), whereas NPP showed consistently low sensitivity with a 7-month lag to both. DTF exerted stronger inhibition on vegetation than FTD; over time, FVC/NDVI suppression weakened, while NPP displayed increasingly positive responses. This study provides a new approach for analyzing DFAA evolution and reveals distinct vegetation response mechanisms.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425021997",
+      "date_added": "2026-01-23",
+      "id": "fb5b06c4c3c3ad35b459d112e3f4d460",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Four decades of baseflow drought analysis reveals varying contributions of climatic drivers and physical controls",
+      "year": "2026",
+      "authors": [
+        {
+          "first_name": "P",
+          "last_name": "Ghaneei"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Foroumandi"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Stahl"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Ajami"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Wanders"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Moradkhani"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "While the impacts of subsurface fluxes on mediating hydrologic response to droughts are often ignored, several studies indicate that baseflow can sustain rivers during droughts and decrease the vulnerability of water supplies. Therefore, given the increasing impacts of droughts on economic and environmental issues, understanding the baseflow drought (BFD) evolution and its drivers are critical. In this study, we quantify and analyze the long-term evolution of BFD characteristics across the Contiguous United States. We use long-term daily baseflow values of DeepBase data set and explainable machine learning models to identify and rank the climatic and physical drivers of BFD. Our analysis reveals notable regional disparities in BFDs, with western regions, particularly the Southwest, experiencing increased frequency and prolonged durations, while much of the eastern areas show declining trends. During the past decade, BFD frequency has been governed mainly by anomalies in the atmospheric water balance and by soil properties. Its duration has been primarily influenced by hydrogeologic attributes, and its intensity has been modulated most strongly by topographic setting. Highlighting the non-stationary and complex nature of BFD mechanisms, our results have practical implications for water resource management and drought adaptation strategies.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006934",
+      "date_added": "2026-01-23",
+      "id": "2d932c298a5a4dfba6b2c98818e505b8",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Development of the long-term harmonized multi-satellite SIF (LHSIF) dataset at 0.05° resolution (1995-2024)",
+      "year": "2026",
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Zou"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Du"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Liu"
+        }
+      ],
+      "journal": "Earth System Science Data",
+      "citations": 0,
+      "abstract": "Solar-induced chlorophyll fluorescence (SIF) is a crucial proxy of photosynthetic processes in vegetation. In recent decades, advancements in remote sensing technology have facilitated long-term global SIF monitoring, significantly enhancing our understanding of vegetation dynamics on a global scale. Despite this progress, current SIF datasets face major challenges, including temporal inconsistencies among various satellite-derived products and a lack of long-term, high-resolution observations. In this study, we developed a",
+      "url": "https://essd.copernicus.org/articles/18/55/2026/",
+      "date_added": "2026-01-23",
+      "id": "72f0ee2d443dd328491d8768a8f52bdd",
+      "topic": [
+        "data_sources"
+      ]
+    },
+    {
+      "title": "Understanding the dynamics of record-shattering compound drought-heatwave events and their impacts on ecosystems",
+      "year": "2026",
+      "authors": [
+        {
+          "first_name": "B",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "M",
+          "last_name": "He"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Recently, unprecedented compound drought and heatwave (CDHW) events have severely damaged terrestrial ecosystems, but their dynamics, formation mechanisms, and threats are still insufficiently understood. Here, using simulations from nine-member ensemble under three future scenarios, we project that the expected annual probability of record-shattering CDHW events (i.e., events exceeding historical severity records by more than two standard deviations) will double between 2015 and 2040 and continue to rise throughout the 21st century under the SSP5-8.5 scenario (0.05% per year). The mean temperature, relative humidity, shortwave radiation, and precipitation are critical drivers of CDHW severity. Record-shattering CDHW events severely impact ecosystems, particularly in regions such as southern North America, northern South America, and southern Europe. Observational data from 1951 to 2022 indicate that compared to nonrecord-shattering CDHW events, record-shattering CDHW events are correlated with weaker water vapor transport, reduced convective activity, and greater ecosystem damage, resulting in an additional global mean gross primary productivity (GPP) loss of −2.76 to −3.96 g C m −2 month −1 . Between 2080 and 2099, the global average GPP anomalies caused by these events are projected to range from 46% to 119% of the warm season's monthly average ecosystem carbon sink. Our study underscores the urgent need for adaptive measures to mitigate the ecological threats from record-shattering CDHW events to ensure ecosystem sustainability.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2024EF005714",
+      "date_added": "2026-01-23",
+      "id": "03e166349bc8b7e263d32fed061470b1",
+      "topic": [
+        "statistics-big-data"
+      ]
     }
   ]
 }
