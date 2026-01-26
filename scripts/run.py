@@ -703,7 +703,7 @@ async def process_eml_files(
         # Convert scraped format to our storage format
         paper_metadata = {
             "title": clean_unicode_text(paper_info.get("title", title)),
-            "year": paper_info.get("year", ""),
+            "year": int(paper_info.get("year")) if paper_info.get("year", "").isdigit() else None,
             "authors": format_authors_for_storage(paper_info.get("authors", [])),
             "journal": paper_info.get("journal", ""),
             "citations": paper_info.get("citations", 0),
