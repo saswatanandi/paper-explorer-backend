@@ -137,7 +137,7 @@
       "date_added": "2025-04-16",
       "id": "1c81244236e3fddd2eebcc1d00a2a168",
       "topic": [
-        "sediment"
+        "soil-erosion"
       ]
     },
     {
@@ -449,7 +449,7 @@
       "date_added": "2025-04-17",
       "id": "a8ba6593d1d7f8dd4ff225d9bcc81032",
       "topic": [
-        "software-development"
+        "web-mapping-development"
       ]
     },
     {
@@ -2179,7 +2179,7 @@
       "date_added": "2025-06-04",
       "id": "61c87934d2a61e112ceab0bfcab1760a",
       "topic": [
-        "sediment"
+        "soil-erosion"
       ]
     },
     {
@@ -2214,7 +2214,7 @@
       "date_added": "2025-06-04",
       "id": "3c329872aa230a8af020be610cf460a0",
       "topic": [
-        "sediment"
+        "soil-erosion"
       ]
     },
     {
@@ -4972,6 +4972,33 @@
       ]
     },
     {
+      "title": "Recent snow water storage changes and its effects on streamflow variation in alpine basins of Qilian Mountains",
+      "year": 2025,
+      "authors": [
+        {
+          "first_name": "T",
+          "last_name": "Ning"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Li"
+        }
+      ],
+      "journal": "Journal of Environmental Management",
+      "citations": 0,
+      "abstract": "Remarkable climate change has changed the ability of high mountains to store water as snow. Previous studies have introduced a Snow Storage Index ( SSI ) to reflect the difference in amplitude and phase between daily precipitation and surface water inputs (the summation of snowmelt and rain). However, the SSI metric must be improved to better describe the peak characteristics of precipitation ( P) , and the contribution of SSI changes to hydrologic partitioning remains unclear. Focusing on 22 basins in the Qilian Mountains of northwest China, we explored recent changes in SSI by improving SSI metric based on a corrected sinusoidal function and quantified the effect of snow storage change on streamflow by Budyko framework. The results showed that the ability of the western basins to store snow water was stronger than that of the eastern basins. This ability has been enhanced in the western basins in recent decades, with a significant increasing trend in annual SSI ( p < 0.05), whereas it has been weakened in the eastern basins. The relative contribution of SSI change was positive in 15 of 22 basins, with a mean value of 29 %. Our methods and findings could help accurately assess the ability to store snow water and quantitatively understand its effect on hydrological responses in snow-dependent regions.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301479725012277",
+      "date_added": "2025-06-05",
+      "id": "5b4c87e8d09903c94617cb77d10a56a0",
+      "topic": [
+        "satellite-application-discharge"
+      ]
+    },
+    {
       "title": "High water demand limits carbon sink and transpiration in tall forests during extreme drought in Southwest China",
       "year": 2025,
       "authors": [
@@ -7545,7 +7572,7 @@
       "date_added": "2025-06-23",
       "id": "b77221038c02e046c1ab6512e3b540e7",
       "topic": [
-        "sediment"
+        "soil-erosion"
       ]
     },
     {
@@ -11452,7 +11479,7 @@
       "date_added": "2025-11-26",
       "id": "b90a376ad48d8bda7b42b58150c4acba",
       "topic": [
-        "frequency-analysis"
+        "wavelet"
       ]
     },
     {

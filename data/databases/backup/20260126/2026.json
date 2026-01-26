@@ -211,6 +211,29 @@
       ]
     },
     {
+      "title": "Hydrological impacts on the discrepancy between apparent potential evaporation and pan evaporation",
+      "year": 2025,
+      "authors": [
+        {
+          "first_name": "E",
+          "last_name": "Lee"
+        },
+        {
+          "first_name": "DK",
+          "last_name": "Woo"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Terrestrial evaporation can be characterized as pan evaporation (), apparent potential evaporation (), and actual evapotranspiration (). Evaporation has been altered across different regions due to a changing climate, and the three measures of evaporation show a divergent trend: each of them either increased, decreased, or did not exhibit a significant change over time. and follow a well-established complementary relationship across varying moisture conditions. exhibits a similar trend to with greater variability, suggesting an underlying inconsistency that remains not fully explained by current understanding. Under a changing climate, the reliability of as a surrogate for remains uncertain and is likely to depend on a range of climatic, geographic, and environmental factors. Our results show that net longwave radiation, wind speed, and vapor pressure deficit (VPD) govern the deviation of from. Using-means clustering, we classified 16 stations across the United States into two groups based on the extent to which seven selected meteorological variables explain the deviation between and. The first group does not exceed the threshold of convergence between and due to persistently low moisture availability, whereas the second group exhibits a clear convergence between the two variables during the wet period. For the first group, minus has a median near zero, but a large spread highlights substantial variability likely driven by site-specific climatic and environmental factors. For the second group, overestimates at the stations located in the Great Plains (water-limited), whereas it underestimates at the stations located in the Eastern Temperate Forests (energy-limited). The latter group exhibits a clear meteorological influence on the deviation, where underestimates in months with lower VPD and higher net longwave radiation.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425022176",
+      "date_added": "2026-01-23",
+      "id": "a08a2c1e0f9f99760732672cfe710f29",
+      "topic": [
+        "satellite-application-et"
+      ]
+    },
+    {
       "title": "Tracking drought-flood abrupt alternations: Event identification, path analysis, and ecological impacts on vegetation",
       "year": 2025,
       "authors": [
