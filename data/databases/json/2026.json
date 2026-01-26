@@ -384,6 +384,53 @@
       "topic": [
         "statistics-big-data"
       ]
+    },
+    {
+      "title": "A global map of forest age for natural and planted forests at a fine spatial resolution of 30 meters",
+      "year": "2026",
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Liang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhao"
+        }
+      ],
+      "journal": "Earth System Science Data Discussions",
+      "citations": 0,
+      "abstract": "Natural and planted forests differ substantially in ecological functions and economic values, with forest age serving as a key indicator of their developmental and carbon dynamics. However, existing global forest age datasets remain constrained by coarse spatial resolution and the lack of explicit forest type distinction. In this study, we developed a 30 m global forest age dataset for 1985-2024 by integrating Landsat time-series data with the Continuous Change Detection and Classification (CCDC) algorithm on the Google Earth Engine platform, thereby reducing reliance on ground-based forest inventory data. Building upon global forest distribution products, forest age was estimated from change points in long-term spectral trajectories, distinguishing the age of natural and planted forests at a global scale. Validation using 6,100 globally stratified samples demonstrated strong agreement with visually interpreted references (overall accuracy = 0.72, RMSE = 5.66 years), with higher accuracy for natural forests (0.73) than for planted forests (0.70). Globally, pronounced regional contrasts were observed: old-growth native forests (NF) dominate in Europe (84.38 %), South America (82.61 %), and North America (80.62 %), whereas Australia exhibits a bimodal age distribution driven by both old and regenerating stands. Planted forests (PF), by contrast, are consistently younger, with the youngest plantations concentrated in Australia (Age1-5: 65.77 %) and the most mature in Europe (Age36-40: 53.99 %). This 30 m global forest age map provides a consistent and high-resolution benchmark for improving forest carbon accounting, plantation yield modeling, and conservation strategy development.",
+      "url": "https://essd.copernicus.org/preprints/essd-2025-674/",
+      "date_added": "2026-01-26",
+      "id": "89d2dcb02370f7a3f5b924d05530ecff",
+      "topic": [
+        "data_sources"
+      ]
     }
   ]
 }
