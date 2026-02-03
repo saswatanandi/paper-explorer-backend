@@ -408,6 +408,37 @@
       "topic": [
         "data_sources"
       ]
+    },
+    {
+      "title": "Mapping 1 April SWE in the Western US using standardized anomalies and quantiles from SWE reanalysis and in situ stations",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "H",
+          "last_name": "Besso"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Mower"
+        },
+        {
+          "first_name": "JM",
+          "last_name": "Pflug"
+        },
+        {
+          "first_name": "JD",
+          "last_name": "Lundquist"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Real-time estimates of peak snow water equivalent (SWE) are critical to spring runoff forecasts in snow-dominated basins, but large uncertainties remain due to the high spatial and temporal variability of interannual peak SWE. Here we introduce new methods for calculating real-time distributed 1 April SWE in the Western US using patterns in annual SWE anomalies, which are consistent over large regions. Our methods capitalize on the high accuracy of SWE reanalysis products by combining historical (1990-2021) 1 April SWE from a reanalysis product with real-time point measurements from in situ snow stations to estimate current-year 1 April SWE. First, we used a clustering algorithm to determine which regions of the Western US historically have similar SWE anomalies. Then we tested several ways to estimate 1 April SWE in the Upper Colorado River Basin (UCRB). We tested historical SWE distributions using (a) parametric and (b) nonparametric distribution assumptions, combined with current-year observations from: (a) the geographically closest station to each grid cell, (b) the collection of stations within the same cluster as each grid cell, and (c) all stations in the UCRB. The most accurate method used a parametric distribution and the collection of stations from the same cluster. This produced distributed 1 April SWE with a median R 2 of 0.64, percent bias of 0.49%, and a root mean squared error of 0.13 m compared to the SWE reanalysis data in withheld years. The methods demonstrated here could be used wherever historical gridded data and real-time point measurements exist.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR040902",
+      "date_added": "2026-02-03",
+      "id": "20f485d1694d4be1d36da9c0d8c10724",
+      "topic": [
+        "snow"
+      ]
     }
   ]
 }
