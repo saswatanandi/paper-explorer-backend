@@ -439,6 +439,56 @@
       "topic": [
         "snow"
       ]
+    },
+    {
+      "title": "Decadal and spatially complete global surface chlorophyll-a data record from satellite and BGC-Argo observations",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "DJ",
+          "last_name": "Ford"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Kulk"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Sathyendranath"
+        },
+        {
+          "first_name": "JD",
+          "last_name": "Shutler"
+        }
+      ],
+      "journal": "Earth System Science Data",
+      "citations": 0,
+      "abstract": "Decadal-scale satellite-based climate data records of chlorophyll- a (chl- a ), an essential climate variable, are now readily available at high accuracy and precision. These data are being extensively used for research and, increasingly, for operational services. However, these observations rely on availability of sunlight and the satellite sensor being able to view the ocean, so there are gaps in data due to the presence of clouds and more widely during the polar winter. This is an issue when spatially complete data are needed for global climate studies, or as inputs to machine learning methods and for data assimilation. Whilst addressing cloud cover is well studied, methodologies to overcome missing data due to the polar winter has received little attention and simple approaches to overcome these gaps can lead to unrealistic values. Biogeochemical Argo (BGC-Argo) floats have widely been deployed, and they represent an opportunity to address these gaps. We present an approach that combines BGC-Argo data and a satellite chl- a climate data record to produce a spatially and temporally complete, global monthly chl- a record between 1997-2024 at 0.25° spatial resolution. Clouds gaps were filled using an established spatial kriging approach. Polar wintertime chl- a were reconstructed using relative changes between the wintertime BGC-Argo chl- a , and the previous autumntime or next springtime satellite observations, for individual hemispheres. Uncertainties were calculated on a per-pixel basis to retain the underlying uncertainty fields in the climate data record and were modified to account for the uncertainties related to the gap filling. The seasonal cycles in the resulting polar data are consistent with light availability. Clear interannual and inter-hemisphere variability in the wintertime chl- a were observed. Independent assessment of solely the gap filled wintertime chl- a estimates against in situ data ( N =201 total) indicates that the accuracy and precision of the underlying satellite data, a key component of a climate data record, are maintained. The 26 year global and spatially complete chl- a data, that are consistent with the underlying climate data record can be downloaded from Zenodo (https://doi.org/10.5281/zenodo.15689006, Ford et al., 2025b).",
+      "url": "https://essd.copernicus.org/articles/18/569/2026/essd-18-569-2026.html",
+      "date_added": "2026-02-06",
+      "id": "1e34e6332d241cbfd5ad23e8ec3442f0",
+      "topic": [
+        "data_sources"
+      ]
+    },
+    {
+      "title": "Operational digital twin for multi-hazard coastal flood prediction with adaptive learning: Real-time performance in the Chesapeake Bay",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "P",
+          "last_name": "Magoulick"
+        }
+      ],
+      "journal": "Environmental Modelling & Software",
+      "citations": 0,
+      "abstract": "Coastal flooding threatens growing populations where compound hazards amplify risks. This study presents a proof-of-concept operational digital twin for single-location flood prediction at Annapolis in the Chesapeake Bay, integrating real-time NOAA and USGS data. An ensemble of Random Forest, XGBoost, Gradient Boosting, and LSTM models achieves RMSE= 0.043 ft with R 2= 0.997 for short-term predictions, validated across 508,000 records and 369 extreme events over six years. Strong short-term accuracy largely reflects tidal autocorrelation in this semi-enclosed estuarine system. Feature importance shows 98.9% of predictive power derives from three water-level persistence variables, enabling efficient deployment. An empirical correction factor (0.87) calibrates predictions to local conditions. Key limitations include single-site validation without spatial inundation capability and no major hurricane landfall during the study period. The system complements physics-based models such as NOAA’s STOFS, which provide essential spatial detail and process understanding. The open-source implementation enables replication and community evaluation.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1364815226000381",
+      "date_added": "2026-02-06",
+      "id": "4bb4e97a7e34c46da3decc473de78ac0",
+      "topic": [
+        "software-development"
+      ]
     }
   ]
 }
