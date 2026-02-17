@@ -922,6 +922,366 @@
       "topic": [
         "copula"
       ]
+    },
+    {
+      "title": "Drying soil moisture dominates enhancing summer soil moisture-temperature coupling under climate change",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Gu"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Kong"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Guan"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Luo"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Gulakhmadov"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Xiao"
+        }
+      ],
+      "journal": "Geophysical Research Letters",
+      "citations": 0,
+      "abstract": "Global warming enhances soil moisture (SM)-temperature (SM-T) coupling, exacerbating extreme climates. However, the mechanisms and future trends of this enhancement remain inadequately understood. Analysis of multiple reanalysis data sets shows that during summer seasons of 1981-2020, approximately 45.6% of global lands exhibit a significant intensifying SM-T coupling trend, with hotspots in Northeast Asia, Central Asia, and southwestern North America. Ridge regression reveals the drying SM (contribution: 50.2%) dominates the enhanced SM-T coupling, followed by greening vegetation (28.3%) and decreasing cloud cover (21.5%). Furthermore, pre-summer vegetation greening has the effect of intensifying the summer SM-T coupling. Despite discrepancies in climate models' simulations of SM-T coupling trend, the optimal multi-model ensemble mean well reproduces SM-T coupling's spatiotemporal characteristics. Based on this multi-model ensemble mean, the enhancement of SM-T coupling is attributed to anthropogenic forcings and projected to further intensify under future emission scenarios.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025GL119826",
+      "date_added": "2026-02-17",
+      "id": "465b0f0c3a3114f6d6b99942e5aaadf8",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Climate models tend to underestimate scaling of UK mean winter precipitation with temperature",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "JG",
+          "last_name": "Carruthers"
+        },
+        {
+          "first_name": "HJ",
+          "last_name": "Fowler"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Bannister"
+        },
+        {
+          "first_name": "SB",
+          "last_name": "Guerreiro"
+        }
+      ],
+      "journal": "Geophysical Research Letters",
+      "citations": 0,
+      "abstract": "Changes to seasonal precipitation can have dynamical and thermodynamic origins and disentangling these processes is challenging. To evaluate observed changes in UK winter precipitation from 1901 to 2023, we separate the signal into dynamical and non-dynamical components by applying a dynamical adjustment using European weather patterns. We find long-term changes in the non-dynamical component are tied to temperature, with a 7% increase in UK winter precipitation per degree of local warming, in line with expected increases in atmospheric moisture content. We find this significant increase in non-dynamical winter precipitation is attributable to anthropogenic forcing according to the CMIP6 global climate model simulations. Notably, most CMIP6 models produce a much weaker intensification of the non-dynamic (thermodynamic) component relative to observations, with a model ensemble mean scaling of 4% °C −1 . The results show that projections based on CMIP6 models could underestimate the scaling of precipitation with temperature and increase in flood risk.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025GL118201",
+      "date_added": "2026-02-17",
+      "id": "b96f317a48c7d461afa1bd5e17368ac1",
+      "topic": [
+        "climate_change"
+      ]
+    },
+    {
+      "title": "Quantifying nonlinear driving forces of land surface temperature dynamics in the Tarim River Basin under climate warming",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Q",
+          "last_name": "Lei"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Song"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Chang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Qiao"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Xue"
+        }
+      ],
+      "journal": "Theoretical and Applied Climatology",
+      "citations": 0,
+      "abstract": "Land surface temperature (LST) is crucial for assessing ecological responses to climate change in arid basins. Using MODIS daytime LST data from 2001 to 2024, the spatiotemporal trends in China's Tarim River Basin were analyzed via Sen's slope and Mann-Kendall tests. Twelve potential driving factors including vegetation, hydroclimatic, topographic, and anthropogenic variables were evaluated using Pearson correlation analysis and the Geodetector method. The results show that: (1) annual LST displays seasonal fluctuations but no long-term trend. LST variability is higher in high alpine regions and lower at low elevations. High LST occurs along low-altitude desert margins. Low LST concentrates in mountainous regions. Summer LST is relatively stable compared to variable winter conditions; (2) daytime LST exhibited a weak basin-wide cooling trend (− 0.01 °C/yr) during 2001-2024. Significant changes occurred in 8.69% of the basin, with cooling dominating oasis-desert ecotones and alpine meadows; (3) elevation, slope, precipitation, and soil moisture correlate negatively with LST, while air temperature and potential evapotranspiration (PET) show positive correlations; (4) spatial LST distribution is primarily controlled by natural factors, with PET, air temperature, and elevation exhibiting the strongest explanatory power. Irrigation and nighttime lights have minimal impact. Natural topography and moisture dominate LST patterns in arid regions, especially mountainous areas. PET exhibits the strongest interactive effect, highlighting the role of coupled hydrothermal conditions and surface properties. This study enhances the understanding of long-term LST dynamics, supporting regional ecological restoration and climate adaptation strategies.",
+      "url": "https://link.springer.com/article/10.1007/s00704-026-06030-3",
+      "date_added": "2026-02-17",
+      "id": "6f2e5794a89f105a8f2548ae246d0df6",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "A framework for identifying discriminative model, key factors, and precipitation blocking threshold on triggering drought propagation in the Xijiang River Basin (XRB)",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Chang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Climate Dynamics",
+      "citations": 0,
+      "abstract": "Exploring the triggers of drought propagation is essential for understanding drought dynamics. Current research primarily provides probability thresholds for drought propagation based on Copula and Bayesian approaches. However, water resource managers are more interested in determining whether droughts can actually be triggered, rather than solely receiving probabilistic reminders. In this study, we propose a framework for identifying the discriminative model, key factors, and precipitation blocking thresholds that trigger meteorological-to-agricultural drought in the Xijiang River Basin (XRB). The results highlight the influence of non-effective precipitation days (NEPD), meteorological drought duration, the meteorological drought area and its spatial complexity (A_GAM) on triggering propagation. Daily precipitation exceeding 3 mm begins to mitigate drought propagation. Through analyzing 45 actual drought events using 36 models comprising 4 factor combinations and 9 machine learning methods, we found that the GANs-enhanced K-nearest neighbors (KNN) algorithm is the optimal discriminative model. Sensitivity analysis based on the model reveals that a reduction in NEPD (daily precipitation ≤ 3 mm) can decrease the propagation ratio by 11.1%. From 2025 to 2099, the propagation ratios under SSP1-2.6, 2-4.5, 3-7.0, and 5-8.5 are all projected to exceed 73.0%. If measures are taken to reduce NEPD, propagation could be inhibited by 6.0% to 17.6%. The proposed framework enables more direct determination of whether large-scale meteorological drought will trigger agricultural drought and quantifies the precipitation mitigation effect. These findings can provide scientific support for agricultural drought early warning systems.",
+      "url": "https://link.springer.com/article/10.1007/s00382-026-08078-3",
+      "date_added": "2026-02-17",
+      "id": "9ee54b4a262a80b92bca3e543a010c2b",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Rainfall and snowmelt-runoff erosivity: Evaluating their relationship with seasonal suspended sediment dynamics in a mountainous watershed",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "H",
+          "last_name": "Asadi"
+        },
+        {
+          "first_name": "MK",
+          "last_name": "Pashaki"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Arabkhedri"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Fallah"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Rainfall erosivity (R) is one of the key drivers of soil erosion used in several erosion models. However, in mountainous regions where snowmelt constitutes a substantial portion of runoff, snowmelt-runoff erosivity (SR) is a significant contributor to the total rainfall-runoff erosivity (TR), thereby affecting soil erosion and suspended sediment yield (SSY). Although the contribution of the SR to the annual TR has been documented in a few studies, there remains a significant gap in our understanding of the seasonal dynamics of the TR and its relation with SSY. This study aimed to (i) estimate daily snow accumulation, snowmelt and SR across the mountainous Latyan watershed, and (ii) calculate the semi-monthly R, SR, TR and SSY, and assess their relationships. R was calculated based on the rainfall data (15 to 47 years) of 14 weather stations. Daily snow melt data predicted by the degree-day model were used to estimate daily SR. The semi-monthly R, SR, TR were mapped by spatial analysis methods. The daily SSY was predicted using a 48-year discharge and suspended sediment concentration data set. The SR contributes to 30 to 75% of the TR. The analysis indicates that TR and SSY exhibit a similar trend, with two major seasonal peaks; the first occurs in autumn with slightly different timing, and the second SSY peak appears about one month after the early-spring TR peak. This difference reflects a timing offset rather than a direct TR-SSY response and is likely influenced by broader hydrological processes, including snowmelt dynamics, sediment availability, watershed connectivity, and seasonal controls. These findings highlight the critical role of SR in accurately modeling sediment transport dynamics and improving erosion and streamflow predictions in mountainous regions.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426002210",
+      "date_added": "2026-02-17",
+      "id": "6ad1a74a3c3bfc5d075313d5f36cce61",
+      "topic": [
+        "sediment"
+      ]
+    },
+    {
+      "title": "Natural Forests Have Longer Drought Recovery Times than Planted Forests across China",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Pei"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Luo"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Hong"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yan"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Peng"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Piao"
+        }
+      ],
+      "journal": "Agricultural and Forest Meteorology",
+      "citations": 0,
+      "abstract": "Planted forests (PF) and Natural forests (NF) are essential carbon sinks and biodiversity reservoirs. The increasing severity of drought events has intensified stress on both. However, the extent to which PF and NF differ in their drought recovery times remains unclear. To address this, we assessed the differences in the drought recovery time between PF and NF based on the Kernel Normalized Difference Vegetation Index (kNDVI) and the Standardized Precipitation Evapotranspiration Index (SPEI). The results showed that NF exhibited a significantly longer drought recovery time (NF_RT: 3.14 ± 1.97 months) than PF (PF_RT: 2.90 ± 2.05 months). The environmental factors, including recovery-period climate variables, drought characteristics, and soil fertility, were important drivers of both PF_RT and NF_RT, with the average precipitation during the recovery period showing the greatest difference in contribution between PF_RT and NF_RT. During the recovery period, PF areas experienced higher temperature and precipitation, resulting in warmer and wetter conditions that were more conducive to shortening drought recovery time. The effects of vegetation factors on PF_RT and NF_RT exhibited nonlinear relationships, and the local responses of key variables such as gross primary productivity and water-use efficiency differed, suggesting that optimizing the structure and function of plantations and natural forests could enhance their adaptation to drought events. Our results emphasize the difference in drought recovery time between PF and NF, highlighting the distinct ecological strategies and adaptation mechanisms employed by the two forest types under drought stress.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168192326000109",
+      "date_added": "2026-02-17",
+      "id": "abe36f50de1aecc9c983856215786fa4",
+      "topic": [
+        "forest"
+      ]
+    },
+    {
+      "title": "Temperature and photoperiod interactions influence the cessation of wood growth in three temperate and boreal conifers",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "CBK",
+          "last_name": "Rathgeber"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Fonti"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Rossi"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Cuny"
+        },
+        {
+          "first_name": "EM del",
+          "last_name": "Castillo"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Čufar"
+        },
+        {
+          "first_name": "JJ",
+          "last_name": "Camarero"
+        }
+      ],
+      "journal": "Agricultural and Forest Meteorology",
+      "citations": 0,
+      "abstract": "Cambium phenology is a crucial process in wood production and carbon sequestration of forest ecosystems. Although cambium phenology has been widely studied, research specifically focusing on the cessation of wood formation remains limited. To better understand the influence of environmental and intrinsic factors on the cessation of wood formation, we built and compared three ecophysiological models ( temperature sum model, photoperiod-influenced temperature sum model and soil moisture- and photoperiod-influenced temperature sum model) in their ability to predict the date of cessation of xylem cell enlargement (cE) in three major Northern Hemisphere conifer species (Black spruce, Norway spruce and Scots pine). We developed these models based on xylogenesis data collected for 130 site-years across Europe and Canada. Our results demonstrate that the photoperiod-influenced temperature sum model is well-supported by data across all conifer species, with a RMSE of 9.2 days, suggesting that both temperature and photoperiod are critical drivers of wood growth cessation. However, incorporating soil moisture effects does not improve model performance. Our model effectively captures the inter-site variability in cE across a wide environmental gradient, with a fair model efficiency (ME = 0.51 ± 0.22), but performed less well for annual anomalies (ME = 0.10 ± 0.09). Additionally, we found that the total ring cell number also affected prediction accuracy. Using this model, we reconstructed historical trends in cE over the past six decades and found a trend to delayed cessation dates. This delay varied geographically, with slower shifts at higher latitudes and elevations, likely due to constrained cambial responses and conservative growth strategies in colder regions. Our model framework offers a simple yet accurate approach for predicting wood growth cessation at large spatial scales, providing a basis for integrating cambium phenology into land surface models and forest productivity assessments.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168192326000419",
+      "date_added": "2026-02-17",
+      "id": "c843f5027b33606f9f0572c47ef3e0dd",
+      "topic": [
+        "water-quality"
+      ]
+    },
+    {
+      "title": "Fusing ERA5-Land and SMAP L4 for an improved global soil moisture product (1950-2025)",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Wei"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Dong"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Weihermuller"
+        },
+        {
+          "first_name": "CQ",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Vereecken"
+        }
+      ],
+      "journal": "Earth System Science Data",
+      "citations": 0,
+      "abstract": "Accurate, high-resolution soil moisture data are critical for hydrological modeling, climate studies, and ecosystem management. Unfortunately, current existing global products suffer from inconsistencies, coverage gaps, and biases. In this study, we evaluated the surface layers of three widely used soil moisture products, including ERA5-Land, ESA-CCI (v09.1 Combined), and SMAP L4 with resolutions ranging from 0.1 to 0.25°, against in situ measurements across five networks, including ISMN, CMA, Cemaden, COSMOS-Europe, and SONTE-China. The in situ dataset, to our knowledge, represents the most extensive global soil moisture compilation to date, comprising approximately 3.8 million records, organized into a primary dataset for modern validation (2015-2020) and an independent historical dataset (1960-2015). It is found that during the primary validation period (2015-2020), ERA5-Land exhibits high correlation (with correlation coefficient of 0.69) between measured and predicted soil moisture but the data also shows significant bias. SMAP L4 provides the highest accuracy (with root mean square error (RMSE) value of 0.088 m3 m−3) and low bias, but is limited by its temporal coverage from 2015 to the present. To address these gaps, we developed an adjusted ERA5-Land dataset spanning 1950 to 2025 by fusing ERA5-Land and SMAP L4 using a mean-variance rescaling method optimized for long time-series alignment, which enhanced the spatiotemporal coverage and reduced bias. Validation against the primary validation period demonstrates a reduction in RMSE of 24.6 % and an improvement in normalized Nash-Sutcliffe Efficiency (NNSE) of 30.6 % compared to the original ERA5-Land products. Crucially, the reliability of the backward extension was verified against independent historical observations spanning 1960 to 2015, demonstrating sustained improvements over ERA5-Land with 19.7 % RMSE reduction and 26.6 % NNSE increase. This confirms the robustness of the adjustment parameters in the mean-variance rescaling method. The adjusted ERA5-Land dataset, which is publicly available, can be used as benchmark for future research and support drought monitoring, weather prediction, and water resource management, contributing to global climate resilience across diverse ecosystems. The dataset is provided for the surface layer with global coverage at a 0.1° spatial and daily temporal resolution, spanning from 1950 to 2025, at https://doi.org/10.57760/sciencedb.30546 (Wang et al., 2026).",
+      "url": "https://essd.copernicus.org/articles/18/1061/2026/",
+      "date_added": "2026-02-17",
+      "id": "12a36a069bcd30dcd2f44e888da09724",
+      "topic": [
+        "data_sources"
+      ]
     }
   ]
 }
