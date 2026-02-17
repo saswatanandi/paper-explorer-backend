@@ -489,6 +489,350 @@
       "topic": [
         "software-development"
       ]
+    },
+    {
+      "title": "Comparative analysis of GAMLSS modeling approaches for nonstationary runoff dynamics in the Yellow River Basin of China",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "B",
+          "last_name": "Niu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Fan"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Gong"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Quantifying the driving effects of climate change and human activities on nonstationary runoff dynamics is essential. However, the systematic assessments of nonstationary characteristics and their multiple driving mechanisms at the basin scale remain insufficient. This study compared two Generalized Additive Model for Location, Scale, and Shape (GAMLSS) modeling approaches-Continuous-series modeling (Mode1) and monthly-segmented modeling (Mode2)-to analyze the hydrological nonstationarity characteristics of the Yellow River Basin in China and elucidate the driving mechanisms of runoff processes by incorporating covariates of time, circulation, climate, and human factors. The results indicated that: (1) Taking time as a covariate, Mode2 significantly enhanced model robustness by isolating seasonal dynamics. Mode 2 raised the average correlation of the location parameter (μ) with the monthly runoff series to R = 0.82 (range 0.70-0.90), a 30-50% increase over Mode 1. Furthermore, the nonstationary standardized runoff index (NSRI) aligned more accurately with actual hydrological fluctuations. (2) Taking circulation indices as covariates, circulation indices (AMO, PDO and NINO3) predominantly governed large-scale hydrological trends, with PDO exerting a more pronounced regulatory effect on extreme events in the downstream region under Mode2. (3) The climate-human composite-driven model had the best fitting effect on runoff, particularly at lower timescales (1-, 3-, and 6-month scales) in the middle and lower reaches, where the interactions among total precipitation (TP), snowmelt (SMT), and soil water storage capacity (SWC) explained over 80% of runoff variations (This model yielded the lowest AICc-15% lower than the single climate model-and the highest explanatory power, with R 2 = 0.85 at 1-month, and 0.70 at 3-month scales). This study suggests that Mode2, with its precise characterization of seasonal differentiation and human dynamics, is more suitable for refined water resource management and extreme drought-flood prediction, whereas Mode1 remains efficient for analyzing interdecadal circulation effects. By addressing three key challenges-capturing monthly runoff nonstationarity, integrating multi-factor drivers, and validating runoff simulations-this study greatly improves runoff modeling and drought detection accuracy, laying a scientific foundation for adaptive management under the combined pressures of climate change and human activities.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426001459",
+      "date_added": "2026-02-17",
+      "id": "e203cdb22ec11675bdeb354e698049ef",
+      "topic": [
+        "non-stationary"
+      ]
+    },
+    {
+      "title": "Nonstationary agricultural drought risk under compound meteorological drought and hot conditions",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Q",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Lu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Ying"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Qiu"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Agricultural drought poses a major threat to crop and plant productivity, primarily driven by precipitation deficits (meteorological drought) and extreme hot events. Under global warming, the dependencies among agricultural drought, meteorological drought, and heat extremes become increasingly nonstationary and time-varying. However, existing approaches generally assume stationarity, limiting the accurate assessment of agricultural drought risk. Inspired by Patton’s theory, this study develops a novel nonstationary vine copula conditional probability model (NVCCP). NVCCP enables the quantification of nonstationary conditional probability of agricultural drought under compound dry-hot conditions. The effectiveness of NVCCP is illustrated in the Aral Sea Basin, which is an agricultural dominant area. The results indicate that compared with other stationary multivariate dependence models, NVCCP performs best in capturing the complex relationship among agricultural drought, hot events, and meteorological drought. From March to May, agricultural drought risks are increased, reflecting the seasonal evolution of land-surface hydrological conditions. Over the past 70 years, decreasing and increasing trends account for 33% (32%) and 27% (28%) of the Aral Sea Basin for normal (severe) agricultural drought, respectively. Compared with March and May, agricultural drought in April exhibits more pronounced temporal variability, with an average absolute trend of 0.0007/a. Overall, NVCCP is an effective nonstationary method that can be applied in other sectors and provides critical insights for nonstationary research.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426001563",
+      "date_added": "2026-02-17",
+      "id": "16b7d0e588e3256dd20b87ce9407279c",
+      "topic": [
+        "non-stationary"
+      ]
+    },
+    {
+      "title": "Climate modulation and intensity-stratified moisture sources in major global river basins",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Janus"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Yao"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Wu"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Understanding how atmospheric moisture pathways regulate precipitation variability is essential for basin-scale water security under climate change. Here we present a global, intensity-stratified analysis of moisture sources and transport across seven major river basins using ERA5 reanalysis and the WAM-2layers model. By combining precipitationshed diagnostics with empirical orthogonal function analysis, we identify dominant and higher-order moisture transport modes and assess their roles in seasonal and extreme precipitation. River basins are classified into ocean-dominated, mixed-source, and land-dominated regimes based on the structure and variability of moisture transport. Ocean-dominated basins exhibit coherent moisture pathways and strong coupling between precipitation and the leading transport mode, whereas land-dominated and high-latitude basins show weaker coupling and a greater reliance on higher-order modes, particularly during seasonal transitions and heavy precipitation events. Mixed-source basins maintain robust precipitation-transport relationships despite pronounced seasonal shifts. We further identify regime-dependent multi-decadal shifts in moisture source regions and seasonally varying climate influences on transport modes, demonstrating that mean moisture source fractions alone cannot explain precipitation variability and extremes. These findings improve our understanding of basin-specific hydroclimatic responses and offer valuable insights for future hydrological predictions and climate adaptation.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426001460",
+      "date_added": "2026-02-17",
+      "id": "bc2949f82df08576b29ef81cfe7b8f4e",
+      "topic": [
+        "atmosphere"
+      ]
+    },
+    {
+      "title": "Vegetation restoration mitigates meteorological drought on the Loess Plateau",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Shi"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Askari"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Roig"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Large-scale vegetation restoration on the Loess Plateau (LP) has significantly increased regional evapotranspiration (ET), raising concerns about water security. However, the net impact on meteorological drought, which balances moisture supply (ET) and atmospheric demand (PET), has remained poorly quantified. To address this, we employed a counterfactual modelling framework for 2001-2022, using the Standardized Evapotranspiration Deficit Index (SEDI) to compare a “Baseline” (actual greening) scenario against a “Fixed Vegetation” (no greening) scenario. A two-step attribution analysis was then used to quantify the contributions from vegetation structure, CO 2 physiology, vegetation physiology, and climate drivers. Results show that vegetation restoration was the primary driver of the 23.2 mm decade −1 ET increase. Despite this, meteorological drought was substantially mitigated: the Baseline SEDI showed a wetting trend of 0.21 decade −1 , nearly double the 0.11 decade −1 trend in the Fixed Vegetation scenario. This phenomenon can be explained by two mechanisms: (1) at the component level, vegetation’s contribution to ET (17.83 mm decade −1 ) was almost twice its opposing contribution to PET (9.02 mm decade −1 ), leading to a net reduction in the atmospheric water deficit; and (2) at the driver level, the wetting trend in SEDI (0.21 decade −1 ) was mainly driven by favourable climate shifts (0.170 decade −1 , 81.4% of the net trend) and reinforced by vegetation structural changes (0.104 decade −1 , 49.5%), which together outweighed drying pressures from CO 2 physiological (−26.3%) and vegetation physiological (−4.7%) effects. These findings demonstrate that human-led ecological restoration, while increasing total water consumption, has successfully alleviated atmospheric drought. This provides critical scientific evidence for the climate-resilience benefits of the ’Grain for Green’ program and offers insights for sustainable water management in other water-limited regions.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426001095",
+      "date_added": "2026-02-17",
+      "id": "752a391c133dccb981720dc653743058",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "Quantitative assessment of the reservoir-induced impact on multivariate flood risk via the nonstationary Vine Copula model",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "P",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "VP",
+          "last_name": "Singh"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Fu"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Yang"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Flood events in the Yellow River Basin (YRB) are increasingly influenced by both climate change and intensified human activities, calling for advanced multivariate models to capture their nonstationary characteristics. A dynamic Vine Copula (DVC) framework that integrates nonstationary univariate distributions with time-varying copula parameters is proposed for detecting human activities (including urbanization and reservoir operation) and a climate change-induced impact on the multivariate flood occurrence likelihood at YRB. Unlike traditional static copula approaches, this framework enables the dynamic quantification of changing dependencies among flood characteristics and systematically attributes the contributions of multiple covariates. Based on the daily mean streamflow, a comparative analysis between peaks-over-threshold (POT)-derived characteristics (PDC) and annual maximum series (AMS)-derived characteristics (ADC) reveals that the nonstationary DVC model based on ADC provides more robust and interpretable insights for nonstationary hydrological event analysis. Specifically, our findings indicate that reservoir operations show the strongest statistical association with flood risk alterations in recent decades. The regression lines showed that it caused a decrease of 2.5° to 31.9° in the angles of flood peak and flood volume, respectively. The interval time in PDC signals additional nonstationary influences. This study advances the methodology for multivariate flood risk assessment under nonstationary conditions, offering a novel tool for disentangling and quantifying the impacts of human and climate drivers in large river basins.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426000946",
+      "date_added": "2026-02-17",
+      "id": "593920fd9c5023c829200383be3e68ab",
+      "topic": [
+        "copula"
+      ]
+    },
+    {
+      "title": "Three-dimensional identification and attribution of flash and slow agricultural droughts in the North China Plain",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Ding"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Lü"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhu"
+        },
+        {
+          "first_name": "AL",
+          "last_name": "Yagci"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Gou"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Su"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Cheng"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yao"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Fu"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Understanding the spatiotemporal evolution of agricultural droughts and their meteorological drivers is essential for developing effective early warning systems. However, traditional drought indices cannot fully represent the spatiotemporal propagation of drought events, which obscures the divergent causal drivers of flash versus slow droughts, particularly during the onset stage. This study proposes a novel three-dimensional framework that integrates DBSCAN spatiotemporal clustering with Local Transfer Entropy (LTE) to disentangle the stage-dependent contributions of key meteorological factors and to clarify the physical mechanisms governing drought initiation and acceleration in the North China Plain (NCP). By applying this framework, a total of 155 agricultural drought events were reconstructed between 1951 and 2023. These events were characterized by an average onset speed of 7.9 percentile pentad −1 and a mean maximum area of 75,000 km 2 , and drought-affected area in NCP exhibited an annual expansion trend of 458.31 km 2 ·over the past seven decades. LTE identified precipitation deficits as the primary driver of drought occurrences in NCP, contributing 46% of the total information flow despite distinct acceleration mechanisms of slow and flash droughts. The rapid intensification of flash droughts is driven by sharp anomalies in water vapor flux divergence (r = 0.57) and temperature (r = 0.40) during the onset phase (p < 0.05), whereas slow droughts are predominantly governed by prolonged precipitation deficits. These contrasting pathways highlight fundamentally different physical processes underlying flash and slow drought evolution.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426001277",
+      "date_added": "2026-02-17",
+      "id": "748d5fe347413c6eede5cba8942dbd46",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Three-decade record of contiguous-US national forest wildfires indicates increased density of ignitions near roads",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "GH",
+          "last_name": "Aplet"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Hartger"
+        },
+        {
+          "first_name": "MS",
+          "last_name": "Dietz"
+        }
+      ],
+      "journal": "Fire Ecology",
+      "citations": 0,
+      "abstract": "Background Roads play an important role in managing fire on the national forests. But roads also are known to increase ignitions and damage ecosystems. Roads may limit the size of wildfires, which may be viewed as desirable where fires endanger human life and property or undesirable if roadlessness allows more land to experience the ecological benefits of fire. In this paper, we examine a large, nationwide dataset to determine whether roads on the national forests are associated with higher ignition density, and we examine patterns of fire size to see whether wilderness and roadless areas are associated with larger fires. Results From 1992 to 2024, in all 8 contiguous-US Forest Service regions combined, wildfire-ignition density was lowest in designated wilderness areas (1.75 fires/1000 hectares), followed closely by Inventoried Roadless Areas (1.97 fires/1000 ha). The highest wildfire-ignition density was in lands within 50 m of roads (7.99 fires/1000 ha), and the second highest wildfire-ignition density was in other national forest lands outside of the 50-m road buffers but not in wilderness or roadless areas (3.50 fires/1000 ha). For human-caused, natural, and undetermined fires, wildfire-ignition density decreased as distance to road increased, irrespective of designation categories such as “wilderness” or “roadless.” In lands between 0 and 250 m from roads, 6 fires ignited per 1000 ha, whereas fewer than 2 fires ignited per 1000 ha at a distance class of over 2000 m from roads. Mean fire size varied by where the fire started: it was greatest in wilderness areas (239 ha), followed by Inventoried Roadless Areas (135 ha), roaded national forest lands outside of Inventoried Roadless Areas, wilderness, and the 50-m buffer (62 ha), and lands within the 50-m road buffer (49 ha). We found, however, that the largest 2% of fires had similar mean sizes and ignition densities regardless of where they started. Conclusions Our results suggest that building roads into roadless areas is likely to result in more fires. These fires will, on average, be smaller than fires farther from roads, but there will be more of them, and some of them will grow to become large fires. Nevertheless, both roads and roadless areas can contribute to strategic, landscape-scale fire management.",
+      "url": "https://link.springer.com/article/10.1186/s42408-026-00450-2",
+      "date_added": "2026-02-17",
+      "id": "0d994ab2a2030323015939dd5ff6c702",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "Exploring the effects of environmental changes on atmospheric thickness",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Salimi"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Asadolahi"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Homayouni"
+        },
+        {
+          "first_name": "TBMJ",
+          "last_name": "Ouarda"
+        }
+      ],
+      "journal": "Theoretical and Applied Climatology",
+      "citations": 0,
+      "abstract": "Climate change has increased the Earth’s mean atmospheric temperature, leading to changes in atmospheric thickness. These variations affect precipitation, as thicker atmospheres result in more liquid precipitation, and thinner atmospheres lead to solid precipitation. This study examines the impact of global warming on Canada’s atmospheric thickness. We analyzed geopotential height data from 1951 to 2022, as well as air temperature and Turbulent Kinetic Energy (TKE) data from 1975 to 2022. The research period was divided into six 12-year intervals for detailed analysis. Results showed minimal changes in atmospheric thickness from 1951 to 1998, followed by a significant increase from 1999 to 2022, confirming the presence of positive anomalies. The study found that 100% of Canada experienced a rise in atmospheric thickness, with 96.43% of the increase being statistically significant. This fact demonstrates that global warming has led to greater atmospheric thickness over Canada, increasing the potential for more intense rainfall and changes in precipitation patterns. The analysis of TKE maps also showed that Canada experienced a period of calm from 1999 to 2010. However, after 2011, the thermal turbulence island in Eastern Canada expanded, indicating increased atmospheric disturbances at the 850 hPa level. The 850 hPa isotherm maps from 1975 to 2022 revealed considerable changes, notably between 1999 and 2022, showing a northward trend. The four, eight, and twelve °C isotherms have all shifted northward, with the twelve °C isotherm changing by 4-6 degrees toward the northern latitudes.",
+      "url": "https://link.springer.com/article/10.1007/s00704-026-06026-z",
+      "date_added": "2026-02-17",
+      "id": "e1b5b8aefd85fff61d10c53fcd4a2e52",
+      "topic": [
+        "atmosphere"
+      ]
     }
   ]
 }
