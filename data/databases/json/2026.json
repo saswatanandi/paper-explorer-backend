@@ -1190,53 +1190,6 @@
       ]
     },
     {
-      "title": "Temperature and photoperiod interactions influence the cessation of wood growth in three temperate and boreal conifers",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "J",
-          "last_name": "Lin"
-        },
-        {
-          "first_name": "CBK",
-          "last_name": "Rathgeber"
-        },
-        {
-          "first_name": "P",
-          "last_name": "Fonti"
-        },
-        {
-          "first_name": "S",
-          "last_name": "Rossi"
-        },
-        {
-          "first_name": "H",
-          "last_name": "Cuny"
-        },
-        {
-          "first_name": "EM del",
-          "last_name": "Castillo"
-        },
-        {
-          "first_name": "K",
-          "last_name": "Čufar"
-        },
-        {
-          "first_name": "JJ",
-          "last_name": "Camarero"
-        }
-      ],
-      "journal": "Agricultural and Forest Meteorology",
-      "citations": 0,
-      "abstract": "Cambium phenology is a crucial process in wood production and carbon sequestration of forest ecosystems. Although cambium phenology has been widely studied, research specifically focusing on the cessation of wood formation remains limited. To better understand the influence of environmental and intrinsic factors on the cessation of wood formation, we built and compared three ecophysiological models ( temperature sum model, photoperiod-influenced temperature sum model and soil moisture- and photoperiod-influenced temperature sum model) in their ability to predict the date of cessation of xylem cell enlargement (cE) in three major Northern Hemisphere conifer species (Black spruce, Norway spruce and Scots pine). We developed these models based on xylogenesis data collected for 130 site-years across Europe and Canada. Our results demonstrate that the photoperiod-influenced temperature sum model is well-supported by data across all conifer species, with a RMSE of 9.2 days, suggesting that both temperature and photoperiod are critical drivers of wood growth cessation. However, incorporating soil moisture effects does not improve model performance. Our model effectively captures the inter-site variability in cE across a wide environmental gradient, with a fair model efficiency (ME = 0.51 ± 0.22), but performed less well for annual anomalies (ME = 0.10 ± 0.09). Additionally, we found that the total ring cell number also affected prediction accuracy. Using this model, we reconstructed historical trends in cE over the past six decades and found a trend to delayed cessation dates. This delay varied geographically, with slower shifts at higher latitudes and elevations, likely due to constrained cambial responses and conservative growth strategies in colder regions. Our model framework offers a simple yet accurate approach for predicting wood growth cessation at large spatial scales, providing a basis for integrating cambium phenology into land surface models and forest productivity assessments.",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0168192326000419",
-      "date_added": "2026-02-17",
-      "id": "c843f5027b33606f9f0572c47ef3e0dd",
-      "topic": [
-        "water-quality"
-      ]
-    },
-    {
       "title": "Fusing ERA5-Land and SMAP L4 for an improved global soil moisture product (1950-2025)",
       "year": 2026,
       "authors": [
