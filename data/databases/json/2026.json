@@ -833,6 +833,95 @@
       "topic": [
         "atmosphere"
       ]
+    },
+    {
+      "title": "Global quantification of the bidirectional dependence between vegetation productivity and multi-layer soil moisture",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Shi"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Yue"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Wang"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Soil moisture serves as a crucial water source for vegetation growth, while vegetation dynamics in turn regulate soil moisture through processes such as evapotranspiration and canopy interception. Quantitatively characterizing this mutual feedback is essential for optimizing hydrological processes and promoting coordinated vegetation-water management. However, the bidirectional interactions between soil moisture and vegetation productivity across different climate zones, vegetation types, and soil depths remain poorly understood. Based on Global Solar Induced Chlorophyll Fluorescence, soil moisture, the average air temperature at 2 m, and solar radiation datasets, this study employed trend analysis, causal inference, and multiple linear regression to explore the Granger causality between vegetation productivity and multi-layer soil moisture under different environmental conditions. Results revealed widespread bidirectional dependence between vegetation productivity and soil moisture across all soil layers, with interaction strength declining from 79.84% in the surface layer (0-10 cm) to 72.04% in the deep layer (100-200 cm). The magnitude of this bidirectional coupling varied significantly across climate zones: dependence peaked in surface soils within temperate regions (82.52%), while tropical zones exhibited maxima in the shallow (82.99%) and deep (78.05%) layers. Boreal zones showed the strongest dependence in the middle soil layer (76.25%). Furthermore, driven by differences in transpiration rates and water retention capacity, woody plants demonstrated higher average bidirectional dependence (79.4%) than herbaceous plants (75.75%), whereas shrubland vegetation exhibited relatively lower dependence (74%). Considering the spatial distribution of climate and vegetation types, tropical zones (dominated by evergreen broadleaf forests) and boreal zones (dominated by shrublands) both showed peak bidirectional dependence in the shallow soil layer. Other climate zones, primarily influenced by grassland vegetation, exhibited peak dependence within the surface soil layer. This study reveals the variability in bidirectional dependence between vegetation productivity and multilayer soil moisture across different climatic zones and vegetation types, which will provide a robust theoretical foundation for improving regional soil moisture regulation and guiding ecosystem restoration under changing climatic conditions.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426001629",
+      "date_added": "2026-02-17",
+      "id": "68cbb5ca0224d9f7d58039fb865cd6b1",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Impacts of climate change and human activities on global mountain grasslands: Insights into the last two decades and future climate scenarios",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "M",
+          "last_name": "Na"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Zuecco"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Tarolli"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Mountain grasslands are vital ecosystems providing critical services such as carbon sequestration, water regulation, and biodiversity conservation. However, these ecosystems are increasingly threatened by climate change and human activities. This study evaluates vegetation dynamics in global mountain grasslands (2000-2021) using remote sensing data, CMIP6 climate projections, and human modification indices. By means of machine learning models (Random Forest, eXtreme Gradient Boosting (XGBoost), and Long Short-Term Memory (LSTM)) we identified dewpoint temperature, total evaporation, and human modification as dominant predictors of vegetation change, while soil water content and latent heat flux exhibited region-specific impacts. Results indicate that 35.1% of grasslands remained stable, 32.1% improved, and 32.7% degraded, with degradation hotspots identified in the Tibetan Plateau, Ethiopian Highlands, Rocky Mountains, and Andes, while the Middle Eastern Mountain Ranges showed signs of improvement. Future projections using a hybrid XGBoost-LSTM model indicate limited global-scale vegetation shifts by 2050 across SSP1-2.6, SSP2-4.5 and SSP5-8.5 scenarios. However, regional differences are notable: the Tibetan Plateau shows a substantial increase in vegetation cover, while the Andes, Rocky Mountains, and parts of East Africa exhibit slight changes. Distributional shifts, especially under SSP5-8.5, suggest increasing spatial heterogeneity in grassland responses. These findings underscore the importance of regional-scale strategies to support grassland resilience under future climate and land-use pressures.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006419",
+      "date_added": "2026-02-17",
+      "id": "ed4e51948e096a1dd5c3a2f53025b346",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Assessment of environmental risk using trivariate joint distribution of river water temperature, river flow and dissolved oxygen with semiparametric D-vine ...",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Latif"
+        },
+        {
+          "first_name": "TBMJ",
+          "last_name": "Ouarda"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Rehana"
+        },
+        {
+          "first_name": "A",
+          "last_name": "St-Hilaire"
+        }
+      ],
+      "journal": "Weather and Climate Extremes",
+      "citations": 0,
+      "abstract": "Quantifying trivariate joint and conditional exceedance probabilities of River Water Temperature (RWT), River Flow (RF), and Dissolved Oxygen (DO) provides critical insights into compound water-quality stress and its implications for aquatic life and ecosystem health. However, the concurrent occurrence of critical RWT, DO, and RF thresholds, and the associated potential implications for aquatic species that motivate our focus on joint risk, has yet to be fully explored. To address the simultaneous joint action of RWT, RF and DO events, this study incorporates a D-vine copula with nonparametric Gaussian Kernel density estimation (GKDE) for modelling trivariate joint and conditional hazard risks. Using this proposed framework, the study analyzed monthly triplet datasets from the Musi River basin (Dhamaracharla gauge, 1991-2005) in India. RWT-RF and RWT-DO exhibit a strong negative correlation, while RF-DO shows a positive correlation. The GKDE method outperformed the parametric models in estimating marginal densities for all selected variables. A DO-centered semiparametric D-vine (order RWT-DO-RF) outperforms alternative vine orders and fully parametric models, showing higher likelihood, lower information-criterion scores, and a good calibration under the Rosenblatt transform. It shows no detectable tail clustering and aligns with standard tail diagnostics and joint-exceedance curves, providing a reliable basis for joint-risk estimation within the observed ranges. The rotated Joe copula (270 degrees), BB8 copula, and Clayton copula (90 degrees) are selected with GKDE in establishing trivariate joint and conditional return periods (RPs). The estimated RWT, RF and DO quantiles indicate dangerous levels with potential significant threats to aquatic life. Trivariate AND-joint RPs are generally higher than their bivariate counterparts. Furthermore, lower trivariate AND-joint RPs are associated with higher RWT and low RF and DO quantiles, reflecting elevated concurrence risk. Conditional joint RPs are lowest when RWT is high and both RF and DO are low, indicating elevated compound risk for water quality and possibly for biota. These joint and conditional estimates quantify concurrent hazard within the observed range and inform ecological risk assessment.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2212094726000095",
+      "date_added": "2026-02-17",
+      "id": "ec5afcbb524f567123463fc9c423bc96",
+      "topic": [
+        "copula"
+      ]
     }
   ]
 }
