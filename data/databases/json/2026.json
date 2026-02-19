@@ -441,95 +441,6 @@
       ]
     },
     {
-      "title": "Decadal and spatially complete global surface chlorophyll-a data record from satellite and BGC-Argo observations",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "DJ",
-          "last_name": "Ford"
-        },
-        {
-          "first_name": "G",
-          "last_name": "Kulk"
-        },
-        {
-          "first_name": "S",
-          "last_name": "Sathyendranath"
-        },
-        {
-          "first_name": "JD",
-          "last_name": "Shutler"
-        }
-      ],
-      "journal": "Earth System Science Data",
-      "citations": 0,
-      "abstract": "Decadal-scale satellite-based climate data records of chlorophyll- a (chl- a ), an essential climate variable, are now readily available at high accuracy and precision. These data are being extensively used for research and, increasingly, for operational services. However, these observations rely on availability of sunlight and the satellite sensor being able to view the ocean, so there are gaps in data due to the presence of clouds and more widely during the polar winter. This is an issue when spatially complete data are needed for global climate studies, or as inputs to machine learning methods and for data assimilation. Whilst addressing cloud cover is well studied, methodologies to overcome missing data due to the polar winter has received little attention and simple approaches to overcome these gaps can lead to unrealistic values. Biogeochemical Argo (BGC-Argo) floats have widely been deployed, and they represent an opportunity to address these gaps. We present an approach that combines BGC-Argo data and a satellite chl- a climate data record to produce a spatially and temporally complete, global monthly chl- a record between 1997-2024 at 0.25° spatial resolution. Clouds gaps were filled using an established spatial kriging approach. Polar wintertime chl- a were reconstructed using relative changes between the wintertime BGC-Argo chl- a , and the previous autumntime or next springtime satellite observations, for individual hemispheres. Uncertainties were calculated on a per-pixel basis to retain the underlying uncertainty fields in the climate data record and were modified to account for the uncertainties related to the gap filling. The seasonal cycles in the resulting polar data are consistent with light availability. Clear interannual and inter-hemisphere variability in the wintertime chl- a were observed. Independent assessment of solely the gap filled wintertime chl- a estimates against in situ data ( N =201 total) indicates that the accuracy and precision of the underlying satellite data, a key component of a climate data record, are maintained. The 26 year global and spatially complete chl- a data, that are consistent with the underlying climate data record can be downloaded from Zenodo (https://doi.org/10.5281/zenodo.15689006, Ford et al., 2025b).",
-      "url": "https://essd.copernicus.org/articles/18/569/2026/essd-18-569-2026.html",
-      "date_added": "2026-02-06",
-      "id": "1e34e6332d241cbfd5ad23e8ec3442f0",
-      "topic": [
-        "data_sources"
-      ]
-    },
-    {
-      "title": "Operational digital twin for multi-hazard coastal flood prediction with adaptive learning: Real-time performance in the Chesapeake Bay",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "P",
-          "last_name": "Magoulick"
-        }
-      ],
-      "journal": "Environmental Modelling & Software",
-      "citations": 0,
-      "abstract": "Coastal flooding threatens growing populations where compound hazards amplify risks. This study presents a proof-of-concept operational digital twin for single-location flood prediction at Annapolis in the Chesapeake Bay, integrating real-time NOAA and USGS data. An ensemble of Random Forest, XGBoost, Gradient Boosting, and LSTM models achieves RMSE= 0.043 ft with R 2= 0.997 for short-term predictions, validated across 508,000 records and 369 extreme events over six years. Strong short-term accuracy largely reflects tidal autocorrelation in this semi-enclosed estuarine system. Feature importance shows 98.9% of predictive power derives from three water-level persistence variables, enabling efficient deployment. An empirical correction factor (0.87) calibrates predictions to local conditions. Key limitations include single-site validation without spatial inundation capability and no major hurricane landfall during the study period. The system complements physics-based models such as NOAA’s STOFS, which provide essential spatial detail and process understanding. The open-source implementation enables replication and community evaluation.",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1364815226000381",
-      "date_added": "2026-02-06",
-      "id": "4bb4e97a7e34c46da3decc473de78ac0",
-      "topic": [
-        "software-development"
-      ]
-    },
-    {
-      "title": "Comparative analysis of GAMLSS modeling approaches for nonstationary runoff dynamics in the Yellow River Basin of China",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "B",
-          "last_name": "Niu"
-        },
-        {
-          "first_name": "Y",
-          "last_name": "Li"
-        },
-        {
-          "first_name": "Y",
-          "last_name": "Fan"
-        },
-        {
-          "first_name": "L",
-          "last_name": "Gong"
-        },
-        {
-          "first_name": "L",
-          "last_name": "Wang"
-        },
-        {
-          "first_name": "T",
-          "last_name": "Wang"
-        }
-      ],
-      "journal": "Journal of Hydrology",
-      "citations": 0,
-      "abstract": "Quantifying the driving effects of climate change and human activities on nonstationary runoff dynamics is essential. However, the systematic assessments of nonstationary characteristics and their multiple driving mechanisms at the basin scale remain insufficient. This study compared two Generalized Additive Model for Location, Scale, and Shape (GAMLSS) modeling approaches-Continuous-series modeling (Mode1) and monthly-segmented modeling (Mode2)-to analyze the hydrological nonstationarity characteristics of the Yellow River Basin in China and elucidate the driving mechanisms of runoff processes by incorporating covariates of time, circulation, climate, and human factors. The results indicated that: (1) Taking time as a covariate, Mode2 significantly enhanced model robustness by isolating seasonal dynamics. Mode 2 raised the average correlation of the location parameter (μ) with the monthly runoff series to R = 0.82 (range 0.70-0.90), a 30-50% increase over Mode 1. Furthermore, the nonstationary standardized runoff index (NSRI) aligned more accurately with actual hydrological fluctuations. (2) Taking circulation indices as covariates, circulation indices (AMO, PDO and NINO3) predominantly governed large-scale hydrological trends, with PDO exerting a more pronounced regulatory effect on extreme events in the downstream region under Mode2. (3) The climate-human composite-driven model had the best fitting effect on runoff, particularly at lower timescales (1-, 3-, and 6-month scales) in the middle and lower reaches, where the interactions among total precipitation (TP), snowmelt (SMT), and soil water storage capacity (SWC) explained over 80% of runoff variations (This model yielded the lowest AICc-15% lower than the single climate model-and the highest explanatory power, with R 2 = 0.85 at 1-month, and 0.70 at 3-month scales). This study suggests that Mode2, with its precise characterization of seasonal differentiation and human dynamics, is more suitable for refined water resource management and extreme drought-flood prediction, whereas Mode1 remains efficient for analyzing interdecadal circulation effects. By addressing three key challenges-capturing monthly runoff nonstationarity, integrating multi-factor drivers, and validating runoff simulations-this study greatly improves runoff modeling and drought detection accuracy, laying a scientific foundation for adaptive management under the combined pressures of climate change and human activities.",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426001459",
-      "date_added": "2026-02-17",
-      "id": "e203cdb22ec11675bdeb354e698049ef",
-      "topic": [
-        "non-stationary"
-      ]
-    },
-    {
       "title": "Nonstationary agricultural drought risk under compound meteorological drought and hot conditions",
       "year": 2026,
       "authors": [
@@ -574,61 +485,6 @@
       "id": "16b7d0e588e3256dd20b87ce9407279c",
       "topic": [
         "non-stationary"
-      ]
-    },
-    {
-      "title": "Climate modulation and intensity-stratified moisture sources in major global river basins",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "X",
-          "last_name": "Zhang"
-        },
-        {
-          "first_name": "Z",
-          "last_name": "Wang"
-        },
-        {
-          "first_name": "T",
-          "last_name": "Janus"
-        },
-        {
-          "first_name": "H",
-          "last_name": "Jiang"
-        },
-        {
-          "first_name": "Z",
-          "last_name": "Liu"
-        },
-        {
-          "first_name": "L",
-          "last_name": "Jiang"
-        },
-        {
-          "first_name": "Y",
-          "last_name": "Zhu"
-        },
-        {
-          "first_name": "Y",
-          "last_name": "Jiang"
-        },
-        {
-          "first_name": "Z",
-          "last_name": "Yao"
-        },
-        {
-          "first_name": "H",
-          "last_name": "Wu"
-        }
-      ],
-      "journal": "Journal of Hydrology",
-      "citations": 0,
-      "abstract": "Understanding how atmospheric moisture pathways regulate precipitation variability is essential for basin-scale water security under climate change. Here we present a global, intensity-stratified analysis of moisture sources and transport across seven major river basins using ERA5 reanalysis and the WAM-2layers model. By combining precipitationshed diagnostics with empirical orthogonal function analysis, we identify dominant and higher-order moisture transport modes and assess their roles in seasonal and extreme precipitation. River basins are classified into ocean-dominated, mixed-source, and land-dominated regimes based on the structure and variability of moisture transport. Ocean-dominated basins exhibit coherent moisture pathways and strong coupling between precipitation and the leading transport mode, whereas land-dominated and high-latitude basins show weaker coupling and a greater reliance on higher-order modes, particularly during seasonal transitions and heavy precipitation events. Mixed-source basins maintain robust precipitation-transport relationships despite pronounced seasonal shifts. We further identify regime-dependent multi-decadal shifts in moisture source regions and seasonally varying climate influences on transport modes, demonstrating that mean moisture source fractions alone cannot explain precipitation variability and extremes. These findings improve our understanding of basin-specific hydroclimatic responses and offer valuable insights for future hydrological predictions and climate adaptation.",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426001460",
-      "date_added": "2026-02-17",
-      "id": "bc2949f82df08576b29ef81cfe7b8f4e",
-      "topic": [
-        "atmosphere"
       ]
     },
     {
@@ -718,123 +574,6 @@
       ]
     },
     {
-      "title": "Three-dimensional identification and attribution of flash and slow agricultural droughts in the North China Plain",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "Y",
-          "last_name": "Ding"
-        },
-        {
-          "first_name": "H",
-          "last_name": "Lü"
-        },
-        {
-          "first_name": "Y",
-          "last_name": "Zhu"
-        },
-        {
-          "first_name": "AL",
-          "last_name": "Yagci"
-        },
-        {
-          "first_name": "Q",
-          "last_name": "Gou"
-        },
-        {
-          "first_name": "J",
-          "last_name": "Su"
-        },
-        {
-          "first_name": "J",
-          "last_name": "Cheng"
-        },
-        {
-          "first_name": "Y",
-          "last_name": "Yao"
-        },
-        {
-          "first_name": "W",
-          "last_name": "Liu"
-        },
-        {
-          "first_name": "J",
-          "last_name": "Liu"
-        },
-        {
-          "first_name": "Y",
-          "last_name": "Fu"
-        }
-      ],
-      "journal": "Journal of Hydrology",
-      "citations": 0,
-      "abstract": "Understanding the spatiotemporal evolution of agricultural droughts and their meteorological drivers is essential for developing effective early warning systems. However, traditional drought indices cannot fully represent the spatiotemporal propagation of drought events, which obscures the divergent causal drivers of flash versus slow droughts, particularly during the onset stage. This study proposes a novel three-dimensional framework that integrates DBSCAN spatiotemporal clustering with Local Transfer Entropy (LTE) to disentangle the stage-dependent contributions of key meteorological factors and to clarify the physical mechanisms governing drought initiation and acceleration in the North China Plain (NCP). By applying this framework, a total of 155 agricultural drought events were reconstructed between 1951 and 2023. These events were characterized by an average onset speed of 7.9 percentile pentad −1 and a mean maximum area of 75,000 km 2 , and drought-affected area in NCP exhibited an annual expansion trend of 458.31 km 2 ·over the past seven decades. LTE identified precipitation deficits as the primary driver of drought occurrences in NCP, contributing 46% of the total information flow despite distinct acceleration mechanisms of slow and flash droughts. The rapid intensification of flash droughts is driven by sharp anomalies in water vapor flux divergence (r = 0.57) and temperature (r = 0.40) during the onset phase (p < 0.05), whereas slow droughts are predominantly governed by prolonged precipitation deficits. These contrasting pathways highlight fundamentally different physical processes underlying flash and slow drought evolution.",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426001277",
-      "date_added": "2026-02-17",
-      "id": "748d5fe347413c6eede5cba8942dbd46",
-      "topic": [
-        "drought"
-      ]
-    },
-    {
-      "title": "Three-decade record of contiguous-US national forest wildfires indicates increased density of ignitions near roads",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "GH",
-          "last_name": "Aplet"
-        },
-        {
-          "first_name": "P",
-          "last_name": "Hartger"
-        },
-        {
-          "first_name": "MS",
-          "last_name": "Dietz"
-        }
-      ],
-      "journal": "Fire Ecology",
-      "citations": 0,
-      "abstract": "Background Roads play an important role in managing fire on the national forests. But roads also are known to increase ignitions and damage ecosystems. Roads may limit the size of wildfires, which may be viewed as desirable where fires endanger human life and property or undesirable if roadlessness allows more land to experience the ecological benefits of fire. In this paper, we examine a large, nationwide dataset to determine whether roads on the national forests are associated with higher ignition density, and we examine patterns of fire size to see whether wilderness and roadless areas are associated with larger fires. Results From 1992 to 2024, in all 8 contiguous-US Forest Service regions combined, wildfire-ignition density was lowest in designated wilderness areas (1.75 fires/1000 hectares), followed closely by Inventoried Roadless Areas (1.97 fires/1000 ha). The highest wildfire-ignition density was in lands within 50 m of roads (7.99 fires/1000 ha), and the second highest wildfire-ignition density was in other national forest lands outside of the 50-m road buffers but not in wilderness or roadless areas (3.50 fires/1000 ha). For human-caused, natural, and undetermined fires, wildfire-ignition density decreased as distance to road increased, irrespective of designation categories such as “wilderness” or “roadless.” In lands between 0 and 250 m from roads, 6 fires ignited per 1000 ha, whereas fewer than 2 fires ignited per 1000 ha at a distance class of over 2000 m from roads. Mean fire size varied by where the fire started: it was greatest in wilderness areas (239 ha), followed by Inventoried Roadless Areas (135 ha), roaded national forest lands outside of Inventoried Roadless Areas, wilderness, and the 50-m buffer (62 ha), and lands within the 50-m road buffer (49 ha). We found, however, that the largest 2% of fires had similar mean sizes and ignition densities regardless of where they started. Conclusions Our results suggest that building roads into roadless areas is likely to result in more fires. These fires will, on average, be smaller than fires farther from roads, but there will be more of them, and some of them will grow to become large fires. Nevertheless, both roads and roadless areas can contribute to strategic, landscape-scale fire management.",
-      "url": "https://link.springer.com/article/10.1186/s42408-026-00450-2",
-      "date_added": "2026-02-17",
-      "id": "0d994ab2a2030323015939dd5ff6c702",
-      "topic": [
-        "wildfire"
-      ]
-    },
-    {
-      "title": "Exploring the effects of environmental changes on atmospheric thickness",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "S",
-          "last_name": "Salimi"
-        },
-        {
-          "first_name": "E",
-          "last_name": "Asadolahi"
-        },
-        {
-          "first_name": "S",
-          "last_name": "Homayouni"
-        },
-        {
-          "first_name": "TBMJ",
-          "last_name": "Ouarda"
-        }
-      ],
-      "journal": "Theoretical and Applied Climatology",
-      "citations": 0,
-      "abstract": "Climate change has increased the Earth’s mean atmospheric temperature, leading to changes in atmospheric thickness. These variations affect precipitation, as thicker atmospheres result in more liquid precipitation, and thinner atmospheres lead to solid precipitation. This study examines the impact of global warming on Canada’s atmospheric thickness. We analyzed geopotential height data from 1951 to 2022, as well as air temperature and Turbulent Kinetic Energy (TKE) data from 1975 to 2022. The research period was divided into six 12-year intervals for detailed analysis. Results showed minimal changes in atmospheric thickness from 1951 to 1998, followed by a significant increase from 1999 to 2022, confirming the presence of positive anomalies. The study found that 100% of Canada experienced a rise in atmospheric thickness, with 96.43% of the increase being statistically significant. This fact demonstrates that global warming has led to greater atmospheric thickness over Canada, increasing the potential for more intense rainfall and changes in precipitation patterns. The analysis of TKE maps also showed that Canada experienced a period of calm from 1999 to 2010. However, after 2011, the thermal turbulence island in Eastern Canada expanded, indicating increased atmospheric disturbances at the 850 hPa level. The 850 hPa isotherm maps from 1975 to 2022 revealed considerable changes, notably between 1999 and 2022, showing a northward trend. The four, eight, and twelve °C isotherms have all shifted northward, with the twelve °C isotherm changing by 4-6 degrees toward the northern latitudes.",
-      "url": "https://link.springer.com/article/10.1007/s00704-026-06026-z",
-      "date_added": "2026-02-17",
-      "id": "e1b5b8aefd85fff61d10c53fcd4a2e52",
-      "topic": [
-        "atmosphere"
-      ]
-    },
-    {
       "title": "Global quantification of the bidirectional dependence between vegetation productivity and multi-layer soil moisture",
       "year": 2026,
       "authors": [
@@ -863,64 +602,6 @@
       "id": "68cbb5ca0224d9f7d58039fb865cd6b1",
       "topic": [
         "statistics-big-data"
-      ]
-    },
-    {
-      "title": "Impacts of climate change and human activities on global mountain grasslands: Insights into the last two decades and future climate scenarios",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "M",
-          "last_name": "Na"
-        },
-        {
-          "first_name": "G",
-          "last_name": "Zuecco"
-        },
-        {
-          "first_name": "P",
-          "last_name": "Tarolli"
-        }
-      ],
-      "journal": "Earth's Future",
-      "citations": 0,
-      "abstract": "Mountain grasslands are vital ecosystems providing critical services such as carbon sequestration, water regulation, and biodiversity conservation. However, these ecosystems are increasingly threatened by climate change and human activities. This study evaluates vegetation dynamics in global mountain grasslands (2000-2021) using remote sensing data, CMIP6 climate projections, and human modification indices. By means of machine learning models (Random Forest, eXtreme Gradient Boosting (XGBoost), and Long Short-Term Memory (LSTM)) we identified dewpoint temperature, total evaporation, and human modification as dominant predictors of vegetation change, while soil water content and latent heat flux exhibited region-specific impacts. Results indicate that 35.1% of grasslands remained stable, 32.1% improved, and 32.7% degraded, with degradation hotspots identified in the Tibetan Plateau, Ethiopian Highlands, Rocky Mountains, and Andes, while the Middle Eastern Mountain Ranges showed signs of improvement. Future projections using a hybrid XGBoost-LSTM model indicate limited global-scale vegetation shifts by 2050 across SSP1-2.6, SSP2-4.5 and SSP5-8.5 scenarios. However, regional differences are notable: the Tibetan Plateau shows a substantial increase in vegetation cover, while the Andes, Rocky Mountains, and parts of East Africa exhibit slight changes. Distributional shifts, especially under SSP5-8.5, suggest increasing spatial heterogeneity in grassland responses. These findings underscore the importance of regional-scale strategies to support grassland resilience under future climate and land-use pressures.",
-      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF006419",
-      "date_added": "2026-02-17",
-      "id": "ed4e51948e096a1dd5c3a2f53025b346",
-      "topic": [
-        "statistics-big-data"
-      ]
-    },
-    {
-      "title": "Assessment of environmental risk using trivariate joint distribution of river water temperature, river flow and dissolved oxygen with semiparametric D-vine ...",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "S",
-          "last_name": "Latif"
-        },
-        {
-          "first_name": "TBMJ",
-          "last_name": "Ouarda"
-        },
-        {
-          "first_name": "S",
-          "last_name": "Rehana"
-        },
-        {
-          "first_name": "A",
-          "last_name": "St-Hilaire"
-        }
-      ],
-      "journal": "Weather and Climate Extremes",
-      "citations": 0,
-      "abstract": "Quantifying trivariate joint and conditional exceedance probabilities of River Water Temperature (RWT), River Flow (RF), and Dissolved Oxygen (DO) provides critical insights into compound water-quality stress and its implications for aquatic life and ecosystem health. However, the concurrent occurrence of critical RWT, DO, and RF thresholds, and the associated potential implications for aquatic species that motivate our focus on joint risk, has yet to be fully explored. To address the simultaneous joint action of RWT, RF and DO events, this study incorporates a D-vine copula with nonparametric Gaussian Kernel density estimation (GKDE) for modelling trivariate joint and conditional hazard risks. Using this proposed framework, the study analyzed monthly triplet datasets from the Musi River basin (Dhamaracharla gauge, 1991-2005) in India. RWT-RF and RWT-DO exhibit a strong negative correlation, while RF-DO shows a positive correlation. The GKDE method outperformed the parametric models in estimating marginal densities for all selected variables. A DO-centered semiparametric D-vine (order RWT-DO-RF) outperforms alternative vine orders and fully parametric models, showing higher likelihood, lower information-criterion scores, and a good calibration under the Rosenblatt transform. It shows no detectable tail clustering and aligns with standard tail diagnostics and joint-exceedance curves, providing a reliable basis for joint-risk estimation within the observed ranges. The rotated Joe copula (270 degrees), BB8 copula, and Clayton copula (90 degrees) are selected with GKDE in establishing trivariate joint and conditional return periods (RPs). The estimated RWT, RF and DO quantiles indicate dangerous levels with potential significant threats to aquatic life. Trivariate AND-joint RPs are generally higher than their bivariate counterparts. Furthermore, lower trivariate AND-joint RPs are associated with higher RWT and low RF and DO quantiles, reflecting elevated concurrence risk. Conditional joint RPs are lowest when RWT is high and both RF and DO are low, indicating elevated compound risk for water quality and possibly for biota. These joint and conditional estimates quantify concurrent hazard within the observed range and inform ecological risk assessment.",
-      "url": "https://www.sciencedirect.com/science/article/pii/S2212094726000095",
-      "date_added": "2026-02-17",
-      "id": "ec5afcbb524f567123463fc9c423bc96",
-      "topic": [
-        "copula"
       ]
     },
     {
@@ -976,131 +657,6 @@
       "id": "465b0f0c3a3114f6d6b99942e5aaadf8",
       "topic": [
         "statistics-big-data"
-      ]
-    },
-    {
-      "title": "Climate models tend to underestimate scaling of UK mean winter precipitation with temperature",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "JG",
-          "last_name": "Carruthers"
-        },
-        {
-          "first_name": "HJ",
-          "last_name": "Fowler"
-        },
-        {
-          "first_name": "D",
-          "last_name": "Bannister"
-        },
-        {
-          "first_name": "SB",
-          "last_name": "Guerreiro"
-        }
-      ],
-      "journal": "Geophysical Research Letters",
-      "citations": 0,
-      "abstract": "Changes to seasonal precipitation can have dynamical and thermodynamic origins and disentangling these processes is challenging. To evaluate observed changes in UK winter precipitation from 1901 to 2023, we separate the signal into dynamical and non-dynamical components by applying a dynamical adjustment using European weather patterns. We find long-term changes in the non-dynamical component are tied to temperature, with a 7% increase in UK winter precipitation per degree of local warming, in line with expected increases in atmospheric moisture content. We find this significant increase in non-dynamical winter precipitation is attributable to anthropogenic forcing according to the CMIP6 global climate model simulations. Notably, most CMIP6 models produce a much weaker intensification of the non-dynamic (thermodynamic) component relative to observations, with a model ensemble mean scaling of 4% °C −1 . The results show that projections based on CMIP6 models could underestimate the scaling of precipitation with temperature and increase in flood risk.",
-      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025GL118201",
-      "date_added": "2026-02-17",
-      "id": "b96f317a48c7d461afa1bd5e17368ac1",
-      "topic": [
-        "climate_change"
-      ]
-    },
-    {
-      "title": "Quantifying nonlinear driving forces of land surface temperature dynamics in the Tarim River Basin under climate warming",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "Q",
-          "last_name": "Lei"
-        },
-        {
-          "first_name": "X",
-          "last_name": "Song"
-        },
-        {
-          "first_name": "J",
-          "last_name": "Chang"
-        },
-        {
-          "first_name": "Y",
-          "last_name": "Zhao"
-        },
-        {
-          "first_name": "H",
-          "last_name": "Sun"
-        },
-        {
-          "first_name": "X",
-          "last_name": "Liu"
-        },
-        {
-          "first_name": "L",
-          "last_name": "Li"
-        },
-        {
-          "first_name": "X",
-          "last_name": "Qiao"
-        },
-        {
-          "first_name": "J",
-          "last_name": "Xue"
-        }
-      ],
-      "journal": "Theoretical and Applied Climatology",
-      "citations": 0,
-      "abstract": "Land surface temperature (LST) is crucial for assessing ecological responses to climate change in arid basins. Using MODIS daytime LST data from 2001 to 2024, the spatiotemporal trends in China's Tarim River Basin were analyzed via Sen's slope and Mann-Kendall tests. Twelve potential driving factors including vegetation, hydroclimatic, topographic, and anthropogenic variables were evaluated using Pearson correlation analysis and the Geodetector method. The results show that: (1) annual LST displays seasonal fluctuations but no long-term trend. LST variability is higher in high alpine regions and lower at low elevations. High LST occurs along low-altitude desert margins. Low LST concentrates in mountainous regions. Summer LST is relatively stable compared to variable winter conditions; (2) daytime LST exhibited a weak basin-wide cooling trend (− 0.01 °C/yr) during 2001-2024. Significant changes occurred in 8.69% of the basin, with cooling dominating oasis-desert ecotones and alpine meadows; (3) elevation, slope, precipitation, and soil moisture correlate negatively with LST, while air temperature and potential evapotranspiration (PET) show positive correlations; (4) spatial LST distribution is primarily controlled by natural factors, with PET, air temperature, and elevation exhibiting the strongest explanatory power. Irrigation and nighttime lights have minimal impact. Natural topography and moisture dominate LST patterns in arid regions, especially mountainous areas. PET exhibits the strongest interactive effect, highlighting the role of coupled hydrothermal conditions and surface properties. This study enhances the understanding of long-term LST dynamics, supporting regional ecological restoration and climate adaptation strategies.",
-      "url": "https://link.springer.com/article/10.1007/s00704-026-06030-3",
-      "date_added": "2026-02-17",
-      "id": "6f2e5794a89f105a8f2548ae246d0df6",
-      "topic": [
-        "statistics-big-data"
-      ]
-    },
-    {
-      "title": "A framework for identifying discriminative model, key factors, and precipitation blocking threshold on triggering drought propagation in the Xijiang River Basin (XRB)",
-      "year": 2026,
-      "authors": [
-        {
-          "first_name": "S",
-          "last_name": "Zhang"
-        },
-        {
-          "first_name": "Q",
-          "last_name": "Lin"
-        },
-        {
-          "first_name": "W",
-          "last_name": "Chang"
-        },
-        {
-          "first_name": "Z",
-          "last_name": "Wu"
-        },
-        {
-          "first_name": "T",
-          "last_name": "Peng"
-        },
-        {
-          "first_name": "J",
-          "last_name": "Guo"
-        },
-        {
-          "first_name": "X",
-          "last_name": "Wang"
-        }
-      ],
-      "journal": "Climate Dynamics",
-      "citations": 0,
-      "abstract": "Exploring the triggers of drought propagation is essential for understanding drought dynamics. Current research primarily provides probability thresholds for drought propagation based on Copula and Bayesian approaches. However, water resource managers are more interested in determining whether droughts can actually be triggered, rather than solely receiving probabilistic reminders. In this study, we propose a framework for identifying the discriminative model, key factors, and precipitation blocking thresholds that trigger meteorological-to-agricultural drought in the Xijiang River Basin (XRB). The results highlight the influence of non-effective precipitation days (NEPD), meteorological drought duration, the meteorological drought area and its spatial complexity (A_GAM) on triggering propagation. Daily precipitation exceeding 3 mm begins to mitigate drought propagation. Through analyzing 45 actual drought events using 36 models comprising 4 factor combinations and 9 machine learning methods, we found that the GANs-enhanced K-nearest neighbors (KNN) algorithm is the optimal discriminative model. Sensitivity analysis based on the model reveals that a reduction in NEPD (daily precipitation ≤ 3 mm) can decrease the propagation ratio by 11.1%. From 2025 to 2099, the propagation ratios under SSP1-2.6, 2-4.5, 3-7.0, and 5-8.5 are all projected to exceed 73.0%. If measures are taken to reduce NEPD, propagation could be inhibited by 6.0% to 17.6%. The proposed framework enables more direct determination of whether large-scale meteorological drought will trigger agricultural drought and quantifies the precipitation mitigation effect. These findings can provide scientific support for agricultural drought early warning systems.",
-      "url": "https://link.springer.com/article/10.1007/s00382-026-08078-3",
-      "date_added": "2026-02-17",
-      "id": "9ee54b4a262a80b92bca3e543a010c2b",
-      "topic": [
-        "drought"
       ]
     },
     {
@@ -1234,6 +790,41 @@
       "id": "12a36a069bcd30dcd2f44e888da09724",
       "topic": [
         "data_sources"
+      ]
+    },
+    {
+      "title": "Fire spread, intensity, and emissions observations by multiple satellites: The southern California wildfires of January 2025",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "F",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Cochrane"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Kondragunta"
+        },
+        {
+          "first_name": "S",
+          "last_name": "An"
+        }
+      ],
+      "journal": "AGU Advances",
+      "citations": 0,
+      "abstract": "In January 2025, wildfires caused catastrophic impacts to the infrastructure, communities, and environment of Los Angeles. This study documents the remotely sensed fire spread, intensity, and smoke emissions from the wildfires by leveraging fire and emission observations from multiple satellites. We found that during the first 24 hr after ignition, two main fires moved through urban settlements, under hurricane-like Santa Ana winds, at rates of up to 3.7 km hr −1 while burning 75%-80% of the final fire areas, including all affected residential areas. We also report the first satellite-derived intensities of wildfires burning through residential areas. With a mean intensity of 72-297 W m −2 , these fires at night were significantly more intense than the contemporaneous vegetation fires in the Palisades Fire. Smoke emissions exhibited strong hourly variations that were closely coupled with temporal fire intensity patterns, and the emission coefficients (Ce) of carbon monoxide (CO), total particulate matter, and nitrogen oxides (NO x ) were 146, 10.2-21.1, and 0.89 g MJ −1 , respectively. In comparison between vegetation fires and residential-area fires, CO Ce discrepancies suggest that residential fires likely released less CO emissions per unit of radiative energy, whereas temporal variations in NO x Ce discrepancies varied temporally indicate complex factors influencing Ce in wildfires occurring at the wildland-Urban Interface. Our findings reveal the extreme characteristics of the Los Angeles wildfires and illustrate how integrated remote sensing imagery can provide critical wildfire information to support safe evacuation, firefighting operations, and air quality forecasting.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025AV002064",
+      "date_added": "2026-02-19",
+      "id": "654835f187936b0f8340def1dd2f9909",
+      "topic": [
+        "wildfire"
       ]
     }
   ]
