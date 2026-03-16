@@ -939,6 +939,49 @@
       "topic": [
         "wildfire"
       ]
+    },
+    {
+      "title": "A Global-Scale Time Series Dataset for Groundwater Studies within the Earth System",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "A",
+          "last_name": "Bäthge"
+        },
+        {
+          "first_name": "CR",
+          "last_name": "Vargas"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Lischeid"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Collenteur"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Cuthbert"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Fleckenstein"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Flörke"
+        }
+      ],
+      "journal": "Scientific Data",
+      "citations": 0,
+      "abstract": "Groundwater is a central component of the Earth system. However, our understanding of how it is dynamically interlinked with the atmosphere, hydrosphere, cryosphere, biosphere, geosphere, and anthroposphere remains limited. In the pursuit of understanding groundwater dynamics across diverse global settings, we present GROW (the global-scale integrated GROundWater package). This analysis-ready, quality-controlled dataset combines depth to groundwater and level time series from 55 countries, 91% from North America, India, Europe, and Australia, with associated Earth system variables. The dataset contains >200,000 time series with either daily, monthly, or yearly temporal resolution, accompanied by 36 time series or static attributes of meteorological, hydrological, geophysical, vegetation, and anthropogenic variables (e.g., precipitation, drainage density, rock type, NDVI, land use). 34 data flags regarding well features (e.g., coordinates and country), as well as time series characteristics (e.g., gap fraction or autocorrelation), facilitate quick data filtering. GROW provides a foundation for understanding large-scale groundwater processes in space and time, as well as for calibrating and evaluating models that simulate groundwater dynamics within the Earth system.",
+      "url": "https://www.nature.com/articles/s41597-026-06966-1",
+      "date_added": "2026-03-16",
+      "id": "6a67d4e05906f6011247c52a3b81c6a2",
+      "topic": [
+        "data_sources"
+      ]
     }
   ]
 }
