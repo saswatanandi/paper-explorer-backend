@@ -184,6 +184,29 @@ def matches_avoid_domain(hostname: str, patterns: Set[str]) -> Optional[str]:
 
     return None
 
+def split_url_patterns(patterns: Set[str]):
+    """Split URL patterns into domain patterns (contain '.') and URL keyword patterns (no '.')."""
+    domain_patterns = set()
+    keyword_patterns = set()
+    for p in patterns:
+        if not p:
+            continue
+        if '.' in p:
+            domain_patterns.add(p)
+        else:
+            keyword_patterns.add(p)
+    return domain_patterns, keyword_patterns
+
+def matches_url_keyword(url: str, keywords: Set[str]) -> Optional[str]:
+    """Return matched keyword if any keyword appears in the full URL."""
+    if not url or not keywords:
+        return None
+    url_lower = url.strip().lower()
+    for keyword in keywords:
+        if keyword and keyword in url_lower:
+            return keyword
+    return None
+
 def load_reviewed_papers(file_path: str) -> Set[str]:
     """Load reviewed paper IDs, filtering out entries older than 365 days."""
     result = set()
@@ -616,7 +639,8 @@ async def process_eml_files(
     # Load data from CSV files to memory
     avoid_journals = load_csv_to_set(avoid_journals_path, "name")
     avoid_keywords = load_csv_to_set(avoid_keywords_path, "keyword")
-    avoid_url_patterns = load_csv_to_set(avoid_urls_path, "pattern")
+    avoid_url_all = load_csv_to_set(avoid_urls_path, "pattern")
+    avoid_url_domains, avoid_url_keywords = split_url_patterns(avoid_url_all)
     unique_paper_ids = load_csv_to_set(unique_paper_id_path, "id")
     journal_mapping = load_journal_mapping(unique_journal_path)
     topics = load_csv_to_set(unique_topic_path, "name")
@@ -712,13 +736,22 @@ async def process_eml_files(
             "date_added": datetime.datetime.now().strftime("%Y-%m-%d")
         }
 
-        # Check URL domain against avoid list early
-        url_hostname = extract_hostname(paper_metadata.get("url", ""))
-        matched_pattern = matches_avoid_domain(url_hostname, avoid_url_patterns)
+        # Check URL against avoid list early (domain match, then keyword match)
+        paper_url = paper_metadata.get("url", "")
+        url_hostname = extract_hostname(paper_url)
+        matched_pattern = matches_avoid_domain(url_hostname, avoid_url_domains)
         if matched_pattern:
             print(
                 f"Skipping paper due to avoid URL domain: '{url_hostname}' "
                 f"(matched pattern '{matched_pattern}')"
+            )
+            url_filtered_count += 1
+            continue
+        matched_keyword = matches_url_keyword(paper_url, avoid_url_keywords)
+        if matched_keyword:
+            print(
+                f"Skipping paper due to avoid URL keyword: '{matched_keyword}' "
+                f"found in URL '{paper_url}'"
             )
             url_filtered_count += 1
             continue
