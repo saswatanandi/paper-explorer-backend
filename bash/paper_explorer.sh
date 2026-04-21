@@ -125,7 +125,10 @@ deactivate_conda() {
 # --- Core Functions ---
 
 # Function to run Python script
+# Optional first arg: --mode value passed to run.py (eml|manual|remove).
+# Empty/omitted runs run.py with no arguments (default EML mode).
 run_python_script() {
+    local mode="${1:-}"
     print_header "Running Python Script (run.py)"
     if [ ! -d "${PYTHON_APP_DIR}/scripts" ]; then
         print_message "${RED}" "Error: Python scripts directory not found: ${PYTHON_APP_DIR}/scripts"
@@ -141,8 +144,13 @@ run_python_script() {
         return 1
     fi
 
-    print_message "${YELLOW}" "Executing run.py..."
-    python run.py
+    if [ -n "${mode}" ]; then
+        print_message "${YELLOW}" "Executing run.py --mode ${mode}..."
+        python run.py --mode "${mode}"
+    else
+        print_message "${YELLOW}" "Executing run.py..."
+        python run.py
+    fi
     local exit_code=$?
 
     deactivate_conda # Deactivate after script finishes or fails
@@ -491,12 +499,14 @@ main() {
     print_message "${GREEN}" " 3. Upload Data Repo Only"
     print_message "${GREEN}" " 4. Upload Backend Repo Only"
     print_message "${GREEN}" " 5. Upload Both Data Repo and Backend Repo"
-    print_message "${RED}"   " 6. Exit"
+    print_message "${GREEN}" " 6. Manually Enter a Paper (skip EML)"
+    print_message "${GREEN}" " 7. Remove a Paper (added by mistake)"
+    print_message "${RED}"   " 8. Exit"
     echo ""
     print_message "${BLUE}" "===================================================="
 
     local choice
-    read -p "$(echo -e "${YELLOW}Enter your choice (1-6): ${NC}")" choice
+    read -p "$(echo -e "${YELLOW}Enter your choice (1-8): ${NC}")" choice
 
     case $choice in
         1)
@@ -538,11 +548,29 @@ main() {
             upload_backend_to_github
             ;;
         6)
+            # Manual paper entry (no EML). Sync backend first for fresh
+            # paper_reviewed.csv / unique_paper_id.csv from other PCs.
+            sync_repo_with_remote "${BACKEND_REPO_DIR}" "Backend Repo" "${BACKEND_REPO_REMOTE}" "${BACKEND_REPO_BRANCH}" || {
+                print_message "${RED}" "Failed to sync backend repo. Aborting to prevent editing stale data."
+                return 1
+            }
+            run_python_script manual
+            ;;
+        7)
+            # Remove a paper added by mistake. Sync backend first to avoid
+            # editing stale data then clobbering remote state on push.
+            sync_repo_with_remote "${BACKEND_REPO_DIR}" "Backend Repo" "${BACKEND_REPO_REMOTE}" "${BACKEND_REPO_BRANCH}" || {
+                print_message "${RED}" "Failed to sync backend repo. Aborting to prevent editing stale data."
+                return 1
+            }
+            run_python_script remove
+            ;;
+        8)
             print_message "${YELLOW}" "Exiting script."
             exit 0
             ;;
         *)
-            print_message "${RED}" "Invalid option. Please select 1-6."
+            print_message "${RED}" "Invalid option. Please select 1-8."
             sleep 2
             main # Show menu again
             ;;

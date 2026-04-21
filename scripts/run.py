@@ -6,6 +6,7 @@ import csv
 import gzip
 import datetime
 import asyncio
+import argparse
 import re
 from typing import Dict, List, Any, Optional, Set
 from pathlib import Path
@@ -929,9 +930,319 @@ async def process_eml_files(
         print(f"Filtered out {url_filtered_count} papers due to avoid URL domains.")
 
 
+def _ask_yn(prompt: str) -> bool:
+    """Prompt for a y/n answer. Returns True on 'y'."""
+    return input(f"{prompt} (y/n): ").strip().lower() == 'y'
+
+
+def prompt_full_paper_metadata() -> Optional[Dict[str, Any]]:
+    """Prompt the user for all paper fields. Returns metadata dict or None on abort."""
+    print("\nEnter paper details (Ctrl+C to abort):")
+
+    while True:
+        title = input("Title: ").strip()
+        if title:
+            break
+        print("Title is required.")
+
+    while True:
+        year_str = input("Year (4-digit, e.g. 2025): ").strip()
+        if year_str.isdigit() and len(year_str) == 4:
+            year = int(year_str)
+            break
+        print("Year must be a 4-digit integer.")
+
+    authors_input = input("Authors (format: 'First1 Last1, First2 Last2'): ").strip()
+    authors: List[Dict[str, str]] = []
+    if authors_input:
+        for raw in authors_input.split(','):
+            parts = raw.strip().split()
+            if len(parts) >= 2:
+                authors.append({"first_name": " ".join(parts[:-1]), "last_name": parts[-1]})
+            elif len(parts) == 1:
+                authors.append({"first_name": "", "last_name": parts[0]})
+
+    while True:
+        journal = input("Journal: ").strip()
+        if journal:
+            break
+        print("Journal is required.")
+
+    citations_input = input("Citations [0]: ").strip()
+    citations = int(citations_input) if citations_input.isdigit() else 0
+
+    url = input("URL: ").strip()
+
+    print("Abstract (paste multi-line text; press Enter on an empty line to finish):")
+    abstract_lines: List[str] = []
+    while True:
+        line = input()
+        if not line:
+            if abstract_lines:
+                break
+            print("Abstract cannot be empty. Please enter content:")
+            continue
+        abstract_lines.append(line)
+    abstract = "\n".join(abstract_lines).strip()
+
+    return {
+        "title": clean_unicode_text(title),
+        "year": year,
+        "authors": authors,
+        "journal": journal,
+        "citations": citations,
+        "abstract": clean_unicode_text(abstract),
+        "url": url,
+        "date_added": datetime.datetime.now().strftime("%Y-%m-%d"),
+    }
+
+
+def run_manual_mode(data_dir: str) -> None:
+    """Manually enter one or more papers without reading EML files."""
+    os.makedirs(data_dir, exist_ok=True)
+    os.makedirs(os.path.join(data_dir, "databases"), exist_ok=True)
+
+    avoid_journals_path = os.path.join(data_dir, "databases", "csv", "avoid.csv")
+    avoid_keywords_path = os.path.join(data_dir, "databases", "csv", "avoid_keywords.csv")
+    avoid_urls_path = os.path.join(data_dir, "databases", "csv", "avoid_urls.csv")
+    unique_paper_id_path = os.path.join(data_dir, "databases", "csv", "unique_paper_id.csv")
+    unique_journal_path = os.path.join(data_dir, "databases", "csv", "unique_journal.csv")
+    unique_topic_path = os.path.join(data_dir, "databases", "csv", "unique_topic.csv")
+    paper_reviewed_path = os.path.join(data_dir, "databases", "csv", "paper_reviewed.csv")
+
+    avoid_journals = load_csv_to_set(avoid_journals_path, "name")
+    avoid_keywords = load_csv_to_set(avoid_keywords_path, "keyword")
+    avoid_url_all = load_csv_to_set(avoid_urls_path, "pattern")
+    avoid_url_domains, avoid_url_keywords = split_url_patterns(avoid_url_all)
+    unique_paper_ids = load_csv_to_set(unique_paper_id_path, "id")
+    journal_mapping = load_journal_mapping(unique_journal_path)
+    topics = load_csv_to_set(unique_topic_path, "name")
+    reviewed_paper_ids = load_reviewed_papers(paper_reviewed_path)
+    new_reviewed_papers: Set[str] = set()
+
+    selected_papers: List[Dict[str, Any]] = []
+
+    try:
+        while True:
+            print("\n" + "=" * 60)
+            print("Manual paper entry")
+            print("=" * 60)
+
+            paper_metadata = prompt_full_paper_metadata()
+            if paper_metadata is None:
+                if not _ask_yn("Add another paper?"):
+                    break
+                continue
+
+            title = paper_metadata["title"]
+            year = paper_metadata["year"]
+
+            if contains_non_english_chars(title):
+                if not _ask_yn(f"Title has non-English characters: '{title}'. Proceed anyway?"):
+                    if not _ask_yn("Add another paper?"):
+                        break
+                    continue
+
+            title_lower = title.lower()
+            matched_kw = next((kw for kw in avoid_keywords if kw in title_lower), None)
+            if matched_kw:
+                if not _ask_yn(f"Title contains avoid keyword '{matched_kw}'. Proceed anyway?"):
+                    if not _ask_yn("Add another paper?"):
+                        break
+                    continue
+
+            paper_url = paper_metadata.get("url", "")
+            hostname = extract_hostname(paper_url)
+            matched_dom = matches_avoid_domain(hostname, avoid_url_domains)
+            matched_urlkw = matches_url_keyword(paper_url, avoid_url_keywords)
+            if matched_dom:
+                if not _ask_yn(f"URL host '{hostname}' matches avoid domain '{matched_dom}'. Proceed anyway?"):
+                    if not _ask_yn("Add another paper?"):
+                        break
+                    continue
+            elif matched_urlkw:
+                if not _ask_yn(f"URL contains avoid keyword '{matched_urlkw}'. Proceed anyway?"):
+                    if not _ask_yn("Add another paper?"):
+                        break
+                    continue
+
+            paper_id = generate_paper_id(title, str(year))
+
+            if paper_id in unique_paper_ids:
+                print(f"Paper already exists in database (ID: {paper_id}). Skipping.")
+                if not _ask_yn("Add another paper?"):
+                    break
+                continue
+
+            if paper_id in reviewed_paper_ids:
+                if not _ask_yn(f"Paper was reviewed previously (ID: {paper_id}). Add anyway?"):
+                    if not _ask_yn("Add another paper?"):
+                        break
+                    continue
+
+            journal_lower = paper_metadata["journal"].lower()
+            if journal_lower in avoid_journals:
+                if not _ask_yn(f"Journal '{paper_metadata['journal']}' is in avoid list. Proceed anyway?"):
+                    if not _ask_yn("Add another paper?"):
+                        break
+                    continue
+
+            if journal_lower in journal_mapping:
+                print(f"Normalizing journal name from '{paper_metadata['journal']}' to '{journal_mapping[journal_lower]}'")
+                paper_metadata["journal"] = journal_mapping[journal_lower]
+            else:
+                normalize = input(f"New journal encountered. Should modify journal name '{paper_metadata['journal']}'? (y/n): ").lower().strip()
+                if normalize == 'y':
+                    correct_name = input("Enter correct journal name: ").strip()
+                    if correct_name:
+                        journal_mapping[journal_lower] = correct_name
+                        paper_metadata["journal"] = correct_name
+
+            topic = display_topics_for_selection(topics)
+            if topic:
+                paper_metadata["topic"] = [topic]
+                topics.add(topic)
+
+            paper_metadata["id"] = paper_id
+            reviewed_paper_ids.add(paper_id)
+            new_reviewed_papers.add(paper_id)
+            selected_papers.append(paper_metadata)
+            unique_paper_ids.add(paper_id)
+            print(f"Added paper: {paper_metadata['title']}")
+
+            if not _ask_yn("Add another paper?"):
+                break
+    except KeyboardInterrupt:
+        print("\nAborted by user. Saving any pending papers...")
+
+    if selected_papers:
+        current_year = str(datetime.datetime.now().year)
+        year_file = os.path.join(data_dir, "databases", "json", f"{current_year}.json")
+        existing_data = load_json_database(year_file)
+        existing_data["papers"].extend(selected_papers)
+        save_json_database(existing_data, year_file)
+        print(f"Saved {len(selected_papers)} papers to {year_file}")
+
+        compressed_output = os.path.join(data_dir, "databases", "upload", f"{current_year}.json.gz")
+        compress_json_file(year_file, compressed_output)
+
+    save_set_to_csv(avoid_journals, avoid_journals_path, "name")
+    save_set_to_csv(unique_paper_ids, unique_paper_id_path, "id")
+    save_journal_mapping(journal_mapping, unique_journal_path)
+    save_set_to_csv(topics, unique_topic_path, "name")
+
+    if new_reviewed_papers:
+        save_reviewed_papers(new_reviewed_papers, paper_reviewed_path)
+        print(f"Saved {len(new_reviewed_papers)} reviewed papers to {paper_reviewed_path}")
+
+    print("\nManual entry complete!")
+
+
+def run_remove_mode(data_dir: str) -> None:
+    """Remove a paper from the database (mistakenly added entries)."""
+    json_dir = os.path.join(data_dir, "databases", "json")
+    upload_dir = os.path.join(data_dir, "databases", "upload")
+    unique_paper_id_path = os.path.join(data_dir, "databases", "csv", "unique_paper_id.csv")
+
+    if not os.path.isdir(json_dir):
+        print(f"No JSON directory at {json_dir}. Nothing to remove.")
+        return
+
+    unique_paper_ids = load_csv_to_set(unique_paper_id_path, "id")
+    ids_changed = False
+
+    try:
+        while True:
+            year_files = sorted(p.stem for p in Path(json_dir).glob("*.json"))
+            if not year_files:
+                print("No database files found to remove from.")
+                break
+
+            print("\n" + "=" * 60)
+            print("Remove paper from database")
+            print("=" * 60)
+            print("Available database files:")
+            for i, y in enumerate(year_files, 1):
+                print(f"  {i}. {y}.json")
+
+            pick = input(f"\nPick file (1-{len(year_files)}), or 'q' to quit: ").strip()
+            if pick.lower() == 'q':
+                break
+            if not pick.isdigit() or not (1 <= int(pick) <= len(year_files)):
+                print("Invalid selection.")
+                continue
+            year_str = year_files[int(pick) - 1]
+            year_file = os.path.join(json_dir, f"{year_str}.json")
+
+            data = load_json_database(year_file)
+            papers = data.get("papers", [])
+            if not papers:
+                print(f"{year_file} has no papers.")
+                if not _ask_yn("Remove another?"):
+                    break
+                continue
+
+            print(f"\nPapers in {year_str}.json:")
+            for i, p in enumerate(papers, 1):
+                title = p.get("title", "<no title>")
+                added = p.get("date_added", "?")
+                display_title = title if len(title) <= 80 else title[:77] + "..."
+                print(f"  {i}. [{added}] {display_title}")
+
+            pick = input(f"\nPick paper to remove (1-{len(papers)}), or 'q' to cancel: ").strip()
+            if pick.lower() == 'q':
+                if not _ask_yn("Remove another?"):
+                    break
+                continue
+            if not pick.isdigit() or not (1 <= int(pick) <= len(papers)):
+                print("Invalid selection.")
+                continue
+
+            idx = int(pick) - 1
+            paper = papers[idx]
+
+            print("\n" + "-" * 60)
+            print(f"  Title:   {paper.get('title', '')}")
+            print(f"  Journal: {paper.get('journal', '')}")
+            print(f"  Year:    {paper.get('year', '')}")
+            print(f"  Added:   {paper.get('date_added', '')}")
+            print(f"  ID:      {paper.get('id', '')}")
+            print("-" * 60)
+
+            if not _ask_yn("Remove this paper?"):
+                print("Not removed.")
+            else:
+                paper_id = paper.get("id")
+                del papers[idx]
+                data["papers"] = papers
+                save_json_database(data, year_file)
+                print(f"Removed from {year_file}.")
+
+                compressed_output = os.path.join(upload_dir, f"{year_str}.json.gz")
+                compress_json_file(year_file, compressed_output)
+
+                if paper_id and paper_id in unique_paper_ids:
+                    unique_paper_ids.discard(paper_id)
+                    ids_changed = True
+                    print(f"Removed paper_id {paper_id} from unique_paper_id.csv")
+                # paper_reviewed.csv is intentionally left untouched so a
+                # mistakenly-removed paper is not re-ingested from future EMLs.
+
+            if not _ask_yn("Remove another?"):
+                break
+    except KeyboardInterrupt:
+        print("\nAborted by user.")
+
+    if ids_changed:
+        save_set_to_csv(unique_paper_ids, unique_paper_id_path, "id")
+        print(f"Updated {unique_paper_id_path}")
+
+    print("\nRemove operation complete.")
+
+
 async def main():
     """Main entry point."""
-    
+
     # Define directories
     eml_dir = "../data/eml"
     data_dir = "../data"
@@ -956,6 +1267,25 @@ async def main():
         gc.collect()                  # run all finalisers *now*      
 
 if __name__ == "__main__":
-    import nodriver as uc          # ← get Nodriver’s global loop
-    loop = uc.loop()               # ← the loop Nodriver already uses
-    loop.run_until_complete(main())
+    parser = argparse.ArgumentParser(description="Paper Explorer processor.")
+    parser.add_argument(
+        "--mode",
+        choices=["eml", "manual", "remove"],
+        default="eml",
+        help="Operation mode: 'eml' (default, read EML files and scrape), "
+             "'manual' (manually enter paper details, no EML), "
+             "'remove' (delete a paper added by mistake).",
+    )
+    args = parser.parse_args()
+
+    data_dir = "../data"
+    eml_dir = "../data/eml"
+
+    if args.mode == "manual":
+        run_manual_mode(data_dir)
+    elif args.mode == "remove":
+        run_remove_mode(data_dir)
+    else:
+        import nodriver as uc          # ← get Nodriver’s global loop
+        loop = uc.loop()               # ← the loop Nodriver already uses
+        loop.run_until_complete(main())
