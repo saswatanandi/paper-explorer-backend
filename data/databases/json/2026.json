@@ -1033,6 +1033,341 @@
       "topic": [
         "ecohydrology"
       ]
+    },
+    {
+      "title": "Cumulative effects of forest fuel reduction and restoration treatment regimes on horizontal and vertical structure in the Sierra Nevada",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "SP",
+          "last_name": "Reilly"
+        },
+        {
+          "first_name": "BM",
+          "last_name": "Collins"
+        },
+        {
+          "first_name": "JJ",
+          "last_name": "Battles"
+        },
+        {
+          "first_name": "RA",
+          "last_name": "York"
+        },
+        {
+          "first_name": "SL",
+          "last_name": "Stephens"
+        }
+      ],
+      "journal": "Forest Ecology and Management",
+      "citations": 0,
+      "abstract": "In forests adapted to frequent fire, fuel treatments aim to restore resilience by disrupting the horizontal and vertical fuel continuity that drives catastrophic crown fires. Although foundational, traditional plot-scale measurements cannot capture the continuous structural patterns that influence fire behavior at stand or landscape spatial scales. Airborne laser scanning (ALS) can be a useful tool for characterizing these patterns beyond the plot scale. In this study, we evaluated the stand-scale effects of mechanical thinning (Mech), prescribed fire (Fire), and their combined application (Mech + Fire) at the Blodgett Forest Fire and Fire Surrogate (FFS) site in the Sierra Nevada, California, USA. Using wall-to-wall ALS metrics, we quantified vertical fuel continuity, canopy height distributions, spatial tree clustering, canopy gap extent, and internal gap structure (regeneration height and vertical complexity). Relative to untreated controls, all active treatment regimes reduced vertical fuel continuity. Fire and Mech + Fire treatments produced broad reductions, while Mech reduced overall load but retained localized high-continuity pockets. Mech + Fire uniquely expanded canopy gap extent and reduced gap height while preserving dominant overstory height. Fire increased within-gap heterogeneity but reduced maximum canopy height by > 3 m. Mech did not significantly increase gap extent or meaningfully alter canopy conditions. Tree clustering patterns remained similar to Control across all treatments. These results provide new stand-scale information that extends decades of plot-based FFS findings, demonstrating that combining fire with mechanical harvest treatments most effectively disrupts vertical and horizontal continuity.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378112726002884",
+      "date_added": "2026-04-29",
+      "id": "c608f1d6ca01ac30172f53daa30cd6ce",
+      "topic": [
+        "forest"
+      ]
+    },
+    {
+      "title": "A hybrid machine learning and optimal stomatal behavior model to reveal the role of vegetation dynamics in potential evapotranspiration and drought",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "W",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Ma"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Xi"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Tsunekawa"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Potential evapotranspiration (PET) is a key component of the terrestrial water cycle, and its estimation accuracy directly affects the reliability of drought monitoring. The FAO56 Penman-Monteith method is widely regarded as a standard PET model in drought monitoring. However, it employs a static, non-water-limited canopy resistance parameter (r c N W L), which fails to fully capture the regulatory effects of vegetation on PET and drought. In this study, we investigated the canopy resistance (r c) models from empirical, process-based, machine learning, and physically constrained machine learning approaches based on worldwide eddy flux data and remote sensing data to simulate dynamic r cNWL, aiming to build up a PET model that accounts for vegetation dynamics and hence represents drought realistically. The results indicated that the hybrid machine learning and optimal stomatal behavior (r c-U S O-M L) is the best model to simulate dynamics of canopy conductance behavior (highest Global Performance Indicator, GPI), as r c-U S O-M L model significantly outperforming traditional empirical (r c-J a r v i s) and process-based (r c-U S O-L i n) models. Following the PET assumption, we formulated the PET r cNWL-U S O-M L model by removing the soil water stress on r c-U S O-M L. Compared with conventional PET models, the PET r cNWL-U S O-M L model more accurately reproduced observed PET (R 2> 0.85, RMSE< 0.66 mm/day), and showed stronger increasing trends in PET and drought characteristics. Notably, in the arid regions of northwest China, neglecting vegetation dynamics led to an underestimation of increasing trends in drought duration, severity, and intensity by 74%, 51%, and 23%, respectively. Overall, this study highlighted the necessity of fully accounting for the integrated effects of vegetation physiology in drought monitoring and future risk assessments.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426005433",
+      "date_added": "2026-04-29",
+      "id": "d7b01d4b9de5b717788c38fcbbfe8bfc",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "A physically based neural network for flood routing: The Muskingum-Recurrent neural network",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Z",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Sun"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Wei"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Flood routing is crucial for effective flood forecasting and control, for which the Muskingum method provides a simple and robust solution with clear physical mechanisms. Recently, data-driven models have been widely applied in this field; however, their lack of underlying physical foundations raises interpretability concerns and risks of violating water mass conservation, which ultimately limits their generalizability and transferability to ungauged basins or extreme flood events. This study addresses this gap by developing a Muskingum-Recurrent Neural Network (MRNN) that integrates the Muskingum routing equations into RNN’s internal structure, with Muskingum coefficients defining the network’s weights. Unlike soft-constraint approaches, MRNN enforces mass conservation as a hard architectural constraint. We validated MRNN through three complementary stages. The first stage on artificial channels demonstrates that MRNN requires far fewer parameters than ANN, RNN, and LSTM, yet achieves faster convergence, while preserving water mass balance with orders of magnitude less water loss. The second stage on classical benchmark floods shows that MRNN achieves lower MSE than most of existing Muskingum parameter optimization methods. The third stage on floods in Village Creek shows that MRNN achieves a higher pass rate than these three networks, with peak timing errors consistently within one hour. Robustness tests reveal that when the training set is reduced from 80% to 20%, MRNN exhibits substantially smaller degradation in Nash-Sutcliffe Efficiency than these three networks. The results demonstrate that embedding physical equations into neural network architecture provides a powerful paradigm for developing interpretable, data-efficient, and physically consistent flood routing models.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426005007",
+      "date_added": "2026-04-29",
+      "id": "1c9cc2deb5e1e46e7dddb3c1fa7b69af",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "A global dataset of reservoir in-situ water levels for hydrological and remote sensing applications",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "M",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Song"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Liang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Xie"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        }
+      ],
+      "journal": "Scientific Data",
+      "citations": 0,
+      "abstract": "Reservoirs are fundamental to global water security, and their monitoring increasingly relies on satellite remote sensing. However, the absence of a unified, large-scale in-situ dataset has hindered robust validation and inter-comparison of remote sensing algorithms. To address this gap, we developed the Global Reservoir Observed Water Levels (GROWL) dataset by systematically compiling publicly available in-situ water level and storage time series from global, national, and regional sources. All records were processed through a harmonized workflow involving unit standardization and multi-stage quality control. To enhance spatial coverage, altimeter-based water level data were incorporated and cross-validated against in-situ observations. The final GROWL dataset comprises 4,134 long-term time series, including 3,154 in-situ station records, 973 satellite altimetry-derived records, and 7 literature-based records. Among these, 77% are provided at daily temporal resolution and 23% at monthly resolution. Most reservoirs have record lengths of 5-40 years (with a mean of 28 years). GROWL provides a crucial benchmark for calibrating and validating satellite-based reservoir monitoring algorithms and hydrological models, as well as for supporting reservoir-related deep learning algorithms, thereby fostering reproducible science and accelerating progress in the Earth observation and water resources communities.",
+      "url": "https://www.nature.com/articles/s41597-026-07091-9",
+      "date_added": "2026-04-29",
+      "id": "ea94900393390cff7e608b8634520831",
+      "topic": [
+        "data_sources"
+      ]
+    },
+    {
+      "title": "Large overestimation of projected western US wildfire burned forest area with warming",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Cheng"
+        },
+        {
+          "first_name": "KA",
+          "last_name": "McColl"
+        },
+        {
+          "first_name": "LJ",
+          "last_name": "Mickley"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Feng"
+        }
+      ],
+      "journal": "AGU Advances",
+      "citations": 0,
+      "abstract": "Wildfires are projected to increase with warming in the western United States. Since vapor pressure deficit (VPD) is highly correlated with wildfire burned area historically, many studies have argued that large projected increases in VPD with warming imply large increases in burned area. Here, we argue that those projections are overestimated by as much as an order-of-magnitude. First, we show that both soil moisture and VPD are well correlated with historical burned forest area. Second, we demonstrate that projected changes in VPD with warming are much larger than those in soil moisture, leading to wildly divergent projections of burned forest area: with 3 K (4 K) of warming relative to pre-industrial, the VPD-based projection is about 16 (66) times the historical burned area, whereas the soil moisture-based projection is only 2 (3) times the historical burned area. A similar divergence arises in more complex models that include VPD as only one of many explanatory variables. Third, we argue that the VPD-based projections are incorrect. VPD is used as a measure of atmospheric evaporative demand, but recent advances have demonstrated that VPD and related quantities are actually poor measures of atmospheric evaporative demand and overstate projected drying with warming. We conclude that the rate at which wildfire burned forest area will increase with warming has been greatly overestimated by some studies.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2026AV002350",
+      "date_added": "2026-04-29",
+      "id": "222249febbf0e8ba198c2679de0b1ae3",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "Spatial and temporal changes in wildfires and their attributes across the western United States",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "A",
+          "last_name": "Montazeri"
+        },
+        {
+          "first_name": "JT",
+          "last_name": "Abatzoglou"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Prestemon"
+        },
+        {
+          "first_name": "KC",
+          "last_name": "Short"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Belval"
+        },
+        {
+          "first_name": "ZA",
+          "last_name": "Holden"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Pierce"
+        },
+        {
+          "first_name": "JL",
+          "last_name": "Mead"
+        }
+      ],
+      "journal": "Environmental Research Letters",
+      "citations": 0,
+      "abstract": "It is widely perceived that wildfire activity has increased across the western United States (WUS), with studies generally focusing on large wildfires. This study examines changes in the number of wildfire ignitions and burned area in the WUS using a comprehensive record of more than 750,000 wildfire incidents from 1992 to 2020 across biophysical gradients, seasons, and ignition causes. It further analyzes the environmental conditions associated with elevated fire activity. Our analysis comparing the periods 1992-2006 and 2007-2020 indicates that the annual number of recorded wildfires (>0.04 ha) in the WUS declined by 31% despite a 40% increase in burned area. This finding denotes that although wildfire prevention and mitigation strategies have decreased the overall number of fires, environmental conditions promoted larger fire sizes. Burned area increased in both forested and non-forested areas and across human- and naturally-ignited fires, with the greatest increase (84%) observed in lightning-caused forest fires. The seasonality of natural ignitions remained largely unchanged from 1992-2020, whereas the average day of year of ignition for human-caused wildfires shifted >12 days earlier (statistically significant), driven by an increasing number of springtime ignitions across the WUS. Ignitions increasingly occurred on days with abnormally drier-hotter weather compared to their climatology. Our analysis also showed that the median Energy Release Component (ERC) activation threshold associated with wildfire ignitions was ~42 (interquartile range, IQR: 34-50 across ecoregions). Activation threshold refers to the fire danger level beyond which the number of ignitions increases markedly. This threshold for fire size area was ~50 (IQR: 43-60). Findings of this study provide critical information for the development of wildfire prevention and mitigation strategies.",
+      "url": "https://iopscience.iop.org/article/10.1088/1748-9326/ae58c0/meta",
+      "date_added": "2026-04-29",
+      "id": "310be1ca03a5b295c75f172c3847d34e",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "Multi-indicator assessment to assess the increasing impacts of compound dry and hot events on global wheat yield",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Hu"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Skalsky"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Folberth"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Shi"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "In a warming climate, the co-occurrence of drought and heat events increasingly threatens the global wheat yield and food security. However, changes in compound dry and hot events (CDHEs) during the global wheat growing season and their impacts on yield remain largely unknown. Using daily ERA5 reanalysis data, multiple drought indicators including the standardized precipitation index, standardized precipitation evapotranspiration index, standardized soil moisture index (SSI), and heat indicators the standardized temperature index and standardized soil temperature index (SSTI), are compared to assess the evolution of CDHEs and their impacts on wheat yield in major wheat-producing regions (1981-2020). The results indicate significant increases in the frequency, duration, and intensity of global CDHEs, with the most pronounced increases experienced in arid and semiarid regions (Eastern Europe, Central Asia, and Turkey). SSI-SSTI was most sensitive to frequency changes, SPEI-SSTI best captured intensity and duration, and SPI-STI provided conservative estimates. These trends reflect regional hydrothermal conditions, land-atmosphere interactions, and agricultural management. When CDHEs account for more than 10% of the growing season, over 70% of wheat areas experienced negative yield anomalies with an average anomaly of −6.3%; Canada, Australia, and Central Asia were severely impacted, whereas highly irrigated regions (e.g., China and India) were less impacted. Indicator combinations incorporating evapotranspiration and soil moisture (SPEI-SSTI, SSI-SSTI) were most strongly correlated with yield anomalies, highlighting their effectiveness for compound stress detection. This study emphasizes the importance of multi-indicator assessments and regional adaptations for developing climate-resilient agricultural strategies.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025EF007084",
+      "date_added": "2026-04-29",
+      "id": "428492ca508274ccefad5c6da4523a58",
+      "topic": [
+        "crop"
+      ]
+    },
+    {
+      "title": "How Much Does Snow Accumulated Over the Winter Affect Spring Floods, and Does Its Contribution Change?",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "A",
+          "last_name": "Gelfan"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Frolova"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Kalugin"
+        },
+        {
+          "first_name": "V",
+          "last_name": "Moreido"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Varentsova"
+        }
+      ],
+      "journal": "Hydrological Processes",
+      "citations": 0,
+      "abstract": "There is significant evidence that seasonal snow mass, snow cover extent, and snow season duration are consistently decreasing in many lowland rivers in the Northern Hemisphere, often accompanied by a decrease in the magnitude of snowmelt floods (freshets). This paper explores to what extent snow accumulated in a river basin during winter affects subsequent freshet and if the ongoing decrease in runoff is due to a decrease in snow. We analysed maximum annual snow water equivalent (pre-melt SWE) and freshet runoff data for 20 river basins located in different physiographic conditions within the East European Plain in 1951-2019. For this analysis, we developed a new method for assessing the pre-melt SWE contribution to freshet runoff as a product of two physically meaningful indicators named ‘variability ratio index’ and ‘elasticity index’. First, we demonstrated that downward trends in both pre-melt SWE and freshet runoff occurred and were more noticeable in the more southern, less forested, and mid-area basins. Then, using the developed method, we assessed to what extent the pre-melt SWE contributes to the detected runoff changes and how this contribution evolves in time. The main conclusions of our study are as follows. It was found that for the entire period, the pre-melt SWE variation was not the dominant freshet variance contributor (25% on average). Also, we revealed that in a half of the river basins, SWE contribution to runoff has decreased in the recent decades compared with the baseline period (1951-1990), and this decline is mostly associated with a decrease in the elasticity index. Overall, we found that the SWE variability was not the dominant factor in snowmelt runoff changes in the vast territory under consideration over a 69-year period. The result indicates the ambiguity of the relationship between the warming-induced reduction in SWE and decrease in snowmelt runoff.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hyp.70531",
+      "date_added": "2026-04-29",
+      "id": "fbcb065775453efaf72cda9d1f29054d",
+      "topic": [
+        "snow"
+      ]
+    },
+    {
+      "title": "Data-driven estimation of time-variable catchment transit time distributions",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Q",
+          "last_name": "Duchemin"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Miazza"
+        },
+        {
+          "first_name": "JW",
+          "last_name": "Kirchner"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Benettin"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Transit Time Distributions (TTDs) are widely used to summarize catchment behavior and are useful for understanding solute transport processes. Most methods for estimating TTDs from tracer data involve imposing strong model assumptions, which may affect the results. On the other hand, the development of data-driven approaches has been severely limited by the small size of tracer data sets. Here, we introduce a novel data-driven model for estimating TTDs, integrating concepts from traditional TTD modeling, survival analysis, and mixture models. The model leverages both hydrologic and tracer data to infer time-variable TTDs. We validate the model using virtual benchmark data sets designed to reflect realistic flow and transport dynamics. Results show that the model's tracer data requirements are met by existing long-term monitoring campaigns or high-frequency in situ measurements. Our findings highlight the potential of data-driven methods to enhance TTD estimation and offer new opportunities for advancing catchment-scale understanding of flow and transport processes.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR042835",
+      "date_added": "2026-04-29",
+      "id": "00bc8fcc0f9472a3260e4faedf4f410e",
+      "topic": [
+        "hydrological_modelling"
+      ]
     }
   ]
 }
