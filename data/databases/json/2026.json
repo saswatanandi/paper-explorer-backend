@@ -1368,6 +1368,41 @@
       "topic": [
         "hydrological_modelling"
       ]
+    },
+    {
+      "title": "How Will Higher Interannual Precipitation Variability Intensify Water Stress Under a Drying Climate?",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Hongxing",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "Francis",
+          "last_name": "Chiew"
+        },
+        {
+          "first_name": "David",
+          "last_name": "Post"
+        },
+        {
+          "first_name": "David",
+          "last_name": "Robertson"
+        },
+        {
+          "first_name": "Steve",
+          "last_name": "Charles"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Climate change is expected to alter both the mean and variability of precipitation. Hydrological consequences of higher precipitation variability remain less understood than that induced by changes in precipitation mean. This study evaluates the combined effects of changes in annual precipitation mean and variability on runoff and water supply system across south-east Australia (SEA) through sensitivity experiments and hydrological projections informed by climate change signals from global climate models. Runoff is modeled using three rainfall-runoff models and water supply system performance is modeled using a concatenated behavior analysis of a virtual reservoir, using climate and streamflow data from 392 catchments across the region. The results show that annual runoff variability will increase but by less than the increase in precipitation variability due to the effects of catchment storage. The higher annual runoff variability will reduce water supply reliability. The impact on regulated systems is smaller as there are storages to buffer the variability in inflow. This is particularly so in this region, which will be much more influenced by the significant projected decline in rainfall and runoff. Median projections, for ∼2060 relative to ∼1990, from hydrological modeling informed by change signals from climate models indicate that mean annual runoff will decline by 18% in the southern part of the region and by 6% in the northern part, and the reliability of water supply systems will fall by 13% and 7% in the south and north respectively.",
+      "url": "https://doi.org/10.1029/2025WR042767",
+      "date_added": "2026-05-15",
+      "topic": [
+        "hydrological_modelling"
+      ],
+      "id": "f477e8e183aa765fbe951a1f46f5e648"
     }
   ]
 }
