@@ -1434,6 +1434,61 @@
       "topic": [
         "statistics-big-data"
       ]
+    },
+    {
+      "title": "Characteristics of snow drought in China and its propagation mechanism to agricultural drought",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "P",
+          "last_name": "Xue"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yue"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Qi"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Ding"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Shi"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "MA",
+          "last_name": "Faiz"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Chen"
+        }
+      ],
+      "journal": "Agricultural Water Management",
+      "citations": 0,
+      "abstract": "AbstractSnow water resources constitute a significant component of water resources, providing abundant water for ecosystems and human survival. In recent years, global warming has led to a reduction in global snowfall and frequent occurrences of snow droughts (SD). However, research on the evolution, propagation characteristics, and driving mechanisms of snow drought remains relatively limited. Therefore, this study focuses on the four major snow cover regions in China-Northeast China (NE), Eastern Inner Mongolia (IM), Northwest China (NW), and the Qinghai Tibetan Plateau (QTP)-to analyze the spatiotemporal distribution characteristics and propagation relationships between SD and agricultural droughts (AD) in these regions. Additionally, it identifies the main driving factors of SD and AD in different snow cover regions. The specific research findings are as follows: (1) The overall frequency of SD was higher than that of AD, with the NW region exhibiting the highest frequency of moderate and severe SD, and the NE region showing the highest frequency of extreme SD. (2) A clear causal relationship exists between SD and AD, strongest in the NW, followed by the QTP and NE, and weakest in IM. (3) The propagation from SD to AD showed notable regional differences: the response and propagation time were longest in IM and shortest in the QTP, while the propagation threshold was highest in the QTP and lowest in the NW, indicating that the soil moisture system in the QTP is relatively more resistant to SD. (4) The primary driving factor of SD is snow depth, while the primary driving factors of AD vary by region: snowmelt water in NE, evaporation in IM, snow depth in NW, and evaporation in the QTP. The research findings hold significant importance for regional water resource management and the development of drought prevention and control strategies.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377426002830",
+      "date_added": "2026-06-16",
+      "id": "878f70fd31283aed83958c369258ed66",
+      "topic": [
+        "drought"
+      ]
     }
   ]
 }
