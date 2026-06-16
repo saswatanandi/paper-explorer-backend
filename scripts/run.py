@@ -362,9 +362,19 @@ def load_json_database(file_path: str) -> Dict:
     return {"papers": []}
 
 def save_json_database(data: Dict, file_path: str):
-    """Save data to a JSON file."""
-    with open(file_path, 'w', encoding='utf-8') as f:
+    """Save data to a JSON file atomically.
+
+    Writes to a temporary file in the same directory and then atomically
+    replaces the target. This guarantees the destination is always either
+    the complete old file or the complete new file, never a half-written
+    (corrupt) file if the process is interrupted mid-write.
+    """
+    tmp_path = f"{file_path}.tmp"
+    with open(tmp_path, 'w', encoding='utf-8') as f:
         json.dump(data, indent=2, ensure_ascii=False, fp=f)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp_path, file_path)
 
 def format_authors_for_storage(authors_list: List[str]) -> List[Dict[str, str]]:
     """Format a list of author strings into structured author objects."""

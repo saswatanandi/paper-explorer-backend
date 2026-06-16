@@ -1405,35 +1405,17 @@
       "id": "f477e8e183aa765fbe951a1f46f5e648"
     },
     {
-      "title": "Divergent effects of natural and socioeconomic drivers on water use in China from 2000 to 2022",
+      "title": "How extreme are transitions in streamflow? A conditional probability approach",
       "year": 2026,
       "authors": [
         {
-          "first_name": "T",
-          "last_name": "Zhao"
+          "first_name": "BJ",
+          "last_name": "Anderson"
         },
         {
-          "first_name": "W",
-          "last_name": "Wang"
+          "first_name": "Maybritt",
+          "last_name": "Schillinger"
         },
         {
-          "first_name": "X",
-          "last_name": "Yan"
-        },
-        {
-          "first_name": "F",
-          "last_name": "Guo"
-        }
-      ],
-      "journal": "Journal of Hydrology",
-      "citations": 0,
-      "abstract": "AbstractThe uneven distribution and imbalance between supply and demand of water resources in China pose serious challenges to sustainable socioeconomic development. This study examined the spatiotemporal dynamics of total water use (WU at the national scale, area-normalized as WU/A at the provincial scale), per capita water use (WU/C), and water use per 10,000 yuan of GDP (WU/G) at both the national and provincial scales from 2000 to 2022. A random forest regression model combined with the SHAP framework was applied to assess relative importance and contributions of natural factors (annual precipitation, annual mean temperature, and NDVI) and socioeconomic factors (cropland proportion, built-up land proportion, secondary industry proportion, population density, and GDP per capita) for each water use indicator. The results show that, at the national scale, population density, built-up land proportion, and NDVI are the dominant drivers of WU, WU/C, and WU/G. Economic factors dominate water use in most provinces, with built-up land proportion and population density exerting a negative impact on WU/G, whereas their effects on WU/A and WU/C vary regionally. For WU/C, provinces driven by both natural and socio-economic factors have a wider distribution. In contrast, WU/G is not dominated by natural factors in any province. These findings improve understanding of how natural and socioeconomic drivers affect water use patterns and provide a scientific basis for developing region-specific strategies for improving water-use efficiency.",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426008176",
-      "date_added": "2026-06-16",
-      "id": "ce4f5dacc810fbe615c22b4662d0c4af",
-      "topic": [
-        "statistics-big-data"
-      ]
-    }
-  ]
-}
+          "first_name": "Eduardo",
+          "last_name": 
