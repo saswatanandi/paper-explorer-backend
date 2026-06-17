@@ -1489,6 +1489,61 @@
       "topic": [
         "drought"
       ]
+    },
+    {
+      "title": "Young water proportion characteristics and influencing factors of large-scale basins: insights from long-term and high-frequency water sampling",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhan"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Xia"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Rao"
+        },
+        {
+          "first_name": "X",
+          "last_name": "He"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Xiao"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Climate change has increased extreme weather events, making understanding river response vital for water management. This study conducted a 15-year daily and 5-day sampling of precipitation and river water in Changsha from 2010 to 2025. By integrating in-situ isotopic measurements with hydrometeorological data from the Xiangjiang River Basin (XRB), isoGSM2-simulated precipitation, we applied multiple methods to estimate the young water fraction (F yw ) and assessed uncertainties. The results indicated that: (1) The XRB experienced warming and drying trends, leading to isotopically enriched river water due to enhanced evaporative fractionation within the basin storage water. (2) Our resampling experiment revealed that standard monthly sampling introduced over two-fold uncertainty in the estimations of F yw compared to the 5-day sampling. Long-term high-frequency sampling is thus essential for constraining model uncertainty. (3) Influenced by precipitation, F yw ( Q ) estimated for high-discharge intervals demonstrated higher accuracy (e.g., 90-95%, 95-100%, and Top 2.5%, with adjusted R 2 of 0.66, 0.66, and 0.71, respectively). This result provided direct empirical evidence for an efficient young water transport process in the XRB during heavy precipitation events. (4) Global synthesis indicated that in humid monsoon regions, the F yw is primarily driven by precipitation intensity. Short-duration heavy precipitation activates transient preferential flow pathways, allowing young water to bypass the large and older water storage in larger basins. This mechanism explains why, in large monsoon basins during wet years, the observed F yw at a higher level than expected. Overall, this study identifies the impact of changes in hydrometeorological factors on F yw within the XRB.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426007122",
+      "date_added": "2026-06-17",
+      "id": "a7d6234b83874df67e8d2aaee3d41512",
+      "topic": [
+        "ecohydrology"
+      ]
     }
   ]
 }
