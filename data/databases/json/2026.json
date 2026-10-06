@@ -1544,6 +1544,947 @@
       "topic": [
         "ecohydrology"
       ]
+    },
+    {
+      "title": "The origins and physical drivers of moisture transport anomalies during monsoon season droughts in the Yangtze River Valley",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "R",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Gu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Guan"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Kong"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Hao"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Gulakhmadov"
+        },
+        {
+          "first_name": "JA",
+          "last_name": "Marengo"
+        }
+      ],
+      "journal": "Journal of Hydrometeorology",
+      "citations": 0,
+      "abstract": "The Yangtze River Valley (YRV) experienced four monsoon season droughts (MSDs) that occurred in the monsoon season, i.e., July-September) from 1950 to 2022, causing severe losses to the society and economy. However, the sources and physical drivers of moisture deficits linked to these MSDs are unclear. Using a land-atmosphere water balance framework, we found that the atmospheric moisture deficits over the YRV during MSDs stem from reduced precipitation and elevated evapotranspiration, with the reduction in the precipitation component contributed by advected moisture explaining 92.7% of the total precipitation decrease. From a Lagrangian perspective, moisture deficits over the YRV during MSDs mainly arise from weakened moisture supply along the moisture transport channels from the northern Indian Ocean, the South China Sea, and the northwestern Pacific Ocean, with event-specific moisture source regions and anomalous circulation patterns governing the deficits. The decreased moisture transport to YRV is dominated by the atmospheric dynamic process associated with the wind changes (86.5% of moisture deficits), especially for the wind divergence process (68.7%). This dynamic-linked moisture transport decreases with -0.24×10 −5 kg·m −2 ·s −1 per decade during 1950-2022, suggesting a rising occurrence risk of MSDs. This calls for proactive management to address potential drought risks and ensure sustainable water resources during the monsoon season in YRV.",
+      "url": "https://journals.ametsoc.org/view/journals/hydr/aop/JHM-D-25-0086.1/JHM-D-25-0086.1.xml",
+      "date_added": "2026-10-05",
+      "id": "d6f6d46ba3760d83826280d3730c09b2",
+      "topic": [
+        "atmosphere"
+      ]
+    },
+    {
+      "title": "Unraveling the Effects of Univariate and Multivariate Signal Decomposition Techniques on Daily Reference Evapotranspiration Forecasting",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "SS",
+          "last_name": "Kivi"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Lee"
+        },
+        {
+          "first_name": "SM",
+          "last_name": "Bateni"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Deenik"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Jun"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Kim"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Jamei"
+        }
+      ],
+      "journal": "Computers and Electronics in Agriculture",
+      "citations": 0,
+      "abstract": "Reference evapotranspiration (ET o ) forecasting is crucial for irrigation planning and effective management of water resources. To our knowledge, this study is the first to investigate the role of multiple univariate and multivariate decomposition techniques in ET o forecasting. Specifically, three signal decomposition methods were integrated with the extreme gradient boosting (XGBoost) machine learning model: two univariate approaches, time-varying filter empirical mode decomposition (TVF-EMD) and variational generalized nonlinear mode decomposition (VGNMD), and one multivariate approach, multivariate variational mode decomposition (MVMD). These hybrid models were employed to forecast ET o at lead times of 1, 3, 7, and 10 days using data from three climatic stations in California from 2015 to 2025. Additionally, a novel ridge-regression-based stacking ensemble framework was developed to further enhance predictive performance by integrating the predictions of the three hybrid models: MVMD-XGBoost, TVF-EMD-XGBoost, and VGNMD-XGBoost. Comprehensive evaluations across all monitoring stations and forecast horizons revealed that each decomposition-based hybrid model substantially outperformed the standalone XGBoost model. Among them, MVMD-XGBoost consistently achieved the greatest reductions in RMSE, with improvements of 24%, 29%, and 39% at the King City-Oasis Rd., McArthur, and Sanel Valley stations, respectively. Building on this performance, the stacking ensemble model further reduced RMSE by approximately 17%, 9%, and 4% relative to MVMD-XGBoost at the corresponding stations. Overall, the ensemble approach achieved total RMSE reductions of approximately 37%, 35%, and 42% compared with the standalone XGBoost model at the King City-Oasis Rd., McArthur, and Sanel Valley stations, respectively. These results demonstrate the effectiveness of multivariate decomposition and ensemble learning in improving ET o forecasting under the climatic conditions and data configurations examined in this study. Nevertheless, further validation across a wider range of climatic regions and under varying data-availability conditions is required before the proposed framework can be generalized to broader operational applications.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168169926010495",
+      "date_added": "2026-10-05",
+      "id": "c3831ef9263dd3088832008356ddded4",
+      "topic": [
+        "frequency-analysis"
+      ]
+    },
+    {
+      "title": "Unearthing dominant controls of precipitation-streamflow interaction using information theory and explainable AI in large-sample hydrology",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "SSS",
+          "last_name": "Nandikanti"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Rathinasamy"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Understanding the interaction between precipitation (P) and streamflow (Q) across different hydrological regions is essential for the comprehensive interpretation of the catchment’s behaviour. The present study quantifies the strength of the P-Q interaction using the information-theoretic metric Transfer Entropy (TE) across the Conterminous United States. Daily precipitation, streamflow and 38 other variables related to hydrologic, climatic, soil and vegetation characteristics for 554 catchments were analysed. To identify the dominant factors influencing the TE values at the continental and regional scales, Shapley Additive Explanations (SHAP) were employed. The Conterminous US is delineated into homogeneous regions using the Gaussian Mixture Model clustering technique, using TE values and the continental-scale dominant factors as input attributes. The dominant factors governing the P-Q interaction at each cluster are also determined. The results exhibit that the spatial variability in TE is delineated into eight distinct regimes, with the lowest and Highest P-Q interactions observed in mountainous snow-dominated regions and humid catchments, respectively, indicating the dominance of storage components and rainfall, respectively. The SHAP analysis further reveals that the combination of variables regulates P-Q interactions across clusters, with runoff timing, flow signatures, vegetation dynamics, and snow fraction emerging as important controls in different regions. Overall, the findings demonstrate that P-Q interactions vary systematically across hydroclimatic settings and are governed by region-specific combinations of climatic, hydrologic, and physiographic factors.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426015957",
+      "date_added": "2026-10-05",
+      "id": "9df3363de8282f17a35868dd45c6d8be",
+      "topic": [
+        "streamflow"
+      ]
+    },
+    {
+      "title": "Regionalization of mountainous catchments in China for flash floods based on natural and anthropogenic disaster-causing factors",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Tian"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Duan"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "China experiences frequent flash flood disasters due to its extensive mountainous terrain and complex monsoon climate, posing serious threats to lives and property. Existing national-scale flash flood regionalization studies are limited by insufficient evaluation of regionalization effectiveness, a lack of validation using historical flash flood disasters and inadequate consideration of anthropogenic influences. To address these limitations, a regionalization method based on multiple natural and anthropogenic disaster-causing factors was developed. A total of 88,006 small mountainous catchments across China were regionalized to identify areas with similar environments for flash flood formation and triggering. Eleven key disaster-causing factors were selected through VIF and Pearson correlation analyses, and a SOM-K-means clustering method was applied to delineate regions. Regionalization effectiveness was then evaluated using PERMANOVA and non-parametric tests of the rainstorm concentration index ( RCI t ) derived from historical flash flood disasters. The results indicate that: (1) The 15 primary flash flood regions are consistent with China’s major topographic steps and key hydrological and climatic boundaries, while the 81 sondary regions capture finer-scale spatial differences in natural and anthropogenic disaster-causing factors. (2) PERMANOVA and non-parametric tests confirm significant heterogeneity among regions (P ≤ 0.001). (3) After controlling for population density, the partial Spearman correlation between bridge-culvert density and disaster frequency is 0.48 (P < 0.001), indicating a significant statistical association. The resulting scheme provides a basis for selecting suitable flash flood models by region and for parameter regionalization in ungauged areas, and it supports region-specific prevention and mitigation.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S002216942601588X",
+      "date_added": "2026-10-05",
+      "id": "5cf2bf1be7119e33f83dd0187f688a31",
+      "topic": [
+        "regionalization"
+      ]
+    },
+    {
+      "title": "Joint prediction of river discharge and suspended sediment load through a physics-informed capacity-supply decomposition framework",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "C",
+          "last_name": "Ding"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Tang"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Tian"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "River discharge (RD) and suspended sediment load (SSL) are inherently coupled in river systems, yet existing data-driven models often fail to explicitly represent their physical linkage, which limits physical interpretability and may reduce robustness under extreme conditions. To address this issue, this study proposes a physics-informed capacity-supply decomposition (PCSD) framework for joint prediction of RD and SSL. The key idea is to reformulate SSL prediction as a sequential decomposition problem, in which sediment load is expressed as the product of a discharge-dependent transport-capacity term and a supply-related modulation term. In this way, RD prediction and SSL prediction are linked within a physically meaningful sequential structure. To further enhance physical consistency, several constraints were incorporated into the framework, including monotonic constraints in the RD branch, as well as discharge-sediment envelope, low-flow threshold, and proxy-supervision constraints in the sediment branch. The framework was evaluated in the Beijiang River Basin, China, using daily hydro-meteorological data from 1991 to 2010, and was compared against several benchmark data-driven models. Results showed that the proposed framework maintained high RD prediction accuracy while achieving the best point-estimate performance for SSL among the evaluated models. For one-step SSL prediction, PCSD achieved the best overall performance, with RMSE , NSE , R 2 , and KGE of 195 kg/s, 0.89, 0.90, and 0.94, respectively. Its advantage was especially evident under extreme flood conditions, where it reproduced major sediment peaks more accurately than all benchmark models. Additional multi-lead-time experiments showed that PCSD retained SSL prediction skill across 1-7-day forecasting horizons and consistently outperformed decomposition-based and conventional data-driven benchmarks. These results suggest that the proposed decomposition framework provides a physically interpretable approach with strong predictive performance for coupled hydro-sediment prediction.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426015982",
+      "date_added": "2026-10-05",
+      "id": "1ebcc26f74df0ac2125a445b402b7fc4",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "A grid-informed physics-guided graph deep learning framework for interpretable distributed daily streamflow prediction",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Z",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Mao"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "T",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Watershed refined management requires accurate, spatially explicit, and physically interpretable frameworks for distributed daily streamflow prediction. However, process-based models (PBMs) may be constrained by structural assumptions and parameterized process representations, whereas data-driven models (DDMs) often lack physical consistency and hydrologically interpretable spatial dependencies. We developed a Grid-informed Physics-Guided Graph Deep Learning (GPGDL) framework that integrates GSWAT-derived hydrological representations with a GraphSAGE-BiLSTM model. GSWAT, a grid-based implementation of the Soil and Water Assessment Tool (SWAT), provides grid-resolved upstream-downstream routing for constructing a weighted directed hydrological graph, together with process information for the gauging-station nodes. The framework was evaluated for multi-site daily streamflow prediction at 15 gauging stations in the Xiangjiang River Basin. The residual-learning configuration implemented within GPGDL achieved the best overall testing performance among the evaluated benchmark and ablation models. Its testing-period mean Nash-Sutcliffe efficiency (NSE) and coefficient of determination (R 2 ) values were 0.754 and 0.771, respectively. Additional diagnostic experiments comparing GSWAT- and SWAT-based guidance showed that framework performance was jointly influenced by the quality of simulated intermediate hydrological information and the corresponding spatial graph representation. Graph-based interpretation (node, edge, and feature levels) indicated that streamflow prediction relied on a compact and hydrologically meaningful subgraph concentrated in the mid- to upper-basin region, and that the learned spatial dependencies were consistent with the basin’s confluence structure and runoff-routing processes. Overall, the proposed GPGDL framework demonstrates that grid-informed PBM-derived topological priors and hydrological process variables can serve as structured knowledge for graph deep learning, providing a promising pathway for coupling PBMs with DDMs and advancing physics-guided deep learning for interpretable watershed prediction.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426015714",
+      "date_added": "2026-10-05",
+      "id": "9bc89435da63bbf1c10bd099d54418a4",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "Propagation from precipitation extremes to root-zone soil moisture and attribute changes in dry and wet events: A global paired event analysis",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Zheng"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Gu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Qiu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Chen"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Precipitation extremes do not invariably correspond to soil moisture extremes, yet propagation studies emphasize occurrence and timing rather than attributes of matched events. Using calendar month standardized anomalies, we compared monthly dry and wet events in precipitation from the Global Precipitation Climatology Centre (GPCC) and surface and root-zone soil moisture from the Global Land Evaporation Amsterdam Model (GLEAM) over land between 60°S and 60°N during 1981-2024. Same sign events were matched independently one-to-one along three pathways: precipitation to surface soil moisture (P → SMs), precipitation to root-zone soil moisture (P → SMrz), and surface to root-zone soil moisture (SMs → SMrz). Propagation probability was the matched fraction of all source events, matched pair changes in duration, severity, and peak intensity were expressed as log 2 (target/source). Area-weighted mean P → SMrz propagation probabilities were 0.370 for dry events and 0.405 for wet events. Duration changes were + 0.672 and + 0.452, respectively. Peak intensity changes were positive for dry events (+0.222) and negative for wet events (−0.260), while severity increased for both. P → SMs showed the same peak contrast but smaller duration increases. In GLEAM, SMs → SMrz events matched more frequently but had smaller duration changes. Propagation probability and attribute changes varied across four aridity regimes without a common monotonic gradient, but the dry-positive/wet-negative peak contrast persisted in every regime. Redefining event boundaries using 1- and 3-month standardized precipitation and soil moisture indices retained the P → SMrz duration and peak directions. ERA5-Land reproduced the duration and peak directions in both precipitation-to-soil moisture comparisons, whereas SMs → SMrz peak directions differed between products. Monthly precipitation and soil moisture extremes therefore exhibit incomplete event correspondence and sign-dependent attribute differences among successfully matched pairs; occurrence, persistence, and peak intensity describe distinct aspects of their relationship.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426015544",
+      "date_added": "2026-10-05",
+      "id": "b407c350343e28ce0e420b76c653e507",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Leveraging deep learning and kernel density representations for transformation-based regional flood frequency analysis",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "Kaur"
+        },
+        {
+          "first_name": "SR",
+          "last_name": "Chavan"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "This paper leverages deep learning (DL) and kernel density representations to determine design flood estimates at ungauged or sparsely gauged sites through transformation-based regional flood frequency analysis (T_RFFA) approach. A critical preliminary step in conventional RFFA approaches is to identify an appropriate regional frequency distribution through an effective regional goodness-of-fit (GOF) test. However, conventional regional GOF tests involve sample mean-based normalization of at-site peak flow data, which can violate key assumptions of RFFA. To address this, the proposed method reformulates regional GOF test as a classification problem wherein peak flow data from each site are transformed into a dimensionless space using mathematical transformations. Kernel density estimator (KDE) plots are then generated and used as inputs to a pre-trained Deep Neural Network (DNN) classifier that selects the most suitable regional distribution among the five widely recognized peak flow distributions, viz., Generalized Extreme Value, Generalized Pareto, Generalized Logistic, Generalized Normal, and Pearson Type 3 distributions. The DNN classifier achieved classification accuracies of 95.09% and 94.86% on training and test datasets, respectively. The effectiveness of the proposed DL-based RFFA approach is evaluated through Monte Carlo simulation experiments and real-world applications to catchments in the United States and peninsular India. Results demonstrate that the proposed approach yields comparable or better design flood estimates relative to conventional T_RFFA approach. Furthermore, the proposed DL-based GOF test is observed to be approximately 18 to 27 times faster than the conventional L -moment-based approach, offering a computationally efficient and robust alternative for RFFA.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426015313",
+      "date_added": "2026-10-05",
+      "id": "967ba8d464d6c96064d8ffc64f1ffc92",
+      "topic": [
+        "frequency-analysis"
+      ]
+    },
+    {
+      "title": "Spatiotemporal dynamics and dominant influencing factors of climatic water availability across the Pamir Plateau: an integrated OPGD and XGBoost-SHAP ...",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Z",
+          "last_name": "Jingjing"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Lingxin"
+        },
+        {
+          "first_name": "LIU",
+          "last_name": "Wen"
+        },
+        {
+          "first_name": "M",
+          "last_name": "GULAYOZOV"
+        },
+        {
+          "first_name": "A",
+          "last_name": "KODIROV"
+        },
+        {
+          "first_name": "MA",
+          "last_name": "Long"
+        }
+      ],
+      "journal": "Journal of Arid Land",
+      "citations": 0,
+      "abstract": "Under global climate change, limited research on the spatial and temporal variability and influencing factors of climatic water availability (CWA) constrains assessment of surface water surplus or deficit driven by climate. This study used an explanatory framework that integrated the Optimal Parameter Geographic Detector (OPGD) with the eXtreme Gradient Boosting-SHapley Additive exPlanations (XGBoost-SHAP) model to explore the spatiotemporal variability of CWA and the model-based explanatory variables across the Pamir Plateau from 1960 to 2020. Results showed that CWA exhibited significant spatial heterogeneity, with higher availability in the western part of the plateau and lower values in the eastern part. OPGD results highlighted soil moisture (SM) and snow water equivalent (SWE) as dominant explanatory variables of spatial heterogeneity, with terrain and human factors exerting weaker effects. XGBoost-SHAP results further identified SWE (58.00%) and SM (22.20%) as the two most important explanatory variables, while the maximum temperature (T max ), vapor pressure deficit (VPD), and solar radiation (SRAD) combined accounted for only 11.60%. These findings advance the understanding of complex mountain hydrology by quantifying the relative importance of coupled meteorological and topographic drivers. The identification of SWE and SM as dominant explanatory variables highlights the crucial role of cryospheric and soil hydrological processes in regulating water availability across the Pamir Plateau, offering new insights into regional water resource management under climate change.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1674676726001258",
+      "date_added": "2026-10-05",
+      "id": "d0c9f88002ab4247477b1770a93d5ec6",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "Ecological-priority multi-objective water allocation under hydrological and restoration scenarios in the Heihe River Basin",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Xue"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Guo"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Li"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Water scarcity in arid inland river basins requires allocation strategies that reconcile downstream ecological restoration with intensive socioeconomic water use in midstream regions. This study developed an ecological-priority, scenario-constrained multi-objective water allocation framework for the middle and lower reaches of the Heihe River Basin. Three downstream ecological restoration levels (L1-L3) were combined with dry, normal, and wet hydrological conditions derived from Pearson Type III frequency analysis to construct nine hydrological-ecological scenario boundaries. Yingluoxia runoff and local Zhangye precipitation were treated as independent hydrological inputs, defining midstream surface-water availability and agricultural effective rainfall, respectively. Scenario feasibility was screened using sectoral water-use quotas, a 29.32% agricultural water-saving target, effective rainfall utilization, and a groundwater-abstraction limit of 3.93 × 10 8 m 3 . An ecological-social-natural benefit-conversion and multi-criteria evaluation module was subsequently coupled with NSGA-III to maximize comprehensive benefits while minimizing allocation-related carbon emissions and water-shortage rates within the feasible scenario space. The ecological release required at Zhengyixia increased to 11.59 × 10 8 m 3 under L3, approximately 22% higher than under L1, thereby reducing the surface water available for midstream allocation. Conventional supply conditions were insufficient to satisfy peak irrigation demand, whereas improved irrigation efficiency and effective rainfall substantially reduced agricultural demand and residual groundwater dependence. Under the groundwater constraint, P1, P8, and P9 were retained as representative feasible scenario boundaries for dry, normal, and wet conditions, with groundwater requirements of 3.62, 2.43, and 0.33 × 10 8 m 3 , respectively. These scenarios represent feasible water-supply boundaries rather than final allocation solutions. Within each boundary, NSGA-III generated non-dominated solution sets, from which representative compromise allocations were selected using normalized ideal-point distance and final constraint verification. Sensitivity analysis indicated that dry-condition feasibility was particularly vulnerable to reduced irrigation performance, while objective-ablation analysis showed that excluding the carbon objective shifted compromise selection toward higher-emission allocations. The framework provides a case-specific decision-support basis for coordinating ecological restoration, water-use benefits, shortage risk, and allocation-related carbon emissions in arid inland river basins with comparable water-management conflicts.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426015556",
+      "date_added": "2026-10-05",
+      "id": "1140de063b2273d0f1c27ff51cc176be",
+      "topic": [
+        "optimization"
+      ]
+    },
+    {
+      "title": "Influence of water network structure on regional water allocation under supply variability",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "W",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Dong"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Fang"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Zhong"
+        }
+      ],
+      "journal": "Journal of Hydrology",
+      "citations": 0,
+      "abstract": "Regional water systems are increasingly shaped by interannual variability in allocatable water supply and growing interconnection across spatial scales. While existing studies primarily treat water availability as an exogenous constraint, the role of water network structure in conditioning allocation outcomes under variable supply remains insufficiently understood. This study treats regional water allocation as a structurally constrained process, in which network topology influences resource accessibility, transmission pathways, and redistribution capacity. An integrated framework has been developed to link supply uncertainty characterization, complex network-based structural representation, and multi-objective allocation modeling. Using the coupled system of the Taizhou water network and the Eastern Zhejiang Water Transfer Project as a case study, a series of water network structure scenarios have been constructed to represent different development pathways. Results show that network structure strongly affects allocation performance under supply variability: enhanced connectivity and path redundancy improve shortage mitigation and equity without increasing total supply, while also enabling more efficient utilization of externally introduced water resources. Moreover, the effects of supply expansion depend strongly on the underlying network configuration, highlighting the interdependence between infrastructure development and allocation outcomes. These findings indicate that water network structure strongly influences allocation performance and supply utilization under uncertainty. The proposed framework provides a systematic basis for evaluating structural interventions and supports the transition from supply-centric planning toward structure-informed optimization of regional water systems.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426015568",
+      "date_added": "2026-10-05",
+      "id": "9619d237fdb9dfe3e674f8b2a6cb4dac",
+      "topic": [
+        "optimization"
+      ]
+    },
+    {
+      "title": "Tree Species Vulnerability to Fire Increases at Dry Range Edge",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "ER",
+          "last_name": "Bendall"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Collins"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Bedward"
+        },
+        {
+          "first_name": "MM",
+          "last_name": "Boer"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Choat"
+        },
+        {
+          "first_name": "RV",
+          "last_name": "Gallagher"
+        },
+        {
+          "first_name": "BE",
+          "last_name": "Medlyn"
+        }
+      ],
+      "journal": "Global Change Biology Communications",
+      "citations": 0,
+      "abstract": "Plant responses to fire are generally characterized for individual species and thus do not capture the variation in responses that can occur geographically. Here, we examine post-fire responses across the climatic range of multiple resprouting eucalypt species following the 2019/20 Australian fire season. We found that two species exhibited higher rates of tree mortality, topkill (death of above-ground biomass), and lower rates of seedling recruitment at the dry edge of their ranges (mortality up to 16% more likely, topkill up to 19% more likely, seedling recruitment an order of magnitude lower). However, one species maintained resilience (low rates of mortality and topkill and high rates of recruitment) across its range. We further find that most, but not all, species show elevated topkill-but not necessarily elevated mortality-in the largest trees, partially explained by pre-fire stem damage. This divergence suggests many large trees survive fire through basal resprouting alone, effectively resetting canopy structure to a smaller size class rather than escaping disturbance impacts altogether. These results highlight the need for a more nuanced approach to classifying plant responses to fire that accounts for localized variation in plant responses. We suggest that classification of plant response to fire will be improved by including attributes such as plant size, disturbance regime, and climate. Such an approach is critically important for fire management and conservation planning.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/gcb4.70053",
+      "date_added": "2026-10-05",
+      "id": "88d2d76b2e6ae1594a33b59745436686",
+      "topic": [
+        "wildfire"
+      ]
+    },
+    {
+      "title": "Agroclimatic drivers and suitability niches of major European crops revealed by explainable machine learning",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "H",
+          "last_name": "Fraga"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Guimarães"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Candiago"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Yang"
+        },
+        {
+          "first_name": "E",
+          "last_name": "Sosa"
+        },
+        {
+          "first_name": "R",
+          "last_name": "Serrano-Notivoli"
+        },
+        {
+          "first_name": "NR",
+          "last_name": "Dalezios"
+        }
+      ],
+      "journal": "Ecological Informatics",
+      "citations": 0,
+      "abstract": "Anticipating how European agriculture will shift under future climates demands a clear understanding of which climatic conditions govern crops today. Here, we present an explainable machine learning (ML) framework that moves beyond conventional methods to reveal the structure of crop-climate relationships across the continent. By combining ML ensemble classifiers (Random Forest, XGBoost, CatBoost and LightGBM in a VotingClassifier), with SHAP (SHapley Additive exPlanations) dependence analysis and k-Shapley interaction networks, we characterise the agroclimatic niches for 40 crops derived from ~13 million agricultural grid cells, using bioclimatic indices from state-of-the-art CERRA climate reanalysis data. The framework allowed to accurately assess the agroclimatic niches of all 40 crops, with moderate-to-strong cross-validation performance, ranging from Matthews Correlation Coefficient (MCC) 0.5 (apple) to 0.9 (olive). More importantly, the methodology allowed to identify the most important bioclimatic factors for crop distribution. The Latitude-Temperature Index was found to be the most influential driver for all 40 crops, followed by isothermality, temperature annual range, temperature seasonality, and minimum temperature of the coldest month, demonstrating that the north-south thermal gradient and continentality-oceanicity axis are the primary structuring dimensions of European agriculture. SHAP dependence curves expose crop-specific non-linearities, including long suitability ranges, unimodal optima, and bimodal response patterns. Crucially, interaction networks reveal that cool-season crops exhibit predominantly synergistic driver interactions, while warm-season crops show antagonistic ones, a structural distinction invisible to standard importance methods. The result is a European-wide atlas of crop agroclimatic niches and suitability ranges, offering a quantitative and interpretable foundation for adaptation planning and climate impact assessment.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1574954126004735",
+      "date_added": "2026-10-05",
+      "id": "5d48cb681a617e09351d693941469a47",
+      "topic": [
+        "crop"
+      ]
+    },
+    {
+      "title": "Escalating Ecological Droughts Driven by Compound Soil and Atmospheric Dryness",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Song"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Zhou"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Peñuelas"
+        },
+        {
+          "first_name": "P",
+          "last_name": "Ciais"
+        },
+        {
+          "first_name": "YH",
+          "last_name": "Fu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Fu"
+        }
+      ],
+      "journal": "Global Change Biology",
+      "citations": 0,
+      "abstract": "Intensifying droughts are increasingly pushing ecosystems beyond functional thresholds, threatening carbon uptake, biodiversity, and ecosystem resilience. However, the dominant drivers and spatiotemporal patterns of ecological droughts remain poorly understood. Here, we develop an impact-based optimality framework to identify ecological droughts, quantify their impacts on ecosystem photosynthesis, and assess the relative roles of soil and atmospheric dryness using an ensemble of global observation-constrained datasets. We find that 52% of land areas experience ecological droughts driven by compound soil and atmospheric dryness, contributing 55% of global drought-induced carbon losses. In contrast, other regions are dominated by soil or atmospheric drought alone. Notably, compound drought regions account for the majority of global increases in ecological drought frequency (57%), intensity (64%), and carbon losses (63%) over the past four decades. Our findings highlight the growing importance of compound ecological droughts in shaping ecosystem vulnerability, threatening the stability of terrestrial carbon sinks, and potentially amplifying carbon-climate feedbacks.",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.71102",
+      "date_added": "2026-10-05",
+      "id": "9ff8da584c60f4e070b15aa0f9b3f2af",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "Spatio-temporal evolution of late spring frost and associated yield reduction risk for winter wheat in China",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "K",
+          "last_name": "Jiang"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Su"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Kang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Fan"
+        },
+        {
+          "first_name": "B",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Wei"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Yu"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Wu"
+        }
+      ],
+      "journal": "Agricultural and Forest Meteorology",
+      "citations": 0,
+      "abstract": "Late spring frost remains a major threat to winter wheat even as the climate warms, because accelerated crop development can increase the overlap between frost-sensitive stages and episodic spring cold events. Yet large-scale yield risk remains difficult to quantify because this overlap changes over time and frost damage differs among cultivars. We developed a phenology-constrained, event-based framework that integrates controlled low-temperature experiments, phenology reconstruction constrained by agrometeorological observations, machine-learning-based yield-reduction modelling, and bias-corrected hourly temperature projections. We assessed three cultivar resistance groups across China’s major winter wheat regions during 1980-2024 and under SSP2-4.5 and SSP5-8.5 during 2030-2100. Warming did not uniformly reduce frost damage but shifted its geographic center. For cold-sensitive cultivars, historical mean yield reduction was greatest in the Middle-Lower Reaches of the Yangtze River region (10.02%), whereas the Huang-Huai region became the principal future hotspot, reaching 6.49% under SSP5-8.5. This redistribution arose from phenological advancement and changes in the frequency and persistence of cold exposure during sensitive stages, while changes in minimum temperature were comparatively small. Counterfactual simulations using fixed historical phenology showed that dynamic phenological shifts increased future losses, mainly during jointing, the stage that dominated losses across both periods. Cold-tolerant cultivars reduced losses by approximately half in the most vulnerable regions. These findings show that warming reshapes rather than removes late spring frost risk by altering phenology-climate overlap, underscoring the need for phenology-aware monitoring and region-specific deployment of cold-tolerant cultivars.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168192326004715",
+      "date_added": "2026-10-05",
+      "id": "710b6a7e426ff757b8e48f1ec5b1b4c8",
+      "topic": [
+        "crop"
+      ]
+    },
+    {
+      "title": "Event-stage evidence reveals weakened vegetation recovery stability under multi-scale drought accumulation in the Yellow River Basin",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "P",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "S",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Du"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Lv"
+        }
+      ],
+      "journal": "Agricultural and Forest Meteorology",
+      "citations": 0,
+      "abstract": "Regional drought-impact assessments often emphasize productivity loss, but less attention is given to whether vegetation stabilizes after drought and whether long-duration drought events are associated with distinct response pathways. This study developed an event-based drought-GPP response framework to evaluate how drought accumulation timescales reorganize vegetation response pathways in the Yellow River Basin during 2001-2022. Drought events were identified using the high-spatial-resolution Standardized Precipitation Evapotranspiration Index at 3-, 6-, and 12-month accumulation scales (HSPEI3, HSPEI6, and HSPEI12) and were matched with monthly standardized gross primary productivity anomalies. Three response components were quantified: main productivity loss, stable recovery among loss events, and duration-conditioned persistent-drought response. Drought-event frequency declined sharply from HSPEI3 to HSPEI12, while event duration, core drought duration, and drought intensity increased, showing a transition from frequent short-term deficits to fewer but more persistent accumulated drought events. Vegetation response changed more strongly after productivity loss than during the initial loss stage. Main productivity-loss occurrence varied only moderately across accumulation scales, whereas stable recovery declined from 89.7% under HSPEI3 to 76.5% under HSPEI12, and duration-conditioned persistent-drought response increased from 1.6% to 10.2%. Drought-event attributes showed weak statistical separability for initial productivity loss but much stronger separability for unstable recovery, especially under HSPEI12. Recurrent hotspots and persistence-prone regimes were concentrated mainly in the northern and north-central basin. Long drought accumulation was therefore associated more clearly with weaker post-loss recovery stability than with increased initial GPP loss, making recovery stability, duration-conditioned persistent-drought response, and spatial recurrence central indicators of vegetation drought vulnerability.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168192326004697",
+      "date_added": "2026-10-05",
+      "id": "890da3b4f7e8457f5f4923a728c7d570",
+      "topic": [
+        "ecohydrology"
+      ]
+    },
+    {
+      "title": "FAO estimates of net forest emissions and removals, 1990-2025",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "FN",
+          "last_name": "Tubiello"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Branthomme"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Obli-Laryea"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Piccoli"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Ramadan"
+        },
+        {
+          "first_name": "RD",
+          "last_name": "Condor"
+        },
+        {
+          "first_name": "N",
+          "last_name": "Wanner"
+        }
+      ],
+      "journal": "Earth System Science Data",
+      "citations": 0,
+      "abstract": "FAO officially collects, analyzes and disseminates forest data by country via the Forest Resources Assessment (FRA) program since the late 1950s. Since 2015, FAO uses a subset of the FRA data, namely forest area and carbon stocks, to compute and disseminate in FAOSTAT net forest emissions/removals estimates, as part of its efforts to assess emissions from agrifood systems. This paper presents the most recent update of the FAO net emission/removal estimates, based on estimates of carbon stock change from all pools, i.e., above- and below-ground living biomass, litter, dead wood and soils, covering over 200 countries and territories for the period 1990-2025. Results show that forests acted globally as net carbon sinks since the 2000s, on average ranging from to over the most recent decade 2015-2025. This net flux was a result of substantial carbon removals on forest land over the same period, ranging from to , only partially counterbalanced by emissions from net forest loss of 2.8-3.8 - used herein as a proxy of deforestation. Annex I (AI) and non-Annex I (NAI) countries contributed equally to the estimated forest removals, whereas 90 % of emissions from net forest loss were generated in NAI countries. Comparisons of the FAO estimates with data submitted independently by countries to the United Nations Framework Convention (UNFCCC), as well as with output from the Global Carbon Budget, showed good agreement at global, AI and NAI levels, including for major forest countries. At the same time, important discrepancies between FAO, UNFCCC and global carbon model data were identified in about a dozen countries. Improved convergence of evidence is achievable through dedicated statistical development programs in specific countries, to support international implementation and monitoring of effective climate mitigation actions. The FAO estimates and country data collected from UNFCCC were disseminated in FAOSTAT for 194 countries and 42 territories, with regional and global aggregates, in annual time-series covering the period 1990-2025. They were made available as open access at 10.5281/zenodo.20085666 (Tubiello and Obli-Laryea, 2026).",
+      "url": "https://essd.copernicus.org/articles/18/6799/2026/",
+      "date_added": "2026-10-05",
+      "id": "b5781722d75d6ad27a3ffd76e670bdf0",
+      "topic": [
+        "data_sources"
+      ]
+    },
+    {
+      "title": "Reversal of temperature sensitivity in vegetation greenness rates along aridity gradients across global ecoregions",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "S",
+          "last_name": "An"
+        },
+        {
+          "first_name": "X",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "GM",
+          "last_name": "Henebry"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Ye"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "K",
+          "last_name": "Tran"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Shen"
+        },
+        {
+          "first_name": "F",
+          "last_name": "Li"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Drought is increasingly reshaping terrestrial ecosystems under climate change, yet how aridity modulates the climatic sensitivities of satellite-derived green-up rate (GR) and senescence rate (SR) in natural ecosystems remains poorly understood at the global scale. Here, we combine two decades of satellite observations and climate data sets to identify the primary climatic drivers (temperature, precipitation, solar radiation, soil moisture, and vapor pressure deficit) of maximum GR and SR across 764 global ecoregions and to quantify their sensitivities to interannual variability in climate-forcing accumulation rates of these drivers. We reveal contrasting temperature-response patterns along the aridity gradient in arid versus humid ecoregions. In arid ecoregions, decreasing aridity increases the GR sensitivity to temperature accumulation rates during the green-up phase, whereas in humid ecoregions this sensitivity weakens and can even become negative as conditions become wetter. Similar, though asymmetric, those sensitivity reversal patterns are observed for SR. These findings demonstrate that aridity fundamentally reshapes vegetation-climate interactions, with important implications for the stability of ecosystem carbon uptake under increasing hydroclimatic variability. By identifying critical transitions in climate sensitivities across aridity gradients, this study provides new insights for improving predictions of ecosystem responses to intensifying drought and for assessing risks to carbon sequestration under future climate change.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2026EF008814",
+      "date_added": "2026-10-05",
+      "id": "6722dd71c030dd6bad6bb8eb51f56702",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Meteorological triggers of regionally extreme atmospheric evaporative demand across global land: Attribution with adversarial random forests",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "B",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Mannino"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Horvat"
+        }
+      ],
+      "journal": "Earth's Future",
+      "citations": 0,
+      "abstract": "Atmospheric evaporative demand (AED) strongly influences drought intensification, vegetation stress, and wildfire risk. However, the meteorological triggers of regionally extreme AED remain poorly understood at the global scale. Here, we develop a physically constrained counterfactual attribution framework that combines the FAO56 Penman-Monteith equation with adversarial random forests (ARF) to quantify the relative contributions of the main meteorological drivers to regionally extreme AED across global land regions. This framework reduces bias in contribution estimates by preserving the dependence among correlated meteorological drivers. Applied to 40 years (1986-2025) of ERA5-Land daily data on equal-area grids, our analysis reveals that dominant trigger mechanisms vary systematically across hydroclimatic regimes. In humid tropical regions, extreme AED is primarily triggered by enhanced shortwave radiation under anomalously clear-sky conditions, whereas wind speed dominates across many arid and semi-arid regions where large background vapor pressure deficits amplify aerodynamic transport. In contrast, complementary Shapley-value attribution shows that long-term trends in mean AED are dominated by rising air temperature across most regions. This slow warming-driven background “push” often differs from the more regionally diverse meteorological “triggers” that drive AED beyond its extreme threshold. More broadly, these findings reveal the complex and regionally varying hydroclimatic controls on atmospheric evaporative demand, while demonstrating the potential of the ARF-based framework as a generalizable approach for quantifying variable contributions to extreme events.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2026EF009156",
+      "date_added": "2026-10-05",
+      "id": "c379d1abaa94495f0c8d57361a184ff7",
+      "topic": [
+        "statistics-big-data"
+      ]
+    },
+    {
+      "title": "Enhanced early warning of extreme river discharge events in the Yangtze River Basin using atmospheric circulation signals",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "X",
+          "last_name": "Xu"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "A",
+          "last_name": "Huang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Jing"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Gu"
+        },
+        {
+          "first_name": "X",
+          "last_name": "She"
+        },
+        {
+          "first_name": "L",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        }
+      ],
+      "journal": "International Journal of Applied Earth Observation and Geoinformation",
+      "citations": 0,
+      "abstract": "Early warning of extreme river discharge events (ERDEs) is crucial for water resources management and disaster reduction in the Yangtze River Basin (YRB), yet substantial uncertainty remains in their prediction. This study proposes a novel strategy to enhance ERDE early warning by detecting its associated atmospheric circulation signals. We develop DetRF, a machine learning model that integrates anomaly detection with a balanced random forest ensemble. DetRF was trained and validated using ERA5 reanalysis data from 2000 to 2019 and independently applied to 2020-2024, with its early warning performance evaluated against satellite-based precipitation and reanalysis river discharge data. Across eight subregions of the YRB, DetRF effectively detects ERDE-related atmospheric circulation signals, achieving mean recall, precision, and F1 score values of 0.756, 0.506, and 0.576, respectively, and consistently outperforming benchmark machine learning models. The detected signals accurately capture key synoptic features associated with hydrological extremes, including the positions and intensities of troughs, vortices, and cyclones, as well as moisture transport. More than 99% of the detected signals are followed by precipitation within five days, while persistent precipitation occurs in over 67% of cases across both local and upstream regions. More importantly, an average of 93.8% of DetRF-detected circulation signals are followed by at least one ERDE within the subsequent five days. These findings establish a direct link between specific atmospheric circulation signals and subsequent hydrological extremes, offering a new pathway for extending ERDE early warning beyond conventional hydrological prediction. The proposed framework is particularly promising for regions where hydrological observations are sparse.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1569843226005066",
+      "date_added": "2026-10-05",
+      "id": "72e0c0d81b116a48766e38fb12ae71d1",
+      "topic": [
+        "machine_learning"
+      ]
+    },
+    {
+      "title": "Nonlinear driving mechanisms and spatiotemporal heterogeneity of agricultural resilience in arid regions: A SHAP-GTWR based study of Xinjiang, China",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "Y",
+          "last_name": "Zha"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Hu"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Li"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Yang"
+        }
+      ],
+      "journal": "Ecological Indicators",
+      "citations": 0,
+      "abstract": "Amid growing resource constraints, understanding how agricultural resilience evolves across space and time is essential for sustaining food systems in arid regions. This study employs a combined framework integrating a game theory-based weighting-TOPSIS approach, the XGBoost-SHAP model, and geographically and temporally weighted regression (GTWR) to examine the evolution of agricultural resilience and its driving factors across 82 counties in Xinjiang between 2000 and 2020. The results show that: (1) Agricultural resilience in Xinjiang increased gradually over the study period, rising from 0.175 to 0.204 ( p < 0.05) and recording a mean yearly expansion of 0.77%; (2) Agricultural resilience showed significant spatial clustering, with high-value areas mainly distributed in the Ili River Valley and along the northern slopes of the Tianshan Mountains, while low-value areas were concentrated along the southern edge of the Tarim Basin; (3) The XGBoost-SHAP results indicate that agricultural resilience is dually driven by ecological and socioeconomic factors, with NDVI and population density as the dominant drivers. Furthermore, these drivers exhibit pronounced nonlinear threshold effects; (4) The GTWR results reveal significant spatio-temporal heterogeneity, with irrigation water use remained positively associated with agricultural resilience throughout the study period. This study presents a robust analytical framework and provides useful insights into resource allocation, ecological vulnerability reduction, and agricultural sustainability in arid regions.",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1470160X26009532",
+      "date_added": "2026-10-05",
+      "id": "6f2cf02551badfe433735567d822403d",
+      "topic": [
+        "optimization"
+      ]
+    },
+    {
+      "title": "Spatiotemporal patterns of the vegetation-atmosphere decoupling coefficient across the contiguous United States",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "J",
+          "last_name": "Xiong"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Feng"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Wu"
+        },
+        {
+          "first_name": "Q",
+          "last_name": "Liu"
+        },
+        {
+          "first_name": "D",
+          "last_name": "Gong"
+        },
+        {
+          "first_name": "M",
+          "last_name": "Kong"
+        },
+        {
+          "first_name": "Z",
+          "last_name": "Lin"
+        },
+        {
+          "first_name": "C",
+          "last_name": "Zheng"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "The decoupling coefficient (Ω), a dimensionless metric that quantifies the balance between stomatal conductance ( G s ) and aerodynamic conductance ( G a ) in regulating evapotranspiration (ET), is key to understanding vegetation-atmosphere interactions, which are fundamental to ecohydrological cycles and ecosystem functioning. However, the spatiotemporal patterns of Ω across different plant functional types (PFTs) and climatic gradients remain poorly understood, particularly in heterogeneous land surfaces under climate change. Here, we quantified Ω at 52 AmeriFlux sites across four PFTs in the contiguous U.S. (CONUS) from 2001 to 2024 and developed a high-resolution Ω modeling framework that integrates eXtreme Gradient Boosting (XGBoost) with satellite observations and reanalysis data to produce spatially explicit 8-day Ω maps at 0.1° resolution. This framework reveals a significant increasing trend in continental-mean Ω (1.0 × 10 −3 yr −1 , p < 0.05), indicating progressively weaker vegetation-atmosphere coupling, whereby ET becomes relatively insensitive to G s and increasingly constrained by available energy. We also found that Ω in water-limited regions show highly volatile and asymmetric responses to drought, shifting toward stronger coupling in dry periods and toward stronger decoupling in wet periods, whereas Ω in energy-limited regions remain strongly buffered with a stable coupling state. Our study reveals the spatiotemporal variability of Ω in CONUS, shedding light on the pivotal role of vegetation in modulating water fluxes under shifting climatic regimes and drought stress.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR042283",
+      "date_added": "2026-10-05",
+      "id": "e560ab3950a6e4cbe48a9bf17f0611dc",
+      "topic": [
+        "drought"
+      ]
+    },
+    {
+      "title": "An interpretable and lightweight dynamic framework for streamflow-meteorology networks to enhance daily streamflow forecasting",
+      "year": 2026,
+      "authors": [
+        {
+          "first_name": "L",
+          "last_name": "Qian"
+        },
+        {
+          "first_name": "J",
+          "last_name": "Zhang"
+        },
+        {
+          "first_name": "Y",
+          "last_name": "Zhao"
+        },
+        {
+          "first_name": "H",
+          "last_name": "Wang"
+        },
+        {
+          "first_name": "G",
+          "last_name": "Tang"
+        }
+      ],
+      "journal": "Water Resources Research",
+      "citations": 0,
+      "abstract": "Achieving high prediction accuracy while maintaining low-complexity and interpretability has been a critical challenge in streamflow forecasting. To address this issue, this study proposes an improved reservoir computing (RC) framework that simultaneously supports structural inference and dynamic forecasting of streamflow-meteorology networks. The framework operates in two stages: first, a cross-validation-based interpretable dynamic weight inference algorithm is designed to uncover the relational structures within the streamflow-meteorology network; subsequently, the inferred structural information is integrated into an architecture embedded with catchment similarity to predict future streamflow states. This process guides the internal dynamics of the framework toward representations that align with the data-driven dependency relationships between streamflow and meteorological variables, thereby enhancing the interpretability of the predictions. We partition a subset of catchments from CAMELS data set into eight groups and conduct a series of experiments to evaluate the proposed framework. Results demonstrate that the proposed method achieves an average improvement of 38.87% in Nash-Sutcliffe Efficiency (NSE) and 38.21% in peak flow prediction accuracy compared to benchmark models and effectively mitigates the temporal lag and instability commonly observed in deep learning approaches, exhibiting superior adaptability and robustness in handling spatial heterogeneity under diverse hydrological conditions. With fewer than 10% of the trainable parameters of benchmark models and a runtime 2 to 3 times faster, the framework enables rapid inference, adaptation, and modeling in cross-catchment scenarios within complex hydrological dynamical systems, thus holding considerable promise for practical applications.",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025WR043249",
+      "date_added": "2026-10-05",
+      "id": "cd6c8af53e73c23db7c71f9c9b01978a",
+      "topic": [
+        "statistics-big-data"
+      ]
     }
   ]
 }
